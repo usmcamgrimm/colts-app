@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_07_02_164448) do
+ActiveRecord::Schema[7.0].define(version: 2023_07_02_170039) do
   create_table "players", force: :cascade do |t|
     t.string "name"
     t.integer "number"
     t.string "position"
     t.string "status"
-    t.string "exp"
+    t.integer "exp"
     t.text "photo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
