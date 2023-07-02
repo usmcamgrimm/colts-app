@@ -1,0 +1,212 @@
+/* Colors */
+
+/* Speed Blue: #013369; */
+/* White: #ffffff; */
+/* Facemask Gray: #a5acaf; */
+/* Anvil Black: #10252c; */
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #013369;
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100vw;
+}
+.logoTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a img {
+  max-width: 84px;
+  height: 84px;
+  padding-bottom: 12px;
+}
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  margin-top: 1rem;
+  list-style: none;
+  font-size: 1.5rem;
+  padding-right: 2rem;
+}
+.nav-link:last-child {
+  padding-right: 0;
+}
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav-link a:hover {
+  border-bottom: 2px solid #ffffff;
+}
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #10252c;
+  margin-top: 1rem;
+}
+h2 a {
+  color: #10252c;
+}
+h2 a:hover {
+  color: #013369;
+}
+h3 {
+  font-size: 1.75rem;
+  padding-left: 2rem;
+  font-weight: bold;
+  color: #013369;
+}
+.season-divider {
+  background: #013369;
+  width: 20%;
+  margin-left: 1rem;
+  padding-top: 1px;
+  margin-bottom: 1.25rem;
+}
+.game-divider {
+  background: #013369;
+  width: 80%;
+  margin-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+.game-divider:last-child {
+  display: none;
+}
+.player-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+}
+.player-info {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 240px;
+  margin: 1rem 1rem 12px 1rem;
+  padding-left: 1rem;
+  max-width: 700px;
+  border: 4px solid #013369;
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px rgba(16, 37, 44, 0.25);
+}
+.player-page {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 240px;
+  margin: 1rem 1rem 12px 1rem;
+  padding-left: 1rem;
+}
+img {
+  max-width: 200px;
+  height: 150px;
+}
+.player-header {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.player-details {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.playerNum, .playerPos {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+.playerNum {
+  padding-right: 12px;
+}
+.playerPos {
+  padding-left: 12px;
+}
+.status, .xp {
+  font-size: 1.05rem;
+}
+.week-info {
+  padding: 1.5rem;
+}
+.week-info:last-child {
+  margin-bottom: 2rem;
+}
+.row-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.week, .gameDate, .gameTime, .oppName, .result, .score {
+  font-size: 1.23rem;
+}
+.week {
+  font-weight: bold;
+  padding-right: 1rem;
+}
+.gameDate {
+  padding-right: 12px;
+}
+.gameTime {
+  padding-left: 12px;
+}
+.game-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.oppName {
+  padding-right: 1rem;
+  padding-left: 2rem;
+}
+.game-result {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 1.5rem;
+}
+.result {
+  font-weight: bold;
+  padding-right: 1rem;
+}
+@media screen and (max-width: 500px) {
+  .player-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .player-info {
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 80vw;
+  }
+  .player-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 12px 0;
+  }
+}
