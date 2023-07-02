@@ -1,0 +1,24 @@
+<div class="player-container">
+  <% @players.each do |player| %>
+    <div class="player">
+      <div class="player-info">
+        <img class="player-image">
+          <%= image_tag player.photo %>
+        <div class="player-header">
+          <h2><%= player.name %></h2>
+          <div class="player-details">
+            <p class="playerNum"><%= player.number %></p>
+            &#x25CF;
+            <p class="playerPos"><%= player.position %></p>
+          </div>
+          <div class="player-status">
+            <p class="status">Status: <%= player.status %></p>
+          </div>
+          <div class="player-xp">
+            <p class="xp">Experience: <%= exp(player) %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
