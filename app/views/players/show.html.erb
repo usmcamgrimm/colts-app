@@ -1,0 +1,20 @@
+<section class="player-details">
+  <div class="player-page">
+    <img class="player-image">
+      <%= image_tag @player.photo %>
+    <div class="player-header">
+      <h2><%= @player.name %></h2>
+      <div class="player-details">
+        <h3 class="playerNum"><%= @player.number %></h3>
+        &#x25CF;
+        <h3 class="playerPos"><%= @player.position %></h3>
+      </div>
+      <div class="player-status">
+        <p class="status">Status: <%= @player.status %></p>
+      </div>
+      <div class="player-xp">
+        <p class="xp">Experience: <%= @player.exp %></p>
+      </div>
+    </div>  
+  </div>
+</section>
