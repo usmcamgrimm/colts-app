@@ -116,19 +116,35 @@ img {
   align-items: center;
 }
 .player-section {
-  display: block;
-}
-.player-header {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  flex-flow: row wrap;
+  align-items: center;
+  height: 240px;
+  margin: 1rem 1rem 12px 1rem;
+  padding-left: 1rem;
 }
 .player-details {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
   align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.playerNum, .playerPos {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.playerNum {
+  padding-right: 12px;
+}
+.playerPos {
+  padding-left: 12px;
+}
+.status, .xp {
+  font-size: 1.15rem;
 }
 .week-info {
   padding: 1.5rem;
