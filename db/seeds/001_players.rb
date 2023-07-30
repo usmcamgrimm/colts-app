@@ -31,10 +31,11 @@ Player.create!([
   { name: 'Daniel Scott', number: '31', position: 'S', exp: 0, status: 'IR', photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png' },
   { name: 'Julian Blackmon', number: '32', position: 'S', exp: 4, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254' },
   { name: 'Dallis Flowers', number: '33', position: 'CB', exp: 2, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254' },
+  { name: 'Chris Lammons', number: '33', position: 'CB', exp: 4, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254' },
   { name: 'Deon Jackson', number: '35', position: 'RB', exp: 3, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240455.png&w=350&h=254' },
   { name: 'Henry Black', number: '36', position: 'S', exp: 3, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3928920.png&w=350&h=254' },
-  { name: 'Cole Coleman', number: '37', position: 'S', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png' },
   { name: 'Jake Funk', number: '37', position: 'RB', exp: 3, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036224.png&w=350&h=254' },
+  { name: 'Isaac Taylor-Stuart', number: '38', position: 'CB', exp: 2, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374301.png&w=350&h=254' },
   { name: 'Tony Brown', number: '38', position: 'CB', exp: 5, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115308.png&w=350&h=254' },
   { name: 'Darrell Baker Jr.', number: '39', position: 'CB', exp: 1, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036660.png&w=350&h=254' },
   { name: 'Jaylon Jones', number: '40', position: 'CB', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png' },
@@ -86,7 +87,8 @@ Player.create!([
   { name: 'Tyquan Lewis', number: '94', position: 'DE', exp: 6, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040513.png&w=350&h=254' },
   { name: 'Adetomiwa Adebawore', number: '95', position: 'DE', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png' },
   { name: 'Taven Bryan', number: '96', position: 'DT', exp: 6, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115249.png&w=350&h=254' },
-  { name: 'McTelvin Agim', number: '97', position: 'DT', exp: 3, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254' },
+  { name: 'Al-Quadin Muhammad', number: '97', position: 'DE', exp: 7, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254' },
+  { name: 'McTelvin Agim', number: '98', position: 'DT', exp: 3, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254' },
   { name: 'DeForest Buckner', number: '99', position: 'DT', exp: 8, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254' }
   # Injured/Reserve
   # Practice Squad
