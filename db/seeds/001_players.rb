@@ -77,6 +77,7 @@ Player.create!([
   { name: 'Jelani Woods', number: '80', position: 'TE', exp: 2, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241410.png&w=350&h=254' },
   { name: 'Mo Alie-Cox', number: '81', position: 'TE', exp: 6, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2998565.png&w=350&h=254' },
   { name: 'Kylen Granson', number: '83', position: 'TE', exp: 3, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039160.png&w=350&h=254' },
+  { name: 'Ethan Fernea', number: '86', position: 'WR', exp: 1, status: 'IR', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4062711.png&w=350&h=254' },
   { name: 'Andrew Ogletree', number: '85', position: 'TE', exp: 2, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4722908.png&w=350&h=254' },
   { name: 'Will Mallory', number: '86', position: 'TE', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362523.png&w=350&h=254' },
   { name: 'Vycint Smith', number: '86', position: 'WR', exp: 4, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3155188.png&w=350&h=254' },
