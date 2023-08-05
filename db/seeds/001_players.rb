@@ -30,6 +30,7 @@ Player.create!([
   { name: 'Julius Brents', number: '29', position: 'CB', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360488.png&w=350&h=254' },
   { name: 'Darius Rush', number: '30', position: 'CB', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362858.png&w=350&h=254' },
   { name: 'Daniel Scott', number: '31', position: 'S', exp: 0, status: 'IR', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254' },
+  { name: 'Kenyan Drake', number: '31', position: 'RB', exp: 8, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2979843.png&w=350&h=254' },
   { name: 'Julian Blackmon', number: '32', position: 'S', exp: 4, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254' },
   { name: 'Dallis Flowers', number: '33', position: 'CB', exp: 2, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254' },
   { name: 'Chris Lammons', number: '33', position: 'CB', exp: 4, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254' },
