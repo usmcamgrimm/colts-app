@@ -30,7 +30,6 @@ Player.create!([
   { name: 'Kenyan Drake', number: '31', position: 'RB', exp: 8, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2979843.png&w=350&h=254' },
   { name: 'Julian Blackmon', number: '32', position: 'S', exp: 4, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254' },
   { name: 'Dallis Flowers', number: '33', position: 'CB', exp: 2, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254' },
-  { name: 'Toriano Clinton', number: '34', position: 'RB', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png' },
   { name: 'Chris Lammons', number: '34', position: 'CB', exp: 4, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254' },
   { name: 'Deon Jackson', number: '35', position: 'RB', exp: 3, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240455.png&w=350&h=254' },
   { name: 'Michael Tutsie', number: '35', position: 'S', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4248538.png&w=350&h=254' },
@@ -72,7 +71,6 @@ Player.create!([
   { name: 'Blake Freeland', number: '73', position: 'T', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254' },
   { name: 'Dan Skipper', number: '74', position: 'T', exp: 4, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046435.png&w=350&h=254' },
   { name: 'Will Fries', number: '75', position: 'G/T', exp: 3, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4045176.png&w=350&h=254' },
-  { name: 'Jake Witt', number: '76', position: 'T', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5140684.png&w=350&h=254' },
   { name: 'Ryan Kelly', number: '78', position: 'C', exp: 8, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2578475.png&w=350&h=254' },
   { name: 'Bernhard Raimann', number: '79', position: 'T', exp: 2, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362580.png&w=350&h=254' },
   { name: 'Jelani Woods', number: '80', position: 'TE', exp: 2, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241410.png&w=350&h=254' },
@@ -96,6 +94,7 @@ Player.create!([
   #
   # Injured/Reserve
   { name: 'Daniel Scott', number: '31', position: 'S', exp: 0, status: 'IR', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254' },
+  { name: 'Jake Witt', number: '76', position: 'T', exp: 0, status: 'IR', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5140684.png&w=350&h=254' },
   { name: 'Ethan Fernea', number: '84', position: 'WR', exp: 1, status: 'IR', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4062711.png&w=350&h=254' },
   #
   # Practice Squad
