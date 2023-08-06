@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_07_17_134357) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_06_180648) do
   create_table "players", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -20,6 +20,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_17_134357) do
     t.text "photo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "college"
   end
 
   create_table "stats", force: :cascade do |t|

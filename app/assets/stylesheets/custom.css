@@ -111,10 +111,19 @@ h3 {
   border-radius: 6px;
   box-shadow: 2px 2px 6px rgba(16, 37, 44, 0.5);
 }
+.player-info:hover {
+  box-shadow: 2px 2px 12px rgba(16, 37, 44, 0.75);
+}
 img {
   max-width: 200px;
   height: 150px;
   margin-right: 1rem;
+}
+.player-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
 }
 .player-page {
   display: flex;
@@ -149,7 +158,7 @@ img {
 .playerPos {
   padding-left: 12px;
 }
-.status, .xp {
+.status, .xp, .college {
   font-size: 1.15rem;
 }
 .week-info {
