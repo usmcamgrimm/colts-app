@@ -1,5 +1,6 @@
 Player.create!([
   #Active Roster
+  { name: 'Michael Jacobson', number: '--', position: 'TE', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3911895.png&w=350&h=254' },
   { name: 'Josh Downs', number: '1', position: 'WR', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254' },
   { name: 'Zavier Scott', number: '2', position: 'WR', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4257364.png&w=350&h=254' },
   { name: 'Amari Rodgers', number: '3', position: 'WR', exp: 3, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239992.png&w=350&h=254' },
@@ -46,6 +47,7 @@ Player.create!([
   { name: 'E.J. Speed', number: '45', position: 'LB', exp: 5, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3071353.png&w=350&h=254' },
   { name: 'Luke Rhodes', number: '46', position: 'LS', exp: 7, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254' },
   { name: 'Liam Anderson', number: '47', position: 'LB', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254' },
+  { name: 'Nick Eubanks', number: '47', position: 'TE', exp: 2, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046520.png&w=350&h=254' },
   { name: 'Aaron Maddox', number: '48', position: 'S', exp: 0, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360646.png&w=350&h=254' },
   { name: 'La\'Michael Pettway', number: '48', position: 'TE', exp: 1, status: 'Active', photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png' },
   { name: 'Pharaoh Brown', number: '49', position: 'TE', exp: 6, status: 'Active', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971281.png&w=350&h=254' },
