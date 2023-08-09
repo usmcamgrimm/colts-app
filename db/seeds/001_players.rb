@@ -1,6 +1,5 @@
 Player.create!([
   #Active Roster
-  { name: 'Michael Jacobson', number: '--', position: 'TE', exp: 0, status: 'Active', college: '', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3911895.png&w=350&h=254' },
   { name: 'Josh Downs', number: '1', position: 'WR', exp: 0, status: 'Active', college: 'North Carolina', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254' },
   { name: 'Zavier Scott', number: '2', position: 'WR', exp: 0, status: 'Active', college: 'Maine', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4257364.png&w=350&h=254' },
   { name: 'Lucas Havrisik', number: '3', position: 'K', exp: 1, status: 'Active', college: 'Arizona', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4245661.png&w=350&h=254' },
@@ -78,12 +77,14 @@ Player.create!([
   { name: 'Jelani Woods', number: '80', position: 'TE', exp: 2, status: 'Active', college: 'Virginia', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241410.png&w=350&h=254' },
   { name: 'Mo Alie-Cox', number: '81', position: 'TE', exp: 6, status: 'Active', college: 'Virginia Commonwealth', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2998565.png&w=350&h=254' },
   { name: 'Kylen Granson', number: '83', position: 'TE', exp: 3, status: 'Active', college: 'SMU', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039160.png&w=350&h=254' },
+  { name: 'Michael Jacobson', number: '84', position: 'TE', exp: 0, status: 'Active', college: '', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3911895.png&w=350&h=254' },
   { name: 'Andrew Ogletree', number: '85', position: 'TE', exp: 2, status: 'Active', college: 'Youngstown State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4722908.png&w=350&h=254' },
   { name: 'Will Mallory', number: '86', position: 'TE', exp: 0, status: 'Active', college: 'Miami', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362523.png&w=350&h=254' },
   { name: 'Grover Stewart', number: '90', position: 'DT', exp: 7, status: 'Active', college: 'Albany State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4058825.png&w=350&h=254' },
   { name: 'Titus Leo', number: '91', position: 'DE', exp: 0, status: 'Active', college: 'Wagner', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254' },
   { name: 'Genard Avery', number: '92', position: 'DE', exp: 6, status: 'Active', college: 'Memphis', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254' },
   { name: 'Eric Johnson II', number: '93', position: 'DT', exp: 2, status: 'Active', college: 'Missouri State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050971.png&w=350&h=254' },
+  { name: 'Tyquan Lewis', number: '94', position: 'DE', exp: 6, status: 'PUP', college: 'Ohio State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040513.png&w=350&h=254' },
   { name: 'Adetomiwa Adebawore', number: '95', position: 'DE', exp: 0, status: 'Active', college: 'Northwestern', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254' },
   { name: 'Taven Bryan', number: '96', position: 'DT', exp: 6, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115249.png&w=350&h=254' },
   { name: 'Al-Quadin Muhammad', number: '97', position: 'DE', exp: 7, status: 'Active', college: 'Miami', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254' },
@@ -91,8 +92,7 @@ Player.create!([
   { name: 'DeForest Buckner', number: '99', position: 'DT', exp: 8, status: 'Active', college: 'Oregon', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254' },
   #
   # PUP/NFI
-  { name: 'Jonathan Taylor', number: '28', position: 'RB', exp: 4, status: 'PUP', college: 'Ohio State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242335.png&w=350&h=254' },
-  { name: 'Tyquan Lewis', number: '94', position: 'DE', exp: 6, status: 'PUP', college: 'Wisconsin', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040513.png&w=350&h=254' },
+  { name: 'Jonathan Taylor', number: '28', position: 'RB', exp: 4, status: 'PUP', college: 'Wisconsin', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242335.png&w=350&h=254' },
   #
   # Injured/Reserve
   { name: 'Daniel Scott', number: '31', position: 'S', exp: 0, status: 'IR', college: 'California', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254' },
