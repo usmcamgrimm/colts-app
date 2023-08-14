@@ -84,7 +84,7 @@ Player.create!([
   { name: 'Titus Leo', number: '91', position: 'DE', exp: 0, status: 'Active', college: 'Wagner', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254' },
   { name: 'Genard Avery', number: '92', position: 'DE', exp: 6, status: 'Active', college: 'Memphis', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254' },
   { name: 'Eric Johnson II', number: '93', position: 'DT', exp: 2, status: 'Active', college: 'Missouri State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050971.png&w=350&h=254' },
-  { name: 'Tyquan Lewis', number: '94', position: 'DE', exp: 6, status: 'PUP', college: 'Ohio State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040513.png&w=350&h=254' },
+  { name: 'Tyquan Lewis', number: '94', position: 'DE', exp: 6, status: 'Active', college: 'Ohio State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040513.png&w=350&h=254' },
   { name: 'Adetomiwa Adebawore', number: '95', position: 'DE', exp: 0, status: 'Active', college: 'Northwestern', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254' },
   { name: 'Taven Bryan', number: '96', position: 'DT', exp: 6, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115249.png&w=350&h=254' },
   { name: 'Al-Quadin Muhammad', number: '97', position: 'DE', exp: 7, status: 'Active', college: 'Miami', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254' },
