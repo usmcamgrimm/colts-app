@@ -1,7 +1,7 @@
 Player.create!([
   #Active Roster
+  { name: 'Teez Tabor', number: '--', position: 'S', exp: 6, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115257.png&w=350&h=254' },
   { name: 'Josh Downs', number: '1', position: 'WR', exp: 0, status: 'Active', college: 'North Carolina', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254' },
-  { name: 'Zavier Scott', number: '2', position: 'WR', exp: 0, status: 'Active', college: 'Maine', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4257364.png&w=350&h=254' },
   { name: 'Lucas Havrisik', number: '3', position: 'K', exp: 1, status: 'Active', college: 'Arizona', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4245661.png&w=350&h=254' },
   { name: 'Amari Rodgers', number: '3', position: 'WR', exp: 3, status: 'Active', college: 'Clemson', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239992.png&w=350&h=254' },
   { name: 'Sam Ehlinger', number: '4', position: 'QB', exp: 3, status: 'Active', college: 'Texas', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241820.png&w=350&h=254' },
@@ -47,7 +47,7 @@ Player.create!([
   { name: 'Luke Rhodes', number: '46', position: 'LS', exp: 7, status: 'Active', college: 'William & Mary', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254' },
   { name: 'Liam Anderson', number: '47', position: 'LB', exp: 0, status: 'Active', college: 'Holy Cross', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254' },
   { name: 'Nick Eubanks', number: '47', position: 'TE', exp: 2, status: 'Active', college: 'Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046520.png&w=350&h=254' },
-  { name: 'Aaron Maddox', number: '48', position: 'S', exp: 0, status: 'Active', college: 'Campbell University', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360646.png&w=350&h=254' },
+  { name: 'Ronnie Harrison', number: '48', position: 'S', exp: 6, status: 'Active', college: 'Alabama', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3859006.png&w=350&h=254' },
   { name: 'Ricky Seals-Jones', number: '48', position: 'TE', exp: 6, status: 'Active', college: 'Texas A&M', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051806.png&w=350&h=254' },
   { name: 'Pharaoh Brown', number: '49', position: 'TE', exp: 6, status: 'Active', college: 'Oregon', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971281.png&w=350&h=254' },
   { name: 'Segun Olubi', number: '50', position: 'LB', exp: 1, status: 'Active', college: 'San Diego State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4260703.png&w=350&h=254' },
