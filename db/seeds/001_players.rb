@@ -1,6 +1,5 @@
 Player.create!([
   #Active Roster
-  { name: 'Teez Tabor', number: '--', position: 'S', exp: 6, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115257.png&w=350&h=254' },
   { name: 'Josh Downs', number: '1', position: 'WR', exp: 0, status: 'Active', college: 'North Carolina', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254' },
   { name: 'Lucas Havrisik', number: '3', position: 'K', exp: 1, status: 'Active', college: 'Arizona', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4245661.png&w=350&h=254' },
   { name: 'Amari Rodgers', number: '3', position: 'WR', exp: 3, status: 'Active', college: 'Clemson', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239992.png&w=350&h=254' },
@@ -32,6 +31,7 @@ Player.create!([
   { name: 'Dallis Flowers', number: '33', position: 'CB', exp: 2, status: 'Active', college: 'Pittsburg State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254' },
   { name: 'Chris Lammons', number: '34', position: 'CB', exp: 4, status: 'Active', college: 'South Carolina', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254' },
   { name: 'Deon Jackson', number: '35', position: 'RB', exp: 3, status: 'Active', college: 'Duke', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240455.png&w=350&h=254' },
+  { name: 'Teez Tabor', number: '35', position: 'S', exp: 5, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115257.png&w=350&h=254' },
   { name: 'Henry Black', number: '36', position: 'S', exp: 3, status: 'Active', college: 'Baylor', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3928920.png&w=350&h=254' },
   { name: 'Jason Huntley', number: '36', position: 'RB', exp: 4, status: 'Active', college: 'New Mexico State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4040790.png&w=350&h=254' },
   { name: 'Jake Funk', number: '37', position: 'RB', exp: 3, status: 'Active', college: 'Maryland', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036224.png&w=350&h=254' },
