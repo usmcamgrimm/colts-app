@@ -1,99 +1,25 @@
-<% @players.each do |player| %>
-  <% if player.status == "Active" %>
-  <h2 class="roster-title">Active roster</h2>
-    <div class="player-container">
-      <div class="player">
-        <div class="player-info">
-          <img class="player-image">
-            <%= image_tag player.photo %>
-          <div class="player-header">
-            <h2><%= link_to player.name, player %></h2>
-            <div class="player-details">
-              <p class="playerNum"><%= player.number %></p>
-              &#x25CF;
-              <p class="playerPos"><%= player.position %></p>
-            </div>
-            <div class="player-college">
-              <p class="college">College: <%= player.college %></p>
-            </div>
-            <div class="player-xp">
-              <p class="xp">Experience: <%= exp(player) %></p>
-            </div>
+<h2 class="roster-title">Active roster</h2>
+<div class="player-container">
+  <% @players.each do |player| %>
+    <div class="player">
+      <div class="player-info">
+        <img class="player-image">
+          <%= image_tag player.photo %>
+        <div class="player-header">
+          <h2><%= link_to player.name, player %></h2>
+          <div class="player-details">
+            <p class="playerNum"><%= player.number %></p>
+            &#x25CF;
+            <p class="playerPos"><%= player.position %></p>
           </div>
-        </div>
-      </div>
-    </div>
-  <% elsif player.status == "PS" %>
-    <h2 class="roster-title">Practice Squad</h2>
-    <div class="player-container">
-      <div class="player">
-        <div class="player-info">
-          <img class="player-image">
-            <%= image_tag player.photo %>
-          <div class="player-header">
-            <h2><%= link_to player.name, player %></h2>
-            <div class="player-details">
-              <p class="playerNum"><%= player.number %></p>
-              &#x25CF;
-              <p class="playerPos"><%= player.position %></p>
-            </div>
-            <div class="player-college">
-              <p class="college">College: <%= player.college %></p>
-            </div>
-            <div class="player-xp">
-              <p class="xp">Experience: <%= exp(player) %></p>
-            </div>
+          <div class="player-college">
+            <p class="college">College: <%= player.college %></p>
           </div>
-        </div>
-      </div>
-    </div>
-  <% elsif player.status == "PUP" %>
-    <h2 class="roster-title">Active/Physically Unable to Perform</h2>
-    <div class="player-container">
-      <div class="player">
-        <div class="player-info">
-          <img class="player-image">
-            <%= image_tag player.photo %>
-          <div class="player-header">
-            <h2><%= link_to player.name, player %></h2>
-            <div class="player-details">
-              <p class="playerNum"><%= player.number %></p>
-              &#x25CF;
-              <p class="playerPos"><%= player.position %></p>
-            </div>
-            <div class="player-college">
-              <p class="college">College: <%= player.college %></p>
-            </div>
-            <div class="player-xp">
-              <p class="xp">Experience: <%= exp(player) %></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <% elsif player.status == "IR" %>
-    <h2 class="roster-title">Reserve/Injured</h2>
-    <div class="player-container">
-      <div class="player">
-        <div class="player-info">
-          <img class="player-image">
-            <%= image_tag player.photo %>
-          <div class="player-header">
-            <h2><%= link_to player.name, player %></h2>
-            <div class="player-details">
-              <p class="playerNum"><%= player.number %></p>
-              &#x25CF;
-              <p class="playerPos"><%= player.position %></p>
-            </div>
-            <div class="player-college">
-              <p class="college">College: <%= player.college %></p>
-            </div>
-            <div class="player-xp">
-              <p class="xp">Experience: <%= exp(player) %></p>
-            </div>
+          <div class="player-xp">
+            <p class="xp">Experience: <%= exp(player) %></p>
           </div>
         </div>
       </div>
     </div>
   <% end %>
-<% end %>
+</div>
