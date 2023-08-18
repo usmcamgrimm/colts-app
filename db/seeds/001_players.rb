@@ -1,6 +1,7 @@
 Player.create!([
   #Active Roster
   { name: 'Josh Downs', number: '1', position: 'WR', exp: 0, status: 'Active', college: 'North Carolina', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254' },
+  { name: 'Tyler Adams', number: '2', position: 'WR', exp: 0, status: 'Active', college: 'Butler', photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png' },
   { name: 'Lucas Havrisik', number: '3', position: 'K', exp: 1, status: 'Active', college: 'Arizona', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4245661.png&w=350&h=254' },
   { name: 'Amari Rodgers', number: '3', position: 'WR', exp: 3, status: 'Active', college: 'Clemson', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239992.png&w=350&h=254' },
   { name: 'Sam Ehlinger', number: '4', position: 'QB', exp: 3, status: 'Active', college: 'Texas', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241820.png&w=350&h=254' },
@@ -16,7 +17,6 @@ Player.create!([
   { name: 'Kody Case', number: '13', position: 'WR', exp: 0, status: 'Active', college: 'Illinois', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249736.png&w=350&h=254' },
   { name: 'Alec Pierce', number: '14', position: 'WR', exp: 2, status: 'Active', college: 'Cincinnati', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360078.png&w=350&h=254' },
   { name: 'Vycint Smith', number: '15', position: 'WR', exp: 4, status: 'Active', college: 'Limestone', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3155188.png&w=350&h=254' },
-  { name: 'Ashton Dulin', number: '16', position: 'WR', exp: 5, status: 'Active', college: 'Malone University', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254' },
   { name: 'Mike Strachan', number: '17', position: 'WR', exp: 3, status: 'Active', college: 'Charleston', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4589245.png&w=350&h=254' },
   { name: 'Nick Cross', number: '20', position: 'S', exp: 2, status: 'Active', college: 'Maryland', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426403.png&w=350&h=254' },
   { name: 'Zack Moss', number: '21', position: 'RB', exp: 4, status: 'Active', college: 'Utah', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035676.png&w=350&h=254' },
@@ -95,6 +95,7 @@ Player.create!([
   { name: 'Jonathan Taylor', number: '28', position: 'RB', exp: 4, status: 'PUP', college: 'Wisconsin', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242335.png&w=350&h=254' },
   #
   # Injured/Reserve
+  { name: 'Ashton Dulin', number: '16', position: 'WR', exp: 5, status: 'IR', college: 'Malone University', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254' },
   { name: 'Daniel Scott', number: '31', position: 'S', exp: 0, status: 'IR', college: 'California', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254' },
   { name: 'Jake Witt', number: '76', position: 'T', exp: 0, status: 'IR', college: 'Northern Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5140684.png&w=350&h=254' },
   #
