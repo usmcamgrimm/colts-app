@@ -23,3 +23,81 @@
     </div>
   <% end %>
 </div>
+
+<h2 class="roster-title">PUP List</h2>
+<div class="player-container">
+  <% @pupLists.each do |pup_list| %>
+    <div class="player">
+      <div class="player-info">
+        <img class="player-image">
+          <%= image_tag player.photo %>
+        <div class="player-header">
+          <h2><%= link_to player.name, player %></h2>
+          <div class="player-details">
+            <p class="playerNum"><%= player.number %></p>
+            &#x25CF;
+            <p class="playerPos"><%= player.position %></p>
+          </div>
+          <div class="player-college">
+            <p class="college">College: <%= player.college %></p>
+          </div>
+          <div class="player-xp">
+            <p class="xp">Experience: <%= exp(player) %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<h2 class="roster-title">Injured Reserve</h2>
+<div class="player-container">
+  <% @injRess.each do |injres| %>
+    <div class="player">
+      <div class="player-info">
+        <img class="player-image">
+          <%= image_tag player.photo %>
+        <div class="player-header">
+          <h2><%= link_to player.name, player %></h2>
+          <div class="player-details">
+            <p class="playerNum"><%= player.number %></p>
+            &#x25CF;
+            <p class="playerPos"><%= player.position %></p>
+          </div>
+          <div class="player-college">
+            <p class="college">College: <%= player.college %></p>
+          </div>
+          <div class="player-xp">
+            <p class="xp">Experience: <%= exp(player) %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<h2 class="roster-title">Practice Squad</h2>
+<div class="player-container">
+  <% @pracSqds.each do |pracsqd| %>
+    <div class="player">
+      <div class="player-info">
+        <img class="player-image">
+          <%= image_tag player.photo %>
+        <div class="player-header">
+          <h2><%= link_to player.name, player %></h2>
+          <div class="player-details">
+            <p class="playerNum"><%= player.number %></p>
+            &#x25CF;
+            <p class="playerPos"><%= player.position %></p>
+          </div>
+          <div class="player-college">
+            <p class="college">College: <%= player.college %></p>
+          </div>
+          <div class="player-xp">
+            <p class="xp">Experience: <%= exp(player) %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

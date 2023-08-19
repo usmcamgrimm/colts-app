@@ -1,3 +1,3 @@
-Player.create!([
+Pracsqd.create!([
   # Practice Squad
 ])

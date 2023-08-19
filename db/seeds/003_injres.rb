@@ -1,4 +1,4 @@
-Player.create!([
+Injres.create!([
   # Injured/Reserve
   { name: 'Ashton Dulin', number: '16', position: 'WR', exp: 5, status: 'IR', college: 'Malone University', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254' },
   { name: 'Daniel Scott', number: '31', position: 'S', exp: 0, status: 'IR', college: 'California', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254' },
