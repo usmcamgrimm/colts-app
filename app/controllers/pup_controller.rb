@@ -1,0 +1,2 @@
+class PupController < ApplicationController
+end

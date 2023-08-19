@@ -1,7 +1,7 @@
 class PlayersController < ApplicationController
   def index
     @players = Player.all
-    @pupLists = Pup_list.all
+    @pups = Pup.all
     @injRess = Injres.all
     @pracSqds = Pracsqd.all
   end
