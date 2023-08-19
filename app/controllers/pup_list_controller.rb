@@ -1,0 +1,2 @@
+class PupListController < ApplicationController
+end
