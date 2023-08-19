@@ -1,0 +1,2 @@
+class PupList < ApplicationRecord
+end

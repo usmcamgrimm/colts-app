@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  injres: MyString
+  pracsqd: MyString
+
+two:
+  injres: MyString
+  pracsqd: MyString
