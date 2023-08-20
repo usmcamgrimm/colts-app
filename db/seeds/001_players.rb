@@ -8,13 +8,12 @@ Player.create!([
   { name: 'Anthony Richardson', number: '5', position: 'QB', exp: 0, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429084.png&w=350&h=254' },
   { name: 'Isaiah McKenzie', number: '6', position: 'WR', exp: 7, status: 'Active', college: 'Georgia', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254' },
   { name: 'Matt Gay', number: '7', position: 'K', exp: 5, status: 'Active', college: 'Utah', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249087.png&w=350&h=254' },
-  { name: 'D.J. Montgomery', number: '8', position: 'WR', exp: 4, status: 'Active', college: 'Austin Peay', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254' },
   { name: 'Rigoberto Sanchez', number: '8', position: 'P', exp: 7, status: 'Active', college: 'Hawaii', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3914922.png&w=350&h=254' },
   { name: 'Juwann Winfree', number: '8', position: 'WR', exp: 3, status: 'Active', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254' },
   { name: 'Breshad Perriman', number: '9', position: 'WR', exp: 9, status: 'Active', college: 'UCF', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2972460.png&w=350&h=254' },
   { name: 'Gardner Minshew', number: '10', position: 'QB', exp: 5, status: 'Active', college: 'Washington State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4038524.png&w=350&h=254' },
   { name: 'Michael Pittman Jr.', number: '11', position: 'WR', exp: 4, status: 'Active', college: 'USC', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035687.png&w=350&h=254' },
-  { name: 'James Washington', number: '12', position: 'WR', exp: 6, status: 'Active', college: 'Oklahoma State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3122449.png&w=350&h=254' },
+  { name: 'Malik Turner', number: '12', position: 'WR', exp: 5, status: 'Active', college: 'Illinois', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115928.png&w=350&h=254' },
   { name: 'Kody Case', number: '13', position: 'WR', exp: 0, status: 'Active', college: 'Illinois', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249736.png&w=350&h=254' },
   { name: 'Alec Pierce', number: '14', position: 'WR', exp: 2, status: 'Active', college: 'Cincinnati', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360078.png&w=350&h=254' },
   { name: 'Vycint Smith', number: '15', position: 'WR', exp: 4, status: 'Active', college: 'Limestone', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3155188.png&w=350&h=254' },
@@ -83,11 +82,22 @@ Player.create!([
   { name: 'Will Mallory', number: '86', position: 'TE', exp: 0, status: 'Active', college: 'Miami', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362523.png&w=350&h=254' },
   { name: 'Grover Stewart', number: '90', position: 'DT', exp: 7, status: 'Active', college: 'Albany State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4058825.png&w=350&h=254' },
   { name: 'Titus Leo', number: '91', position: 'DE', exp: 0, status: 'Active', college: 'Wagner', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254' },
+  { name: 'Genard Avery', number: '92', position: 'DE', exp: 6, status: 'Active', college: 'Memphis', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254' },
   { name: 'Eric Johnson II', number: '93', position: 'DT', exp: 2, status: 'Active', college: 'Missouri State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050971.png&w=350&h=254' },
   { name: 'Tyquan Lewis', number: '94', position: 'DE', exp: 6, status: 'Active', college: 'Ohio State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040513.png&w=350&h=254' },
   { name: 'Adetomiwa Adebawore', number: '95', position: 'DE', exp: 0, status: 'Active', college: 'Northwestern', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254' },
   { name: 'Taven Bryan', number: '96', position: 'DT', exp: 6, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115249.png&w=350&h=254' },
   { name: 'Al-Quadin Muhammad', number: '97', position: 'DE', exp: 7, status: 'Active', college: 'Miami', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254' },
   { name: 'McTelvin Agim', number: '98', position: 'DT', exp: 3, status: 'Active', college: 'Arkansas', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254' },
-  { name: 'DeForest Buckner', number: '99', position: 'DT', exp: 8, status: 'Active', college: 'Oregon', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254' }
+  { name: 'DeForest Buckner', number: '99', position: 'DT', exp: 8, status: 'Active', college: 'Oregon', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254' },
+  #
+  # PUP/NFI
+  { name: 'Jonathan Taylor', number: '28', position: 'RB', exp: 4, status: 'PUP', college: 'Wisconsin', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242335.png&w=350&h=254' },
+  #
+  # Injured/Reserve
+  { name: 'Ashton Dulin', number: '16', position: 'WR', exp: 5, status: 'IR', college: 'Malone University', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254' },
+  { name: 'Daniel Scott', number: '31', position: 'S', exp: 0, status: 'IR', college: 'California', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254' },
+  { name: 'Jake Witt', number: '76', position: 'T', exp: 0, status: 'IR', college: 'Northern Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5140684.png&w=350&h=254' },
+  #
+  # Practice Squad
 ])

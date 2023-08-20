@@ -1,3 +1,0 @@
-Pracsqd.create!([
-  # Practice Squad
-])
