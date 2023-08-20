@@ -1,2 +1,0 @@
-class PracsqdController < ApplicationController
-end

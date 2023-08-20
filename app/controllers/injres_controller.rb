@@ -1,2 +1,0 @@
-class InjresController < ApplicationController
-end

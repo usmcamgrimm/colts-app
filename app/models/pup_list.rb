@@ -1,2 +1,0 @@
-class PupList < ApplicationRecord
-end
