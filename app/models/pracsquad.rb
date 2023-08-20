@@ -1,0 +1,2 @@
+class Pracsquad < ApplicationRecord
+end

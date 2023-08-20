@@ -10,7 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_06_180648) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_20_182853) do
+  create_table "injureds", force: :cascade do |t|
+    t.string "name"
+    t.integer "number"
+    t.string "position"
+    t.integer "exp"
+    t.string "status"
+    t.string "college"
+    t.text "photo"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "players", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -21,6 +33,30 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_06_180648) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "college"
+  end
+
+  create_table "pracsquads", force: :cascade do |t|
+    t.string "name"
+    t.integer "number"
+    t.string "position"
+    t.integer "exp"
+    t.string "status"
+    t.string "college"
+    t.text "photo"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "pups", force: :cascade do |t|
+    t.string "name"
+    t.integer "number"
+    t.string "position"
+    t.integer "exp"
+    t.string "status"
+    t.string "college"
+    t.text "photo"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "stats", force: :cascade do |t|
