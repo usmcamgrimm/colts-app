@@ -1,0 +1,3 @@
+Pracsquad.create!([
+  # Practice Squad
+])

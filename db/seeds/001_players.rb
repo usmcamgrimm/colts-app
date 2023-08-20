@@ -89,15 +89,5 @@ Player.create!([
   { name: 'Taven Bryan', number: '96', position: 'DT', exp: 6, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115249.png&w=350&h=254' },
   { name: 'Al-Quadin Muhammad', number: '97', position: 'DE', exp: 7, status: 'Active', college: 'Miami', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254' },
   { name: 'McTelvin Agim', number: '98', position: 'DT', exp: 3, status: 'Active', college: 'Arkansas', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254' },
-  { name: 'DeForest Buckner', number: '99', position: 'DT', exp: 8, status: 'Active', college: 'Oregon', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254' },
-  #
-  # PUP/NFI
-  { name: 'Jonathan Taylor', number: '28', position: 'RB', exp: 4, status: 'PUP', college: 'Wisconsin', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242335.png&w=350&h=254' },
-  #
-  # Injured/Reserve
-  { name: 'Ashton Dulin', number: '16', position: 'WR', exp: 5, status: 'IR', college: 'Malone University', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254' },
-  { name: 'Daniel Scott', number: '31', position: 'S', exp: 0, status: 'IR', college: 'California', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254' },
-  { name: 'Jake Witt', number: '76', position: 'T', exp: 0, status: 'IR', college: 'Northern Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5140684.png&w=350&h=254' },
-  #
-  # Practice Squad
+  { name: 'DeForest Buckner', number: '99', position: 'DT', exp: 8, status: 'Active', college: 'Oregon', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254' }
 ])
