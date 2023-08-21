@@ -75,3 +75,29 @@
     </div>
   <% end %>
 </div>
+
+<h2 class="roster-title">Practice Squad</h2>
+<div class="player-container">
+  <% @pracsquads.each do |pracsquad| %>
+    <div class="player">
+      <div class="player-info">
+        <img class="player-image">
+          <%= image_tag pracsquad.photo %>
+        <div class="player-header">
+          <h2><%= link_to pracsquad.name %></h2>
+          <div class="player-details">
+            <p class="playerNum"><%= pracsquad.number %></p>
+            &#x25CF;
+            <p class="playerPos"><%= pracsquad.position %></p>
+          </div>
+          <div class="player-college">
+            <p class="college">College: <%= pracsquad.college %></p>
+          </div>
+          <div class="player-xp">
+            <p class="xp">Experience: <%= exp(pracsquad) %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

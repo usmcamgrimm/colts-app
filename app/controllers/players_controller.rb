@@ -3,6 +3,7 @@ class PlayersController < ApplicationController
     @players = Player.all
     @pups = Pup.all
     @injureds = Injured.all
+    @pracsquads = Pracsquad.all
   end
 
   def show
