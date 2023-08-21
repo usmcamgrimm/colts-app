@@ -49,3 +49,29 @@
     </div>
   <% end %>
 </div>
+
+<h2 class="roster-title">Injured Reserve</h2>
+<div class="player-container">
+  <% @injureds.each do |injured| %>
+    <div class="player">
+      <div class="player-info">
+        <img class="player-image">
+          <%= image_tag injured.photo %>
+        <div class="player-header">
+          <h2><%= link_to injured.name %></h2>
+          <div class="player-details">
+            <p class="playerNum"><%= injured.number %></p>
+            &#x25CF;
+            <p class="playerPos"><%= injured.position %></p>
+          </div>
+          <div class="player-college">
+            <p class="college">College: <%= injured.college %></p>
+          </div>
+          <div class="player-xp">
+            <p class="xp">Experience: <%= exp(injured) %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
