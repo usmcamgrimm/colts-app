@@ -1,4 +1,4 @@
-<h2 class="roster-title">Active roster</h2>
+<h2 class="roster-title">Active Roster</h2>
 <div class="player-container">
   <% @players.each do |player| %>
     <div class="player">
@@ -17,6 +17,32 @@
           </div>
           <div class="player-xp">
             <p class="xp">Experience: <%= exp(player) %></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<h2 class="roster-title">PUP / NFI List</h2>
+<div class="player-container">
+  <% @pups.each do |pup| %>
+    <div class="player">
+      <div class="player-info">
+        <img class="player-image">
+          <%= image_tag pup.photo %>
+        <div class="player-header">
+          <h2><%= link_to pup.name %></h2>
+          <div class="player-details">
+            <p class="playerNum"><%= pup.number %></p>
+            &#x25CF;
+            <p class="playerPos"><%= pup.position %></p>
+          </div>
+          <div class="player-college">
+            <p class="college">College: <%= pup.college %></p>
+          </div>
+          <div class="player-xp">
+            <p class="xp">Experience: <%= exp(pup) %></p>
           </div>
         </div>
       </div>
