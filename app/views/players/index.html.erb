@@ -32,7 +32,7 @@
         <img class="player-image">
           <%= image_tag pup.photo %>
         <div class="player-header">
-          <h2><%= link_to pup.name %></h2>
+          <h2><%= link_to pup.name, pup %></h2>
           <div class="player-details">
             <p class="playerNum"><%= pup.number %></p>
             &#x25CF;
@@ -58,7 +58,7 @@
         <img class="player-image">
           <%= image_tag injured.photo %>
         <div class="player-header">
-          <h2><%= link_to injured.name %></h2>
+          <h2><%= link_to injured.name, injured %></h2>
           <div class="player-details">
             <p class="playerNum"><%= injured.number %></p>
             &#x25CF;
@@ -84,7 +84,7 @@
         <img class="player-image">
           <%= image_tag pracsquad.photo %>
         <div class="player-header">
-          <h2><%= link_to pracsquad.name %></h2>
+          <h2><%= link_to pracsquad.name, pracsquad %></h2>
           <div class="player-details">
             <p class="playerNum"><%= pracsquad.number %></p>
             &#x25CF;
