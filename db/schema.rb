@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_20_182853) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_25_103154) do
   create_table "injureds", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -55,6 +55,17 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_20_182853) do
     t.string "status"
     t.string "college"
     t.text "photo"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "schedules", force: :cascade do |t|
+    t.integer "week"
+    t.date "gamedate"
+    t.time "gametime"
+    t.string "location"
+    t.string "oppname"
+    t.text "oppimage"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
