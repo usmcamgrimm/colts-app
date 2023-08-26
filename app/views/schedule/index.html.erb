@@ -1,0 +1,30 @@
+<div class="schedule-header">
+  <h2>
+    2023 Indianapolis Colts Schedule
+  </h2>
+</div>
+
+<div class="regseason">
+  <% @schedules.each do |schedule| %>
+    <div class="week-info">
+      <div class="row-header">
+        <h3 class="week">
+          Week <%= schedule.week %>
+        </h3>
+        <p class="gameDate">
+          <%= schedule.gamedate %>
+        </p>
+        &#x25CF;
+        <p class="gameTime">
+          <%= schedule.gametime %>
+        </p>
+      </div>
+      <div class="game-details">
+        <h3 class="oppName">
+          <%= schedule.oppname %>
+        </h3>
+      </div>
+    </div>
+    <hr class="game-divider" />
+  <% end %>
+</div>
