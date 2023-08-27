@@ -64,7 +64,6 @@ Player.create!([
   { name: 'Matthew Vanderslice', number: '60', position: 'T', exp: 0, status: 'Active', college: 'Northern Iowa', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4248631.png&w=350&h=254' },
   { name: 'Carter O\'Donnell', number: '61', position: 'T', exp: 2, status: 'Active', college: 'Alberta (Canada)', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4611135.png&w=350&h=254' },
   { name: 'Wesley French', number: '62', position: 'C', exp: 2, status: 'Active', college: 'Western Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916746.png&w=350&h=254' },
-  { name: 'Danny Pinter', number: '63', position: 'G', exp: 4, status: 'Active', college: 'Ball State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254' },
   { name: 'Arlington Hambright', number: '64', position: 'G', exp: 2, status: 'Active', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254' },
   { name: 'Dakoda Shepley', number: '65', position: 'C', exp: 2, status: 'Active', college: 'University of British Columbia', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4335942.png&w=350&h=254' },
   { name: 'Emil Ekiyor', number: '66', position: 'G', exp: 0, status: 'Active', college: 'Alabama', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4372028.png&w=350&h=254' },
