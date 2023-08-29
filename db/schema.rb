@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_25_103154) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_29_100703) do
   create_table "injureds", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -68,6 +68,9 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_25_103154) do
     t.text "oppimage"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "result"
+    t.integer "indyscore"
+    t.integer "oppscore"
   end
 
   create_table "stats", force: :cascade do |t|
