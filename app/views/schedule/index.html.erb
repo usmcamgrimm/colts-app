@@ -8,37 +8,43 @@
   <% @schedules.each do |schedule| %>
     <div class="week-info">
       <div class="row-header">
-        <h3 class="week">
+        <p class="week">
           Week <%= schedule.week %>
-        </h3>
-        <% if schedule.gamedate == 'TBD' %>
-          <p>TBD</p>
-        <% else %>
-          <p class="gameDate">
-            <%= schedule.gamedate %>
-          </p>
-        <% end %>
         </p>
-        &#x25CF;
-        <% if schedule.gametime == 'TBD' %>
-          <p>TBD</p>
-        <% else %>
-          <p class="gameTate">
-            <%= schedule.gametime %>
+        <% if schedule.gamedate != 'TBD' %>
+          <p class="gameDate">
+            <%# <%= schedule.gamedate.strftime("%^a %m-%d-%Y") %>
           </p>
+          <% else %>
+            <p class="gameDate">TBD</P>
+        <% end %>
+          &#x25CF;
+        <% if schedule.gametime != 'TBD' %>
+          <p class="gameTime">
+          <%#  <%= schedule.gametime.strftime("%l:%M %p EST") %>
+          </p>
+        <% else %>
+          <p class="gameTime">TBD</p>
         <% end %>
       </div>
       <div class="game-details">
-        <% if schedule.location == 'away' %>
-          <p class="at-designator">&#x40;</p>
-        <% else %>
-          <p></p>
-        <% end %>
-        <img class="teamLogo">
-          <%# <%= image_tag schedule.oppimage %>
-        <h3 class="oppName">
+        <img class="teamImage">
+        <%#  <%= image_tag schedule.oppimage %>
+        <p class="oppName">
           <%= schedule.oppname %>
-        </h3>
+        </p>
+        <div class="game-result">
+          <p class="result">
+            <%= schedule.result %>
+          </p>
+          <p class="score">
+            <%= schedule.indyscore %>
+          </p>
+          &ndash;
+          <p class="score">
+            <%= schedule.oppscore %>
+          </p>
+        </div>
       </div>
     </div>
     <hr class="game-divider" />
