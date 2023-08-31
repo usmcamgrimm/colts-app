@@ -34,7 +34,6 @@ Player.create!([
   { name: 'Dayo Odeyingbo', number: '54', position: 'DE', exp: 3, status: 'Active', college: 'Vanderbilt', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242659.png&w=350&h=254' },
   { name: 'Quenton Nelson', number: '56', position: 'G', exp: 6, status: 'Active', college: 'Notre Dame', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3129308.png&w=350&h=254' },
   { name: 'Cameron McGrone', number: '59', position: 'LB', exp: 1, status: 'Active', college: 'Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4372085.png&w=350&h=254' },
-  { name: 'Carter O\'Donnell', number: '61', position: 'T', exp: 2, status: 'Active', college: 'Alberta (Canada)', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4611135.png&w=350&h=254' },
   { name: 'Wesley French', number: '62', position: 'C', exp: 2, status: 'Active', college: 'Western Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916746.png&w=350&h=254' },
   { name: 'Arlington Hambright', number: '64', position: 'G', exp: 2, status: 'Active', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254' },
   { name: 'Braden Smith', number: '72', position: 'T', exp: 6, status: 'Active', college: 'Auburn', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3121595.png&w=350&h=254' },
@@ -42,7 +41,6 @@ Player.create!([
   { name: 'Will Fries', number: '75', position: 'G/T', exp: 3, status: 'Active', college: 'Penn Statee', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4045176.png&w=350&h=254' },
   { name: 'Ryan Kelly', number: '78', position: 'C', exp: 8, status: 'Active', college: 'Alabama', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2578475.png&w=350&h=254' },
   { name: 'Bernhard Raimann', number: '79', position: 'T', exp: 2, status: 'Active', college: 'Central Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362580.png&w=350&h=254' },
-  { name: 'Jelani Woods', number: '80', position: 'TE', exp: 2, status: 'Active', college: 'Virginia', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241410.png&w=350&h=254' },
   { name: 'Mo Alie-Cox', number: '81', position: 'TE', exp: 6, status: 'Active', college: 'Virginia Commonwealth', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2998565.png&w=350&h=254' },
   { name: 'Kylen Granson', number: '83', position: 'TE', exp: 3, status: 'Active', college: 'SMU', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039160.png&w=350&h=254' },
   { name: 'Andrew Ogletree', number: '85', position: 'TE', exp: 2, status: 'Active', college: 'Youngstown State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4722908.png&w=350&h=254' },
@@ -52,6 +50,5 @@ Player.create!([
   { name: 'Tyquan Lewis', number: '94', position: 'DE', exp: 6, status: 'Active', college: 'Ohio State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040513.png&w=350&h=254' },
   { name: 'Adetomiwa Adebawore', number: '95', position: 'DE', exp: 0, status: 'Active', college: 'Northwestern', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254' },
   { name: 'Taven Bryan', number: '96', position: 'DT', exp: 6, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115249.png&w=350&h=254' },
-  { name: 'McTelvin Agim', number: '98', position: 'DT', exp: 3, status: 'Active', college: 'Arkansas', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254' },
   { name: 'DeForest Buckner', number: '99', position: 'DT', exp: 8, status: 'Active', college: 'Oregon', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254' }
 ])
