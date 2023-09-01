@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_29_100703) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_01_100816) do
   create_table "injureds", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -121,6 +121,18 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_29_100703) do
     t.integer "kr_td"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "suspendeds", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "name"
+    t.integer "number"
+    t.string "position"
+    t.integer "exp"
+    t.string "status"
+    t.string "college"
+    t.text "photo"
   end
 
 end

@@ -4,6 +4,7 @@ class PlayersController < ApplicationController
     @pups = Pup.all
     @injureds = Injured.all
     @pracsquads = Pracsquad.all
+    @suspendeds = Suspended.all
   end
 
   def show

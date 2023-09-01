@@ -17,7 +17,6 @@ Player.create!([
   { name: 'JuJu Brents', number: '29', position: 'CB', exp: 0, status: 'Active', college: 'Kansas State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360488.png&w=350&h=254' },
   { name: 'Julian Blackmon', number: '32', position: 'S', exp: 4, status: 'Active', college: 'Utah', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254' },
   { name: 'Dallis Flowers', number: '33', position: 'CB', exp: 2, status: 'Active', college: 'Pittsburg State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254' },
-  { name: 'Chris Lammons', number: '34', position: 'CB', exp: 4, status: 'Suspended', college: 'South Carolina', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254' },
   { name: 'Deon Jackson', number: '35', position: 'RB', exp: 3, status: 'Active', college: 'Duke', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240455.png&w=350&h=254' },
   { name: 'Tony Brown', number: '38', position: 'CB', exp: 5, status: 'Active', college: 'Alabama', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115308.png&w=350&h=254' },
   { name: 'Darrell Baker Jr.', number: '39', position: 'CB', exp: 1, status: 'Active', college: 'Georgia Southern', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036660.png&w=350&h=254' },
