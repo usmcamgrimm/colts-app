@@ -5,7 +5,7 @@ Pracsquad.create!([
   { name: 'Juwann Winfree', number: '9', position: 'WR', exp: 3, status: 'Practice Squad', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254' },
   { name: 'Racey MccMath', number: '15', position: 'WR', exp: 3, status: 'Practice Squad', college: 'LSU', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242231.png&w=350&h=254' },
   { name: 'Mike Strachan', number: '17', position: 'WR', exp: 3, status: 'Practice Squad', college: 'Charleston', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4589245.png&w=350&h=254' },
-  { name: 'Darren Hall', number: '30', position: 'CB', exp: 3, status: 'Practice Squad', college: 'San Diego State', 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4261606.png&w=350&h=254' },
+  { name: 'Darren Hall', number: '30', position: 'CB', exp: 3, status: 'Practice Squad', college: 'San Diego State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4261606.png&w=350&h=254' },
   { name: 'Jason Huntley', number: '31', position: 'RB', exp: 4, status: 'Practice Squad', college: 'New Mexico State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4040790.png&w=350&h=254' },
   { name: 'Jake Funk', number: '34', position: 'RB', exp: 3, status: 'Practice Squad', college: 'Maryland', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036224.png&w=350&h=254' },
   { name: 'Henry Black', number: '36', position: 'S', exp: 3, status: 'Practice Squad', college: 'Baylor', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3928920.png&w=350&h=254' },
