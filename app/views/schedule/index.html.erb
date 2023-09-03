@@ -11,13 +11,9 @@
         <p class="week">
           Week <%= schedule.week %>
         </p>
-        <% if schedule.gamedate != 'TBD' %>
-          <p class="gameDate">
-            <%# <%= schedule.gamedate.strftime("%^a %m-%d-%Y") %>
-          </p>
-          <% else %>
-            <p class="gameDate">TBD</P>
-        <% end %>
+        <p class="gameDate">
+          <%= gamedate(schedule) %>
+        </p>
           &#x25CF;
         <% if schedule.gametime != 'TBD' %>
           <p class="gameTime">
