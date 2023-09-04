@@ -15,12 +15,14 @@
           <%= gamedate(schedule) %>
         </p>
           &#x25CF;
-        <% if schedule.gametime != 'TBD' %>
+        <% if schedule.gametime == 'TBD' %>
           <p class="gameTime">
-          <%#  <%= schedule.gametime.strftime("%l:%M %p EST") %>
+            TBD
           </p>
         <% else %>
-          <p class="gameTime">TBD</p>
+          <p class="gameTime">
+            <%= schedule.gametime.strftime("%l:%M %P") %>
+          </p>
         <% end %>
       </div>
       <div class="game-details">
