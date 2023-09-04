@@ -13,7 +13,7 @@ Pracsquad.create!([
   { name: 'Marcel Dabo', number: '42', position: 'S', exp: 1, status: 'Practice Squad', college: 'Stuttgart', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5054377.png&w=350&h=254' },
   { name: 'Liam Anderson', number: '47', position: 'LB', exp: 0, status: 'Practice Squad', college: 'Holy Cross', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254' },
   { name: 'Ronnie Harrison Jr.', number: '48', position: 'S', exp: 6, status: 'Practice Squad', college: 'Alabama', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3859006.png&w=350&h=254' },
-  { name: 'Dan Skipper', number: '74', position: 'T', exp: 4, status: 'Practice Squad', college: 'Arkansas', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046435.png&w=350&h=254' },
+  { name: 'Arlington Hambright', number: '64', position: 'G', exp: 6, status: 'Practice Squad', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254' },
   { name: 'Johmmy Lumpkin', number: '84', position: 'TE', exp: 0, status: 'Practice Squad', college: 'Louisiana', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4363098.png&w=350&h=254' },
   { name: 'Al-Quadin Muhammad', number: '97', position: 'DE', exp: 7, status: 'Practice Squad', college: 'Miami', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254' },
   { name: 'McTelvin Agim', number: '98', position: 'DT', exp: 3, status: 'Practice Squad', college: 'Arkansas', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254' }
