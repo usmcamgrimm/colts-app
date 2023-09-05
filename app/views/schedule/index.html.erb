@@ -15,15 +15,9 @@
           <%= gamedate(schedule) %>
         </p>
           &#x25CF;
-        <% if schedule.gametime == 'TBD' %>
-          <p class="gameTime">
-            TBD
-          </p>
-        <% else %>
-          <p class="gameTime">
-            <%= schedule.gametime.strftime("%l:%M %P") %>
-          </p>
-        <% end %>
+        <p class="gameTime">
+          <%= gametime(schedule) %>
+        </p>
       </div>
       <div class="game-details">
         <img class="teamImage">
