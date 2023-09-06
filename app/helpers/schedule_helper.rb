@@ -20,4 +20,12 @@ module ScheduleHelper
     end
   end
 
+  def oppimage(schedule)
+    if schedule.bye?
+      ""
+    else
+      schedule.oppimage
+    end
+  end
+
 end
