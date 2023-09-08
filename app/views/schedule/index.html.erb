@@ -20,8 +20,13 @@
         </p>
       </div>
       <div class="game-details">
-        <img class="teamImage">
-        <%= image_tag schedule.oppimage %>
+        <% if schedule.oppimage != ''%>
+          <img class="teamImage">
+            <%= image_tag schedule.oppimage %>
+        <% else %>
+          <img class="teamImage">
+            <%= image_tag 'colts.png' %>
+          <% end %>
         <p class="oppName">
           <%= schedule.oppname %>
         </p>
