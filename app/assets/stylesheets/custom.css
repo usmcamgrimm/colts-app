@@ -118,6 +118,11 @@ img {
   height: 150px;
   margin-right: 12px;
 }
+.teamImage {
+  max-width: 96px;
+  height: auto;
+  margin: 0;
+}
 .player-header {
   display: flex;
   flex-direction: column;
