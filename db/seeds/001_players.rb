@@ -6,7 +6,7 @@ Player.create!([
   { name: 'Isaiah McKenzie', number: '6', position: 'WR', exp: 7, status: 'Active', college: 'Georgia', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254' },
   { name: 'Matt Gay', number: '7', position: 'K', exp: 5, status: 'Active', college: 'Utah', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249087.png&w=350&h=254' },\
   { name: 'Rigoberto Sanchez', number: '8', position: 'P', exp: 7, status: 'Active', college: 'Hawaii', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3914922.png&w=350&h=254' },
-  { name: 'Juwann Winfree', number: '9', position: 'WR', exp: 3, status: 'Practice Squad', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254' },
+  { name: 'Juwann Winfree', number: '9', position: 'WR', exp: 3, status: 'Active', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254' },
   { name: 'Gardner Minshew', number: '10', position: 'QB', exp: 5, status: 'Active', college: 'Washington State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4038524.png&w=350&h=254' },
   { name: 'Michael Pittman Jr.', number: '11', position: 'WR', exp: 4, status: 'Active', college: 'USC', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035687.png&w=350&h=254' },
   { name: 'Alec Pierce', number: '14', position: 'WR', exp: 2, status: 'Active', college: 'Cincinnati', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360078.png&w=350&h=254' },
@@ -18,7 +18,7 @@ Player.create!([
   { name: 'JuJu Brents', number: '29', position: 'CB', exp: 0, status: 'Active', college: 'Kansas State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360488.png&w=350&h=254' },
   { name: 'Julian Blackmon', number: '32', position: 'S', exp: 4, status: 'Active', college: 'Utah', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254' },
   { name: 'Dallis Flowers', number: '33', position: 'CB', exp: 2, status: 'Active', college: 'Pittsburg State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254' },
-  { name: 'Jake Funk', number: '34', position: 'RB', exp: 3, status: 'Practice Squad', college: 'Maryland', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036224.png&w=350&h=254' }
+  { name: 'Jake Funk', number: '34', position: 'RB', exp: 3, status: 'Active', college: 'Maryland', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036224.png&w=350&h=254' },
   { name: 'Deon Jackson', number: '35', position: 'RB', exp: 3, status: 'Active', college: 'Duke', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240455.png&w=350&h=254' },
   { name: 'Tony Brown', number: '38', position: 'CB', exp: 5, status: 'Active', college: 'Alabama', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115308.png&w=350&h=254' },
   { name: 'Darrell Baker Jr.', number: '39', position: 'CB', exp: 1, status: 'Active', college: 'Georgia Southern', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036660.png&w=350&h=254' },
