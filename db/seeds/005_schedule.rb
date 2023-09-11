@@ -1,6 +1,6 @@
 Schedule.create!([
   # Regular Season Games
-  { week: '1', gamedate: '10-09-2023', gametime: '1:00PM', location: 'home', result: '--', indyscore: '', oppscore: '', oppname: 'Jacksonville Jaguars', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/jax.png&h=200&w=200' },
+  { week: '1', gamedate: '10-09-2023', gametime: '1:00PM', location: 'home', result: 'L', indyscore: '21', oppscore: '31', oppname: 'Jacksonville Jaguars', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/jax.png&h=200&w=200' },
   { week: '2', gamedate: '17-09-2023', gametime: '1:00PM', location: 'away', result: '--', indyscore: '', oppscore: '', oppname: 'Houston Texans', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/hou.png&h=200&w=200' },
   { week: '3', gamedate: '24-09-2023', gametime: '1:00PM', location: 'away', result: '--', indyscore: '', oppscore: '', oppname: 'Baltimore Ravens', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/bal.png&h=200&w=200' },
   { week: '4', gamedate: '01-10-2023', gametime: '1:00PM', location: 'home', result: '--', indyscore: '', oppscore: '', oppname: 'LA Rams', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/lar.png&h=200&w=200' },
