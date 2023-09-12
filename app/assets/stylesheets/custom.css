@@ -194,6 +194,15 @@ img {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  margin-top: 1rem;
+}
+.away-game {
+  font-weight: bold;
+  font-size: 1.23rem;
+  padding-right: 12px;
+}
+.home-game {
+  padding-right: 1rem;
 }
 .oppName {
   padding-right: 1rem;

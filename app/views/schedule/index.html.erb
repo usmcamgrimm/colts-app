@@ -20,6 +20,11 @@
         </p>
       </div>
       <div class="game-details">
+        <% if schedule.location == "away" %>
+          <p class="away-game">@</p>
+        <% else %>
+          <p class="home-game"> </p>
+        <% end %>
         <% if schedule.oppimage.present? %>
           <%= image_tag schedule.oppimage, class: "teamImage", alt: "Opponent team logo" %>
           <% end %>
