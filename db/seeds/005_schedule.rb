@@ -10,7 +10,7 @@ Schedule.create!([
   { week: '8', gamedate: '29-10-2023', gametime: '1:00PM', location: 'home', result: '--', indyscore: '', oppscore: '', oppname: 'New Orleans Saints', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/no.png&h=200&w=200' },
   { week: '9', gamedate: '05-11-2023', gametime: '4:05PM', location: 'away', result: '--', indyscore: '', oppscore: '', oppname: 'Carolina Panthers', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/car.png&h=200&w=200' },
   { week: '10', gamedate: '12-11-2023', gametime: '9:30AM', location: 'away', result: '--', indyscore: '', oppscore: '', oppname: 'New England Patriots', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ne.png&h=200&w=200' },
-  { week: '11' },
+  { week: '11', oppname: 'Bye' },
   { week: '12', gamedate: '26-11-2023', gametime: '1:00PM', location: 'home', result: '--', indyscore: '', oppscore: '', oppname: 'Tampa Bay Buccaneers', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/tb.png&h=200&w=200' },
   { week: '13', gamedate: '03-12-2023', gametime: '1:00PM', location: 'away', result: '--', indyscore: '', oppscore: '', oppname: 'Tennessee Titans', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ten.png&h=200&w=200' },
   { week: '14', gamedate: '10-12-2023', gametime: '1:00PM', location: 'away', result: '--', indyscore: '', oppscore: '', oppname: 'Cincinnati Bengals', oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/cin.png&h=200&w=200' },
