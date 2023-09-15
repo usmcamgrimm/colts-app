@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_09_01_100816) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_15_102611) do
   create_table "injureds", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -69,8 +69,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_01_100816) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "result"
-    t.integer "indyscore"
-    t.integer "oppscore"
+    t.string "score"
   end
 
   create_table "stats", force: :cascade do |t|
