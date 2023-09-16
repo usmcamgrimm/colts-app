@@ -58,7 +58,7 @@ h2 {
   text-align: center;
   font-size: 2rem;
   color: #10252c;
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 h2 a {
   color: #10252c;
@@ -67,11 +67,6 @@ h2 a {
 h2 a:hover {
   color: #013369;
   border-bottom: 3px solid #013369;
-}
-h2.roster-title {
-  text-transform: uppercase;
-  text-align: center;
-  margin: 2rem 0;
 }
 h3 {
   font-size: 1.75rem;
@@ -238,5 +233,30 @@ img {
     align-items: center;
     margin: 0 auto;
     padding: 12px 0;
+  }
+  .week-info {
+    padding: 16px 0 12px 8px;
+  }
+  .away-game {
+    font-size: 12px;
+    padding-right: 4px;
+  }
+  .teamImage {
+    max-width: 48px;
+    height: auto;
+  }
+  .oppName {
+    font-size: 18px;
+    padding-left: 12px;
+  }
+  .game-result {
+    padding-left: 1rem;
+  }
+  .week,
+  .gameDate,
+  .gameTime,
+  .result,
+  .score {
+    font-size: 18px;
   }
 }
