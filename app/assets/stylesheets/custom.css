@@ -56,7 +56,7 @@ h1 {
 }
 h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 5vw, 2rem);
   color: #10252c;
   margin: 1rem 0;
 }
