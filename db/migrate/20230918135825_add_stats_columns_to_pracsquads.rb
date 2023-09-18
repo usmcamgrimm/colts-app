@@ -1,0 +1,41 @@
+class AddStatsColumnsToPracsquads < ActiveRecord::Migration[7.0]
+  def change
+    add_column :pracsquads, :pass_att, :integer
+    add_column :pracsquads, :comp, :integer
+    add_column :pracsquads, :pass_yards, :integer
+    add_column :pracsquads, :pass_td, :integer
+    add_column :pracsquads, :int, :integer
+    add_column :pracsquads, :pass_sck, :integer
+    add_column :pracsquads, :rush_att, :integer
+    add_column :pracsquads, :rush_yds, :integer
+    add_column :pracsquads, :rush_td, :integer
+    add_column :pracsquads, :rec, :integer
+    add_column :pracsquads, :rec_yards, :integer
+    add_column :pracsquads, :rec_td, :integer
+    add_column :pracsquads, :tackles, :integer
+    add_column :pracsquads, :solo_tackles, :integer
+    add_column :pracsquads, :def_sacks, :integer
+    add_column :pracsquads, :safety, :integer
+    add_column :pracsquads, :def_fumble, :integer
+    add_column :pracsquads, :def_int, :integer
+    add_column :pracsquads, :def_td, :integer
+    add_column :pracsquads, :fg_1to19, :integer
+    add_column :pracsquads, :fg_20to29, :integer
+    add_column :pracsquads, :fg_30to39, :integer
+    add_column :pracsquads, :fg_40to49, :integer
+    add_column :pracsquads, :fg_50to59, :integer
+    add_column :pracsquads, :fg_60Plus, :integer
+    add_column :pracsquads, :punt, :integer
+    add_column :pracsquads, :punt_yards, :integer
+    add_column :pracsquads, :punt_in20, :integer
+    add_column :pracsquads, :punt_blk, :integer
+    add_column :pracsquads, :net_avg, :integer
+    add_column :pracsquads, :pr_ret, :integer
+    add_column :pracsquads, :pr_yds_ret, :integer
+    add_column :pracsquads, :pr_td, :integer
+    add_column :pracsquads, :kr_ret, :integer
+    add_column :pracsquads, :kr_yards, :integer
+    add_column :pracsquads, :kr_long, :integer
+    add_column :pracsquads, :kr_td, :integer
+  end
+end
