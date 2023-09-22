@@ -1,30 +1,33 @@
-<section class="player-page">
-  <div class="player-details">
-    <div class="player-section">
-      <img class="player-image">
-        <%= image_tag @player.photo, alt: "Colts player headshot" %>
-      <div class="player-header">
-        <h2><%= @player.name %></h2>
-        <div class="player-details">
-          <h3 class="playerNum"><%= @player.number %></h3>
-          &#x25CF;
-          <h3 class="playerPos"><%= @player.position %></h3>
+<div class="player-page">
+  <section class="player-section">
+    <img class="player-image">
+      <%= image_tag @player.photo, class: "playerShow", alt: "Colts player headshot" %>
+    <div class="player-header">
+      <h2><%= @player.name %></h2>
+      <div class="player-details">
+        <h3 class="playerNum"><%= @player.number %></h3>
+        &#x25CF;
+        <h3 class="playerPos"><%= @player.position %></h3>
+      </div>
+      <div class="player-status">
+        <p class="status">Status: <%= @player.status %></p>
+      </div>
+      <div class="player-xp">
+        <p class="xp">Experience: <%= @player.exp %></p>
+      </div>
+      <div class="player-college">
+          <p class="college">College: <%= @player.college %></p>
         </div>
-        <div class="player-status">
-          <p class="status">Status: <%= @player.status %></p>
-        </div>
-        <div class="player-xp">
-          <p class="xp">Experience: <%= @player.exp %></p>
-        </div>
-        <div class="player-college">
-            <p class="college">College: <%= @player.college %></p>
-          </div>
-      </div> 
     </div>
-  </div>
+  </section>
+
+  <section class="edit-player">
+    <%= link_to "Edit Player", edit_player_path(@player), class: "edit-btn" %>
+  </section>
+
   <div class="stats-section">
     <div class="stats-title">
       <h2>2023 Season Stats</h2>
     </div>
   </div>
-</section>
+</div>
