@@ -1,0 +1,33 @@
+<h2>Updating <%= @player.name %>  </h2>
+
+<h3>Player Information</h3>
+
+<%= form_with(model: @player) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :number %>
+  <%= f.number_field :number %>
+
+  <%= f.label :position %>
+  <%= f.text_field :position %>
+
+  <%= f.label :exp %>
+  <%= f.number_field :exp %>
+<% end %>
+
+<h3><%=  @player.name %> Stats Update</h3>
+
+<%= form_with(model: @player) do |f| %>
+  <%= f.label :pass_attempts %>
+  <%= f.number_field :pass_att %>
+
+  <%= f.label :completions %>
+  <%= f.number_field :comp %>
+
+  <%= f.label :pass_yards %>
+  <%= f.number_field :pass_yards %>
+
+  <%= f.label :passing_touchdowns %>
+  <%= f.number_field :pass_td %>
+<% end %>
