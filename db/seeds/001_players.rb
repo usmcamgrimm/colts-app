@@ -28,7 +28,7 @@ Player.create!([
   { name: 'Luke Rhodes', number: '46', position: 'LS', exp: 7, status: 'Active', college: 'William & Mary', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254' },
   { name: 'Segun Olubi', number: '50', position: 'LB', exp: 1, status: 'Active', college: 'San Diego State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4260703.png&w=350&h=254' },
   { name: 'Kwity Paye', number: '51', position: 'DE', exp: 3, status: 'Active', college: 'Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4258194.png&w=350&h=254' },
-  { name: 'Samson Ebukam', number: '52', position: 'LB', exp: 7, status: 'Active', college: 'Eastern Washington', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045527.png&w=350&h=254' },
+  { name: 'Samson Ebukam', number: '52', position: 'DE', exp: 7, status: 'Active', college: 'Eastern Washington', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045527.png&w=350&h=254' },
   { name: 'Shaquille Leonard', number: '53', position: 'LB', exp: 6, status: 'Active', college: 'South Carolina State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3056362.png&w=350&h=254' },
   { name: 'Dayo Odeyingbo', number: '54', position: 'DE', exp: 3, status: 'Active', college: 'Vanderbilt', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242659.png&w=350&h=254' },
   { name: 'Isaiah Land', number: '55', position: 'LB', exp: 0, status: 'Active', college: 'Florida A&M', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4574551.png&w=350&h=254' },
@@ -50,7 +50,7 @@ Player.create!([
   { name: 'Jake Martin', number: '92', position: 'DE', exp: 6, status: 'Active', college: 'Temple', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3138764.png&w=350&h=254' },
   { name: 'Eric Johnson II', number: '93', position: 'DT', exp: 2, status: 'Active', college: 'Missouri State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050971.png&w=350&h=254' },
   { name: 'Tyquan Lewis', number: '94', position: 'DE', exp: 6, status: 'Active', college: 'Ohio State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040513.png&w=350&h=254' },
-  { name: 'Adetomiwa Adebawore', number: '95', position: 'DE', exp: 0, status: 'Active', college: 'Northwestern', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254' },
+  { name: 'Adetomiwa Adebawore', number: '95', position: 'DT', exp: 0, status: 'Active', college: 'Northwestern', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254' },
   { name: 'Taven Bryan', number: '96', position: 'DT', exp: 6, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115249.png&w=350&h=254' },
   { name: 'DeForest Buckner', number: '99', position: 'DT', exp: 8, status: 'Active', college: 'Oregon', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254' }
 ])
