@@ -14,6 +14,8 @@
 
   <%= f.label :exp %>
   <%= f.number_field :exp %>
+
+  <%= f.submit %>
 <% end %>
 
 <h3><%=  @player.name %> Stats Update</h3>
@@ -30,4 +32,105 @@
 
   <%= f.label :passing_touchdowns %>
   <%= f.number_field :pass_td %>
+
+  <%= f.label :interceptions %>
+  <%= f.number_field :int %>
+
+  <%= f.label :sacks %>
+  <%= f.number_field :pass_sck %>
+
+  <%= f.label :rush_attempts %>
+  <%= f.number_field :rush_att %>
+
+  <%= f.label :rushing_yards %>
+  <%= f.number_field :rush_yds %>
+
+  <%= f.label :rushing_touchdowns %>
+  <%= f.number_field :rush_tds %>
+
+  <%= f.label :receptions %>
+  <%= f.number_field :rec %>
+
+  <%= f.label :receiving_yards %>
+  <%= f.number_field :rec_yards %>
+
+  <%= f.label :receiving_touchdowns %>
+  <%= f.number_field :rec_td %>
+
+  <%= f.label :tackles %>
+  <%= f.number_field :tackles %>
+
+  <%= f.label :solo_tackles %>
+  <%= f.number_field :solo_tackles %>
+
+  <%= f.label :defensive_sacks %>
+  <%= f.number_field :def_sacks %>
+
+  <%= f.label :safety %>
+  <%= f.number_field :safety %>
+
+  <%= f.label :forced_fumbles %>
+  <%= f.number_field :def_fumble %>
+
+  <%= f.label :defensive_interceptions %>
+  <%= f.number_field :def_int %>
+
+  <%= f.label :defensive_touchdowns %>
+  <%= f.number_field :def_td %>
+
+  <%= f.label :field_goal_1_to_19_yards %>
+  <%= f.number_field :fg_1to19 %>
+
+  <%= f.label :field_goal_20_to_29_yards %>
+  <%= f.number_field :fg_20to29 %>
+
+  <%= f.label :field_goal_30_to_39_yards %>
+  <%= f.number_field :fg_30to39 %>
+
+  <%= f.label :field_goal_40_to_49_yards %>
+  <%= f.number_field :fg_40to49 %>
+
+  <%= f.label :field_goal_50_to_59_yards %>
+  <%= f.number_field :fg_50to59 %>
+
+  <%= f.label :field_goal_60_plus %>
+  <%= f.number_field :fg_60plus %>
+
+  <%= f.label :punts %>
+  <%= f.number_field :punt %>
+
+  <%= f.label :punt_net_yards %>
+  <%= f.number_field :punt_yards %>
+
+  <%= f.label :punts_inside_the_20 %>
+  <%= f.number_field :punt_in20 %>
+
+  <%= f.label :punts_blocked %>
+  <%= f.number_field :punt_blk %>
+
+  <%= f.label :punts_net_average %>
+  <%= f.number_field :net_avg %>
+
+  <%= f.label :punt_returns %>
+  <%= f.number_field :pr_ret %>
+
+  <%= f.label :punt_return_yards %>
+  <%= f.number_field :pr_yds_reet %>
+
+  <%= f.label :punt_return_touchdown %>
+  <%= f.number_field :pr_td %>
+
+  <%= f.label :kick_returns %>
+  <%= f.number_field :kr_ret %>
+
+  <%= f.label :kick_return_yards %>
+  <%= f.number_field :kr_yards %>
+
+  <%= f.label :kick_return_long %>
+  <%= f.number_field :kr_long %>
+
+  <%= f.label :kick_return_touchdowns %>
+  <%= f.number_field :kr_td %>
+
+  <%= f.submit %>
 <% end %>
