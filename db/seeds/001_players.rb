@@ -1,6 +1,7 @@
 Player.create!([
   #Active Roster
   { name: 'Josh Downs', number: '1', position: 'WR', exp: 0, status: 'Active', college: 'North Carolina', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254' },
+  { name: 'Amari Rodgers', number: '3', position: 'WR', exp: 3, status: 'Active', college: 'Clemson', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239992.png&w=350&h=254' },
   { name: 'Sam Ehlinger', number: '4', position: 'QB', exp: 3, status: 'Active', college: 'Texas', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241820.png&w=350&h=254' },
   { name: 'Anthony Richardson', number: '5', position: 'QB', exp: 0, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429084.png&w=350&h=254' },
   { name: 'Isaiah McKenzie', number: '6', position: 'WR', exp: 7, status: 'Active', college: 'Georgia', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254' },
@@ -16,7 +17,7 @@ Player.create!([
   { name: 'Trey Sermon', number: '27', position: 'RB', exp: 3, status: 'Active', college: 'Ohio State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241401.png&w=350&h=254' },
   { name: 'JuJu Brents', number: '29', position: 'CB', exp: 0, status: 'Active', college: 'Kansas State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360488.png&w=350&h=254' },
   { name: 'Julian Blackmon', number: '32', position: 'S', exp: 4, status: 'Active', college: 'Utah', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254' },
-  { name: 'Jake Funk', number: '34', position: 'RB', exp: 3, status: 'Practice Squad', college: 'Maryland', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036224.png&w=350&h=254' },
+  { name: 'Jake Funk', number: '34', position: 'RB', exp: 3, status: 'Active', college: 'Maryland', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036224.png&w=350&h=254' },
   { name: 'Tony Brown', number: '38', position: 'CB', exp: 5, status: 'Active', college: 'Alabama', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115308.png&w=350&h=254' },
   { name: 'Darrell Baker Jr.', number: '39', position: 'CB', exp: 1, status: 'Active', college: 'Georgia Southern', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036660.png&w=350&h=254' },
   { name: 'Jaylon Jones', number: '40', position: 'CB', exp: 0, status: 'Active', college: 'Texas A&M', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685145.png&w=350&h=254' },
@@ -34,7 +35,7 @@ Player.create!([
   { name: 'Quenton Nelson', number: '56', position: 'G', exp: 6, status: 'Active', college: 'Notre Dame', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3129308.png&w=350&h=254' },
   { name: 'Cameron McGrone', number: '59', position: 'LB', exp: 1, status: 'Active', college: 'Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4372085.png&w=350&h=254' },
   { name: 'Wesley French', number: '62', position: 'C', exp: 2, status: 'Active', college: 'Western Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916746.png&w=350&h=254' },
-  { name: 'Arlington Hambright', number: '64', position: 'G', exp: 6, status: 'Practice Squad', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254' },
+  { name: 'Arlington Hambright', number: '64', position: 'G', exp: 6, status: 'Active', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254' },
   { name: 'Josh Sills', number: '65', position: 'G', exp: 2, status: 'Active', college: 'Oklahoma State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254' },
   { name: 'Braden Smith', number: '72', position: 'T', exp: 6, status: 'Active', college: 'Auburn', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3121595.png&w=350&h=254' },
   { name: 'Blake Freeland', number: '73', position: 'T', exp: 0, status: 'Active', college: 'BYU', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254' },
