@@ -3,7 +3,6 @@ Player.create!([
   { name: 'Josh Downs', number: '1', position: 'WR', exp: 0, status: 'Active', college: 'North Carolina', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254' },
   { name: 'Amari Rodgers', number: '3', position: 'WR', exp: 3, status: 'Active', college: 'Clemson', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239992.png&w=350&h=254' },
   { name: 'Sam Ehlinger', number: '4', position: 'QB', exp: 3, status: 'Active', college: 'Texas', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241820.png&w=350&h=254' },
-  { name: 'Anthony Richardson', number: '5', position: 'QB', exp: 0, status: 'Active', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429084.png&w=350&h=254' },
   { name: 'Isaiah McKenzie', number: '6', position: 'WR', exp: 7, status: 'Active', college: 'Georgia', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254' },
   { name: 'Matt Gay', number: '7', position: 'K', exp: 5, status: 'Active', college: 'Utah', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249087.png&w=350&h=254' },\
   { name: 'Rigoberto Sanchez', number: '8', position: 'P', exp: 7, status: 'Active', college: 'Hawaii', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3914922.png&w=350&h=254' },
