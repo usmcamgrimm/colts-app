@@ -1,9 +1,10 @@
 Pracsquad.create!([
   # Practice Squad
   { name: 'D.J. Montgomery', number: '2', position: 'WR', exp: 4, status: 'Practice Squad', college: 'Austin Peay', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254' },
-  { name: 'Juwann Winfree', number: '9', position: 'WR', exp: 3, status: 'Practice Squad', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254' },
+  { name: 'Kellen Mond', number: '12', position: 'QB', exp: 2, status: 'Practice Squad', college: 'Texas A&M', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240904.png&w=350&h=254' },
   { name: 'KJ Hamler', number: '13', position: 'WR', exp: 4, status: 'Practice Squad', college: 'Penn State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240380.png&w=350&h=254' },
   { name: 'Racey MccMath', number: '15', position: 'WR', exp: 3, status: 'Practice Squad', college: 'LSU', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242231.png&w=350&h=254' },
+  { name: 'Anthony Miller', number: '17', position: 'WR', exp: 5, status: 'Practice Squad', college: 'Memphis', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3050487.png&w=350&h=254' },
   { name: 'Darren Hall', number: '30', position: 'CB', exp: 3, status: 'Practice Squad', college: 'San Diego State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4261606.png&w=350&h=254' },
   { name: 'Tyler Goodson', number: '31', position: 'RB', exp: 1, status: 'Practice Squad', college: 'Iowa', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429676.png&w=350&h=254' },
   { name: 'Chris Lammons', number: '35', position: 'CB', exp: 4, status: 'Practice Squad', college: 'South Carolina', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254' },
