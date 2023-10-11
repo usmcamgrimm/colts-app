@@ -4,7 +4,7 @@ Player.create!([
   { name: 'Amari Rodgers', number: '3', position: 'WR', exp: 3, status: 'Active', college: 'Clemson', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239992.png&w=350&h=254' },
   { name: 'Sam Ehlinger', number: '4', position: 'QB', exp: 3, status: 'Active', college: 'Texas', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241820.png&w=350&h=254' },
   { name: 'Isaiah McKenzie', number: '6', position: 'WR', exp: 7, status: 'Active', college: 'Georgia', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254' },
-  { name: 'Matt Gay', number: '7', position: 'K', exp: 5, status: 'Active', college: 'Utah', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249087.png&w=350&h=254' },\
+  { name: 'Matt Gay', number: '7', position: 'K', exp: 5, status: 'Active', college: 'Utah', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249087.png&w=350&h=254' },
   { name: 'Rigoberto Sanchez', number: '8', position: 'P', exp: 7, status: 'Active', college: 'Hawaii', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3914922.png&w=350&h=254' },
   { name: 'Gardner Minshew', number: '10', position: 'QB', exp: 5, status: 'Active', college: 'Washington State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4038524.png&w=350&h=254' },
   { name: 'Michael Pittman Jr.', number: '11', position: 'WR', exp: 4, status: 'Active', college: 'USC', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035687.png&w=350&h=254' },
@@ -36,6 +36,7 @@ Player.create!([
   { name: 'Wesley French', number: '62', position: 'C', exp: 2, status: 'Active', college: 'Western Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916746.png&w=350&h=254' },
   { name: 'Arlington Hambright', number: '64', position: 'G', exp: 6, status: 'Active', college: 'Colorado', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254' },
   { name: 'Josh Sills', number: '65', position: 'G', exp: 2, status: 'Active', college: 'Oklahoma State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254' },
+  { name: 'Ike Boettger', number: '68', position: 'G', exp: 6, status: 'Active', college: 'Iowa', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040166.png&w=350&h=254' },
   { name: 'Braden Smith', number: '72', position: 'T', exp: 6, status: 'Active', college: 'Auburn', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3121595.png&w=350&h=254' },
   { name: 'Blake Freeland', number: '73', position: 'T', exp: 0, status: 'Active', college: 'BYU', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254' },
   { name: 'Will Fries', number: '75', position: 'C/G', exp: 3, status: 'Active', college: 'Penn Statee', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4045176.png&w=350&h=254' },
