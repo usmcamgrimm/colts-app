@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
+ActiveRecord::Schema[7.0].define(version: 2023_10_14_163622) do
   create_table "injureds", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -26,7 +26,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "pass_yards"
     t.integer "pass_td"
     t.integer "int"
-    t.integer "pass_sck"
     t.integer "rush_att"
     t.integer "rush_yds"
     t.integer "rush_td"
@@ -58,6 +57,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "kr_yards"
     t.integer "kr_long"
     t.integer "kr_td"
+    t.float "qb_rtng"
+    t.float "rush_ypc"
   end
 
   create_table "players", force: :cascade do |t|
@@ -75,7 +76,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "pass_yards"
     t.integer "pass_td"
     t.integer "int"
-    t.integer "pass_sck"
     t.integer "rush_att"
     t.integer "rush_yds"
     t.integer "rush_td"
@@ -107,6 +107,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "kr_yards"
     t.integer "kr_long"
     t.integer "kr_td"
+    t.float "qb_rtng"
+    t.float "rush_ypc"
   end
 
   create_table "pracsquads", force: :cascade do |t|
@@ -124,7 +126,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "pass_yards"
     t.integer "pass_td"
     t.integer "int"
-    t.integer "pass_sck"
     t.integer "rush_att"
     t.integer "rush_yds"
     t.integer "rush_td"
@@ -156,6 +157,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "kr_yards"
     t.integer "kr_long"
     t.integer "kr_td"
+    t.float "qb_rtng"
+    t.float "rush_ypc"
   end
 
   create_table "pups", force: :cascade do |t|
@@ -173,7 +176,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "pass_yards"
     t.integer "pass_td"
     t.integer "int"
-    t.integer "pass_sck"
     t.integer "rush_att"
     t.integer "rush_yds"
     t.integer "rush_td"
@@ -205,6 +207,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "kr_yards"
     t.integer "kr_long"
     t.integer "kr_td"
+    t.float "qb_rtng"
+    t.float "rush_ypc"
   end
 
   create_table "schedules", force: :cascade do |t|
@@ -228,7 +232,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "pass_td"
     t.integer "pass_long"
     t.integer "int"
-    t.integer "pass_sck"
     t.integer "rush_att"
     t.integer "rush_yds"
     t.integer "rush_long"
@@ -268,6 +271,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "kr_td"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.float "qb_rtng"
+    t.float "rush_ypc"
   end
 
   create_table "suspendeds", force: :cascade do |t|
@@ -285,7 +290,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "pass_yards"
     t.integer "pass_td"
     t.integer "int"
-    t.integer "pass_sck"
     t.integer "rush_att"
     t.integer "rush_yds"
     t.integer "rush_td"
@@ -317,6 +321,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_19_100411) do
     t.integer "kr_yards"
     t.integer "kr_long"
     t.integer "kr_td"
+    t.float "qb_rtng"
+    t.float "rush_ypc"
   end
 
 end
