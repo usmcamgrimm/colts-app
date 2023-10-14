@@ -1,13 +1,115 @@
 Injured.create!([
   # Injured/Reserve
-  { name: 'Anthony Richardson', number: '5', position: 'QB', exp: 0, status: 'IR', college: 'Florida', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429084.png&w=350&h=254' },
-  { name: 'Ashton Dulin', number: '16', position: 'WR', exp: 5, status: 'IR', college: 'Malone University', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254' },
-  { name: 'Evan Hull', number: '26', position: 'RB', exp: 0, status: 'IR', college: 'Northwestern', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569609.png&w=350&h=254' },
-  { name: 'Daniel Scott', number: '31', position: 'S', exp: 0, status: 'IR', college: 'California', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254' },
-  { name: 'Dallis Flowers', number: '33', position: 'CB', exp: 2, status: 'IR', college: 'Pittsburg State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254' },
-  { name: 'Danny Pinter', number: '63', position: 'G', exp: 4, status: 'IR', college: 'Ball State', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254' },
-  { name: 'Jake Witt', number: '76', position: 'T', exp: 0, status: 'IR', college: 'Northern Michigan', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5140684.png&w=350&h=254' },
-  { name: 'Jelani Woods', number: '80', position: 'TE', exp: 2, status: 'IR', college: 'Virginia', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241410.png&w=350&h=254' },
-  { name: 'Titus Leo', number: '91', position: 'DE', exp: 0, status: 'IR', college: 'Wagner', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254' },
-  { name: 'Genard Avery', number: '92', position: 'DE', exp: 6, status: 'IR', college: 'Memphis', photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254' },
+  { 
+    name: 'Anthony Richardson', 
+    number: '5', 
+    position: 'QB', 
+    exp: 0, 
+    status: 'IR', 
+    college: 'Florida', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429084.png&w=350&h=254',
+    pass_att: 84,
+    comp: 50,
+    pass_yards: 577,
+    pass_td: 3,
+    int: 1 
+    rush_att: 25, 
+    rush_yds: 136, 
+    rush_ypc: 5.4,
+    rush_td: 4
+  },
+  { 
+    name: 'Ashton Dulin', 
+    number: '16', 
+    position: 'WR', 
+    exp: 5, 
+    status: 'IR', 
+    college: 'Malone University', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254' 
+  },
+  { 
+    name: 'Evan Hull', 
+    number: '26', 
+    position: 'RB', 
+    exp: 0, 
+    status: 'IR', 
+    college: 'Northwestern', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569609.png&w=350&h=254' 
+    rec: 1, 
+    rec_yards: 6, 
+    rec_td: 0, 
+    rush_att: 1, 
+    rush_yds: 1, 
+    rush_ypc: 1.0,
+    rush_td: 0 
+  },
+  { 
+    name: 'Daniel Scott', 
+    number: '31', 
+    position: 'S', 
+    exp: 0, 
+    status: 'IR', 
+    college: 'California', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254' 
+  },
+  { 
+    name: 'Dallis Flowers', 
+    number: '33', 
+    position: 'CB', 
+    exp: 2, 
+    status: 'IR', 
+    college: 'Pittsburg State', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254',
+    tackles: 15,
+    solo_tackles: 11,
+    assist: 4,
+    def_sacks: 0.0,
+    safety: 0,
+    def_fumble: 0 
+  },
+  { 
+    name: 'Danny Pinter', 
+    number: '63', 
+    position: 'G', 
+    exp: 4, 
+    status: 'IR', 
+    college: 'Ball State', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254' 
+  },
+  { 
+    name: 'Jake Witt', 
+    number: '76', 
+    position: 'T', 
+    exp: 0, 
+    status: 'IR', 
+    college: 'Northern Michigan', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5140684.png&w=350&h=254' 
+  },
+  { 
+    name: 'Jelani Woods', 
+    number: '80', 
+    position: 'TE', 
+    exp: 2, 
+    status: 'IR', 
+    college: 'Virginia', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241410.png&w=350&h=254' 
+  },
+  { 
+    name: 'Titus Leo', 
+    number: '91', 
+    position: 'DE', 
+    exp: 0, 
+    status: 'IR', 
+    college: 'Wagner', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254' 
+  },
+  { 
+    name: 'Genard Avery', 
+    number: '92', 
+    position: 'DE', 
+    exp: 6, 
+    status: 'IR', 
+    college: 'Memphis', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254' 
+  },
 ])
