@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_10_14_165939) do
+ActiveRecord::Schema[7.0].define(version: 2023_10_14_173528) do
   create_table "injureds", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -34,7 +34,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_14_165939) do
     t.integer "rec_td"
     t.integer "tackles"
     t.integer "solo_tackles"
-    t.integer "def_sacks"
+    t.float "def_sacks"
     t.integer "safety"
     t.integer "def_fumble"
     t.integer "def_int"
@@ -84,7 +84,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_14_165939) do
     t.integer "rec_td"
     t.integer "tackles"
     t.integer "solo_tackles"
-    t.integer "def_sacks"
+    t.float "def_sacks"
     t.integer "safety"
     t.integer "def_fumble"
     t.integer "def_int"
@@ -134,7 +134,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_14_165939) do
     t.integer "rec_td"
     t.integer "tackles"
     t.integer "solo_tackles"
-    t.integer "def_sacks"
+    t.float "def_sacks"
     t.integer "safety"
     t.integer "def_fumble"
     t.integer "def_int"
@@ -184,7 +184,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_14_165939) do
     t.integer "rec_td"
     t.integer "tackles"
     t.integer "solo_tackles"
-    t.integer "def_sacks"
+    t.float "def_sacks"
     t.integer "safety"
     t.integer "def_fumble"
     t.integer "def_int"
@@ -243,11 +243,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_14_165939) do
     t.integer "tackles"
     t.integer "solo_tackles"
     t.integer "assist"
-    t.integer "def_sacks"
+    t.float "def_sacks"
     t.integer "safety"
     t.integer "def_fumble"
     t.integer "def_int"
-    t.integer "def_tards"
     t.integer "def_td"
     t.integer "fg_1to19"
     t.integer "fg_20to29"
@@ -298,7 +297,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_14_165939) do
     t.integer "rec_td"
     t.integer "tackles"
     t.integer "solo_tackles"
-    t.integer "def_sacks"
+    t.float "def_sacks"
     t.integer "safety"
     t.integer "def_fumble"
     t.integer "def_int"
