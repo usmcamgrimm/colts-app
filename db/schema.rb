@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_10_15_161235) do
+ActiveRecord::Schema[7.0].define(version: 2023_10_15_163031) do
   create_table "injureds", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -62,6 +62,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_161235) do
     t.integer "kr_fc"
     t.integer "kr_lng"
     t.float "kr_yds_ret"
+    t.integer "assist"
   end
 
   create_table "players", force: :cascade do |t|
@@ -115,6 +116,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_161235) do
     t.integer "kr_fc"
     t.integer "kr_lng"
     t.float "kr_yds_ret"
+    t.integer "assist"
   end
 
   create_table "pracsquads", force: :cascade do |t|
@@ -168,6 +170,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_161235) do
     t.integer "kr_fc"
     t.integer "kr_lng"
     t.float "kr_yds_ret"
+    t.integer "assist"
   end
 
   create_table "pups", force: :cascade do |t|
@@ -221,6 +224,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_161235) do
     t.integer "kr_fc"
     t.integer "kr_lng"
     t.float "kr_yds_ret"
+    t.integer "assist"
   end
 
   create_table "schedules", force: :cascade do |t|
@@ -341,6 +345,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_161235) do
     t.integer "kr_fc"
     t.integer "kr_lng"
     t.float "kr_yds_ret"
+    t.integer "assist"
   end
 
 end
