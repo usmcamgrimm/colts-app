@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
+ActiveRecord::Schema[7.0].define(version: 2023_10_15_155301) do
   create_table "injureds", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -48,7 +48,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.integer "punt"
     t.integer "punt_yards"
     t.integer "punt_in20"
-    t.integer "punt_blk"
     t.integer "pr_ret"
     t.integer "pr_yds_ret"
     t.integer "pr_td"
@@ -59,6 +58,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.float "qb_rtng"
     t.float "rush_ypc"
     t.float "punt_avg"
+    t.integer "punt_lng"
   end
 
   create_table "players", force: :cascade do |t|
@@ -98,7 +98,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.integer "punt"
     t.integer "punt_yards"
     t.integer "punt_in20"
-    t.integer "punt_blk"
     t.integer "pr_ret"
     t.integer "pr_yds_ret"
     t.integer "pr_td"
@@ -109,6 +108,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.float "qb_rtng"
     t.float "rush_ypc"
     t.float "punt_avg"
+    t.integer "punt_lng"
   end
 
   create_table "pracsquads", force: :cascade do |t|
@@ -148,7 +148,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.integer "punt"
     t.integer "punt_yards"
     t.integer "punt_in20"
-    t.integer "punt_blk"
     t.integer "pr_ret"
     t.integer "pr_yds_ret"
     t.integer "pr_td"
@@ -159,6 +158,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.float "qb_rtng"
     t.float "rush_ypc"
     t.float "punt_avg"
+    t.integer "punt_lng"
   end
 
   create_table "pups", force: :cascade do |t|
@@ -198,7 +198,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.integer "punt"
     t.integer "punt_yards"
     t.integer "punt_in20"
-    t.integer "punt_blk"
     t.integer "pr_ret"
     t.integer "pr_yds_ret"
     t.integer "pr_td"
@@ -209,6 +208,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.float "qb_rtng"
     t.float "rush_ypc"
     t.float "punt_avg"
+    t.integer "punt_lng"
   end
 
   create_table "schedules", force: :cascade do |t|
@@ -257,7 +257,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.integer "punt"
     t.integer "punt_yards"
     t.integer "punt_long"
-    t.integer "punt_blk"
     t.integer "punt_in20"
     t.integer "pr_ret"
     t.integer "pr_yds_ret"
@@ -272,6 +271,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.float "qb_rtng"
     t.float "rush_ypc"
     t.float "punt_avg"
+    t.integer "punt_lng"
   end
 
   create_table "suspendeds", force: :cascade do |t|
@@ -311,7 +311,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.integer "punt"
     t.integer "punt_yards"
     t.integer "punt_in20"
-    t.integer "punt_blk"
     t.integer "pr_ret"
     t.integer "pr_yds_ret"
     t.integer "pr_td"
@@ -322,6 +321,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_154306) do
     t.float "qb_rtng"
     t.float "rush_ypc"
     t.float "punt_avg"
+    t.integer "punt_lng"
   end
 
 end
