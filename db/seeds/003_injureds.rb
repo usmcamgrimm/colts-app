@@ -12,7 +12,7 @@ Injured.create!([
     comp: 50,
     pass_yards: 577,
     pass_td: 3,
-    int: 1 
+    int: 1, 
     rush_att: 25, 
     rush_yds: 136, 
     rush_ypc: 5.4,
@@ -34,7 +34,7 @@ Injured.create!([
     exp: 0, 
     status: 'IR', 
     college: 'Northwestern', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569609.png&w=350&h=254' 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569609.png&w=350&h=254', 
     rec: 1, 
     rec_yards: 6, 
     rec_td: 0, 
@@ -65,7 +65,12 @@ Injured.create!([
     assist: 4,
     def_sacks: 0.0,
     safety: 0,
-    def_fumble: 0 
+    def_fumble: 0,
+    kr_ret: 1,
+    kr_fc: 2,
+    kr_yds_ret: 19.0,
+    kr_lng: 19,
+    kr_td: 0 
   },
   { 
     name: 'Danny Pinter', 
