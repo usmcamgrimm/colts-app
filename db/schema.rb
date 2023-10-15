@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_10_15_160347) do
+ActiveRecord::Schema[7.0].define(version: 2023_10_15_161235) do
   create_table "injureds", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -52,7 +52,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_160347) do
     t.float "pr_yds_ret"
     t.integer "pr_td"
     t.integer "kr_ret"
-    t.integer "kr_long"
     t.integer "kr_td"
     t.float "qb_rtng"
     t.float "rush_ypc"
@@ -106,7 +105,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_160347) do
     t.float "pr_yds_ret"
     t.integer "pr_td"
     t.integer "kr_ret"
-    t.integer "kr_long"
     t.integer "kr_td"
     t.float "qb_rtng"
     t.float "rush_ypc"
@@ -160,7 +158,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_160347) do
     t.float "pr_yds_ret"
     t.integer "pr_td"
     t.integer "kr_ret"
-    t.integer "kr_long"
     t.integer "kr_td"
     t.float "qb_rtng"
     t.float "rush_ypc"
@@ -214,7 +211,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_160347) do
     t.float "pr_yds_ret"
     t.integer "pr_td"
     t.integer "kr_ret"
-    t.integer "kr_long"
     t.integer "kr_td"
     t.float "qb_rtng"
     t.float "rush_ypc"
@@ -280,7 +276,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_160347) do
     t.integer "pr_long"
     t.integer "kr_ret"
     t.integer "kr_yards"
-    t.integer "kr_long"
     t.integer "kr_td"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -336,7 +331,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_15_160347) do
     t.float "pr_yds_ret"
     t.integer "pr_td"
     t.integer "kr_ret"
-    t.integer "kr_long"
     t.integer "kr_td"
     t.float "qb_rtng"
     t.float "rush_ypc"
