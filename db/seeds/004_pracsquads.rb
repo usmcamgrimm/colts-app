@@ -28,22 +28,13 @@ Pracsquad.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240380.png&w=350&h=254'
   },
   { 
-    name: 'Racey MccMath',
+    name: 'Tyrie Cleveland',
     number: '15',
     position: 'WR',
-    exp: 3,
+    exp: 4,
     status: 'Practice Squad',
-    college: 'LSU',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242231.png&w=350&h=254'
-  },
-  { 
-    name: 'Anthony Miller',
-    number: '17',
-    position: 'WR',
-    exp: 5,
-    status: 'Practice Squad',
-    college: 'Memphis',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3050487.png&w=350&h=254'
+    college: 'Florida',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4034964.png&w=350&h=254'
   },
   { 
     name: 'Darren Hall',
@@ -62,6 +53,15 @@ Pracsquad.create!([
     status: 'Practice Squad',
     college: 'Iowa',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429676.png&w=350&h=254'
+  },
+  { 
+    name: 'Zavier Scott',
+    number: '34',
+    position: 'RB',
+    exp: 0,
+    status: 'Practice Squad',
+    college: 'Maine',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4257364.png&w=350&h=254'
   },
   { 
     name: 'Chris Lammons',
@@ -86,7 +86,7 @@ Pracsquad.create!([
     number: '37',
     position: 'CB',
     exp: 2,
-    status: 'Practice Squad - Injured',
+    status: 'Practice Squad',
     college: 'USC',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374301.png&w=350&h=254'
   },
@@ -116,15 +116,6 @@ Pracsquad.create!([
     status: 'Practice Squad',
     college: 'Alabama',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3859006.png&w=350&h=254'
-  },
-  { 
-    name: 'Dakoda Shepley',
-    number: '65',
-    position: 'C',
-    exp: 2,
-    status: 'Practice Squad',
-    college: 'University of British Columbia',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4335942.png&w=350&h=254'
   },
   { 
     name: 'Lewis Kidd',
