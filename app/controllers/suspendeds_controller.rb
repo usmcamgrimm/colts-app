@@ -1,4 +1,4 @@
-class SuspendedController < ApplicationController
+class SuspendedsController < ApplicationController
 
   def show
     @suspended = Suspended.find(params[:id])
