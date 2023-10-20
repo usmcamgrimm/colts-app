@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get "pracsquads/:id" => "pracsquads#show", as: "pracsquad"
   get "suspendeds/:id" => "suspendeds#show", as: "suspended"
   get "schedule" => "schedule#index"
+  patch "players/:id" => "players#update"
 end
