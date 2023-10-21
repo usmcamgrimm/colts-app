@@ -13,15 +13,6 @@ Player.create!([
     rec_td: 1 
   },
   { 
-    name: 'Amari Rodgers', 
-    number: '3', 
-    position: 'WR', 
-    exp: 3, 
-    status: 'Active', 
-    college: 'Clemson', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239992.png&w=350&h=254' 
-  },
-  { 
     name: 'Sam Ehlinger', 
     number: '4', 
     position: 'QB', 
@@ -264,6 +255,15 @@ Player.create!([
     def_fumble: 0,
     def_int: 1,
     def_td: 0
+  },
+  { 
+    name: 'Ameer Speed', 
+    number: '37', 
+    position: 'CB', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Michigan State', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259546.png&w=350&h=254' 
   },
   { 
     name: 'Tony Brown', 
