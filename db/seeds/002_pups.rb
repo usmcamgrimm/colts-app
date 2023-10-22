@@ -1,3 +1,0 @@
-Pup.create!([
-  # PUP/NFI
-])
