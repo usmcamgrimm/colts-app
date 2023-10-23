@@ -65,8 +65,8 @@ Schedule.create!([
     gamedate: '22-10-2023',
     gametime: '1:00PM',
     location: 'home',
-    result: '',
-    score: '',
+    result: 'L',
+    score: '38-39',
     oppname: 'Cleveland Browns',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/cle.png&h=200&w=200'
   },
