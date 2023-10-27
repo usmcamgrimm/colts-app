@@ -241,6 +241,63 @@ section.edit-player {
 .stats-section {
   margin-top: 36px;
 }
+.form-container {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+.edit-fields {
+  margin-top: 8px;
+}
+/* .form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 12px;
+} */
+.form-label {
+  color: #10252c;
+  margin-bottom: 4px;
+}
+input,
+select,
+textarea {
+  border: 2px solid #10252c;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 1rem;
+  display: block;
+  box-sizing: border-box;
+  width: 60%;
+  padding: 4px;
+}
+.form-label {
+  display: inline-block;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+}
+.submit-button {
+  font-size: 1rem;
+  background: #013369;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  width: 60%;
+}
+.submit-button:hover {
+  background: #10252c;
+  text-decoration: underline;
+  cursor: pointer;
+}
 @media screen and (max-width: 500px) {
   .player-container {
     display: flex;
