@@ -298,6 +298,14 @@ textarea {
   text-decoration: underline;
   cursor: pointer;
 }
+.statsList {
+  margin-bottom: 12px;
+}
+.playerStats {
+  color: #013369;
+  font-size: 1.1rem;
+  margin-top: 4px;
+}
 @media screen and (max-width: 500px) {
   .player-container {
     display: flex;
