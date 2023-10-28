@@ -9,6 +9,7 @@
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  color: #10252c;
 }
 header {
   background-color: #013369;
@@ -84,6 +85,17 @@ h3 {
   margin-left: 1rem;
   padding-top: 1px;
   margin-bottom: 1.25rem;
+}
+.stadium-location {
+  margin-top: 1rem;
+}
+.stadium-location a {
+  text-decoration: underline;
+}
+.stadium-location a:hover {
+  color: #013369;
+  border-bottom: 2px solid #013369;
+  text-decoration: none;
 }
 .game-divider {
   background: #013369;
@@ -185,7 +197,7 @@ section.player-section {
   flex-flow: row nowrap;
   justify-content: flex-start;
 }
-.week, .gameDate, .gameTime, .oppName, .result, .score {
+.week, .gameDate, .gameTime, .oppName, .result, .score, .stadium-location {
   font-size: 1.23rem;
 }
 .week {
@@ -203,7 +215,6 @@ section.player-section {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 1rem;
 }
 .away-game {
   font-weight: bold;
