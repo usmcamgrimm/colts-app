@@ -397,7 +397,7 @@ Player.create!([
     number: '35',
     position: 'CB',
     exp: 4,
-    status: 'Active',
+    status: 'PS',
     college: 'South Carolina',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254'
   },
@@ -956,7 +956,7 @@ Player.create!([
     number: '98',
     position: 'DT',
     exp: 3,
-    status: 'Active',
+    status: 'PS',
     college: 'Arkansas',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254'
   },
