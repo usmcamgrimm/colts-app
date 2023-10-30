@@ -89,8 +89,9 @@ Schedule.create!([
     gamedate: '29-10-2023',
     gametime: '1:00PM',
     location: 'home',
-    result: '',
-    score: '', oppname: 'New Orleans Saints',
+    result: 'L',
+    score: '27-38',
+    oppname: 'New Orleans Saints',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/no.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6'
