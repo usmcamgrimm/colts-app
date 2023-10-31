@@ -404,6 +404,15 @@ Player.create!([
     solo_tackles: 1
   },
   { 
+    name: 'Tyreeque Jones',
+    number: '36',
+    position: 'S',
+    exp: 0,
+    status: 'PS',
+    college: 'Boise State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4260443.png&w=350&h=254'
+  },
+  { 
     name: 'Isaac Taylor-Stuart',
     number: '37',
     position: 'CB',
@@ -720,15 +729,6 @@ Player.create!([
     status: 'Active', 
     college: 'Iowa', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040166.png&w=350&h=254' 
-  },
-  { 
-    name: 'Ross Blacklock',
-    number: '69',
-    position: 'DT',
-    exp: 4,
-    status: 'PS',
-    college: 'TCU',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4038557.png&w=350&h=254'
   },
   { 
     name: 'Braden Smith', 
