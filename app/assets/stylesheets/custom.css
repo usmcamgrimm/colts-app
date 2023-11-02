@@ -87,7 +87,7 @@ h3 {
   margin-bottom: 1.25rem;
 }
 .stadium-location {
-  margin-top: 1rem;
+  margin: 1.25rem 0 1rem 0;
 }
 .stadium-location a {
   text-decoration: underline;
@@ -99,8 +99,8 @@ h3 {
 }
 .game-divider {
   background: #013369;
-  width: 60%;
-  margin-bottom: 1.25rem;
+  width: 80%;
+  margin: 1.25rem;
 }
 .game-divider:last-child {
   display: none;
@@ -365,7 +365,10 @@ textarea {
   .score {
     font-size: 18px;
   }
-  .stats-section {
-    
+  .opponent {
+    padding: 0;
+  }
+  .oppCity {
+    display: none;
   }
 }
