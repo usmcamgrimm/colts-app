@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_10_28_172343) do
+ActiveRecord::Schema[7.0].define(version: 2023_11_02_101625) do
   create_table "injureds", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -240,6 +240,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_28_172343) do
     t.string "score"
     t.string "stadium"
     t.text "map"
+    t.string "oppcity"
   end
 
   create_table "stats", force: :cascade do |t|

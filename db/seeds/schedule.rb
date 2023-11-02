@@ -7,7 +7,8 @@ Schedule.create!([
     location: 'home',
     result: 'L',
     score: '21-31',
-    oppname: 'Jacksonville Jaguars',
+    oppcity: 'Jacksonville',
+    oppname: 'Jaguars',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/jax.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6'
@@ -19,7 +20,8 @@ Schedule.create!([
     location: 'away',
     result: 'W',
     score: '31-20 ',
-    oppname: 'Houston Texans',
+    oppcity: 'Houston',
+    oppname: 'Texans',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/hou.png&h=200&w=200',
     stadium: 'NRG Stadium',
     map: 'https://maps.app.goo.gl/Rn65v4AKkgNgHQDr7'
@@ -31,7 +33,8 @@ Schedule.create!([
     location: 'away',
     result: 'W',
     score: '22-19',
-    oppname: 'Baltimore Ravens',
+    oppcity: 'Baltimore',
+    oppname: 'Ravens',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/bal.png&h=200&w=200',
     stadium: 'M&T Bank Stadium',
     map: 'https://maps.app.goo.gl/Td2KScyke6YF4rj9A'
@@ -43,7 +46,8 @@ Schedule.create!([
     location: 'home',
     result: 'L',
     score: '23-29',
-    oppname: 'LA Rams',
+    oppcity: 'Los Angeles',
+    oppname: 'Rams',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/lar.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6'
@@ -55,7 +59,8 @@ Schedule.create!([
     location: 'home',
     result: 'W',
     score: '23-16',
-    oppname: 'Tennessee Titans',
+    oppcity: 'Tennessee',
+    oppname: 'Titans',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ten.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6'
@@ -67,7 +72,8 @@ Schedule.create!([
     location: 'away',
     result: 'L',
     score: '20-37',
-    oppname: 'Jacksonville Jaguars',
+    oppcity: 'Jacksonville',
+    oppname: 'Jaguars',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/jax.png&h=200&w=200',
     stadium: 'Everbank Stadium',
     map: 'https://maps.app.goo.gl/UTR1xnoTcK1bAGtK9'
@@ -79,7 +85,8 @@ Schedule.create!([
     location: 'home',
     result: 'L',
     score: '38-39',
-    oppname: 'Cleveland Browns',
+    oppcity: 'Cleveland',
+    oppname: 'Browns',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/cle.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6'
@@ -91,7 +98,8 @@ Schedule.create!([
     location: 'home',
     result: 'L',
     score: '27-38',
-    oppname: 'New Orleans Saints',
+    oppcity: 'New Orleans',
+    oppname: 'Saints',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/no.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6'
@@ -103,7 +111,8 @@ Schedule.create!([
     location: 'away',
     result: '',
     score: '',
-    oppname: 'Carolina Panthers',
+    oppcity: 'Carolina',
+    oppname: 'Panthers',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/car.png&h=200&w=200',
     stadium: 'Bank of America Stadium',
     map: 'https://maps.app.goo.gl/fh1A1RGx3AvJzhcdA'
@@ -115,7 +124,8 @@ Schedule.create!([
     location: 'away',
     result: '',
     score: '',
-    oppname: 'New England Patriots',
+    oppcity: 'New England',
+    oppname: 'Patriots',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ne.png&h=200&w=200',
     stadium: 'Deutsche Bank Park',
     map: 'https://maps.app.goo.gl/PaMFTEi8Dj2wFBYT8'
@@ -131,7 +141,8 @@ Schedule.create!([
     location: 'home',
     result: '',
     score: '',
-    oppname: 'Tampa Bay Buccaneers',
+    oppcity: 'Tampa Bay',
+    oppname: 'Buccaneers',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/tb.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6'
@@ -143,7 +154,8 @@ Schedule.create!([
     location: 'away',
     result: '',
     score: '',
-    oppname: 'Tennessee Titans',
+    oppcity: 'Tennessee',
+    oppname: 'Titans',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ten.png&h=200&w=200',
     stadium: 'Nissan Stadium',
     map: 'https://maps.app.goo.gl/4ptMhmc13gTWMYri7'
@@ -155,7 +167,8 @@ Schedule.create!([
     location: 'away',
     result: '',
     score: '',
-    oppname: 'Cincinnati Bengals',
+    oppcity: 'Cincinnati',
+    oppname: 'Bengals',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/cin.png&h=200&w=200',
     stadium: 'Paycor Stadium',
     map: 'https://maps.app.goo.gl/r72zDuZE8yskC4mYA'
@@ -167,7 +180,8 @@ Schedule.create!([
     location: 'home',
     result: '',
     score: '',
-    oppname: 'Pittsburgh Steelers',
+    oppcity: 'Pittsburgh',
+    oppname: 'Steelers',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/pit.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6'
@@ -179,7 +193,8 @@ Schedule.create!([
     location: 'away',
     result: '',
     score: '',
-    oppname: 'Atlanta Falcons',
+    oppcity: 'Atlanta',
+    oppname: 'Falcons',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/atl.png&h=200&w=200',
     stadium: 'Mercedes-Benz Stadium',
     map: 'https://maps.app.goo.gl/fXoJJ1LqZDmyNbDD7'
@@ -191,7 +206,8 @@ Schedule.create!([
     location: 'home',
     result: '',
     score: '',
-    oppname: 'Las Vegas Raiders',
+    oppcity: 'Las Vegas',
+    oppname: 'Raiders',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/lv.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6'
@@ -203,7 +219,8 @@ Schedule.create!([
     location: 'home',
     result: '',
     score: '',
-    oppname: 'Houston Texans',
+    oppcity: 'Houston',
+    oppname: 'Texans',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/hou.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6'
