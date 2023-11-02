@@ -99,8 +99,7 @@ h3 {
 }
 .game-divider {
   background: #013369;
-  width: 40%;
-  margin: 0 auto;
+  width: 60%;
   margin-bottom: 1.25rem;
 }
 .game-divider:last-child {
@@ -182,11 +181,7 @@ section.player-section {
 .status, .xp, .college {
   font-size: 1.15rem;
 }
-.week-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+.regseason {
   padding: 1.5rem;
 }
 .week-info:last-child {
@@ -197,8 +192,17 @@ section.player-section {
   flex-flow: row nowrap;
   justify-content: flex-start;
 }
-.week, .gameDate, .gameTime, .oppName, .result, .score, .stadium-location {
+.opponent {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding-left: 1rem;
+}
+.week, .gameDate, .gameTime, .oppCity, .oppName, .result, .score, .stadium-location {
   font-size: 1.23rem;
+}
+.oppName {
+  padding: 0 1rem 0 8px;
 }
 .week {
   font-weight: bold;
@@ -216,17 +220,10 @@ section.player-section {
   justify-content: flex-start;
   align-items: center;
 }
-.away-game {
+.away-game, .home-game {
   font-weight: bold;
   font-size: 1.23rem;
   padding-right: 12px;
-}
-.home-game {
-  padding-right: 1rem;
-}
-.oppName {
-  padding-right: 1rem;
-  padding-left: 2rem;
 }
 .game-result {
   display: flex;

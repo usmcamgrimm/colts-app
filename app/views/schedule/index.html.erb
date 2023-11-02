@@ -29,14 +29,19 @@
         <% if schedule.location == "away" %>
           <p class="away-game">@</p>
         <% else %>
-          <p class="home-game"> </p>
+          <p class="home-game">vs</p>
         <% end %>
         <% if schedule.oppimage.present? %>
           <%= image_tag schedule.oppimage, class: "teamImage", alt: "Opponent team logo" %>
-          <% end %>
-        <p class="oppName">
-          <%= schedule.oppname %>
-        </p>
+        <% end %>
+        <div class="opponent">
+          <p class="oppCity">
+            <%= schedule.oppcity %>
+          </p>
+          <p class="oppName">
+            <%= schedule.oppname %>
+          </p>
+        </div>
         <div class="game-result">
           <p class="result">
             <%= schedule.result %>
