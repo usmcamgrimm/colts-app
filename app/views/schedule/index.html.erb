@@ -1,5 +1,5 @@
 <div class="schedule-header">
-  <h2>
+  <h2 class="season-header">
     2023 Regular Season
   </h2>
 </div>
@@ -19,36 +19,40 @@
           <%= gametime(schedule) %>
         </p>
       </div>
-      <div class="stadium-location">
-        <%= link_to schedule.map, target: :_blank do %>
-          <%= schedule.stadium %>
-        <% end %>
-        </p>
-      </div>
       <div class="game-details">
-        <% if schedule.location == "away" %>
-          <p class="away-game">@</p>
-        <% else %>
-          <p class="home-game">vs</p>
-        <% end %>
-        <% if schedule.oppimage.present? %>
-          <%= image_tag schedule.oppimage, class: "teamImage", alt: "Opponent team logo" %>
-        <% end %>
-        <div class="opponent">
-          <p class="oppCity">
-            <%= schedule.oppcity %>
-          </p>
-          <p class="oppName">
-            <%= schedule.oppname %>
-          </p>
+        <div class="opp-details">
+          <% if schedule.location == "away" %>
+            <p class="away-game">@</p>
+          <% else %>
+            <p class="home-game">vs</p>
+          <% end %>
+          <% if schedule.oppimage.present? %>
+            <%= image_tag schedule.oppimage, class: "teamImage", alt: "Opponent team logo" %>
+          <% end %>
+          <div class="opponent">
+            <p class="oppCity">
+              <%= schedule.oppcity %>
+            </p>
+            <p class="oppName">
+              <%= schedule.oppname %>
+            </p>
+          </div>
+          <div class="game-result">
+            <p class="result">
+              <%= schedule.result %>
+            </p>
+            <p class="score">
+              <%= schedule.score %>
+            </p>
+          </div>
         </div>
-        <div class="game-result">
-          <p class="result">
-            <%= schedule.result %>
-          </p>
-          <p class="score">
-            <%= schedule.score %>
-          </p>
+        <div class="location-details">
+          <div class="stadium-location">
+            <%= link_to schedule.map, target: :_blank do %>
+              <%= schedule.stadium %>
+            <% end %>
+            </p>
+          </div>
         </div>
       </div>
     </div>

@@ -66,6 +66,10 @@ h2 {
   color: #10252c;
   margin: 1rem 0;
 }
+h2.season-header {
+  text-align: left;
+  margin-left: 24px;
+}
 h2 a {
   color: #10252c;
   text-decoration: none;
@@ -217,8 +221,20 @@ section.player-section {
 .game-details {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 12px 0 0 0;
+}
+.opp-details {
+  display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+.location-details {
+  display: flex;
+  justify-content: flex-end;
 }
 .away-game, .home-game {
   font-weight: bold;
