@@ -397,7 +397,7 @@ Player.create!([
     number: '35',
     position: 'CB',
     exp: 4,
-    status: 'PS',
+    status: 'Active',
     college: 'South Carolina',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254',
     tackles: 1,
