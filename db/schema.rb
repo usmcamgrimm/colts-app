@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_11_02_101625) do
+ActiveRecord::Schema[7.0].define(version: 2023_11_04_161121) do
   create_table "players", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -67,8 +67,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_02_101625) do
 
   create_table "schedules", force: :cascade do |t|
     t.integer "week"
-    t.date "gamedate"
-    t.time "gametime"
+    t.string "gamedate"
+    t.string "gametime"
     t.string "location"
     t.string "oppname"
     t.text "oppimage"

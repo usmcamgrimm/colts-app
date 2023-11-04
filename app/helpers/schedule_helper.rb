@@ -6,7 +6,7 @@ module ScheduleHelper
     elsif schedule.gamedate == 'TBD'
       "TBD"
     else
-      schedule.gamedate.strftime("%a %m/%d")
+      schedule.gamedate.strptime("%a %m/%d")
     end
   end
 
@@ -16,7 +16,7 @@ module ScheduleHelper
     elsif schedule.gametime == 'TBD'
       "TBD"
     else
-      schedule.gametime.strftime("%l:%M %p")
+      schedule.gametime.strptime("%l:%M %p")
     end
   end
 
