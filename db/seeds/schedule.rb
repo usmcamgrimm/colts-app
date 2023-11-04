@@ -2,7 +2,7 @@ Schedule.create!([
   # Regular Season Games
   { 
     week: '1',
-    gamedate: '10-09-2023',
+    gamedate: 'Sun 09/10',
     gametime: '1:00PM',
     location: 'home',
     result: 'L',
@@ -15,7 +15,7 @@ Schedule.create!([
   },
   { 
     week: '2',
-    gamedate: '17-09-2023',
+    gamedate: 'Sun 09/17',
     gametime: '1:00PM',
     location: 'away',
     result: 'W',
@@ -28,7 +28,7 @@ Schedule.create!([
   },
   { 
     week: '3',
-    gamedate: '24-09-2023',
+    gamedate: 'Sun 09/24',
     gametime: '1:00PM',
     location: 'away',
     result: 'W',
@@ -41,7 +41,7 @@ Schedule.create!([
   },
   { 
     week: '4',
-    gamedate: '01-10-2023',
+    gamedate: 'Sun 10/01',
     gametime: '1:00PM',
     location: 'home',
     result: 'L',
@@ -54,7 +54,7 @@ Schedule.create!([
   },
   { 
     week: '5',
-    gamedate: '08-10-2023',
+    gamedate: 'Sun 10/08',
     gametime: '1:00PM',
     location: 'home',
     result: 'W',
@@ -67,7 +67,7 @@ Schedule.create!([
   },
   { 
     week: '6',
-    gamedate: '15-10-2023',
+    gamedate: 'Sun 10/15',
     gametime: '1:00PM',
     location: 'away',
     result: 'L',
@@ -80,7 +80,7 @@ Schedule.create!([
   },
   { 
     week: '7',
-    gamedate: '22-10-2023',
+    gamedate: 'Sun 10/22',
     gametime: '1:00PM',
     location: 'home',
     result: 'L',
@@ -93,7 +93,7 @@ Schedule.create!([
   },
   { 
     week: '8',
-    gamedate: '29-10-2023',
+    gamedate: 'Sun 10/29',
     gametime: '1:00PM',
     location: 'home',
     result: 'L',
@@ -106,7 +106,7 @@ Schedule.create!([
   },
   { 
     week: '9',
-    gamedate: '05-11-2023',
+    gamedate: 'Sun 11/05',
     gametime: '4:05PM',
     location: 'away',
     result: '',
@@ -119,7 +119,7 @@ Schedule.create!([
   },
   { 
     week: '10',
-    gamedate: '12-11-2023',
+    gamedate: 'Sun 11/12',
     gametime: '9:30AM',
     location: 'away',
     result: '',
@@ -136,7 +136,7 @@ Schedule.create!([
   },
   {
     week: '12',
-    gamedate: '26-11-2023',
+    gamedate: 'Sun 11/26',
     gametime: '1:00PM',
     location: 'home',
     result: '',
@@ -149,7 +149,7 @@ Schedule.create!([
   },
   { 
     week: '13',
-    gamedate: '03-12-2023',
+    gamedate: 'Sun 12/03',
     gametime: '1:00PM',
     location: 'away',
     result: '',
@@ -162,7 +162,7 @@ Schedule.create!([
   },
   { 
     week: '14',
-    gamedate: '10-12-2023',
+    gamedate: 'Sun 12/10',
     gametime: '1:00PM',
     location: 'away',
     result: '',
@@ -188,7 +188,7 @@ Schedule.create!([
   },
   { 
     week: '16',
-    gamedate: '24-12-2023',
+    gamedate: 'Sun 12/24',
     gametime: '1:00PM',
     location: 'away',
     result: '',
@@ -201,7 +201,7 @@ Schedule.create!([
   },
   { 
     week: '17',
-    gamedate: '31-12-2023',
+    gamedate: 'Sun 12/31',
     gametime: '1:00PM',
     location: 'home',
     result: '',

@@ -6,7 +6,9 @@ module ScheduleHelper
     elsif schedule.gamedate == 'TBD'
       "TBD"
     else
-      schedule.gamedate.strptime("%a %m/%d")
+      date = Date.strptime(schedule.gamedate, "%a %m/%d")
+      formatted_date = date.strftime("%a %m/%d")
+      formatted_date
     end
   end
 
@@ -16,7 +18,9 @@ module ScheduleHelper
     elsif schedule.gametime == 'TBD'
       "TBD"
     else
-      schedule.gametime.strptime("%l:%M %p")
+      time = Time.strptime(schedule.gametime, "%l:%M %p")
+      formatted_time = time.strftime("%l:%M %p")
+      formatted_time
     end
   end
 
