@@ -1,6 +1,6 @@
 <h2>Updating <%= @player.name %>  </h2>
 
-<h3>Player Information</h3>
+<h3 class="update-title">Player Information</h3>
 
 <div class="form-container">
   <div class="edit-fields">
@@ -35,6 +35,10 @@
   </div>
 </div>
 
-<h3><%=  @player.name %> Stats Update</h3>
+<h3 class="stats-update"><%=  @player.name %> Stats Update</h3>
 
-<%= render "form", player: @player %>
+<div class="form-container">
+  <div class="edit-fields">
+    <%= render "form", player: @player %>
+  </div>
+</div>
