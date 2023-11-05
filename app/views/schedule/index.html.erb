@@ -7,54 +7,65 @@
 <div class="regseason">
   <% @schedules.each do |schedule| %>
     <div class="week-info">
-      <div class="row-header">
-        <p class="week">
-          Week <%= schedule.week %>
-        </p>
-        <p class="gameDate">
-          <%= gamedate(schedule) %>
-        </p>
-          &#x25CF;
-        <p class="gameTime">
-          <%= gametime(schedule) %>
-        </p>
-      </div>
-      <div class="game-details">
-        <div class="opp-details">
-          <% if schedule.location == "away" %>
-            <p class="away-game">@</p>
-          <% else %>
-            <p class="home-game">vs</p>
-          <% end %>
-          <% if schedule.oppimage.present? %>
-            <%= image_tag schedule.oppimage, class: "teamImage", alt: "Opponent team logo" %>
-          <% end %>
-          <div class="opponent">
-            <p class="oppCity">
-              <%= schedule.oppcity %>
-            </p>
-            <p class="oppName">
-              <%= schedule.oppname %>
-            </p>
-          </div>
-          <div class="game-result">
-            <p class="result">
-              <%= schedule.result %>
-            </p>
-            <p class="score">
-              <%= schedule.score %>
-            </p>
-          </div>
+      <% if schedule.week == 11 %>
+        <div class="row-header">
+          <p class="week">
+            Week <%= schedule.week %>
+          </p>
+          <p class="oppName">
+            <%= schedule.oppname %>
+          </p>
         </div>
-        <div class="location-details">
-          <div class="stadium-location">
-            <%= link_to schedule.map, target: :_blank do %>
-              <%= schedule.stadium %>
+      <% else %>
+        <div class="row-header">
+          <p class="week">
+            Week <%= schedule.week %>
+          </p>
+          <p class="gameDate">
+            <%= gamedate(schedule) %>
+          </p>
+            &#x25CF;
+          <p class="gameTime">
+            <%= gametime(schedule) %>
+          </p>
+        </div>
+        <div class="game-details">
+          <div class="opp-details">
+            <% if schedule.location == "away" %>
+              <p class="away-game">@</p>
+            <% else %>
+              <p class="home-game">vs</p>
             <% end %>
-            </p>
+            <% if schedule.oppimage.present? %>
+              <%= image_tag schedule.oppimage, class: "teamImage", alt: "Opponent team logo" %>
+            <% end %>
+            <div class="opponent">
+              <p class="oppCity">
+                <%= schedule.oppcity %>
+              </p>
+              <p class="oppName">
+                <%= schedule.oppname %>
+              </p>
+            </div>
+            <div class="game-result">
+              <p class="result">
+                <%= schedule.result %>
+              </p>
+              <p class="score">
+                <%= schedule.score %>
+              </p>
+            </div>
+          </div>
+          <div class="location-details">
+            <div class="stadium-location">
+              <%= link_to schedule.map, target: :_blank do %>
+                <%= schedule.stadium %>
+              <% end %>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+      <% end %>
     </div>
     <hr class="game-divider" />
   <% end %>
