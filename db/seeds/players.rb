@@ -57,22 +57,18 @@ Player.create!([
     college: 'Georgia', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254', 
     rec: 5, 
-    rec_yards: 39, 
-    rec_td: 0, 
+    rec_yards: 39,
     rush_att: 2, 
     rush_yds: 11, 
     rush_ypc: 5.5,
-    rush_td: 0,
     pr_ret: 17,
     pr_fc: 13,
     pr_yds_ret: 9.1,
     pr_lng: 32,
-    pr_td: 0,
     kr_ret: 3,
     kr_fc: 3,
     kr_yds_ret: 19.0,
-    kr_lng: 21,
-    kr_td: 0
+    kr_lng: 21
   },
   { 
     name: 'Matt Gay', 
@@ -170,8 +166,7 @@ Player.create!([
     college: 'Cincinnati', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360078.png&w=350&h=254', 
     rec: 17, 
-    rec_yards: 243, 
-    rec_td: 0
+    rec_yards: 243
   },
   { 
     name: 'Tyrie Cleveland',
@@ -201,10 +196,7 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426403.png&w=350&h=254',
     tackles: 8,
     solo_tackles: 7,
-    assist: 1,
-    def_sacks: 0.0,
-    safety: 0,
-    def_fumble: 0
+    assist: 1
   },
   {
     name: 'Zack Moss', 
@@ -234,8 +226,6 @@ Player.create!([
     solo_tackles: 46,
     assist: 15,
     def_sacks: 1.5,
-    safety: 0,
-    def_fumble: 0,
     def_int: 3,
     def_td: 2
   },
@@ -250,9 +240,6 @@ Player.create!([
     tackles: 26,
     solo_tackles: 22,
     assist: 4,
-    def_sacks: 0.0,
-    safety: 0,
-    def_fumble: 0,
     def_int: 1
   },
   { 
@@ -264,12 +251,10 @@ Player.create!([
     college: 'Northwestern', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569609.png&w=350&h=254', 
     rec: 1, 
-    rec_yards: 6, 
-    rec_td: 0, 
+    rec_yards: 6,
     rush_att: 1, 
     rush_yds: 1, 
-    rush_ypc: 1.0,
-    rush_td: 0 
+    rush_ypc: 1.0
   },
   { 
     name: 'Trey Sermon', 
@@ -280,12 +265,10 @@ Player.create!([
     college: 'Ohio State', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241401.png&w=350&h=254', 
     rec: 1, 
-    rec_yards: 4, 
-    rec_td: 0, 
+    rec_yards: 4,
     rush_att: 8, 
     rush_yds: 24, 
-    rush_ypc: 3.0,
-    rush_td: 0 
+    rush_ypc: 3.0
   },
   { 
     name: 'Jonathan Taylor', 
@@ -314,8 +297,6 @@ Player.create!([
     tackles: 24,
     solo_tackles: 20,
     assist: 4,
-    def_sacks: 0.0,
-    safety: 0,
     def_fumble: 1,
     def_int: 1
   },
@@ -357,11 +338,7 @@ Player.create!([
     tackles: 62,
     solo_tackles: 43,
     assist: 19,
-    def_sacks: 0.0,
-    safety: 0,
-    def_fumble: 0,
-    def_int: 2,
-    def_td: 0
+    def_int: 2
   },
   { 
     name: 'Dallis Flowers', 
@@ -374,14 +351,10 @@ Player.create!([
     tackles: 15,
     solo_tackles: 11,
     assist: 4,
-    def_sacks: 0.0,
-    safety: 0,
-    def_fumble: 0,
     kr_ret: 1,
     kr_fc: 2,
     kr_yds_ret: 19.0,
-    kr_lng: 19,
-    kr_td: 0 
+    kr_lng: 19
   },
   { 
     name: 'Zavier Scott',
@@ -441,8 +414,7 @@ Player.create!([
     tackles: 7,
     solo_tackles: 5,
     assist: 2,
-    def_int: 1,
-    def_td: 0
+    def_int: 1
   },
   { 
     name: 'Darrell Baker Jr.', 
@@ -454,10 +426,7 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036660.png&w=350&h=254',
     tackles: 16,
     solo_tackles: 13,
-    assist: 3,
-    def_sacks: 0.0,
-    safety: 0,
-    def_fumble: 0 
+    assist: 3
   },
   { 
     name: 'Jaylon Jones', 
@@ -481,10 +450,7 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240255.png&w=350&h=254',
     tackles: 6,
     solo_tackles: 5,
-    assist: 1,
-    def_sacks: 0.0,
-    safety: 0,
-    def_fumble: 0 
+    assist: 1
   },
   { 
     name: 'Marcel Dabo',
@@ -519,7 +485,6 @@ Player.create!([
     solo_tackles: 64,
     assist: 38,
     def_sacks: 1.5,
-    safety: 0,
     def_fumble: 1
   },
   { 
@@ -534,7 +499,6 @@ Player.create!([
     solo_tackles: 27,
     assist: 11,
     def_sacks: 1.0,
-    safety: 0,
     def_fumble: 1 
   },
   { 
@@ -575,9 +539,6 @@ Player.create!([
     tackles: 13,
     solo_tackles: 8,
     assist: 5,
-    def_sacks: 0.0,
-    safety: 0,
-    def_fumble: 0,
     def_int: 1
   },
   { 
@@ -591,9 +552,7 @@ Player.create!([
     tackles: 28,
     solo_tackles: 17,
     assist: 11,
-    def_sacks: 3.5,
-    safety: 0,
-    def_fumble: 0 
+    def_sacks: 3.5
   },
   { 
     name: 'Samson Ebukam', 
@@ -607,7 +566,6 @@ Player.create!([
     solo_tackles: 22,
     assist: 7,
     def_sacks: 4.0,
-    safety: 0,
     def_fumble: 1 
   },
   { 
@@ -620,10 +578,7 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3056362.png&w=350&h=254',
     tackles: 56,
     solo_tackles: 32,
-    assist: 24,
-    def_sacks: 0.0,
-    safety: 0,
-    def_fumble: 0 
+    assist: 24
   },
   { 
     name: 'Dayo Odeyingbo', 
@@ -637,7 +592,6 @@ Player.create!([
     solo_tackles: 11,
     assist: 7,
     def_sacks: 3.0,
-    safety: 0,
     def_fumble: 2 
   },
   { 
@@ -848,8 +802,7 @@ Player.create!([
     college: 'Miami', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362523.png&w=350&h=254', 
     rec: 3, 
-    rec_yards: 55, 
-    rec_td: 0 
+    rec_yards: 55
   },
   { 
     name: 'Grover Stewart', 
@@ -861,10 +814,7 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4058825.png&w=350&h=254',
     tackles: 20,
     solo_tackles: 13,
-    assist: 7,
-    def_sacks: 0.0,
-    safety: 0,
-    def_fumble: 0 
+    assist: 7
   },
   { 
     name: 'Titus Leo', 
@@ -906,10 +856,7 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050971.png&w=350&h=254',
     tackles: 7,
     solo_tackles: 3,
-    assist: 4,
-    def_sacks: 0.0,
-    safety: 0,
-    def_fumble: 0 
+    assist: 4 
   },
   { 
     name: 'Tyquan Lewis', 
@@ -948,7 +895,6 @@ Player.create!([
     solo_tackles: 10,
     assist: 4,
     def_sacks: 2.0,
-    safety: 0,
     def_fumble: 1 
   },
   { 
@@ -982,7 +928,6 @@ Player.create!([
     solo_tackles: 21,
     assist: 15,
     def_sacks: 5.0,
-    safety: 0,
     def_fumble: 2 
   }
 ])
