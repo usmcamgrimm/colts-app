@@ -1,9 +1,7 @@
 module ScheduleHelper
 
   def gamedate(schedule)
-    if schedule.bye?
-      ""
-    elsif schedule.gamedate == 'TBD'
+    if schedule.gamedate == 'TBD'
       "TBD"
     else
       date = Date.strptime(schedule.gamedate, "%a %m/%d")
@@ -13,22 +11,12 @@ module ScheduleHelper
   end
 
   def gametime(schedule)
-    if schedule.bye?
-      ""
-    elsif schedule.gametime == 'TBD'
+    if schedule.gametime == 'TBD'
       "TBD"
     else
       time = Time.strptime(schedule.gametime, "%l:%M %p")
       formatted_time = time.strftime("%l:%M %p")
       formatted_time
-    end
-  end
-
-  def oppimage(schedule)
-    if schedule.bye?
-      ""
-    else
-      schedule.oppimage
     end
   end
 
