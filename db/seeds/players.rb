@@ -120,15 +120,15 @@ Player.create!([
     status: 'Active', 
     college: 'Washington State', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4038524.png&w=350&h=254', 
-    pass_att: 202, 
-    comp: 128, 
-    pass_yards: 1400, 
-    pass_td: 7, 
+    pass_att: 228, 
+    comp: 145, 
+    pass_yards: 1527, 
+    pass_td: 8, 
     int: 5, 
-    qb_rtng: 85.0,
-    rush_att: 10, 
-    rush_yds: 40, 
-    rush_ypc: 4.0,
+    qb_rtng: 85.5,
+    rush_att: 15, 
+    rush_yds: 45, 
+    rush_ypc: 3.0,
     rush_td: 2
   },
   { 
@@ -930,7 +930,10 @@ Player.create!([
     exp: 0, 
     status: 'Active', 
     college: 'Northwestern', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254' 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254',
+    tackles: 2,
+    solo_tackles: 2,
+    def_sacks: 1.0
   },
   { 
     name: 'Taven Bryan', 
