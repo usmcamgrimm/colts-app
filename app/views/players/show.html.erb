@@ -21,9 +21,11 @@
     </div>
   </section>
 
-  <section class="edit-player">
-    <%= link_to "Edit Player", edit_player_path(@player), class: "edit-btn" %>
-  </section>
+  <% if Rails.env.development? %>
+    <section class="edit-player">
+      <%= link_to "Edit Player", edit_player_path(@player), class: "edit-btn" %>
+    </section>
+  <% end %>
 
   <div class="stats-section">
     <div class="stats-title">
