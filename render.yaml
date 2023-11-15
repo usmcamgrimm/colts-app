@@ -1,7 +1,7 @@
 databases:
   - name: coltsrails
     databaseName: coltsrails
-    user: coltsrails
+    user: usmcamgrimm
 
 services:
   - type: web
