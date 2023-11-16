@@ -110,7 +110,7 @@ h3.stats-update {
 .game-divider {
   background: #013369;
   width: 80%;
-  margin: 1.25rem;
+  margin: 8px 0 1rem 0;
 }
 .game-divider:last-child {
   display: none;
@@ -226,7 +226,7 @@ section.player-section {
 }
 .game-details {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
   width: 80%;
@@ -336,7 +336,7 @@ textarea {
   font-size: 1.1rem;
   margin-top: 4px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 819px) {
   .player-container {
     display: flex;
     flex-direction: column;
@@ -359,7 +359,7 @@ textarea {
     padding: 12px 0;
   }
   .week-info {
-    padding: 16px 0 12px 8px;
+    padding: 0 0 0 8px;
   }
   .away-game {
     font-size: 12px;
