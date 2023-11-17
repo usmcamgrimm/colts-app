@@ -82,6 +82,7 @@ h3 {
   font-size: 1.75rem;
   font-weight: bold;
   color: #013369;
+  font-size: clamp(1.25rem, 5vw, 1.75rem)
 }
 h3.update-title {
   margin: 0 0 12px 1rem;
@@ -349,6 +350,7 @@ textarea {
     align-items: center;
     padding: 0;
     width: 80vw;
+    height: 40vh;
   }
   .player-header {
     display: flex;
@@ -357,6 +359,13 @@ textarea {
     align-items: center;
     margin: 0 auto;
     padding: 12px 0;
+  }
+  .stats-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 0
   }
   .week-info {
     padding: 0 0 0 8px;
