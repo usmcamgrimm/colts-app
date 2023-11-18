@@ -338,6 +338,10 @@ textarea {
   margin-top: 4px;
 }
 @media screen and (max-width: 819px) {
+  section.player-section {
+    padding: 0;
+    margin: 1rem 3rem;
+  }
   .player-container {
     display: flex;
     flex-direction: column;
@@ -357,8 +361,23 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin-bottom: 1rem;
     padding: 12px 0;
+  }
+  .playerShow {
+    max-width: 50vw;
+    height: auto;
+  }
+  .player-details {
+    padding: 0;
+  }
+  section.edit-player {
+    padding-top: 64px;
+    margin-bottom: 1.5rem;
+  }
+  .edit-btn {
+    padding: 12px 36px;
+    margin: 0 auto;
   }
   .stats-section {
     display: flex;
