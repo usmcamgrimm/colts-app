@@ -245,7 +245,7 @@ section.player-section {
 }
 .away-game, .home-game {
   font-weight: bold;
-  font-size: 1.23rem;
+  font-size: 1rem;
   padding-right: 12px;
 }
 .game-result {
@@ -389,8 +389,7 @@ textarea {
   .week-info {
     padding: 0 0 0 8px;
   }
-  .away-game {
-    font-size: 12px;
+  .away-game, .home-game {
     padding-right: 4px;
   }
   .teamImage {
