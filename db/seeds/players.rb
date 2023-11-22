@@ -569,18 +569,6 @@ Player.create!([
     def_fumble: 1 
   },
   { 
-    name: 'Shaquille Leonard', 
-    number: '53', 
-    position: 'LB', 
-    exp: 6, 
-    status: 'Active', 
-    college: 'South Carolina State', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3056362.png&w=350&h=254',
-    tackles: 65,
-    solo_tackles: 34,
-    assist: 31
-  },
-  { 
     name: 'Dayo Odeyingbo', 
     number: '54', 
     position: 'DE', 
