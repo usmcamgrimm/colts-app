@@ -529,6 +529,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3859006.png&w=350&h=254'
   },
   { 
+    name: 'Brandon Wilson',
+    number: '49',
+    position: 'S',
+    exp: 7,
+    status: 'PS',
+    college: 'Houston',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2982632.png&w=350&h=254'
+  },
+  { 
     name: 'Segun Olubi', 
     number: '50', 
     position: 'LB', 
