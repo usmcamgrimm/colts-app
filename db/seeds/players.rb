@@ -522,7 +522,7 @@ Player.create!([
   { 
     name: 'Ronnie Harrison Jr.',
     number: '48',
-    position: 'S',
+    position: 'LB',
     exp: 6,
     status: 'Active',
     college: 'Alabama',
