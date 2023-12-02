@@ -22,6 +22,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
   { 
+    name: 'Ethan Fernea',
+    number: '3',
+    position: 'WR',
+    exp: 1,
+    status: 'PS',
+    college: 'UCLA',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4062711.png&w=350&h=254'
+  },
+  { 
     name: 'Sam Ehlinger', 
     number: '4', 
     position: 'QB', 
@@ -153,7 +162,7 @@ Player.create!([
     number: '13',
     position: 'WR',
     exp: 4,
-    status: 'PS',
+    status: 'PS - Injured',
     college: 'Penn State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240380.png&w=350&h=254'
   },
