@@ -626,6 +626,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3129308.png&w=350&h=254' 
   },
   { 
+    name: 'Derek Rivers', 
+    number: '58', 
+    position: 'DE', 
+    exp: 7, 
+    status: 'PS', 
+    college: 'Youngstown State', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3049268.png&w=350&h=254' 
+  },
+  { 
     name: 'Cameron McGrone', 
     number: '59', 
     position: 'LB', 
