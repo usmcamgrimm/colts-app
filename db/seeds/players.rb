@@ -821,7 +821,7 @@ Player.create!([
     number: '90', 
     position: 'DT', 
     exp: 7, 
-    status: 'SUS', 
+    status: 'Active', 
     college: 'Albany State', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4058825.png&w=350&h=254',
     tackles: 13,
