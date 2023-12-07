@@ -702,7 +702,7 @@ Player.create!([
     number: '68', 
     position: 'G', 
     exp: 6, 
-    status: 'Active', 
+    status: 'PS', 
     college: 'Iowa', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040166.png&w=350&h=254' 
   },
