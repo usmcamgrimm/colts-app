@@ -932,7 +932,7 @@ Player.create!([
     number: '97',
     position: 'DE',
     exp: 7,
-    status: 'PS',
+    status: 'SUS',
     college: 'Miami',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254'
   },
