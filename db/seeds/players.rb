@@ -17,7 +17,7 @@ Player.create!([
     number: '2',
     position: 'WR',
     exp: 4,
-    status: 'PS',
+    status: 'Active',
     college: 'Austin Peay',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
@@ -324,7 +324,7 @@ Player.create!([
     number: '31',
     position: 'RB',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'Iowa',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429676.png&w=350&h=254',
     rec: 2, 
