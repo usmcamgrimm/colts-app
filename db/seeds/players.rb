@@ -109,15 +109,6 @@ Player.create!([
     punt_lng: 69
   },
   { 
-    name: 'Juwann Winfree',
-    number: '9',
-    position: 'WR',
-    exp: 3,
-    status: 'Active',
-    college: 'Colorado',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254'
-  },
-  { 
     name: 'Gardner Minshew', 
     number: '10', 
     position: 'QB', 
