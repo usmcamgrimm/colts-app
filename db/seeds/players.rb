@@ -540,15 +540,6 @@ Player.create!([
     def_td: 1
   },
   { 
-    name: 'Brandon Wilson',
-    number: '49',
-    position: 'S',
-    exp: 7,
-    status: 'PS',
-    college: 'Houston',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2982632.png&w=350&h=254'
-  },
-  { 
     name: 'Segun Olubi', 
     number: '50', 
     position: 'LB', 
@@ -705,6 +696,15 @@ Player.create!([
     status: 'PS', 
     college: 'Iowa', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040166.png&w=350&h=254' 
+  },
+  { 
+    name: 'Jared Veldheer',
+    number: '69',
+    position: 'T',
+    exp: 10,
+    status: 'PS',
+    college: 'Hillsdale',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/13302.png&w=350&h=254'
   },
   { 
     name: 'Braden Smith', 
