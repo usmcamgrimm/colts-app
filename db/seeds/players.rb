@@ -17,7 +17,7 @@ Player.create!([
     number: '2',
     position: 'WR',
     exp: 4,
-    status: 'PS',
+    status: 'Active',
     college: 'Austin Peay',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
@@ -651,15 +651,6 @@ Player.create!([
     status: 'IR', 
     college: 'Ball State', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254' 
-  },
-  { 
-    name: 'Arlington Hambright', 
-    number: '64', 
-    position: 'G', 
-    exp: 6, 
-    status: 'Active', 
-    college: 'Colorado', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254' 
   },
   { 
     name: 'Josh Sills', 
