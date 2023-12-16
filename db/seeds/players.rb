@@ -653,6 +653,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254' 
   },
   { 
+    name: 'Arlington Hambright', 
+    number: '64', 
+    position: 'G', 
+    exp: 6, 
+    status: 'PS', 
+    college: 'Colorado', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254' 
+  },
+  { 
     name: 'Josh Sills', 
     number: '65', 
     position: 'G', 
