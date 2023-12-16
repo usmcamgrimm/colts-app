@@ -26,7 +26,7 @@ Player.create!([
     number: '3',
     position: 'WR',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4062711.png&w=350&h=254'
   },
