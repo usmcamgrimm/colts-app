@@ -621,7 +621,7 @@ Player.create!([
     number: '58', 
     position: 'DE', 
     exp: 7, 
-    status: 'PS', 
+    status: 'PS - Injured', 
     college: 'Youngstown State', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3049268.png&w=350&h=254' 
   },
