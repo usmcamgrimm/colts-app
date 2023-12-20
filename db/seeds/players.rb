@@ -69,7 +69,7 @@ Player.create!([
     number: '6', 
     position: 'WR', 
     exp: 7, 
-    status: 'Active', 
+    status: 'SUS', 
     college: 'Georgia', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128724.png&w=350&h=254', 
     rec: 11, 
@@ -114,6 +114,15 @@ Player.create!([
     punt_in20: 19,
     punt_avg: 47.8,
     punt_lng: 69
+  },
+  { 
+    name: 'Juwann Winfree',
+    number: '9',
+    position: 'WR',
+    exp: 3,
+    status: 'PS',
+    college: 'Colorado',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254'
   },
   { 
     name: 'Gardner Minshew', 
@@ -193,6 +202,15 @@ Player.create!([
     status: 'IR', 
     college: 'Malone University', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254' 
+  },
+  { 
+    name: 'Jaydon Mickens',
+    number: '17',
+    position: 'WR',
+    exp: 5,
+    status: 'PS',
+    college: 'Washington',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2978308.png&w=350&h=254'
   },
   { 
     name: 'Nick Cross', 
@@ -332,7 +350,7 @@ Player.create!([
     number: '31',
     position: 'RB',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'Iowa',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429676.png&w=350&h=254',
     rec: 3, 
@@ -424,7 +442,7 @@ Player.create!([
     number: '38', 
     position: 'CB', 
     exp: 5, 
-    status: 'Active', 
+    status: 'SUS', 
     college: 'Alabama', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115308.png&w=350&h=254',
     tackles: 8,
@@ -628,6 +646,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3129308.png&w=350&h=254' 
   },
   { 
+    name: 'Zach McCloud',
+    number: '57',
+    position: 'DE',
+    exp: 1,
+    status: 'PS',
+    college: 'Miami',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4037464.png&w=350&h=254'
+  },
+  { 
     name: 'Derek Rivers', 
     number: '58', 
     position: 'DE', 
@@ -682,15 +709,6 @@ Player.create!([
     status: 'Active', 
     college: 'Oklahoma State', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254' 
-  },
-  { 
-    name: 'Lewis Kidd',
-    number: '66',
-    position: 'G',
-    exp: 2,
-    status: 'PS',
-    college: 'Montana State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4047523.png&w=350&h=254'
   },
   { 
     name: 'Jack Anderson',
