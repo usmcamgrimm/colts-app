@@ -33,7 +33,7 @@ Player.create!([
     number: '3',
     position: 'WR',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4062711.png&w=350&h=254'
   },
@@ -733,7 +733,7 @@ Player.create!([
     number: '69',
     position: 'T',
     exp: 10,
-    status: 'PS',
+    status: 'Active',
     college: 'Hillsdale',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/13302.png&w=350&h=254'
   },
