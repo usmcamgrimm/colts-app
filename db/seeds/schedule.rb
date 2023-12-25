@@ -191,12 +191,12 @@ Schedule.create!([
     gamedate: 'Sun 12/24',
     gametime: '1:00PM',
     location: 'away',
-    result: '',
-    score: '',
+    result: 'L',
+    score: '10 - 29',
     oppcity: 'Atlanta',
     oppname: 'Falcons',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/atl.png&h=200&w=200',
-    stadium: 'Mercedes -  Benz Stadium',
+    stadium: 'Mercedes - Benz Stadium',
     map: 'https://maps.app.goo.gl/fXoJJ1LqZDmyNbDD7'
   },
   { 
