@@ -364,7 +364,7 @@ Player.create!([
     number: '32', 
     position: 'S', 
     exp: 4, 
-    status: 'Active', 
+    status: 'IR', 
     college: 'Utah', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254',
     tackles: 65,
@@ -436,6 +436,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259546.png&w=350&h=254',
     tackles: 3,
     solo_tackles: 3
+  },
+  { 
+    name: 'Henry Black', 
+    number: '38', 
+    position: 'S', 
+    exp: 3, 
+    status: 'Active', 
+    college: 'Baylor', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3928920.png&w=350&h=254'
   },
   { 
     name: 'Tony Brown', 
