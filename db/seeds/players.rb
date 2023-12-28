@@ -578,6 +578,15 @@ Player.create!([
     def_td: 1
   },
   { 
+    name: 'Austin Ajiake', 
+    number: '49', 
+    position: 'LB', 
+    exp: 0, 
+    status: 'PS', 
+    college: 'UNLV', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254' 
+  },
+  { 
     name: 'Segun Olubi', 
     number: '50', 
     position: 'LB', 
