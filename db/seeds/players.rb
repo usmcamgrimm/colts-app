@@ -859,7 +859,7 @@ Player.create!([
     number: '85', 
     position: 'TE', 
     exp: 2, 
-    status: 'Active', 
+    status: 'Exempt', 
     college: 'Youngstown State', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4722908.png&w=350&h=254', 
     rec: 9, 
