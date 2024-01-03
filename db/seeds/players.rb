@@ -121,7 +121,7 @@ Player.create!([
     number: '9',
     position: 'WR',
     exp: 3,
-    status: 'Practice Squad',
+    status: 'Active',
     college: 'Colorado',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254'
   },
@@ -590,6 +590,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254' 
   },
   { 
+    name: 'Eric Tomlinson',
+    number: '49',
+    position: 'TE',
+    exp: 8,
+    status: 'Practice Squad',
+    college: 'Texas - El Paso',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2511973.png&w=350&h=254'
+  },
+  { 
     name: 'Segun Olubi', 
     number: '50', 
     position: 'LB', 
@@ -754,7 +763,7 @@ Player.create!([
     number: '69',
     position: 'T',
     exp: 10,
-    status: 'Practice Squad',
+    status: 'Active',
     college: 'Hillsdale',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/13302.png&w=350&h=254'
   },
