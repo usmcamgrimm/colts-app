@@ -34,7 +34,7 @@ Player.create!([
     number: '3',
     position: 'WR',
     exp: 1,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4062711.png&w=350&h=254'
   },
@@ -121,7 +121,7 @@ Player.create!([
     number: '9',
     position: 'WR',
     exp: 3,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Colorado',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254'
   },
@@ -161,7 +161,7 @@ Player.create!([
     number: '12',
     position: 'QB',
     exp: 2,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Texas A&M',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240904.png&w=350&h=254'
   },
@@ -191,7 +191,7 @@ Player.create!([
     number: '15',
     position: 'WR',
     exp: 4,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Florida',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4034964.png&w=350&h=254'
   },
@@ -209,7 +209,7 @@ Player.create!([
     number: '17',
     position: 'WR',
     exp: 5,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Washington',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2978308.png&w=350&h=254'
   },
@@ -333,7 +333,7 @@ Player.create!([
     number: '30',
     position: 'CB',
     exp: 3,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'San Diego State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4261606.png&w=350&h=254'
   },
@@ -394,7 +394,7 @@ Player.create!([
     number: '34',
     position: 'RB',
     exp: 0,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Maine',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4257364.png&w=350&h=254'
   },
@@ -415,7 +415,7 @@ Player.create!([
     number: '36',
     position: 'S',
     exp: 0,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Boise State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4260443.png&w=350&h=254'
   },
@@ -504,7 +504,7 @@ Player.create!([
     number: '42',
     position: 'S',
     exp: 1,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Stuttgart',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5054377.png&w=350&h=254'
   },
@@ -562,7 +562,7 @@ Player.create!([
     number: '47',
     position: 'LB',
     exp: 0,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Holy Cross',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
   },
@@ -585,7 +585,7 @@ Player.create!([
     number: '49', 
     position: 'LB', 
     exp: 0, 
-    status: 'PS', 
+    status: 'Practice Squad', 
     college: 'UNLV', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254' 
   },
@@ -671,7 +671,7 @@ Player.create!([
     number: '57',
     position: 'DE',
     exp: 1,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Miami',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4037464.png&w=350&h=254'
   },
@@ -718,7 +718,7 @@ Player.create!([
     number: '64', 
     position: 'G', 
     exp: 6, 
-    status: 'PS', 
+    status: 'Practice Squad', 
     college: 'Colorado', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254' 
   },
@@ -745,7 +745,7 @@ Player.create!([
     number: '68', 
     position: 'G', 
     exp: 6, 
-    status: 'PS', 
+    status: 'Practice Squad', 
     college: 'Iowa', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040166.png&w=350&h=254' 
   },
@@ -754,7 +754,7 @@ Player.create!([
     number: '69',
     position: 'T',
     exp: 10,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Hillsdale',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/13302.png&w=350&h=254'
   },
@@ -853,7 +853,7 @@ Player.create!([
     number: '84',
     position: 'TE',
     exp: 0,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Hawaii',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4368172.png&w=350&h=254'
   },
@@ -991,7 +991,7 @@ Player.create!([
     number: '98',
     position: 'DT',
     exp: 3,
-    status: 'PS',
+    status: 'Practice Squad',
     college: 'Arkansas',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254',
     assist: 2
