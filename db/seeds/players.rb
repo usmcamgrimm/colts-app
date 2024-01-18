@@ -454,20 +454,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3928920.png&w=350&h=254'
   },
   { 
-    name: 'Tony Brown', 
-    number: '38', 
-    position: 'CB', 
-    exp: 5, 
-    status: 'Suspended - Team', 
-    college: 'Alabama', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115308.png&w=350&h=254',
-    tackles: 8,
-    solo_tackles: 8,
-    assist: 2,
-    def_int: 1,
-    def_fumble: 1
-  },
-  { 
     name: 'Darrell Baker Jr.', 
     number: '39', 
     position: 'CB', 
