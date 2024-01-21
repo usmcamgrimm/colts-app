@@ -1,6 +1,24 @@
 Player.create!([
   #Active Roster
   { 
+    name: 'Kendell Brooks',
+    number: '--',
+    position: 'S',
+    exp: 0,
+    status: 'Reserve/Future',
+    college: 'Michigan State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4585317.png&w=350&h=254'
+  },
+  { 
+    name: 'Terrell Bynum',
+    number: '--',
+    position: 'WR',
+    exp: 0,
+    status: 'Reserve/Future',
+    college: 'USC',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243319.png&w=350&h=254'
+  },
+  { 
     name: 'Josh Downs', 
     number: '1', 
     position: 'WR', 
@@ -161,24 +179,6 @@ Player.create!([
     kr_lng: 5
   },
   { 
-    name: 'Kellen Mond',
-    number: '12',
-    position: 'QB',
-    exp: 2,
-    status: 'Reserve/Future',
-    college: 'Texas A&M',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240904.png&w=350&h=254'
-  },
-  { 
-    name: 'KJ Hamler',
-    number: '13',
-    position: 'WR',
-    exp: 4,
-    status: 'Practice Squad - Injured',
-    college: 'Penn State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240380.png&w=350&h=254'
-  },
-  { 
     name: 'Alec Pierce', 
     number: '14', 
     position: 'WR', 
@@ -209,20 +209,11 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254' 
   },
   { 
-    name: 'Jaydon Mickens',
-    number: '17',
-    position: 'WR',
-    exp: 5,
-    status: 'Reserve/Future',
-    college: 'Washington',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2978308.png&w=350&h=254'
-  },
-  { 
     name: 'Nick Cross', 
     number: '20', 
     position: 'S', 
     exp: 2, 
-    status: 'Active', 
+    status: 'Active',
     college: 'Maryland', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426403.png&w=350&h=254',
     tackles: 24,
@@ -333,15 +324,6 @@ Player.create!([
     def_int: 1
   },
   { 
-    name: 'Darren Hall',
-    number: '30',
-    position: 'CB',
-    exp: 3,
-    status: 'Reserve/Future',
-    college: 'San Diego State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4261606.png&w=350&h=254'
-  },
-  { 
     name: 'Daniel Scott', 
     number: '31', 
     position: 'S', 
@@ -403,6 +385,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4257364.png&w=350&h=254'
   },
   { 
+    name: 'Michael Tutsie',
+    number: '35',
+    position: 'S',
+    exp: 0,
+    status: 'Reserve/Future',
+    college: 'North Dakota State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4248538.png&w=350&h=254'
+  },
+  { 
     name: 'Chris Lammons',
     number: '35',
     position: 'CB',
@@ -413,24 +404,6 @@ Player.create!([
     tackles: 4,
     solo_tackles: 2,
     assist: 2
-  },
-  { 
-    name: 'Tyreque Jones',
-    number: '36',
-    position: 'S',
-    exp: 0,
-    status: 'Reserve/Future',
-    college: 'Boise State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4260443.png&w=350&h=254'
-  },
-  { 
-    name: 'Isaac Taylor-Stuart',
-    number: '37',
-    position: 'CB',
-    exp: 2,
-    status: 'Practice Squad - Injured',
-    college: 'USC',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374301.png&w=350&h=254'
   },
   { 
     name: 'Ameer Speed', 
@@ -572,15 +545,6 @@ Player.create!([
     def_sacks: 1.0
   },
   { 
-    name: 'Austin Ajiake', 
-    number: '49', 
-    position: 'LB', 
-    exp: 0, 
-    status: 'Reserve/Future', 
-    college: 'UNLV', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254' 
-  },
-  { 
     name: 'Eric Tomlinson',
     number: '49',
     position: 'TE',
@@ -667,22 +631,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3129308.png&w=350&h=254' 
   },
   { 
-    name: 'Zach McCloud',
-    number: '57',
-    position: 'DE',
-    exp: 1,
-    status: 'Reserve/Future',
-    college: 'Miami',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4037464.png&w=350&h=254'
-  },
-  { 
-    name: 'Derek Rivers', 
+    name: 'Austin Ajiake', 
     number: '58', 
-    position: 'DE', 
-    exp: 7, 
-    status: 'PS - Injured', 
-    college: 'Youngstown State', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3049268.png&w=350&h=254' 
+    position: 'LB',
+    exp: 0, 
+    status: 'Reserve/Future',
+    college: 'UNLV', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254' 
   },
   { 
     name: 'Cameron McGrone', 
@@ -732,6 +687,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254' 
   },
   { 
+    name: 'Lewis Kidd', 
+    number: '66', 
+    position: 'G', 
+    exp: 2, 
+    status: 'Reserve/Future', 
+    college: 'Montana State', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4047523.png&w=350&h=254' 
+  },
+  { 
     name: 'Jack Anderson',
     number: '67',
     position: 'C',
@@ -739,15 +703,6 @@ Player.create!([
     status: 'Active',
     college: 'Texas Tech',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241844.png&w=350&h=254'
-  },
-  { 
-    name: 'Ike Boettger', 
-    number: '68', 
-    position: 'G', 
-    exp: 6, 
-    status: 'Reserve/Future', 
-    college: 'Iowa', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040166.png&w=350&h=254' 
   },
   { 
     name: 'Jared Veldheer',
@@ -985,16 +940,6 @@ Player.create!([
     status: 'Suspended - Commissioner',
     college: 'Miami',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254'
-  },
-  { 
-    name: 'McTelvin Agim',
-    number: '98',
-    position: 'DT',
-    exp: 3,
-    status: 'Reserve/Future',
-    college: 'Arkansas',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254',
-    assist: 2
   },
   { 
     name: 'DeForest Buckner', 
