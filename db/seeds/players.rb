@@ -933,15 +933,6 @@ Player.create!([
     def_fumble: 1 
   },
   { 
-    name: 'Al-Quadin Muhammad',
-    number: '97',
-    position: 'DE',
-    exp: 7,
-    status: 'Suspended - Commissioner',
-    college: 'Miami',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051942.png&w=350&h=254'
-  },
-  { 
     name: 'DeForest Buckner', 
     number: '99', 
     position: 'DT', 
