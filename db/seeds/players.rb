@@ -29,6 +29,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4040965.png&w=350&h=254'
   },
   { 
+    name: 'Joe Flacco', 
+    number: '--', 
+    position: 'QB', 
+    exp: 17, 
+    status: 'Active', 
+    college: 'Delaware', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/11252.png&w=350&h=254' 
+  },
+  { 
     name: 'Josh Downs', 
     number: '1', 
     position: 'WR', 
