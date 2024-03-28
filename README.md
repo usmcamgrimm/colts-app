@@ -1,5 +1,6 @@
-# Indianapolis Colts
+# Colts-On-Rails
 
-## My first Ruby on Rails application!
+[https://coltsrails.onrender.com/](https://coltsrails.onrender.com/)
 
-This is a simple application I built on Rails 7.
+This application was built with Rails 7, and serves to track player information and stats throughout the season, as well as the team's schedule.
+
