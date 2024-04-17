@@ -461,6 +461,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916746.png&w=350&h=254' 
   },
   { 
+    name: 'Danny Pinter', 
+    number: '63', 
+    position: 'G', 
+    exp: 4, 
+    status: 'IR', 
+    college: 'Ball State', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254' 
+  },
+  { 
     name: 'Arlington Hambright', 
     number: '64', 
     position: 'G', 
