@@ -1,6 +1,87 @@
 Player.create!([
   #Active Roster
   { 
+    name: 'Laiatu Latu', 
+    number: '--', 
+    position: 'DE', 
+    exp: 0, 
+    status: 'UDP', 
+    college: 'UCLA', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
+    name: 'Micah Abraham', 
+    number: '--', 
+    position: 'CB', 
+    exp: 0, 
+    status: 'UDP', 
+    college: 'Marshall', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
+    name: 'Tanor Bortolini', 
+    number: '--', 
+    position: 'G', 
+    exp: 0, 
+    status: 'UDP', 
+    college: 'Wisconsin', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
+    name: 'Jaylon Carlies', 
+    number: '--', 
+    position: 'LB', 
+    exp: 0, 
+    status: 'UDP', 
+    college: 'Missouri', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
+    name: 'Matt Goncalves', 
+    number: '--', 
+    position: 'T', 
+    exp: 0, 
+    status: 'UDP', 
+    college: 'Pittsburgh', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
+    name: 'Anthony Gould', 
+    number: '--', 
+    position: 'WR', 
+    exp: 0, 
+    status: 'UDP', 
+    college: 'Oregon State', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
+    name: 'Jonah Laulu', 
+    number: '--', 
+    position: 'DT', 
+    exp: 0, 
+    status: 'UDP', 
+    college: 'Oklahoma', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
+    name: 'Adonai Mitchell', 
+    number: '--', 
+    position: 'WR', 
+    exp: 0, 
+    status: 'UDP', 
+    college: 'Texas', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
+    name: 'Jaylin Simpson', 
+    number: '--', 
+    position: 'CB', 
+    exp: 0, 
+    status: 'UDP', 
+    college: 'Auburn', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
     name: 'Josh Downs', 
     number: '1', 
     position: 'WR', 
