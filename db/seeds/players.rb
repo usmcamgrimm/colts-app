@@ -1,26 +1,8 @@
 Player.create!([
   #Active Roster
   { 
-    name: 'Laiatu Latu', 
-    number: '--', 
-    position: 'DE', 
-    exp: 0, 
-    status: 'UDP', 
-    college: 'UCLA', 
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
-  },
-  { 
-    name: 'Micah Abraham', 
-    number: '--', 
-    position: 'CB', 
-    exp: 0, 
-    status: 'UDP', 
-    college: 'Marshall', 
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
-  },
-  { 
     name: 'Tanor Bortolini', 
-    number: '--', 
+    number: '60', 
     position: 'G', 
     exp: 0, 
     status: 'UDP', 
@@ -28,17 +10,8 @@ Player.create!([
     photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
-    name: 'Jaylon Carlies', 
-    number: '--', 
-    position: 'LB', 
-    exp: 0, 
-    status: 'UDP', 
-    college: 'Missouri', 
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
-  },
-  { 
     name: 'Matt Goncalves', 
-    number: '--', 
+    number: '71', 
     position: 'T', 
     exp: 0, 
     status: 'UDP', 
@@ -47,7 +20,7 @@ Player.create!([
   },
   { 
     name: 'Anthony Gould', 
-    number: '--', 
+    number: '6', 
     position: 'WR', 
     exp: 0, 
     status: 'UDP', 
@@ -55,30 +28,12 @@ Player.create!([
     photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
-    name: 'Jonah Laulu', 
-    number: '--', 
-    position: 'DT', 
-    exp: 0, 
-    status: 'UDP', 
-    college: 'Oklahoma', 
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
-  },
-  { 
     name: 'Adonai Mitchell', 
-    number: '--', 
+    number: '10', 
     position: 'WR', 
     exp: 0, 
     status: 'UDP', 
     college: 'Texas', 
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
-  },
-  { 
-    name: 'Jaylin Simpson', 
-    number: '--', 
-    position: 'CB', 
-    exp: 0, 
-    status: 'UDP', 
-    college: 'Auburn', 
     photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
@@ -109,6 +64,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4062711.png&w=350&h=254'
   },
   { 
+    name: 'Spencer Shrader', 
+    number: '3', 
+    position: 'K', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Notre Dame', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
     name: 'Sam Ehlinger', 
     number: '4', 
     position: 'QB', 
@@ -134,6 +98,25 @@ Player.create!([
     status: 'Active', 
     college: 'Utah', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249087.png&w=350&h=254'
+  },
+  
+  { 
+    name: 'Xavier White', 
+    number: '7', 
+    position: 'WR', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Texas tech', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
+    name: 'Jason Bean', 
+    number: '8', 
+    position: 'QB/WR', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Kansas', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
     name: 'Rigoberto Sanchez', 
@@ -172,15 +155,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4034964.png&w=350&h=254'
   },
   { 
-    name: 'Terrell Bynum',
-    number: '13',
-    position: 'WR',
-    exp: 1,
-    status: 'Active',
-    college: 'USC',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243319.png&w=350&h=254'
-  },
-  { 
     name: 'Alec Pierce', 
     number: '14', 
     position: 'WR', 
@@ -206,6 +180,16 @@ Player.create!([
     status: 'Active', 
     college: 'Malone University', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254' 
+  },
+  
+  { 
+    name: 'Kedon Slovis', 
+    number: '17', 
+    position: 'QB', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'BYU', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
     name: 'Nick Cross', 
@@ -271,6 +255,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360488.png&w=350&h=254'
   },
   { 
+    name: 'Jaylin Simpson', 
+    number: '30', 
+    position: 'CB', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Auburn', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
     name: 'Tyler Goodson',
     number: '31',
     position: 'RB',
@@ -296,6 +289,15 @@ Player.create!([
     status: 'Active', 
     college: 'Utah', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254'
+  },
+  { 
+    name: 'Micah Abraham', 
+    number: '33', 
+    position: 'CB', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Marshall', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
     name: 'Dallis Flowers', 
@@ -332,6 +334,15 @@ Player.create!([
     status: 'Active',
     college: 'Michigan State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4585317.png&w=350&h=254'
+  },
+  { 
+    name: 'Trent Penix', 
+    number: '36', 
+    position: 'RB', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'N.C. State', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
     name: 'Ameer Speed', 
@@ -451,6 +462,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2511973.png&w=350&h=254'
   },
   { 
+    name: 'Craig Young', 
+    number: '49', 
+    position: 'LB', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Kansas', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
     name: 'Segun Olubi', 
     number: '50', 
     position: 'LB', 
@@ -503,6 +523,15 @@ Player.create!([
     status: 'Active', 
     college: 'Notre Dame', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3129308.png&w=350&h=254' 
+  },
+  { 
+    name: 'Jaylon Carlies', 
+    number: '57', 
+    position: 'LB', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Missouri', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
     name: 'Austin Ajiake', 
@@ -577,6 +606,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241844.png&w=350&h=254'
   },
   { 
+    name: 'Dalton Tucker', 
+    number: '68', 
+    position: 'G', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Marshall', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
     name: 'Braden Smith', 
     number: '72', 
     position: 'T', 
@@ -593,6 +631,15 @@ Player.create!([
     status: 'Active', 
     college: 'BYU', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254' 
+  },
+  { 
+    name: 'Jonah Laulu', 
+    number: '74', 
+    position: 'DT', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Oklahoma', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
     name: 'Will Fries', 
@@ -719,6 +766,15 @@ Player.create!([
     status: 'Active', 
     college: 'Northwestern', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254'
+  },
+  { 
+    name: 'Laiatu Latu', 
+    number: '97', 
+    position: 'DE', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'UCLA', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
     name: 'Raekwon Davis',
