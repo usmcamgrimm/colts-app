@@ -1,24 +1,6 @@
 Player.create!([
   #Active Roster
   { 
-    name: 'Tanor Bortolini', 
-    number: '60', 
-    position: 'G', 
-    exp: 0, 
-    status: 'UDP', 
-    college: 'Wisconsin', 
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
-  },
-  { 
-    name: 'Matt Goncalves', 
-    number: '71', 
-    position: 'T', 
-    exp: 0, 
-    status: 'UDP', 
-    college: 'Pittsburgh', 
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
-  },
-  { 
     name: 'Anthony Gould', 
     number: '6', 
     position: 'WR', 
@@ -552,6 +534,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4372085.png&w=350&h=254'
   },
   { 
+    name: 'Tanor Bortolini', 
+    number: '60', 
+    position: 'G', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Wisconsin', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
     name: 'Wesley French', 
     number: '62', 
     position: 'C', 
@@ -565,7 +556,7 @@ Player.create!([
     number: '63', 
     position: 'G', 
     exp: 5, 
-    status: 'IR', 
+    status: 'Active', 
     college: 'Ball State', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254' 
   },
@@ -612,6 +603,15 @@ Player.create!([
     exp: 0, 
     status: 'Active', 
     college: 'Marshall', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  { 
+    name: 'Matt Goncalves', 
+    number: '71', 
+    position: 'T', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Pittsburgh', 
     photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
