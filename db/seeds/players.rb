@@ -1,15 +1,6 @@
 Player.create!([
   #Active Roster
   { 
-    name: 'Anthony Gould', 
-    number: '6', 
-    position: 'WR', 
-    exp: 0, 
-    status: 'UDP', 
-    college: 'Oregon State', 
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
-  },
-  { 
     name: 'Adonai Mitchell', 
     number: '10', 
     position: 'WR', 
@@ -71,6 +62,15 @@ Player.create!([
     status: 'Active', 
     college: 'Florida', 
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429084.png&w=350&h=254'
+  },
+  { 
+    name: 'Anthony Gould', 
+    number: '6', 
+    position: 'WR', 
+    exp: 0, 
+    status: 'Active', 
+    college: 'Oregon State', 
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   { 
     name: 'Matt Gay', 
