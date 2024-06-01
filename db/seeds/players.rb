@@ -183,6 +183,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426403.png&w=350&h=254'
   },
   { 
+    name: 'Dallis Flowers', 
+    number: '21', 
+    position: 'CB', 
+    exp: 3, 
+    status: 'Active', 
+    college: 'Pittsburg State', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254'
+  },
+  { 
     name: 'Kenny Moore II', 
     number: '23', 
     position: 'CB', 
@@ -280,15 +289,6 @@ Player.create!([
     status: 'Active', 
     college: 'Marshall', 
     photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
-  },
-  { 
-    name: 'Dallis Flowers', 
-    number: '33', 
-    position: 'CB', 
-    exp: 3, 
-    status: 'Active', 
-    college: 'Pittsburg State', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254'
   },
   { 
     name: 'Zavier Scott',
