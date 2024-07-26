@@ -72,14 +72,13 @@ Player.create!([
     college: 'Utah',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249087.png&w=350&h=254'
   },
-
   {
-    name: 'Xavier White',
+    name: 'Laquon Treadwell',
     number: '7',
     position: 'WR',
-    exp: 0,
+    exp: 6,
     status: 'Active',
-    college: 'Texas tech',
+    college: 'Mississippi',
     photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   {
@@ -321,7 +320,7 @@ Player.create!([
     number: '35',
     position: 'CB',
     exp: 4,
-    status: 'Active',
+    status: 'PUP',
     college: 'South Carolina',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254'
   },
@@ -335,7 +334,7 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4585317.png&w=350&h=254'
   },
   {
-    name: 'Trent Penix',
+    name: 'Trent Pennix',
     number: '36',
     position: 'RB',
     exp: 0,
@@ -694,6 +693,15 @@ Player.create!([
     college: 'Virginia',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241410.png&w=350&h=254'
   },
+  { 
+    name: 'Mo Alie-Cox', 
+    number: '81', 
+    position: 'TE', 
+    exp: 7, 
+    status: 'Active', 
+    college: 'Virginia Commonwealth', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2998565.png&w=350&h=254'
+  },
   {
     name: 'Kylen Granson',
     number: '83',
@@ -774,6 +782,15 @@ Player.create!([
     status: 'Active',
     college: 'Northwestern',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254'
+  },
+  { 
+    name: 'Taven Bryan', 
+    number: '96', 
+    position: 'DT', 
+    exp: 7, 
+    status: 'Active', 
+    college: 'Florida', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3115249.png&w=350&h=254'
   },
   {
     name: 'Laiatu Latu',
