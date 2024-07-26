@@ -34,7 +34,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254'
   },
   {
     name: 'Sam Ehlinger',
@@ -61,7 +61,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Oregon State',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429684.png&w=350&h=254'
   },
   {
     name: 'Matt Gay',
@@ -79,7 +79,7 @@ Player.create!([
     exp: 6,
     status: 'Active',
     college: 'Mississippi',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254'
   },
   {
     name: 'Jason Bean',
@@ -88,7 +88,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Kansas',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360900.png&w=350&h=254'
   },
   {
     name: 'Rigoberto Sanchez',
@@ -115,7 +115,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Texas',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4597500.png&w=350&h=254'
   },
   {
     name: 'Michael Pittman Jr.',
@@ -142,7 +142,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Ithaca College',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5209094.png&w=350&h=254'
   },
   {
     name: 'Alec Pierce',
@@ -178,7 +178,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'BYU',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4428512.png&w=350&h=254'
   },
   {
     name: 'Nick Cross',
@@ -259,7 +259,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Auburn',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4567225.png&w=350&h=254'
   },
   {
     name: 'Tyler Goodson',
@@ -295,7 +295,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Marshall',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427563.png&w=350&h=254'
   },
   {
     name: 'Clay Fields III',
@@ -304,7 +304,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Tennessee-Chattanooga',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368231.png&w=350&h=254'
   },
   {
     name: 'Zavier Scott',
@@ -340,7 +340,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'N.C. State',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361660.png&w=350&h=254'
   },
   {
     name: 'Ameer Speed',
@@ -466,7 +466,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Kansas',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4428962.png&w=350&h=254'
   },
   {
     name: 'Segun Olubi',
@@ -529,7 +529,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Missouri',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4601021.png&w=350&h=254'
   },
   {
     name: 'Austin Ajiake',
@@ -556,7 +556,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Wisconsin',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430957.png&w=350&h=254'
   },
   {
     name: 'Wesley French',
@@ -610,7 +610,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Marshall',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
   },
   {
     name: 'Matt Goncalves',
@@ -619,7 +619,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Pittsburgh',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427298.png&w=350&h=254'
   },
   {
     name: 'Braden Smith',
@@ -646,7 +646,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Oklahoma',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4373956.png&w=350&h=254'
   },
   {
     name: 'Will Fries',
@@ -718,7 +718,7 @@ Player.create!([
     exp: 1,
     status: 'Active',
     college: 'Hawaii',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4368172.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368172.png&w=350&h=254'
   },
   {
     name: 'Will Mallory',
@@ -799,7 +799,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'UCLA',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426473.png&w=350&h=254'
   },
   {
     name: 'Raekwon Davis',
