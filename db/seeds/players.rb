@@ -559,6 +559,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430957.png&w=350&h=254'
   },
   {
+    name: 'Levi Bell',
+    number: '61',
+    position: 'DE',
+    exp: 0,
+    status: 'Active',
+    college: 'Texas State - San Marcos',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4690937.png&w=350&h=254'
+  },
+  {
     name: 'Wesley French',
     number: '62',
     position: 'C',
@@ -593,15 +602,6 @@ Player.create!([
     status: 'Active',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
-  },
-  {
-    name: 'Lewis Kidd',
-    number: '66',
-    position: 'G',
-    exp: 3,
-    status: 'Active',
-    college: 'Montana State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4047523.png&w=350&h=254'
   },
   {
     name: 'Dalton Tucker',
