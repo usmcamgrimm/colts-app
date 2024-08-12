@@ -491,7 +491,7 @@ Player.create!([
     number: '52',
     position: 'DE',
     exp: 8,
-    status: 'Active',
+    status: 'IR',
     college: 'Eastern Washington',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045527.png&w=350&h=254'
   },
