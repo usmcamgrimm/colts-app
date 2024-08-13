@@ -334,13 +334,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4585317.png&w=350&h=254'
   },
   {
-    name: 'Trent Pennix',
+    name: 'Demetric Felton',
     number: '36',
     position: 'RB',
-    exp: 0,
+    exp: 3,
     status: 'Active',
-    college: 'N.C. State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361660.png&w=350&h=254'
+    college: 'UCLA',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035826.png&w=350&h=254'
   },
   {
     name: 'Ameer Speed',
@@ -572,7 +572,7 @@ Player.create!([
     number: '62',
     position: 'C',
     exp: 3,
-    status: 'Active',
+    status: 'IR',
     college: 'Western Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916746.png&w=350&h=254'
   },
@@ -602,6 +602,15 @@ Player.create!([
     status: 'Active',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
+  },
+  {
+    name: 'Ryan Coll',
+    number: '66',
+    position: 'C',
+    exp: 0,
+    status: 'Active',
+    college: 'Richmond',
+    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   {
     name: 'Dalton Tucker',
