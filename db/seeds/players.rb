@@ -19,15 +19,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
   {
-    name: 'Ethan Fernea',
-    number: '3',
-    position: 'WR',
-    exp: 1,
-    status: 'Active',
-    college: 'UCLA',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4062711.png&w=350&h=254'
-  },
-  {
     name: 'Spencer Shrader',
     number: '3',
     position: 'K',
@@ -325,15 +316,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254'
   },
   {
-    name: 'Kendell Brooks',
-    number: '36',
-    position: 'S',
-    exp: 1,
-    status: 'Active',
-    college: 'Michigan State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4585317.png&w=350&h=254'
-  },
-  {
     name: 'Demetric Felton',
     number: '36',
     position: 'RB',
@@ -541,6 +523,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254'
   },
   {
+    name: 'Derek Rivers',
+    number: '58',
+    position: 'DE',
+    exp: 7,
+    status: 'Active',
+    college: 'Youngstown State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3049268.png&w=350&h=254'
+  },
+  {
     name: 'Cameron McGrone',
     number: '59',
     position: 'LB',
@@ -737,6 +728,15 @@ Player.create!([
     status: 'Active',
     college: 'Miami',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362523.png&w=350&h=254'
+  },
+  {
+    name: 'Greg Ward',
+    number: '89',
+    position: 'WR',
+    exp: 4,
+    status: 'Active',
+    college: 'Houston',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040035.png&w=350&h=254'
   },
   {
     name: 'Grover Stewart',
