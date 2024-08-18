@@ -1,6 +1,6 @@
 databases:
-  - name: coltsrailsdb
-    databaseName: coltsrailsdb
+  - name: coltsappdb
+    databaseName: coltsappdb
     user: usmcamgrimm
 
 services:
@@ -13,7 +13,7 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: coltsrailsdb
+          name: coltsappdb
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
