@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Colts</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Aat1_uHqEV50u6UBa7OEAfuIh3GI-hrsqwdKMOtCsspQ6oXrNERxOnSaWAlqg5rKHDNvz_ru2p0lYXkvvpG67w" />
+    
+
+    <link rel="stylesheet" href="/assets/application-080aac6f0d794a181b3529feacce65fbefecf02b4f4fbeeeeee9d52191410dbb.css" data-turbo-track="reload" />
+    <script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js",
+    "@hotwired/turbo-rails": "/assets/turbo.min-dfd93b3092d1d0ff56557294538d069bdbb28977d3987cb39bc0dd892f32fc57.js",
+    "@hotwired/stimulus": "/assets/stimulus.min-dd364f16ec9504dfb72672295637a1c8838773b01c0b441bd41008124c407894.js",
+    "@hotwired/stimulus-loading": "/assets/stimulus-loading-3576ce92b149ad5d6959438c6f291e2426c86df3b874c525b30faad51b0d96b3.js",
+    "controllers/application": "/assets/controllers/application-368d98631bccbf2349e0d4f8269afb3fe9625118341966de054759d96ea86c7e.js",
+    "controllers/hello_controller": "/assets/controllers/hello_controller-549135e8e7c683a538c3d6d517339ba470fcfb79d62f738a0a089ba41851a554.js",
+    "controllers": "/assets/controllers/index-2db729dddcc5b979110e98de4b6720f83f91a123172e87281d5a58410fc43806.js"
+  }
+}</script>
+<link rel="modulepreload" href="/assets/application-37f365cbecf1fa2810a8303f4b6571676fa1f9c56c248528bc14ddb857531b95.js">
+<link rel="modulepreload" href="/assets/turbo.min-dfd93b3092d1d0ff56557294538d069bdbb28977d3987cb39bc0dd892f32fc57.js">
+<link rel="modulepreload" href="/assets/stimulus.min-dd364f16ec9504dfb72672295637a1c8838773b01c0b441bd41008124c407894.js">
+<link rel="modulepreload" href="/assets/stimulus-loading-3576ce92b149ad5d6959438c6f291e2426c86df3b874c525b30faad51b0d96b3.js">
+<script src="/assets/es-module-shims.min-4ca9b3dd5e434131e3bb4b0c1d7dff3bfd4035672a5086deec6f73979a49be73.js" async="async" data-turbo-track="reload"></script>
+<script type="module">import "application"</script>
+  </head>
+
+  <body>
+  <header>
+  <div class="logoTitle">
+    <div class="logo">
+      <a href="/"><img class="horseshoe" src="/assets/colts-logo-2-c423e8098ad63e565dd9e8ed787c099ef4fdd6d1baf081726de840e1979be288.png" /></a>
+    </div>
+    <h1>Indianapolis Colts</h1>
+  </div>
+  <nav>
+    <ul>
+      <li class="nav-link">
+        <a href="/players">Players</a>
+      </li>
+       <li class="nav-link">
+        <a href="/schedule">Schedule</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+    <h2>Updating Anthony Gould  </h2>
+
+<h3 class="update-title">Player Information</h3>
+
+<div class="form-container">
+  <div class="edit-fields">
+    <form action="/players/6" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="iUae16n4l7jW-z4RrxeBw-BzRoEuHoubViXwpTJtKEjGkl2094xj03t7Kz8AESIpVko2FNjTNWQYO_QUKw4tFw" autocomplete="off" />
+      <div class="form-field">
+        <label class="form-label" for="player_name">Name</label>
+        <input autofocus="autofocus" type="text" value="Anthony Gould" name="player[name]" id="player_name" />
+      </div>
+      <div class="form-field">
+        <label for="player_number">Number</label>
+        <input type="number" value="6" name="player[number]" id="player_number" />
+      </div>
+      <div class="form-field">
+        <label for="player_position">Position</label>
+        <input type="text" value="WR" name="player[position]" id="player_position" />
+      </div>
+      <div class="form-field">
+        <label for="player_status">Status</label>
+        <input type="text" value="Active" name="player[status]" id="player_status" />
+      </div>
+      <div class="form-field">
+        <label for="player_exp">Exp</label>
+        <input type="number" value="0" name="player[exp]" id="player_exp" />
+      </div>
+      <div class="form-field">
+        <label for="player_college">College</label>
+        <input type="text" value="Oregon State" name="player[college]" id="player_college" />
+      </div>
+
+      <input type="submit" name="commit" value="Update" class="submit-button" data-disable-with="Update" />
+</form>  </div>
+</div>
+
+<h3 class="stats-update">Anthony Gould Stats Update</h3>
+
+<div class="form-container">
+  <div class="edit-fields">
+    <form action="/players/6" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="patch" autocomplete="off" /><input type="hidden" name="authenticity_token" value="77Ux7j0rNRwU4afQ67ehMQifDMFgTmWnDxh5RBN3zTugYfKNY1_Bd7lhsv5EsQLbvqZ8VJaD21hBBn31ChTIZA" autocomplete="off" />
+  <label for="player_pass_attempts">Pass attempts</label>
+  <input type="number" name="player[pass_att]" id="player_pass_att" />
+
+  <label for="player_completions">Completions</label>
+  <input type="number" name="player[comp]" id="player_comp" />
+
+  <label for="player_pass_yards">Pass yards</label>
+  <input type="number" name="player[pass_yards]" id="player_pass_yards" />
+
+  <label for="player_passing_touchdowns">Passing touchdowns</label>
+  <input type="number" name="player[pass_td]" id="player_pass_td" />
+
+  <label for="player_interceptions">Interceptions</label>
+  <input type="number" name="player[int]" id="player_int" />
+
+  <label for="player_sacks">Sacks</label>
+  <input type="number" name="player[pass_sck]" id="player_pass_sck" />
+
+  <label for="player_rush_attempts">Rush attempts</label>
+  <input type="number" name="player[rush_att]" id="player_rush_att" />
+
+  <label for="player_rushing_yards">Rushing yards</label>
+  <input type="number" name="player[rush_yds]" id="player_rush_yds" />
+
+  <label for="player_rushing_touchdowns">Rushing touchdowns</label>
+  <input type="number" name="player[rush_tds]" id="player_rush_tds" />
+
+  <label for="player_receptions">Receptions</label>
+  <input type="number" name="player[rec]" id="player_rec" />
+
+  <label for="player_receiving_yards">Receiving yards</label>
+  <input type="number" name="player[rec_yards]" id="player_rec_yards" />
+
+  <label for="player_receiving_touchdowns">Receiving touchdowns</label>
+  <input type="number" name="player[rec_td]" id="player_rec_td" />
+
+  <label for="player_tackles">Tackles</label>
+  <input type="number" name="player[tackles]" id="player_tackles" />
+
+  <label for="player_solo_tackles">Solo tackles</label>
+  <input type="number" name="player[solo_tackles]" id="player_solo_tackles" />
+
+  <label for="player_defensive_sacks">Defensive sacks</label>
+  <input type="number" name="player[def_sacks]" id="player_def_sacks" />
+
+  <label for="player_safety">Safety</label>
+  <input type="number" name="player[safety]" id="player_safety" />
+
+  <label for="player_forced_fumbles">Forced fumbles</label>
+  <input type="number" name="player[def_fumble]" id="player_def_fumble" />
+
+  <label for="player_defensive_interceptions">Defensive interceptions</label>
+  <input type="number" name="player[def_int]" id="player_def_int" />
+
+  <label for="player_defensive_touchdowns">Defensive touchdowns</label>
+  <input type="number" name="player[def_td]" id="player_def_td" />
+
+  <label for="player_field_goal_1_to_19_yards">Field goal 1 to 19 yards</label>
+  <input type="number" name="player[fg_1to19]" id="player_fg_1to19" />
+
+  <label for="player_field_goal_20_to_29_yards">Field goal 20 to 29 yards</label>
+  <input type="number" name="player[fg_20to29]" id="player_fg_20to29" />
+
+  <label for="player_field_goal_30_to_39_yards">Field goal 30 to 39 yards</label>
+  <input type="number" name="player[fg_30to39]" id="player_fg_30to39" />
+
+  <label for="player_field_goal_40_to_49_yards">Field goal 40 to 49 yards</label>
+  <input type="number" name="player[fg_40to49]" id="player_fg_40to49" />
+
+  <label for="player_field_goal_50_to_59_yards">Field goal 50 to 59 yards</label>
+  <input type="number" name="player[fg_50to59]" id="player_fg_50to59" />
+
+  <label for="player_field_goal_60_plus">Field goal 60 plus</label>
+  <input type="number" name="player[fg_60plus]" id="player_fg_60plus" />
+
+  <label for="player_punts">Punts</label>
+  <input type="number" name="player[punt]" id="player_punt" />
+
+  <label for="player_punt_net_yards">Punt net yards</label>
+  <input type="number" name="player[punt_yards]" id="player_punt_yards" />
+
+  <label for="player_punts_inside_the_20">Punts inside the 20</label>
+  <input type="number" name="player[punt_in20]" id="player_punt_in20" />
+
+  <label for="player_punts_blocked">Punts blocked</label>
+  <input type="number" name="player[punt_blk]" id="player_punt_blk" />
+
+  <label for="player_punts_net_average">Punts net average</label>
+  <input type="number" name="player[net_avg]" id="player_net_avg" />
+
+  <label for="player_punt_returns">Punt returns</label>
+  <input type="number" name="player[pr_ret]" id="player_pr_ret" />
+
+  <label for="player_punt_return_yards">Punt return yards</label>
+  <input type="number" name="player[pr_yds_reet]" id="player_pr_yds_reet" />
+
+  <label for="player_punt_return_touchdown">Punt return touchdown</label>
+  <input type="number" name="player[pr_td]" id="player_pr_td" />
+
+  <label for="player_kick_returns">Kick returns</label>
+  <input type="number" name="player[kr_ret]" id="player_kr_ret" />
+
+  <label for="player_kick_return_yards">Kick return yards</label>
+  <input type="number" name="player[kr_yards]" id="player_kr_yards" />
+
+  <label for="player_kick_return_long">Kick return long</label>
+  <input type="number" name="player[kr_long]" id="player_kr_long" />
+
+  <label for="player_kick_return_touchdowns">Kick return touchdowns</label>
+  <input type="number" name="player[kr_td]" id="player_kr_td" />
+
+  <input type="submit" name="commit" value="Update" class="submit-button" data-disable-with="Update" />
+</form>
+  </div>
+</div>
+  </body>
+</html>
