@@ -30,9 +30,6 @@ gem "jbuilder"
 
 gem 'rake', '13.2.1'
 
-# Use Parklife to render this as a static app
-gem 'parklife'
-
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

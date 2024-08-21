@@ -133,10 +133,6 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
-    parklife (0.6.0)
-      nokogiri
-      rack-test
-      thor
     pg (1.5.4)
     psych (5.1.1.1)
       stringio
@@ -239,7 +235,6 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  parklife
   pg
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.2)
