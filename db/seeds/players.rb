@@ -1,6 +1,15 @@
 Player.create!([
   #Active Roster
   {
+    name: 'Mike Smith Jr.',
+    number: '--',
+    position: 'LB',
+    exp: 0,
+    status: 'Active',
+    college: 'Baylor',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/5081724.png&w=350&h=254'
+  },
+  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -586,20 +595,11 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254'
   },
   {
-    name: 'Josh Sills',
-    number: '65',
-    position: 'G',
-    exp: 3,
-    status: 'Active',
-    college: 'Oklahoma State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
-  },
-  {
     name: 'Ryan Coll',
     number: '66',
     position: 'C',
     exp: 0,
-    status: 'Active',
+    status: 'IR',
     college: 'Richmond',
     photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
@@ -755,6 +755,15 @@ Player.create!([
     status: 'Active',
     college: 'Wagner',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254'
+  },
+  {
+    name: 'Mike Panasiuk',
+    number: '91',
+    position: 'C',
+    exp: 2,
+    status: 'Active',
+    college: 'Michigan State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046721.png&w=350&h=254'
   },
   {
     name: 'Genard Avery',
