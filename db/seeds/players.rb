@@ -1,15 +1,6 @@
 Player.create!([
   #Active Roster
   {
-    name: 'Mike Smith Jr.',
-    number: '--',
-    position: 'LB',
-    exp: 0,
-    status: 'Active',
-    college: 'Baylor',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/5081724.png&w=350&h=254'
-  },
-  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -26,15 +17,6 @@ Player.create!([
     status: 'Active',
     college: 'Austin Peay',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
-  },
-  {
-    name: 'Spencer Shrader',
-    number: '3',
-    position: 'K',
-    exp: 0,
-    status: 'Active',
-    college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254'
   },
   {
     name: 'Sam Ehlinger',
@@ -127,24 +109,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035687.png&w=350&h=254'
   },
   {
-    name: 'Tyrie Cleveland',
-    number: '12',
-    position: 'WR',
-    exp: 4,
-    status: 'Active',
-    college: 'Florida',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4034964.png&w=350&h=254'
-  },
-  {
-    name: 'Derek Slywka',
-    number: '13',
-    position: 'WR',
-    exp: 0,
-    status: 'Active',
-    college: 'Ithaca College',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5209094.png&w=350&h=254'
-  },
-  {
     name: 'Alec Pierce',
     number: '14',
     position: 'WR',
@@ -170,15 +134,6 @@ Player.create!([
     status: 'Active',
     college: 'Malone University',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254'
-  },
-  {
-    name: 'Kedon Slovis',
-    number: '17',
-    position: 'QB',
-    exp: 0,
-    status: 'Active',
-    college: 'BYU',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4428512.png&w=350&h=254'
   },
   {
     name: 'Nick Cross',
@@ -296,15 +251,6 @@ Player.create!([
     status: 'Active',
     college: 'Marshall',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427563.png&w=350&h=254'
-  },
-  {
-    name: 'Clay Fields III',
-    number: '34',
-    position: 'CB',
-    exp: 0,
-    status: 'Active',
-    college: 'Tennessee-Chattanooga',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368231.png&w=350&h=254'
   },
   {
     name: 'Zavier Scott',
@@ -433,15 +379,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
   },
   {
-    name: 'Ronnie Harrison Jr.',
-    number: '48',
-    position: 'LB',
-    exp: 7,
-    status: 'Active',
-    college: 'Alabama',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3859006.png&w=350&h=254'
-  },
-  {
     name: 'Eric Tomlinson',
     number: '49',
     position: 'TE',
@@ -530,15 +467,6 @@ Player.create!([
     status: 'Active',
     college: 'UNLV',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254'
-  },
-  {
-    name: 'Derek Rivers',
-    number: '58',
-    position: 'DE',
-    exp: 7,
-    status: 'Active',
-    college: 'Youngstown State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3049268.png&w=350&h=254'
   },
   {
     name: 'Cameron McGrone',
@@ -728,15 +656,6 @@ Player.create!([
     status: 'Active',
     college: 'Miami',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362523.png&w=350&h=254'
-  },
-  {
-    name: 'Greg Ward',
-    number: '89',
-    position: 'WR',
-    exp: 4,
-    status: 'Active',
-    college: 'Houston',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040035.png&w=350&h=254'
   },
   {
     name: 'Grover Stewart',
