@@ -2,6 +2,9 @@
 # exit on error
 set -o errexit
 
+gem update --system
+gem install bundler
+bundle update
 bundle install
 bundle exec rake assets:precompile
 bundle exec rake assets:clean
