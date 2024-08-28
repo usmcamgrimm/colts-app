@@ -10,15 +10,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254'
   },
   {
-    name: 'D.J. Montgomery',
-    number: '2',
-    position: 'WR',
-    exp: 4,
-    status: 'Active',
-    college: 'Austin Peay',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
-  },
-  {
     name: 'Sam Ehlinger',
     number: '4',
     position: 'QB',
@@ -55,24 +46,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249087.png&w=350&h=254'
   },
   {
-    name: 'Laquon Treadwell',
-    number: '7',
-    position: 'WR',
-    exp: 6,
-    status: 'Active',
-    college: 'Mississippi',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254'
-  },
-  {
-    name: 'Jason Bean',
-    number: '8',
-    position: 'QB/WR',
-    exp: 0,
-    status: 'Active',
-    college: 'Kansas',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360900.png&w=350&h=254'
-  },
-  {
     name: 'Rigoberto Sanchez',
     number: '8',
     position: 'P',
@@ -86,7 +59,7 @@ Player.create!([
     number: '9',
     position: 'WR',
     exp: 4,
-    status: 'Active',
+    status: 'IR',
     college: 'Colorado',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254'
   },
@@ -172,15 +145,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4248455.png&w=350&h=254'
   },
   {
-    name: 'Evan Hull',
-    number: '26',
-    position: 'RB',
-    exp: 1,
-    status: 'Active',
-    college: 'Northwestern',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569609.png&w=350&h=254'
-  },
-  {
     name: 'Trey Sermon',
     number: '27',
     position: 'RB',
@@ -206,15 +170,6 @@ Player.create!([
     status: 'Active',
     college: 'Kansas State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360488.png&w=350&h=254'
-  },
-  {
-    name: 'Jaylin Simpson',
-    number: '30',
-    position: 'CB',
-    exp: 0,
-    status: 'Active',
-    college: 'Auburn',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4567225.png&w=350&h=254'
   },
   {
     name: 'Tyler Goodson',
@@ -244,60 +199,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254'
   },
   {
-    name: 'Micah Abraham',
-    number: '33',
-    position: 'CB',
-    exp: 0,
-    status: 'Active',
-    college: 'Marshall',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427563.png&w=350&h=254'
-  },
-  {
-    name: 'Zavier Scott',
-    number: '34',
-    position: 'RB',
-    exp: 1,
-    status: 'Active',
-    college: 'Maine',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4257364.png&w=350&h=254'
-  },
-  {
-    name: 'Chris Lammons',
-    number: '35',
-    position: 'CB',
-    exp: 4,
-    status: 'Active',
-    college: 'South Carolina',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254'
-  },
-  {
-    name: 'Demetric Felton',
-    number: '36',
-    position: 'RB',
-    exp: 3,
-    status: 'Active',
-    college: 'UCLA',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035826.png&w=350&h=254'
-  },
-  {
-    name: 'Ameer Speed',
-    number: '37',
-    position: 'CB',
-    exp: 2,
-    status: 'Active',
-    college: 'Michigan State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259546.png&w=350&h=254'
-  },
-  {
-    name: 'Michael Tutsie',
-    number: '38',
-    position: 'S',
-    exp: 1,
-    status: 'Active',
-    college: 'North Dakota State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4248538.png&w=350&h=254'
-  },
-  {
     name: 'Darrell Baker Jr.',
     number: '39',
     position: 'CB',
@@ -323,15 +224,6 @@ Player.create!([
     status: 'Active',
     college: 'Houston',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240255.png&w=350&h=254'
-  },
-  {
-    name: 'Marcel Dabo',
-    number: '42',
-    position: 'S',
-    exp: 2,
-    status: 'Active',
-    college: 'Stuttgart',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5054377.png&w=350&h=254'
   },
   {
     name: 'Trevor Denbow',
@@ -370,33 +262,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254'
   },
   {
-    name: 'Liam Anderson',
-    number: '47',
-    position: 'LB',
-    exp: 1,
-    status: 'Active',
-    college: 'Holy Cross',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
-  },
-  {
-    name: 'Eric Tomlinson',
-    number: '49',
-    position: 'TE',
-    exp: 9,
-    status: 'Active',
-    college: 'Texas - El Paso',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2511973.png&w=350&h=254'
-  },
-  {
-    name: 'Craig Young',
-    number: '49',
-    position: 'LB',
-    exp: 0,
-    status: 'Active',
-    college: 'Kansas',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4428962.png&w=350&h=254'
-  },
-  {
     name: 'Segun Olubi',
     number: '50',
     position: 'LB',
@@ -419,7 +284,7 @@ Player.create!([
     number: '52',
     position: 'DE',
     exp: 8,
-    status: 'Active',
+    status: 'IRDR',
     college: 'Eastern Washington',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045527.png&w=350&h=254'
   },
@@ -460,20 +325,11 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4601021.png&w=350&h=254'
   },
   {
-    name: 'Austin Ajiake',
-    number: '58',
-    position: 'LB',
-    exp: 1,
-    status: 'Active',
-    college: 'UNLV',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254'
-  },
-  {
     name: 'Cameron McGrone',
     number: '59',
     position: 'LB',
     exp: 2,
-    status: 'Active',
+    status: 'IRDR',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4372085.png&w=350&h=254'
   },
@@ -485,15 +341,6 @@ Player.create!([
     status: 'Active',
     college: 'Wisconsin',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430957.png&w=350&h=254'
-  },
-  {
-    name: 'Levi Bell',
-    number: '61',
-    position: 'DE',
-    exp: 0,
-    status: 'Active',
-    college: 'Texas State - San Marcos',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4690937.png&w=350&h=254'
   },
   {
     name: 'Wesley French',
@@ -512,15 +359,6 @@ Player.create!([
     status: 'Active',
     college: 'Ball State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
-  },
-  {
-    name: 'Arlington Hambright',
-    number: '64',
-    position: 'G',
-    exp: 3,
-    status: 'Active',
-    college: 'Colorado',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241422.png&w=350&h=254'
   },
   {
     name: 'Ryan Coll',
@@ -568,15 +406,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254'
   },
   {
-    name: 'Jonah Laulu',
-    number: '74',
-    position: 'DT',
-    exp: 0,
-    status: 'Active',
-    college: 'Oklahoma',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4373956.png&w=350&h=254'
-  },
-  {
     name: 'Will Fries',
     number: '75',
     position: 'C/G',
@@ -584,15 +413,6 @@ Player.create!([
     status: 'Active',
     college: 'Penn Statee',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4045176.png&w=350&h=254'
-  },
-  {
-    name: 'Jake Witt',
-    number: '76',
-    position: 'T',
-    exp: 1,
-    status: 'Active',
-    college: 'Northern Michigan',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5140684.png&w=350&h=254'
   },
   {
     name: 'Ryan Kelly',
@@ -617,7 +437,7 @@ Player.create!([
     number: '80',
     position: 'TE',
     exp: 3,
-    status: 'Active',
+    status: 'IR',
     college: 'Virginia',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241410.png&w=350&h=254'
   },
@@ -640,15 +460,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039160.png&w=350&h=254'
   },
   {
-    name: 'Jordan Murray',
-    number: '84',
-    position: 'TE',
-    exp: 1,
-    status: 'Active',
-    college: 'Hawaii',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368172.png&w=350&h=254'
-  },
-  {
     name: 'Will Mallory',
     number: '86',
     position: 'TE',
@@ -665,42 +476,6 @@ Player.create!([
     status: 'Active',
     college: 'Albany State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4058825.png&w=350&h=254'
-  },
-  {
-    name: 'Titus Leo',
-    number: '91',
-    position: 'DE',
-    exp: 1,
-    status: 'Active',
-    college: 'Wagner',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254'
-  },
-  {
-    name: 'Mike Panasiuk',
-    number: '91',
-    position: 'C',
-    exp: 2,
-    status: 'Active',
-    college: 'Michigan State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046721.png&w=350&h=254'
-  },
-  {
-    name: 'Genard Avery',
-    number: '92',
-    position: 'DE',
-    exp: 7,
-    status: 'Active',
-    college: 'Memphis',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254'
-  },
-  {
-    name: 'Eric Johnson II',
-    number: '93',
-    position: 'DT',
-    exp: 3,
-    status: 'Active',
-    college: 'Missouri State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050971.png&w=350&h=254'
   },
   {
     name: 'Tyquan Lewis',
