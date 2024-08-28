@@ -460,6 +460,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039160.png&w=350&h=254'
   },
   {
+    name: 'Drew Ogletree',
+    number: '85',
+    position: 'TE',
+    exp: 3,
+    status: 'Active',
+    college: 'Youngstown State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4722908.png&w=350&h=254'
+  },
+  {
     name: 'Will Mallory',
     number: '86',
     position: 'TE',
