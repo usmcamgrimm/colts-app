@@ -1,6 +1,15 @@
 Player.create!([
   #Active Roster
   {
+    name: 'Samuel Womack',
+    number: '--',
+    position: 'CB',
+    exp: 3,
+    status: 'Active',
+    college: 'Toledo',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4280416.png&w=350&h=254'
+  },
+  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -197,15 +206,6 @@ Player.create!([
     status: 'Active',
     college: 'Utah',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254'
-  },
-  {
-    name: 'Darrell Baker Jr.',
-    number: '39',
-    position: 'CB',
-    exp: 2,
-    status: 'Active',
-    college: 'Georgia Southern',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036660.png&w=350&h=254'
   },
   {
     name: 'Jaylon Jones',
