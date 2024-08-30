@@ -28,6 +28,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
   {
+    name: 'Spencer Shrader',
+    number: '3',
+    position: 'K',
+    exp: 0,
+    status: 'PS',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254'
+  },
+  {
     name: 'Sam Ehlinger',
     number: '4',
     position: 'QB',
@@ -343,6 +352,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
   },
   {
+    name: 'Sean McKeon',
+    number: '49',
+    position: 'TE',
+    exp: 5,
+    status: 'PS',
+    college: 'Michigan',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036275.png&w=350&h=254'
+  },
+  {
     name: 'Segun Olubi',
     number: '50',
     position: 'LB',
@@ -449,6 +467,15 @@ Player.create!([
     status: 'Active',
     college: 'Ball State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
+  },
+  {
+    name: 'Atonio Mafi',
+    number: '65',
+    position: 'G',
+    exp: 2,
+    status: 'PS',
+    college: 'UCLA',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367202.png&w=350&h=254'
   },
   {
     name: 'Ryan Coll',
@@ -577,6 +604,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4058825.png&w=350&h=254'
   },
   {
+    name: 'Titus Leo',
+    number: '91',
+    position: 'DE',
+    exp: 2,
+    status: 'PS',
+    college: 'Wagner',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254'
+  },
+  {
     name: 'Genard Avery',
     number: '92',
     position: 'DE',
@@ -584,6 +620,15 @@ Player.create!([
     status: 'PS',
     college: 'Memphis',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254'
+  },
+  {
+    name: 'McTelvin Agim',
+    number: '93',
+    position: 'DT',
+    exp: 3,
+    status: 'PS',
+    college: 'Arkansas',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254'
   },
   {
     name: 'Tyquan Lewis',
