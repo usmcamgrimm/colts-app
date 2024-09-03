@@ -1,15 +1,6 @@
 Player.create!([
   #Active Roster
   {
-    name: 'Samuel Womack',
-    number: '--',
-    position: 'CB',
-    exp: 3,
-    status: 'Active',
-    college: 'Toledo',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4280416.png&w=350&h=254'
-  },
-  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -260,6 +251,24 @@ Player.create!([
     status: 'Active',
     college: 'Utah',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035661.png&w=350&h=254'
+  },
+  {
+    name: 'Samuel Womack III',
+    number: '33',
+    position: 'CB',
+    exp: 3,
+    status: 'Active',
+    college: 'Toledo',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4280416.png&w=350&h=254'
+  },
+  {
+    name: 'David Long',
+    number: '34',
+    position: 'CB',
+    exp: 6,
+    status: 'PS',
+    college: 'Michigan',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046536.png&w=350&h=254'
   },
   {
     name: 'Chris Lammons',
