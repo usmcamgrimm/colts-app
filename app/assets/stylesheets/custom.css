@@ -117,8 +117,9 @@ h3.stats-update {
   display: none;
 }
 .player-container {
-  margin: 0 auto;
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
 }
 .player-info {
