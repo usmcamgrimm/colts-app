@@ -260,7 +260,7 @@ Player.create!([
     number: '29',
     position: 'CB',
     exp: 1,
-    status: 'Active',
+    status: 'IR',
     college: 'Kansas State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360488.png&w=350&h=254',
     tackles: 7,
@@ -329,7 +329,7 @@ Player.create!([
     number: '35',
     position: 'CB',
     exp: 4,
-    status: 'PS',
+    status: 'Active',
     college: 'South Carolina',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254'
   },
