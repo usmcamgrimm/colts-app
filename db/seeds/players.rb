@@ -343,6 +343,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259546.png&w=350&h=254'
   },
   {
+    name: 'Kelvin Joseph',
+    number: '38',
+    position: 'CB',
+    exp: 3,
+    status: 'PS',
+    college: 'Kentucky',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362629.png&w=350&h=254'
+  },
+  {
     name: 'Jaylon Jones',
     number: '40',
     position: 'CB',
@@ -422,6 +431,15 @@ Player.create!([
     status: 'PS',
     college: 'Holy Cross',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
+  },
+  {
+    name: 'Ronnie Harrison Jr.',
+    number: '48',
+    position: 'S',
+    exp: 7,
+    status: 'PS',
+    college: 'Alabama',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3859006.png&w=350&h=254'
   },
   {
     name: 'Sean McKeon',
@@ -685,15 +703,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4058825.png&w=350&h=254',
     tackles: 2,
     assist: 2
-  },
-  {
-    name: 'Titus Leo',
-    number: '91',
-    position: 'DE',
-    exp: 2,
-    status: 'PS',
-    college: 'Wagner',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254'
   },
   {
     name: 'Genard Avery',
