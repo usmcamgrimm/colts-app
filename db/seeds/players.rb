@@ -437,7 +437,7 @@ Player.create!([
     number: '48',
     position: 'S',
     exp: 7,
-    status: 'PS',
+    status: 'Active',
     college: 'Alabama',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3859006.png&w=350&h=254'
   },
@@ -709,7 +709,7 @@ Player.create!([
     number: '92',
     position: 'DE',
     exp: 7,
-    status: 'PS',
+    status: 'Active',
     college: 'Memphis',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254'
   },
