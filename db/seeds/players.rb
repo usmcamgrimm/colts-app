@@ -354,15 +354,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254'
   },
   {
-    name: 'Ameer Speed',
-    number: '37',
-    position: 'CB',
-    exp: 2,
-    status: 'PS',
-    college: 'Michigan State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259546.png&w=350&h=254'
-  },
-  {
     name: 'Kelvin Joseph',
     number: '38',
     position: 'CB',
@@ -370,6 +361,15 @@ Player.create!([
     status: 'PS',
     college: 'Kentucky',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362629.png&w=350&h=254'
+  },
+  {
+    name: 'Gregory Junior',
+    number: '39',
+    position: 'CB',
+    exp: 2,
+    status: 'PS',
+    college: 'Ouachita Baptist University',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4400960.png&w=350&h=254'
   },
   {
     name: 'Jaylon Jones',
@@ -736,22 +736,31 @@ Player.create!([
     assist: 4
   },
   {
+    name: 'Titus Leo',
+    number: '91',
+    position: 'DE',
+    exp: 1,
+    status: 'PS',
+    college: 'Wagner',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254'
+  },
+  {
     name: 'Genard Avery',
     number: '92',
     position: 'DE',
     exp: 7,
-    status: 'PS',
+    status: 'Active',
     college: 'Memphis',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254'
   },
   {
-    name: 'McTelvin Agim',
+    name: 'Adam Gotsis',
     number: '93',
     position: 'DT',
-    exp: 3,
+    exp: 9,
     status: 'PS',
-    college: 'Arkansas',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035566.png&w=350&h=254'
+    college: 'Georgia Tech',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971498.png&w=350&h=254'
   },
   {
     name: 'Tyquan Lewis',
@@ -815,7 +824,7 @@ Player.create!([
     number: '99',
     position: 'DT',
     exp: 9,
-    status: 'Active',
+    status: 'IR',
     college: 'Oregon',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254',
     tackles: 7,
