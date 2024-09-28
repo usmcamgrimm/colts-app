@@ -350,7 +350,7 @@ Player.create!([
     number: '34',
     position: 'CB',
     exp: 6,
-    status: 'PS',
+    status: 'Active',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046536.png&w=350&h=254'
   },
@@ -783,7 +783,7 @@ Player.create!([
     number: '93',
     position: 'DT',
     exp: 9,
-    status: 'PS',
+    status: 'Active',
     college: 'Georgia Tech',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971498.png&w=350&h=254'
   },
