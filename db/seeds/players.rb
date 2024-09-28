@@ -367,15 +367,6 @@ Player.create!([
     assist: 1
   },
   {
-    name: 'Kelvin Joseph',
-    number: '38',
-    position: 'CB',
-    exp: 3,
-    status: 'PS',
-    college: 'Kentucky',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362629.png&w=350&h=254'
-  },
-  {
     name: 'Gregory Junior',
     number: '39',
     position: 'CB',
@@ -632,6 +623,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
   },
   {
+    name: 'Josiah Bronson',
+    number: '69',
+    position: 'DT',
+    exp: 2,
+    status: 'PS',
+    college: 'Washington',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3923400.png&w=350&h=254'
+  },
+  {
     name: 'Matt Goncalves',
     number: '71',
     position: 'T',
@@ -657,6 +657,15 @@ Player.create!([
     status: 'Active',
     college: 'BYU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254'
+  },
+  {
+    name: 'Derek Rivers',
+    number: '74',
+    position: 'DE',
+    exp: 7,
+    status: 'PS',
+    college: 'Youngstown State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3049268.png&w=350&h=254'
   },
   {
     name: 'Will Fries',
