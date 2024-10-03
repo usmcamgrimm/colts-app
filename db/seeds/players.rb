@@ -26,21 +26,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
   {
-    name: 'Spencer Shrader',
-    number: '3',
-    position: 'K',
-    exp: 0,
-    status: 'PS',
-    college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254',
-    fg_1to19: '0-0',
-    fg_20to29: '0-0',
-    fg_30to39: '0-0',
-    fg_40to49: '0-0',
-    fg_50to59: '0-0',
-    fg_60Plus: '0-0'
-  },
-  {
     name: 'Sam Ehlinger',
     number: '4',
     position: 'QB',
@@ -385,6 +370,24 @@ Player.create!([
     assist: 2,
     def_sacks: 1.0,
     def_fumble: 1
+  },
+  {
+    name: 'Trent Pennix',
+    number: '37',
+    position: 'RB',
+    exp: 0,
+    status: 'PS',
+    college: 'N.C. State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361660.png&w=350&h=254'
+  },
+  {
+    name: 'Kelvin Joseph',
+    number: '38',
+    position: 'CB',
+    exp: 3,
+    status: 'PS',
+    college: 'Kentucky',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362629.png&w=350&h=254'
   },
   {
     name: 'Gregory Junior',
@@ -804,7 +807,7 @@ Player.create!([
     number: '93',
     position: 'DT',
     exp: 9,
-    status: 'PS',
+    status: 'Active',
     college: 'Georgia Tech',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971498.png&w=350&h=254'
   },
@@ -813,7 +816,7 @@ Player.create!([
     number: '94',
     position: 'DE',
     exp: 7,
-    status: 'Active',
+    status: 'IR',
     college: 'Ohio State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040513.png&w=350&h=254',
     tackles: 17,
