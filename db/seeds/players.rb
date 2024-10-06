@@ -1,6 +1,15 @@
 Player.create!([
   #Active Roster
   {
+    name: 'Alex Johnson',
+    number: '--',
+    position: 'CB',
+    exp: 0,
+    status: 'PS',
+    college: 'UCLA',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367181.png&w=350&h=254'
+  },
+  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -370,15 +379,6 @@ Player.create!([
     assist: 2,
     def_sacks: 1.0,
     def_fumble: 1
-  },
-  {
-    name: 'Trent Pennix',
-    number: '37',
-    position: 'RB',
-    exp: 0,
-    status: 'PS',
-    college: 'N.C. State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361660.png&w=350&h=254'
   },
   {
     name: 'Kelvin Joseph',
