@@ -35,6 +35,21 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
   {
+    name: 'Spencer Shrader',
+    number: '3',
+    position: 'K',
+    exp: 0,
+    status: 'PS',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254',
+    fg_1to19: '0-0',
+    fg_20to29: '0-0',
+    fg_30to39: '0-0',
+    fg_40to49: '0-0',
+    fg_50to59: '0-0',
+    fg_60Plus: '0-0'
+  },
+  {
     name: 'Sam Ehlinger',
     number: '4',
     position: 'QB',
@@ -220,21 +235,6 @@ Player.create!([
     def_fumble: 1
   },
   {
-    name: 'Dallis Flowers',
-    number: '21',
-    position: 'CB',
-    exp: 3,
-    status: 'Active',
-    college: 'Pittsburg State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4917592.png&w=350&h=254',
-    tackles: 9,
-    solo_tackles: 9,
-    kr_ret: 1,
-    kr_fc: 0,
-    kr_yds_ret: 30,
-    kr_lng: 30
-  },
-  {
     name: 'Kenny Moore II',
     number: '23',
     position: 'CB',
@@ -374,7 +374,7 @@ Player.create!([
     number: '34',
     position: 'CB',
     exp: 6,
-    status: 'PS',
+    status: 'Active',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046536.png&w=350&h=254'
   },
@@ -393,6 +393,15 @@ Player.create!([
     def_fumble: 1
   },
   {
+    name: 'Trent Pennix',
+    number: '37',
+    position: 'RB',
+    exp: 0,
+    status: 'PS',
+    college: 'N.C. State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361660.png&w=350&h=254'
+  },
+  {
     name: 'Kelvin Joseph',
     number: '38',
     position: 'CB',
@@ -400,15 +409,6 @@ Player.create!([
     status: 'PS',
     college: 'Kentucky',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362629.png&w=350&h=254'
-  },
-  {
-    name: 'Gregory Junior',
-    number: '39',
-    position: 'CB',
-    exp: 2,
-    status: 'PS',
-    college: 'Ouachita Baptist University',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4400960.png&w=350&h=254'
   },
   {
     name: 'Jaylon Jones',
@@ -710,7 +710,7 @@ Player.create!([
     number: '75',
     position: 'C/G',
     exp: 4,
-    status: 'Active',
+    status: 'IR',
     college: 'Penn Statee',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4045176.png&w=350&h=254'
   },
