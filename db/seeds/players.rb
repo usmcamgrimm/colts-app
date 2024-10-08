@@ -1,15 +1,6 @@
 Player.create!([
   #Active Roster
   {
-    name: 'Alex Johnson',
-    number: '--',
-    position: 'CB',
-    exp: 0,
-    status: 'PS',
-    college: 'UCLA',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367181.png&w=350&h=254'
-  },
-  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -409,6 +400,15 @@ Player.create!([
     status: 'PS',
     college: 'Kentucky',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362629.png&w=350&h=254'
+  },
+  {
+    name: 'Alex Johnson',
+    number: '39',
+    position: 'CB',
+    exp: 0,
+    status: 'PS',
+    college: 'UCLA',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367181.png&w=350&h=254'
   },
   {
     name: 'Jaylon Jones',
