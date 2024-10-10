@@ -1,6 +1,15 @@
 Player.create!([
   #Active Roster
   {
+    name: 'Jack Wilson',
+    number: '--',
+    position: 'T',
+    exp: 0,
+    status: 'PS',
+    college: 'Washington State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/504844.png&w=350&h=254'
+  },
+  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -24,21 +33,6 @@ Player.create!([
     status: 'PS',
     college: 'Austin Peay',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
-  },
-  {
-    name: 'Spencer Shrader',
-    number: '3',
-    position: 'K',
-    exp: 0,
-    status: 'PS',
-    college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254',
-    fg_1to19: '0-0',
-    fg_20to29: '0-0',
-    fg_30to39: '0-0',
-    fg_40to49: '0-0',
-    fg_50to59: '0-0',
-    fg_60Plus: '0-0'
   },
   {
     name: 'Sam Ehlinger',
