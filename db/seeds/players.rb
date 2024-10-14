@@ -249,7 +249,7 @@ Player.create!([
     number: '26',
     position: 'RB',
     exp: 1,
-    status: 'Active',
+    status: 'PS',
     college: 'Northwestern',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569609.png&w=350&h=254'
   },
