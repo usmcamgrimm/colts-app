@@ -35,6 +35,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
   {
+    name: 'Spencer Shrader',
+    number: '3',
+    position: 'K',
+    exp: 0,
+    status: 'PS',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254'
+  },
+  {
     name: 'Sam Ehlinger',
     number: '4',
     position: 'QB',
