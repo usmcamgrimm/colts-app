@@ -165,15 +165,6 @@ Player.create!([
     rec_td: 2
   },
   {
-    name: 'Ethan Fernea',
-    number: '13',
-    position: 'WR',
-    exp: 1,
-    status: 'PS',
-    college: 'UCLA',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4062711.png&w=350&h=254'
-  },
-  {
     name: 'Alec Pierce',
     number: '14',
     position: 'WR',
@@ -601,6 +592,15 @@ Player.create!([
     tackles: 16,
     solo_tackles: 10,
     assist: 6
+  },
+  {
+    name: 'Austin Ajiake',
+    number: '58',
+    position: 'LB',
+    exp: 1,
+    status: 'PS',
+    college: 'UNLV',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254'
   },
   {
     name: 'Cameron McGrone',
