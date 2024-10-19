@@ -402,7 +402,7 @@ Player.create!([
     number: '38',
     position: 'CB',
     exp: 3,
-    status: 'PS',
+    status: 'Active',
     college: 'Kentucky',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362629.png&w=350&h=254'
   },
@@ -497,7 +497,7 @@ Player.create!([
     number: '47',
     position: 'LB',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'Holy Cross',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
   },
