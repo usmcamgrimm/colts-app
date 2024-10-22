@@ -38,6 +38,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
   {
+    name: 'Spencer Shrader',
+    number: '3',
+    position: 'K',
+    exp: 0,
+    status: 'PS',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254'
+  },
+  {
     name: 'Sam Ehlinger',
     number: '4',
     position: 'QB',
@@ -398,15 +407,6 @@ Player.create!([
     status: 'PS',
     college: 'Washington',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
-  },
-  {
-    name: 'Trent Pennix',
-    number: '37',
-    position: 'RB',
-    exp: 0,
-    status: 'PS',
-    college: 'N.C. State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361660.png&w=350&h=254'
   },
   {
     name: 'Kelvin Joseph',
