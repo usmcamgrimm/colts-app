@@ -623,7 +623,7 @@ Player.create!([
     number: '59',
     position: 'LB',
     exp: 2,
-    status: 'IRDR',
+    status: 'Active',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4372085.png&w=350&h=254'
   },
@@ -919,7 +919,7 @@ Player.create!([
     number: '99',
     position: 'DT',
     exp: 9,
-    status: 'IR',
+    status: 'Active',
     college: 'Oregon',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254',
     tackles: 7,
