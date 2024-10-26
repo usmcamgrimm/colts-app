@@ -404,7 +404,7 @@ Player.create!([
     number: '38',
     position: 'CB',
     exp: 3,
-    status: 'PS',
+    status: 'Active',
     college: 'Kentucky',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362629.png&w=350&h=254'
   },
