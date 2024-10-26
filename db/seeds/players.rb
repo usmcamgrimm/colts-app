@@ -264,15 +264,6 @@ Player.create!([
     assist: 2
   },
   {
-    name: 'Evan Hull',
-    number: '26',
-    position: 'RB',
-    exp: 1,
-    status: 'Active',
-    college: 'Northwestern',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569609.png&w=350&h=254'
-  },
-  {
     name: 'Trey Sermon',
     number: '27',
     position: 'RB',
@@ -601,7 +592,7 @@ Player.create!([
     number: '57',
     position: 'LB',
     exp: 0,
-    status: 'Active',
+    status: 'IR',
     college: 'Missouri',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4601021.png&w=350&h=254',
     tackles: 21,
