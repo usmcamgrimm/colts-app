@@ -38,6 +38,10 @@
       <p class="playerStats"><strong>Completions:</strong> <%= @player.comp %></p>
     <% end %>
 
+    <% if @player.comp_percent != nil %>
+      <p class="playerStats"><strong>Completion Percentage</strong> <%= @player.comp_percent %></p>
+    <% end %>
+
     <% if @player.pass_yards != nil %>
       <p class="playerStats"><strong>Passing Yards:</strong> <%= @player.pass_yards %></p>
     <% end %>
