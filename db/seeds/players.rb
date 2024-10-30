@@ -160,15 +160,6 @@ Player.create!([
     rec_td: 2
   },
   {
-    name: 'Ethan Fernea',
-    number: '13',
-    position: 'WR',
-    exp: 1,
-    status: 'PS',
-    college: 'UCLA',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4062711.png&w=350&h=254'
-  },
-  {
     name: 'Alec Pierce',
     number: '14',
     position: 'WR',
@@ -254,6 +245,15 @@ Player.create!([
     tackles: 7,
     solo_tackles: 5,
     assist: 2
+  },
+  {
+    name: 'Evan Hull',
+    number: '26',
+    position: 'RB',
+    exp: 1,
+    status: 'PS',
+    college: 'Northwestern',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569609.png&w=350&h=254'
   },
   {
     name: 'Trey Sermon',
@@ -392,13 +392,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
   },
   {
-    name: 'Kelvin Joseph',
-    number: '38',
+    name: 'Tre Flowers',
+    number: '37',
     position: 'CB',
-    exp: 3,
-    status: 'Active',
-    college: 'Kentucky',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362629.png&w=350&h=254'
+    exp: 7,
+    status: 'PS',
+    college: 'Oklahoma State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046326.png&w=350&h=254'
   },
   {
     name: 'Alex Johnson',
@@ -675,15 +675,6 @@ Player.create!([
     status: 'Active',
     college: 'Marshall',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
-  },
-  {
-    name: 'Josiah Bronson',
-    number: '69',
-    position: 'DT',
-    exp: 2,
-    status: 'PS',
-    college: 'Washington',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3923400.png&w=350&h=254'
   },
   {
     name: 'Matt Goncalves',
