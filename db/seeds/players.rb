@@ -1,15 +1,6 @@
 Player.create!([
   #Active Roster
   {
-    name: 'Jack Wilson',
-    number: '--',
-    position: 'T',
-    exp: 0,
-    status: 'PS',
-    college: 'Washington State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/504844.png&w=350&h=254'
-  },
-  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -458,7 +449,7 @@ Player.create!([
     number: '43',
     position: 'S',
     exp: 3,
-    status: 'Active',
+    status: 'IR',
     college: 'SMU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360538.png&w=350&h=254',
     tackles: 1,
@@ -512,7 +503,7 @@ Player.create!([
     number: '48',
     position: 'S',
     exp: 7,
-    status: 'PS',
+    status: 'Active',
     college: 'Alabama',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3859006.png&w=350&h=254'
   },
@@ -650,6 +641,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
   },
   {
+    name: 'Josh Sills',
+    number: '64',
+    position: 'G',
+    exp: 3,
+    status: 'PS',
+    college: 'Oklahoma Statte',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
+  },
+  {
     name: 'Atonio Mafi',
     number: '65',
     position: 'G',
@@ -729,6 +729,15 @@ Player.create!([
     status: 'IR',
     college: 'Penn Statee',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4045176.png&w=350&h=254'
+  },
+  {
+    name: 'Sebastian Gutierrez',
+    number: '76',
+    position: 'T',
+    exp: 1,
+    status: 'PS',
+    college: 'Minot State University',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5041985.png&w=350&h=254'
   },
   {
     name: 'Ryan Kelly',
