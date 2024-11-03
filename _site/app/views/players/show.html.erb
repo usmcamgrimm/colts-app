@@ -1,0 +1,202 @@
+<div class="player-page">
+  <section class="player-section">
+    <img class="player-image">
+      <%= image_tag @player.photo, class: "playerShow", alt: "Colts player headshot" %>
+    <div class="player-header">
+      <h2><%= @player.name %></h2>
+      <div class="player-details">
+        <h3 class="playerNum"><%= @player.number %></h3>
+        &#x25CF;
+        <h3 class="playerPos"><%= @player.position %></h3>
+      </div>
+      <div class="player-status">
+        <p class="status">Status: <%= @player.status %></p>
+      </div>
+      <div class="player-xp">
+        <p class="xp">Experience: <%= exp(@player) %></p>
+      </div>
+      <div class="player-college">
+          <p class="college">College: <%= @player.college %></p>
+        </div>
+    </div>
+  </section>
+
+  <% if Rails.env.development? %>
+    <section class="edit-player">
+      <%= link_to "Edit Player", edit_player_path(@player), class: "edit-btn" %>
+    </section>
+  <% end %>
+
+  <div class="stats-section">
+    <h3 class="statsList">2024 Season Stats</h3>
+
+    <% if @player.pass_att != nil %>
+      <p class="playerStats"><strong>Pass Attempts:</strong> <%= @player.pass_att %></p>
+    <% end %>
+
+    <% if @player.comp != nil %>
+      <p class="playerStats"><strong>Completions:</strong> <%= @player.comp %></p>
+    <% end %>
+
+    <% if @player.comp_percent != nil %>
+      <p class="playerStats"><strong>Completion Percentage</strong> <%= @player.comp_percent %></p>
+    <% end %>
+
+    <% if @player.pass_yards != nil %>
+      <p class="playerStats"><strong>Passing Yards:</strong> <%= @player.pass_yards %></p>
+    <% end %>
+
+    <% if @player.pass_td != nil %>
+      <p class="playerStats"><strong>Touchdowns:</strong> <%= @player.pass_td %></p>
+    <% end %>
+
+    <% if @player.qb_rtng != nil %>
+      <p class="playerStats"><strong>QB Rating:</strong> <%= @player.qb_rtng %></p>
+    <% end %>
+
+    <% if @player.rush_att != nil %>
+      <p class="playerStats"><strong>Rushes:</strong> <%= @player.rush_att %></p>
+    <% end %>
+
+    <% if @player.rush_yds != nil %>
+      <p class="playerStats"><strong>Rushing Yards:</strong> <%= @player.rush_yds %></p>
+    <% end %>
+
+    <% if @player.rush_ypc != nil %>
+      <p class="playerStats"><strong>Yards per Carry:</strong> <%= @player.rush_ypc %></p>
+    <% end %>
+
+    <% if @player.rush_td != nil && @player.rush_td != 0 %>
+      <p class="playerStats"><strong>Rushing Touchdowns:</strong> <%= @player.rush_td %></p>
+    <% end %>
+    
+    <% if @player.rec != nil %>
+      <p class="playerStats"><strong>Receptions:</strong> <%= @player.rec %></p>
+    <% end %>
+
+    <% if @player.rec_yards != nil %>
+      <p class="playerStats"><strong>Yards:</strong> <%= @player.rec_yards %></p>
+    <% end %>
+
+    <% if @player.rec_td != nil %>
+      <p class="playerStats"><strong>Touchdowns:</strong> <%= @player.rec_td %></p>
+    <% end %>
+
+    <% if @player.tackles != nil %>
+      <p class="playerStats"><strong>Tackles:</strong> <%= @player.tackles %></p>
+    <% end %>
+
+    <% if @player.solo_tackles != nil %>
+      <p class="playerStats"><strong>Solo Tackles:</strong> <%= @player.solo_tackles %></p>
+    <% end %>
+
+    <% if @player.assist != nil %>
+      <p class="playerStats"><strong>Assists:</strong> <%= @player.assist %></p>
+    <% end %>
+
+    <% if @player.def_sacks != nil %>
+      <p class="playerStats"><strong>Sacks:</strong> <%= @player.def_sacks %></p>
+    <% end %>
+
+    <% if @player.safety != nil %>
+      <p class="playerStats"><strong>Safety:</strong> <%= @player.safety %></p>
+    <% end %>
+
+    <% if @player.def_fumble != nil %>
+      <p class="playerStats"><strong>Forced Fumble:</strong> <%= @player.def_fumble %></p>
+    <% end %>
+
+    <% if @player.def_int != nil %>
+      <p class="playerStats"><strong>Interceptions:</strong> <%= @player.def_int %></p>
+    <% end %>
+
+    <% if @player.def_td != nil %>
+      <p class="playerStats"><strong>Touchdowns:</strong> <%= @player.def_td %></p>
+    <% end %>
+
+    <% if @player.fg_1to19 != nil %>
+      <p class="playerStats"><strong>FG 1 - 19 Yards:</strong> <%= @player.fg_1to19 %></p>
+    <% end %>
+
+    <% if @player.fg_20to29 != nil %>
+      <p class="playerStats"><strong>FG 20 - 29 Yards:</strong> <%= @player.fg_20to29 %></p>
+    <% end %>
+
+    <% if @player.fg_30to39 != nil %>
+      <p class="playerStats"><strong>FG 30 - 39 Yards:</strong> <%= @player.fg_30to39 %></p>
+    <% end %>
+
+    <% if @player.fg_40to49 != nil %>
+      <p class="playerStats"><strong>FG 40 - 49 Yards:</strong> <%= @player.fg_40to49 %></p>
+    <% end %>
+
+    <% if @player.fg_50to59 != nil %>
+      <p class="playerStats"><strong>FG 50 - 59 Yards:</strong> <%= @player.fg_50to59 %></p>
+    <% end %>
+
+    <% if @player.fg_60Plus != nil %>
+      <p class="playerStats"><strong>FG 60+ Yards:</strong> <%= @player.fg_60Plus %></p>
+    <% end %>
+
+    <% if @player.punt != nil %>
+      <p class="playerStats"><strong>Punts:</strong> <%= @player.punt %></p>
+    <% end %>
+
+    <% if @player.punt_yards != nil %>
+      <p class="playerStats"><strong>Punt Yards:</strong> <%= @player.punt_yards %></p>
+    <% end %>
+
+    <% if @player.punt_avg != nil %>
+      <p class="playerStats"><strong>Average:</strong> <%= @player.punt_avg %></p>
+    <% end %>
+
+    <% if @player.punt_lng != nil %>
+      <p class="playerStats"><strong>Long:</strong> <%= @player.punt_lng %></p>
+    <% end %>
+
+    <% if @player.punt_in20 != nil %>
+      <p class="playerStats"><strong>Inside the 20:</strong> <%= @player.punt_in20 %></p>
+    <% end %>
+
+    <% if @player.pr_ret != nil %>
+      <p class="playerStats"><strong>Punt Returns:</strong> <%= @player.pr_ret %></p>
+    <% end %>
+
+    <% if @player.pr_yds_ret != nil %>
+      <p class="playerStats"><strong>Yards per Return:</strong> <%= @player.pr_yds_ret %></p>
+    <% end %>
+
+    <% if @player.pr_fc != nil %>
+      <p class="playerStats"><strong>Fair Catch:</strong> <%= @player.pr_fc %></p>
+    <% end %>
+
+    <% if @player.pr_lng != nil %>
+      <p class="playerStats"><strong>Long:</strong> <%= @player.pr_lng %></p>
+    <% end %>
+
+    <% if @player.pr_td != nil %>
+      <p class="playerStats"><strong>Touchdowns:</strong> <%= @player.pr_td %></p>
+    <% end %>
+
+    <% if @player.kr_ret != nil %>
+      <p class="playerStats"><strong>Kick Returns:</strong> <%= @player.kr_ret %></p>
+    <% end %>
+
+    <% if @player.kr_yds_ret != nil %>
+      <p class="playerStats"><strong>Yards per Return:</strong> <%= @player.kr_yds_ret %></p>
+    <% end %>
+
+    <% if @player.kr_fc != nil %>
+      <p class="playerStats"><strong>Fair Catch:</strong> <%= @player.kr_fc %></p>
+    <% end %>
+
+    <% if @player.kr_lng != nil %>
+      <p class="playerStats"><strong>Long:</strong> <%= @player.kr_lng %></p>
+    <% end %>
+
+    <% if @player.kr_td != nil %>
+      <p class="playerStats"><strong>Touchdowns:</strong> <%= @player.kr_td %></p>
+    <% end %>
+
+  </div>
+</div>

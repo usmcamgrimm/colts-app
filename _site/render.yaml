@@ -1,0 +1,19 @@
+databases:
+  - name: coltsrailspgdb
+    databaseName: coltsrailspgdb
+    user: usmcamgrimm
+
+services:
+  - type: web
+    name: coltsrails
+    runtime: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: coltsrailspgdb
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
