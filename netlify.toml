@@ -1,0 +1,2 @@
+[build]
+command = "sudo apt-get update && apt-get install -y libpq-dev && bundle install"
