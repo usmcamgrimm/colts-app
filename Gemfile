@@ -31,8 +31,6 @@ gem 'openssl', '~> 3.2'
 
 gem 'rake', '~> 13.2', '>= 13.2.1'
 
-gem 'jekyll', '~> 4.3', '>= 4.3.4'
-
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
