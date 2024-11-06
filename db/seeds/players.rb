@@ -401,6 +401,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046326.png&w=350&h=254'
   },
   {
+    name: 'Darren Hall',
+    number: '38',
+    position: 'S',
+    exp: 3,
+    status: 'Active',
+    college: 'San Diego State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4261606.png&w=350&h=254'
+  },
+  {
     name: 'Alex Johnson',
     number: '39',
     position: 'CB',
@@ -735,7 +744,7 @@ Player.create!([
     number: '78',
     position: 'C',
     exp: 9,
-    status: 'Active',
+    status: 'IR',
     college: 'Alabama',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2578475.png&w=350&h=254'
   },
