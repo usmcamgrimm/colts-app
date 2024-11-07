@@ -34,5 +34,5 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-# Ignore the _site directory
-/_site/*
+# Local Netlify folder
+.netlify
