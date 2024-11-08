@@ -145,6 +145,10 @@ GEM
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     openssl (3.2.0)
+    parklife (0.6.1)
+      nokogiri
+      rack-test
+      thor
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
@@ -254,6 +258,7 @@ DEPENDENCIES
   importmap-rails (~> 2.0, >= 2.0.3)
   jbuilder (~> 2.13)
   openssl (~> 3.2)
+  parklife (~> 0.6.1)
   puma (~> 6.4, >= 6.4.3)
   rails (~> 7.2, >= 7.2.1)
   rails_live_reload (~> 0.3.6)

@@ -31,6 +31,8 @@ gem 'openssl', '~> 3.2'
 
 gem 'rake', '~> 13.2', '>= 13.2.1'
 
+gem 'parklife', '~> 0.6.1' 
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
