@@ -34,8 +34,9 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-# Ignore the Parklife build directory
+# Ignore folders for Parklife builds
 build/
+assets/
 
 # Local Netlify folder
 .netlify/
