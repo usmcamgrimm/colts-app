@@ -82,12 +82,12 @@ Player.create!([
     status: 'Active',
     college: 'Utah',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249087.png&w=350&h=254',
-    fg_1to19: '0-0',
-    fg_20to29: '3-3',
-    fg_30to39: '7-7',
-    fg_40to49: '2-2',
-    fg_50to59: '2-5',
-    fg_60Plus: '0-0'
+    fg_1to19: '0 - 0',
+    fg_20to29: '3 - 3',
+    fg_30to39: '7 - 7',
+    fg_40to49: '2 - 2',
+    fg_50to59: '2 - 5',
+    fg_60Plus: '0 - 0'
   },
   {
     name: 'Laquon Treadwell',
