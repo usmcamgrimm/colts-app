@@ -94,7 +94,7 @@ Player.create!([
     number: '7',
     position: 'WR',
     exp: 6,
-    status: 'Active',
+    status: 'PS',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254'
   },
