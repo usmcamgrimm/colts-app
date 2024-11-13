@@ -680,6 +680,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
   {
+    name: 'Mason Brooks',
+    number: '67',
+    position: 'T',
+    exp: 1,
+    status: 'PS',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4363055.png&w=350&h=254'
+  },
+  {
     name: 'Dalton Tucker',
     number: '68',
     position: 'G',
@@ -714,15 +723,6 @@ Player.create!([
     status: 'Active',
     college: 'BYU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254'
-  },
-  {
-    name: 'Derek Rivers',
-    number: '74',
-    position: 'DE',
-    exp: 7,
-    status: 'PS',
-    college: 'Youngstown State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3049268.png&w=350&h=254'
   },
   {
     name: 'Will Fries',
