@@ -506,7 +506,7 @@ Player.create!([
     number: '47',
     position: 'LB',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'Holy Cross',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
   },
@@ -850,17 +850,6 @@ Player.create!([
     status: 'Active',
     college: 'Memphis',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254'
-  },
-  {
-    name: 'Adam Gotsis',
-    number: '93',
-    position: 'DT',
-    exp: 9,
-    status: 'Active',
-    college: 'Georgia Tech',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971498.png&w=350&h=254',
-    tackles: 4,
-    solo_tackles: 4
   },
   {
     name: 'Tyquan Lewis',
