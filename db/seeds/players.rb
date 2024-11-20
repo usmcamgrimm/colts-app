@@ -725,6 +725,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254'
   },
   {
+    name: 'Derek Rivers',
+    number: '74',
+    position: 'DE',
+    exp: 7,
+    status: 'PS',
+    college: 'Youngstown State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3049268.png&w=350&h=254'
+  },
+  {
     name: 'Will Fries',
     number: '75',
     position: 'C/G',
@@ -834,13 +843,13 @@ Player.create!([
     def_fumble: 1
   },
   {
-    name: 'Titus Leo',
+    name: 'Trysten Hill',
     number: '91',
-    position: 'DE',
-    exp: 1,
+    position: 'DT',
+    exp: 5,
     status: 'PS',
-    college: 'Wagner',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368468.png&w=350&h=254'
+    college: 'UCF',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4042141.png&w=350&h=254'
   },
   {
     name: 'Genard Avery',
