@@ -393,15 +393,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
   },
   {
-    name: 'Tre Flowers',
-    number: '37',
-    position: 'CB',
-    exp: 7,
-    status: 'PS',
-    college: 'Oklahoma State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046326.png&w=350&h=254'
-  },
-  {
     name: 'Darren Hall',
     number: '38',
     position: 'S',
@@ -669,6 +660,15 @@ Player.create!([
     status: 'PS',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367202.png&w=350&h=254'
+  },
+  {
+    name: 'Mark Glowinski',
+    number: '66',
+    position: 'G',
+    exp: 10,
+    status: 'PS',
+    college: 'West Virginia',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2976632.png&w=350&h=254'
   },
   {
     name: 'Ryan Coll',
