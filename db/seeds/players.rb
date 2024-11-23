@@ -852,20 +852,11 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4042141.png&w=350&h=254'
   },
   {
-    name: 'Genard Avery',
-    number: '92',
-    position: 'DE',
-    exp: 7,
-    status: 'Active',
-    college: 'Memphis',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3126204.png&w=350&h=254'
-  },
-  {
     name: 'Tyquan Lewis',
     number: '94',
     position: 'DE',
     exp: 7,
-    status: 'IR',
+    status: 'Active',
     college: 'Ohio State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3040513.png&w=350&h=254',
     tackles: 17,
