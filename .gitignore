@@ -36,7 +36,7 @@
 
 # Ignore folders for Parklife builds
 build/
-assets/
+build-assets/
 
 # Local Netlify folder
 .netlify/
