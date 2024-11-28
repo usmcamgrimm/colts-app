@@ -393,6 +393,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
   },
   {
+    name: 'Tre Flowers',
+    number: '37',
+    position: 'CB',
+    exp: 7,
+    status: 'PS',
+    college: 'Oklahoma State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046326.png&w=350&h=254'
+  },
+  {
     name: 'Darren Hall',
     number: '38',
     position: 'S',
@@ -727,13 +736,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254'
   },
   {
-    name: 'Derek Rivers',
+    name: 'Durell Nchami',
     number: '74',
     position: 'DE',
-    exp: 7,
+    exp: 1,
     status: 'PS',
-    college: 'Youngstown State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3049268.png&w=350&h=254'
+    college: 'Maryland',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360638.png&w=350&h=254'
   },
   {
     name: 'Will Fries',
@@ -743,15 +752,6 @@ Player.create!([
     status: 'IR',
     college: 'Penn Statee',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4045176.png&w=350&h=254'
-  },
-  {
-    name: 'Sebastian Gutierrez',
-    number: '76',
-    position: 'T',
-    exp: 1,
-    status: 'PS',
-    college: 'Minot State University',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5041985.png&w=350&h=254'
   },
   {
     name: 'Ryan Kelly',
