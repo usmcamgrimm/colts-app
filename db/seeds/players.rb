@@ -503,15 +503,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254'
   },
   {
-    name: 'Liam Anderson',
-    number: '47',
-    position: 'LB',
-    exp: 1,
-    status: 'Active',
-    college: 'Holy Cross',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
-  },
-  {
     name: 'Ronnie Harrison Jr.',
     number: '48',
     position: 'S',
@@ -668,7 +659,7 @@ Player.create!([
     number: '65',
     position: 'G',
     exp: 2,
-    status: 'PS',
+    status: 'Active',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367202.png&w=350&h=254'
   },
