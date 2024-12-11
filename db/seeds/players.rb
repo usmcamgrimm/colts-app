@@ -715,6 +715,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
   },
   {
+    name: 'Pheldarius Payne',
+    number: '69',
+    position: 'DT',
+    exp: 0,
+    status: 'PS',
+    college: 'Virginia Tech',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4686263.png&w=350&h=254'
+  },
+  {
     name: 'Matt Goncalves',
     number: '71',
     position: 'T',
