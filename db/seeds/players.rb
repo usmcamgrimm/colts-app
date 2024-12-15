@@ -683,7 +683,7 @@ Player.create!([
     number: '66',
     position: 'G',
     exp: 10,
-    status: 'PS',
+    status: 'Active',
     college: 'West Virginia',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2976632.png&w=350&h=254'
   },
@@ -737,7 +737,7 @@ Player.create!([
     number: '72',
     position: 'T',
     exp: 7,
-    status: 'Active',
+    status: 'NFI',
     college: 'Auburn',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3121595.png&w=350&h=254'
   },
