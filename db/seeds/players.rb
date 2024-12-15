@@ -661,13 +661,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
   },
   {
-    name: 'Josh Sills',
+    name: 'Mark Glowinski',
     number: '64',
     position: 'G',
-    exp: 3,
-    status: 'PS',
-    college: 'Oklahoma State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
+    exp: 10,
+    status: 'Active',
+    college: 'West Virginia',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2976632.png&w=350&h=254'
   },
   {
     name: 'Atonio Mafi',
@@ -679,13 +679,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367202.png&w=350&h=254'
   },
   {
-    name: 'Mark Glowinski',
+    name: 'Josh Sills',
     number: '66',
     position: 'G',
-    exp: 10,
-    status: 'Active',
-    college: 'West Virginia',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2976632.png&w=350&h=254'
+    exp: 3,
+    status: 'PS',
+    college: 'Oklahoma State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
   },
   {
     name: 'Ryan Coll',
