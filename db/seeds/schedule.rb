@@ -201,8 +201,8 @@ Schedule.create!([
   },
   { 
     week: '17',
-    gamedate: 'TBD',
-    gametime: 'TBD',
+    gamedate: 'Sun 11/29',
+    gametime: '1:00PM',
     location: 'away',
     result: '',
     score: '',
