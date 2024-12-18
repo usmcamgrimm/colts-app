@@ -827,6 +827,15 @@ Player.create!([
     solo_tackles: 2
   },
   {
+    name: 'Albert Okwuegbunam',
+    number: '85',
+    position: 'TE',
+    exp: 5,
+    status: 'PS',
+    college: 'Missouri',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035115.png&w=350&h=254'
+  },
+  {
     name: 'Drew Ogletree',
     number: '85',
     position: 'TE',
