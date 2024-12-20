@@ -308,15 +308,6 @@ Player.create!([
     assist: 4
   },
   {
-    name: 'Ambry Thomas',
-    number: '30',
-    position: 'CB',
-    exp: 4,
-    status: 'Active',
-    college: 'Michigan',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4258209.png&w=350&h=254'
-  },
-  {
     name: 'Jaylin Simpson',
     number: '30',
     position: 'CB',
