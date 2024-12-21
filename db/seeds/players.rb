@@ -406,7 +406,7 @@ Player.create!([
     number: '37',
     position: 'CB',
     exp: 7,
-    status: 'PS',
+    status: 'Active',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046326.png&w=350&h=254'
   },
@@ -660,7 +660,7 @@ Player.create!([
     number: '64',
     position: 'G',
     exp: 10,
-    status: 'PS',
+    status: 'Active',
     college: 'West Virginia',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2976632.png&w=350&h=254'
   },
