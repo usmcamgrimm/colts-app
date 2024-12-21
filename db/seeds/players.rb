@@ -611,7 +611,7 @@ Player.create!([
     number: '57',
     position: 'LB',
     exp: 0,
-    status: 'IR',
+    status: 'Active',
     college: 'Missouri',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4601021.png&w=350&h=254',
     tackles: 21,
@@ -777,7 +777,7 @@ Player.create!([
     number: '78',
     position: 'C',
     exp: 9,
-    status: 'IR',
+    status: 'Active',
     college: 'Alabama',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2578475.png&w=350&h=254'
   },
