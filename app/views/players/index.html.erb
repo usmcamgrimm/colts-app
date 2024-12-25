@@ -138,6 +138,34 @@
   <% end %>
 </div>
 
+<h2 class="roster-title">Practice Squad - Injured</h2>
+<div class="player-container">
+  <% @players.each do |player| %>
+    <% if player.status == 'PSI' %>
+      <div class="player">
+        <div class="player-info">
+          <img class="player-image">
+            <%= image_tag player.photo, alt: "Colts player headshot" %>
+          <div class="player-header">
+            <h2><%= link_to player.name, player %></h2>
+            <div class="player-details">
+              <p class="playerNum"><%= player.number %></p>
+              &#x25CF;
+              <p class="playerPos"><%= player.position %></p>
+            </div>
+            <div class="player-college">
+              <p class="college">College: <%= player.college %></p>
+            </div>
+            <div class="player-xp">
+              <p class="xp">Experience: <%= exp(player) %></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+
 <!--
 <h2 class="roster-title">Suspended By Team</h2>
 <div class="player-container">

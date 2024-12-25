@@ -407,7 +407,7 @@ Player.create!([
     number: '37',
     position: 'CB',
     exp: 7,
-    status: 'PS',
+    status: 'PSI',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046326.png&w=350&h=254'
   },
