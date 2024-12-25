@@ -666,6 +666,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2976632.png&w=350&h=254'
   },
   {
+    name: 'Atonio Mafi',
+    number: '65',
+    position: 'G',
+    exp: 2,
+    status: 'PS',
+    college: 'UCLA',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367202.png&w=350&h=254'
+  },
+  {
     name: 'Josh Sills',
     number: '66',
     position: 'G',
