@@ -411,6 +411,14 @@ Player.create!([
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046326.png&w=350&h=254'
   },
+  { name: 'Michael Tutsie',
+    number: '38',
+    position: 'S',
+    exp: 1,
+    status: 'PS',
+    college: 'North Dakota State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4248538.png&w=350&h=254'
+  },
   {
     name: 'Alex Johnson',
     number: '39',
