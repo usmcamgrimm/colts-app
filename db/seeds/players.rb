@@ -300,7 +300,7 @@ Player.create!([
     number: '29',
     position: 'CB',
     exp: 1,
-    status: 'IR',
+    status: 'Active',
     college: 'Kansas State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360488.png&w=350&h=254',
     tackles: 7,
@@ -378,20 +378,6 @@ Player.create!([
     status: 'Active',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046536.png&w=350&h=254'
-  },
-  {
-    name: 'Chris Lammons',
-    number: '35',
-    position: 'CB',
-    exp: 4,
-    status: 'Active',
-    college: 'South Carolina',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254',
-    tackles: 12,
-    solo_tackles: 10,
-    assist: 2,
-    def_sacks: 1.0,
-    def_fumble: 1
   },
   {
     name: 'Salvon Ahmed',
