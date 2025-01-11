@@ -24,7 +24,7 @@ Player.create!([
     number: '2',
     position: 'WR',
     exp: 4,
-    status: 'PS',
+    status: 'RF',
     college: 'Austin Peay',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
@@ -98,7 +98,7 @@ Player.create!([
     number: '7',
     position: 'WR',
     exp: 6,
-    status: 'PS',
+    status: 'RF',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254'
   },
@@ -121,7 +121,7 @@ Player.create!([
     number: '8',
     position: 'QB/WR',
     exp: 0,
-    status: 'PS',
+    status: 'RF',
     college: 'Kansas',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360900.png&w=350&h=254'
   },
@@ -312,7 +312,7 @@ Player.create!([
     number: '30',
     position: 'CB',
     exp: 0,
-    status: 'PS',
+    status: 'RF',
     college: 'Auburn',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4567225.png&w=350&h=254'
   },
@@ -385,7 +385,7 @@ Player.create!([
     number: '36',
     position: 'RB',
     exp: 5,
-    status: 'PS',
+    status: 'RF',
     college: 'Washington',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
   },
@@ -411,7 +411,7 @@ Player.create!([
     number: '39',
     position: 'CB',
     exp: 0,
-    status: 'PS',
+    status: 'RF',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367181.png&w=350&h=254'
   },
@@ -446,7 +446,7 @@ Player.create!([
     number: '42',
     position: 'S',
     exp: 2,
-    status: 'PS',
+    status: 'RF',
     college: 'Stuttgart',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5054377.png&w=350&h=254'
   },
@@ -503,7 +503,7 @@ Player.create!([
     number: '47',
     position: 'LB',
     exp: 1,
-    status: 'PS',
+    status: 'RF',
     college: 'Holy Cross',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
   },
@@ -521,7 +521,7 @@ Player.create!([
     number: '49',
     position: 'TE',
     exp: 5,
-    status: 'PS',
+    status: 'RF',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036275.png&w=350&h=254'
   },
@@ -611,7 +611,7 @@ Player.create!([
     number: '58',
     position: 'LB',
     exp: 1,
-    status: 'PS',
+    status: 'RF',
     college: 'UNLV',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254'
   },
@@ -665,7 +665,7 @@ Player.create!([
     number: '65',
     position: 'G',
     exp: 2,
-    status: 'PS',
+    status: 'RF',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367202.png&w=350&h=254'
   },
@@ -674,7 +674,7 @@ Player.create!([
     number: '66',
     position: 'G',
     exp: 3,
-    status: 'PS',
+    status: 'RF',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
   },
@@ -710,7 +710,7 @@ Player.create!([
     number: '69',
     position: 'DT',
     exp: 0,
-    status: 'PS',
+    status: 'RF',
     college: 'Virginia Tech',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4686263.png&w=350&h=254'
   },
@@ -746,7 +746,7 @@ Player.create!([
     number: '74',
     position: 'DE',
     exp: 1,
-    status: 'PS',
+    status: 'RF',
     college: 'Maryland',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360638.png&w=350&h=254'
   },
@@ -818,7 +818,7 @@ Player.create!([
     number: '85',
     position: 'TE',
     exp: 5,
-    status: 'PS',
+    status: 'RF',
     college: 'Missouri',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035115.png&w=350&h=254'
   },
@@ -864,7 +864,7 @@ Player.create!([
     number: '91',
     position: 'DT',
     exp: 5,
-    status: 'PS',
+    status: 'PSI',
     college: 'UCF',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4042141.png&w=350&h=254'
   },
