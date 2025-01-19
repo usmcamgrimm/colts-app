@@ -1,6 +1,33 @@
 Player.create!([
   #Active Roster
   {
+    name: 'Luke Tenuta',
+    number: '--',
+    position: 'T',
+    exp: 3,
+    status: 'RF',
+    college: 'Virginia Tech',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361979.png&w=350&h=254'
+  },
+  {
+    name: 'Jack Wilson',
+    number: '--',
+    position: 'T',
+    exp: 0,
+    status: 'RF',
+    college: 'Washington State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/504844.png&w=350&h=254'
+  },
+  {
+    name: 'Jacob Phillips',
+    number: '--',
+    position: 'LB',
+    exp: 4,
+    status: 'RF',
+    college: 'LSU',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242206.png&w=350&h=254'
+  },
+  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -251,15 +278,6 @@ Player.create!([
     tackles: 7,
     solo_tackles: 5,
     assist: 2
-  },
-  {
-    name: 'Evan Hull',
-    number: '26',
-    position: 'RB',
-    exp: 1,
-    status: 'PS',
-    college: 'Northwestern',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569609.png&w=350&h=254'
   },
   {
     name: 'Trey Sermon',
