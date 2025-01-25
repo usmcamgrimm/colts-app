@@ -27,6 +27,16 @@ Player.create!([
     college: 'LSU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242206.png&w=350&h=254'
   },
+  
+  {
+    name: 'Ajou Ajou',
+    number: '--',
+    position: 'WR',
+    exp: 0,
+    status: 'RF',
+    college: 'South Florida',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4429207.png&w=350&h=254'
+  },
   {
     name: 'Josh Downs',
     number: '1',
