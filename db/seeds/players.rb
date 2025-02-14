@@ -5,7 +5,7 @@ Player.create!([
     number: '--',
     position: 'T',
     exp: 3,
-    status: 'RF',
+    status: 'Active',
     college: 'Virginia Tech',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361979.png&w=350&h=254'
   },
@@ -14,7 +14,7 @@ Player.create!([
     number: '--',
     position: 'T',
     exp: 0,
-    status: 'RF',
+    status: 'Active',
     college: 'Washington State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/504844.png&w=350&h=254'
   },
@@ -23,7 +23,7 @@ Player.create!([
     number: '--',
     position: 'LB',
     exp: 4,
-    status: 'RF',
+    status: 'Active',
     college: 'LSU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242206.png&w=350&h=254'
   },
@@ -33,7 +33,7 @@ Player.create!([
     number: '--',
     position: 'WR',
     exp: 0,
-    status: 'RF',
+    status: 'Active',
     college: 'South Florida',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4429207.png&w=350&h=254'
   },
@@ -61,7 +61,7 @@ Player.create!([
     number: '2',
     position: 'WR',
     exp: 4,
-    status: 'RF',
+    status: 'Active',
     college: 'Austin Peay',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
@@ -131,15 +131,6 @@ Player.create!([
     fg_60Plus: '0 - 0'
   },
   {
-    name: 'Laquon Treadwell',
-    number: '7',
-    position: 'WR',
-    exp: 6,
-    status: 'RF',
-    college: 'Mississippi',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254'
-  },
-  {
     name: 'Rigoberto Sanchez',
     number: '8',
     position: 'P',
@@ -158,7 +149,7 @@ Player.create!([
     number: '8',
     position: 'QB/WR',
     exp: 0,
-    status: 'RF',
+    status: 'Active',
     college: 'Kansas',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360900.png&w=350&h=254'
   },
@@ -167,7 +158,7 @@ Player.create!([
     number: '9',
     position: 'WR',
     exp: 4,
-    status: 'IR',
+    status: 'Active',
     college: 'Colorado',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128317.png&w=350&h=254'
   },
@@ -247,6 +238,15 @@ Player.create!([
     kr_fc: 0,
     kr_yds_ret: 37.0,
     kr_lng: 55
+  },
+  {
+    name: 'Laquon Treadwell',
+    number: '17',
+    position: 'WR',
+    exp: 6,
+    status: 'Active',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254'
   },
   {
     name: 'Nick Cross',
@@ -336,15 +336,6 @@ Player.create!([
     assist: 4
   },
   {
-    name: 'Jaylin Simpson',
-    number: '30',
-    position: 'CB',
-    exp: 0,
-    status: 'RF',
-    college: 'Auburn',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4567225.png&w=350&h=254'
-  },
-  {
     name: 'Tyler Goodson',
     number: '31',
     position: 'RB',
@@ -368,7 +359,7 @@ Player.create!([
     number: '31',
     position: 'S',
     exp: 1,
-    status: 'IR',
+    status: 'Active',
     college: 'California',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
   },
@@ -413,7 +404,7 @@ Player.create!([
     number: '36',
     position: 'RB',
     exp: 5,
-    status: 'RF',
+    status: 'Active',
     college: 'Washington',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
   },
@@ -422,7 +413,7 @@ Player.create!([
     number: '37',
     position: 'CB',
     exp: 7,
-    status: 'PSI',
+    status: 'Active',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3046326.png&w=350&h=254'
   },
@@ -430,7 +421,7 @@ Player.create!([
     number: '38',
     position: 'S',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'North Dakota State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4248538.png&w=350&h=254'
   },
@@ -439,7 +430,7 @@ Player.create!([
     number: '39',
     position: 'CB',
     exp: 0,
-    status: 'RF',
+    status: 'Active',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367181.png&w=350&h=254'
   },
@@ -474,7 +465,7 @@ Player.create!([
     number: '42',
     position: 'S',
     exp: 2,
-    status: 'RF',
+    status: 'Active',
     college: 'Stuttgart',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5054377.png&w=350&h=254'
   },
@@ -483,7 +474,7 @@ Player.create!([
     number: '43',
     position: 'S',
     exp: 3,
-    status: 'IR',
+    status: 'Active',
     college: 'SMU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360538.png&w=350&h=254',
     tackles: 1,
@@ -531,7 +522,7 @@ Player.create!([
     number: '47',
     position: 'LB',
     exp: 1,
-    status: 'RF',
+    status: 'Active',
     college: 'Holy Cross',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
   },
@@ -549,7 +540,7 @@ Player.create!([
     number: '49',
     position: 'TE',
     exp: 5,
-    status: 'RF',
+    status: 'Active',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036275.png&w=350&h=254'
   },
@@ -585,7 +576,7 @@ Player.create!([
     number: '52',
     position: 'DE',
     exp: 8,
-    status: 'IRDR',
+    status: 'Active',
     college: 'Eastern Washington',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045527.png&w=350&h=254'
   },
@@ -639,7 +630,7 @@ Player.create!([
     number: '58',
     position: 'LB',
     exp: 1,
-    status: 'RF',
+    status: 'Active',
     college: 'UNLV',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254'
   },
@@ -666,7 +657,7 @@ Player.create!([
     number: '62',
     position: 'C',
     exp: 3,
-    status: 'IR',
+    status: 'Active',
     college: 'Western Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916746.png&w=350&h=254'
   },
@@ -693,7 +684,7 @@ Player.create!([
     number: '65',
     position: 'G',
     exp: 2,
-    status: 'RF',
+    status: 'Active',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367202.png&w=350&h=254'
   },
@@ -702,7 +693,7 @@ Player.create!([
     number: '66',
     position: 'G',
     exp: 3,
-    status: 'RF',
+    status: 'Active',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
   },
@@ -711,7 +702,7 @@ Player.create!([
     number: '66',
     position: 'C',
     exp: 0,
-    status: 'IR',
+    status: 'Active',
     college: 'Richmond',
     photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
   },
@@ -720,7 +711,7 @@ Player.create!([
     number: '67',
     position: 'T',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4363055.png&w=350&h=254'
   },
@@ -738,7 +729,7 @@ Player.create!([
     number: '69',
     position: 'DT',
     exp: 0,
-    status: 'RF',
+    status: 'Active',
     college: 'Virginia Tech',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4686263.png&w=350&h=254'
   },
@@ -756,7 +747,7 @@ Player.create!([
     number: '72',
     position: 'T',
     exp: 7,
-    status: 'NFI',
+    status: 'Active',
     college: 'Auburn',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3121595.png&w=350&h=254'
   },
@@ -774,7 +765,7 @@ Player.create!([
     number: '74',
     position: 'DE',
     exp: 1,
-    status: 'RF',
+    status: 'Active',
     college: 'Maryland',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360638.png&w=350&h=254'
   },
@@ -783,7 +774,7 @@ Player.create!([
     number: '75',
     position: 'C/G',
     exp: 4,
-    status: 'IR',
+    status: 'Active',
     college: 'Penn Statee',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4045176.png&w=350&h=254'
   },
@@ -812,7 +803,7 @@ Player.create!([
     number: '80',
     position: 'TE',
     exp: 3,
-    status: 'IR',
+    status: 'Active',
     college: 'Virginia',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241410.png&w=350&h=254'
   },
@@ -846,7 +837,7 @@ Player.create!([
     number: '85',
     position: 'TE',
     exp: 5,
-    status: 'RF',
+    status: 'Active',
     college: 'Missouri',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035115.png&w=350&h=254'
   },
@@ -892,7 +883,7 @@ Player.create!([
     number: '91',
     position: 'DT',
     exp: 5,
-    status: 'PSI',
+    status: 'Active',
     college: 'UCF',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4042141.png&w=350&h=254'
   },
