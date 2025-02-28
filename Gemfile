@@ -10,13 +10,13 @@ gem 'rails', '~> 8.0', '>= 8.0.1'
 gem 'sprockets-rails', '~> 3.5', '>= 3.5.2'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 2.2'
+gem 'sqlite3', '~> 2.6'
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem 'puma', '~> 6.4', '>= 6.4.3'
+gem 'puma', '~> 6.6'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem 'importmap-rails', '~> 2.0', '>= 2.0.3'
+gem 'importmap-rails', '~> 2.1'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem 'turbo-rails', '~> 2.0', '>= 2.0.11'
@@ -27,11 +27,11 @@ gem 'stimulus-rails', '~> 1.3', '>= 1.3.4'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder', '~> 2.13'
 
-gem 'openssl', '~> 3.2'
+gem 'openssl', '~> 3.3'
 
 gem 'rake', '~> 13.2', '>= 13.2.1'
 
-gem 'parklife', '~> 0.6.1' 
+gem 'parklife', '~> 0.7.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -43,10 +43,10 @@ gem 'parklife', '~> 0.6.1'
 # gem "bcrypt", "~> 3.1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', '~> 1.2024', '>= 1.2024.2', platforms: %i[ mingw mswin x64_mingw jruby ]
+gem 'tzinfo-data', '~> 1.2025', '>= 1.2025.1'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '~> 1.18', '>= 1.18.4', require: false
+gem 'bootsnap', '~> 1.18', '>= 1.18.4'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -61,10 +61,10 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem "web-console"
+  gem 'web-console', '~> 4.2', '>= 4.2.1'
 
   # Live Reload
-  gem 'rails_live_reload', '~> 0.3.6'
+  gem 'rails_live_reload', '~> 0.4.0'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
