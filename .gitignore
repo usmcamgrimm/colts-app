@@ -40,3 +40,6 @@ build-assets/
 
 # Local Netlify folder
 .netlify/
+
+# Ignore build command notes for parklife
+parklife-build-command.txt
