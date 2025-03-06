@@ -532,15 +532,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
   },
   {
-    name: 'Ryan Coll',
-    number: '66',
-    position: 'C',
-    exp: 0,
-    status: 'Active',
-    college: 'Richmond',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
-  },
-  {
     name: 'Mason Brooks',
     number: '67',
     position: 'T',
