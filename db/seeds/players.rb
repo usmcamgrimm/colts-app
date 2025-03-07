@@ -730,15 +730,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426473.png&w=350&h=254',
   },
   {
-    name: 'Raekwon Davis',
-    number: '98',
-    position: 'DT',
-    exp: 5,
-    status: 'Active',
-    college: 'Alabama',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4040965.png&w=350&h=254',
-  },
-  {
     name: 'DeForest Buckner',
     number: '99',
     position: 'DT',
