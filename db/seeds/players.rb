@@ -5,7 +5,7 @@ Player.create!([
     number: '--',
     position: 'T',
     exp: 3,
-    status: 'Active',
+    status: 'RF',
     college: 'Virginia Tech',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361979.png&w=350&h=254'
   },
