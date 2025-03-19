@@ -338,7 +338,7 @@ textarea {
   font-size: 1.1rem;
   margin-top: 4px;
 }
-@media screen and (max-width: 819px) {
+@media screen and (max-width: 1199px) {
   section.player-section {
     padding: 0;
     margin: 1rem 3rem;
