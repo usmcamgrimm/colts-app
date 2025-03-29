@@ -1,51 +1,6 @@
 Player.create!([
   #Active Roster
   {
-    name: 'Ajou Ajou',
-    number: '--',
-    position: 'WR',
-    exp: 0,
-    status: 'Active',
-    college: 'South Florida',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4429207.png&w=350&h=254'
-  },
-  {
-    name: 'Jacob Phillips',
-    number: '--',
-    position: 'LB',
-    exp: 4,
-    status: 'Active',
-    college: 'LSU',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242206.png&w=350&h=254'
-  },
-  {
-    name: 'Spencer Shrader',
-    number: '--',
-    position: 'K',
-    exp: 1,
-    status: 'Active',
-    college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254',
-  },
-  {
-    name: 'Luke Tenuta',
-    number: '--',
-    position: 'T',
-    exp: 3,
-    status: 'Active',
-    college: 'Virginia Tech',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361979.png&w=350&h=254'
-  },
-  {
-    name: 'Jack Wilson',
-    number: '--',
-    position: 'T',
-    exp: 0,
-    status: 'Active',
-    college: 'Washington State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/504844.png&w=350&h=254'
-  },
-  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -62,6 +17,15 @@ Player.create!([
     status: 'Active',
     college: 'Austin Peay',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
+  },
+  {
+    name: 'Spencer Shrader',
+    number: '3',
+    position: 'K',
+    exp: 1,
+    status: 'Active',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254',
   },
   {
     name: 'Anthony Richardson',
@@ -107,6 +71,15 @@ Player.create!([
     status: 'Active',
     college: 'Kansas',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360900.png&w=350&h=254'
+  },
+  {
+    name: 'Ajou Ajou',
+    number: '9',
+    position: 'WR',
+    exp: 0,
+    status: 'Active',
+    college: 'South Florida',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4429207.png&w=350&h=254'
   },
   {
     name: 'Adonai Mitchell',
@@ -244,15 +217,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429676.png&w=350&h=254',
   },
   {
-    name: 'Daniel Scott',
-    number: '31',
-    position: 'S',
-    exp: 1,
-    status: 'Active',
-    college: 'California',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
-  },
-  {
     name: 'Samuel Womack III',
     number: '33',
     position: 'CB',
@@ -278,6 +242,15 @@ Player.create!([
     status: 'Active',
     college: 'Washington',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
+  },
+  {
+    name: 'Daniel Scott',
+    number: '37',
+    position: 'S',
+    exp: 1,
+    status: 'Active',
+    college: 'California',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
   },
   {
     name: 'Corey Ballentine',
@@ -379,6 +352,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045527.png&w=350&h=254'
   },
   {
+    name: 'Jacob Phillips',
+    number: '53',
+    position: 'LB',
+    exp: 4,
+    status: 'Active',
+    college: 'LSU',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242206.png&w=350&h=254'
+  },
+  {
     name: 'Isaiah Land',
     number: '55',
     position: 'LB',
@@ -469,6 +451,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
   },
   {
+    name: 'Luke Tenuta',
+    number: '67',
+    position: 'T',
+    exp: 3,
+    status: 'Active',
+    college: 'Virginia Tech',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361979.png&w=350&h=254'
+  },
+  {
     name: 'Dalton Tucker',
     number: '68',
     position: 'G',
@@ -523,6 +514,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360638.png&w=350&h=254'
   },
   {
+    name: 'Jack Wilson',
+    number: '76',
+    position: 'T',
+    exp: 0,
+    status: 'Active',
+    college: 'Washington State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/504844.png&w=350&h=254'
+  },
+  {
     name: 'Bernhard Raimann',
     number: '79',
     position: 'T',
@@ -542,7 +542,7 @@ Player.create!([
   },
   {
     name: 'Albert Okwuegbunam',
-    number: '85',
+    number: '84',
     position: 'TE',
     exp: 5,
     status: 'Active',
