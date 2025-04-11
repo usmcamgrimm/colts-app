@@ -46,15 +46,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429684.png&w=350&h=254',
   },
   {
-    name: 'Matt Gay',
-    number: '7',
-    position: 'K',
-    exp: 6,
-    status: 'Active',
-    college: 'Utah',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249087.png&w=350&h=254',
-  },
-  {
     name: 'Rigoberto Sanchez',
     number: '8',
     position: 'P',
@@ -540,6 +531,15 @@ Player.create!([
     college: 'Virginia',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4241410.png&w=350&h=254'
   },
+  { 
+     name: 'Mo Alie-Cox', 
+     number: '81', 
+     position: 'TE', 
+     exp: 7, 
+     status: 'Active', 
+     college: 'Virginia Commonwealth', 
+     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2998565.png&w=350&h=254',
+   },
   {
     name: 'Albert Okwuegbunam',
     number: '84',
