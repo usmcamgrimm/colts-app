@@ -1,6 +1,15 @@
 Player.create!([
   #Active Roster
   {
+    name: 'Cam Bynum',
+    number: '0',
+    position: 'S',
+    exp: 4,
+    status: 'Active',
+    college: 'California',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035861.png&w=350&h=254',
+  },
+  {
     name: 'Josh Downs',
     number: '1',
     position: 'WR',
@@ -28,7 +37,7 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254',
   },
   {
-    name: 'Anthony Richardson',
+    name: 'Anthony Richardson Sr.',
     number: '5',
     position: 'QB',
     exp: 1,
@@ -44,6 +53,15 @@ Player.create!([
     status: 'Active',
     college: 'Oregon State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429684.png&w=350&h=254',
+  },
+  {
+    name: 'Charvarius Ward',
+    number: '7',
+    position: 'CB',
+    exp: 7,
+    status: 'Active',
+    college: 'Middle Tennessee State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4037361.png&w=350&h=254',
   },
   {
     name: 'Rigoberto Sanchez',
@@ -136,15 +154,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426403.png&w=350&h=254',
   },
   {
-    name: 'Charvarius Ward',
-    number: '21',
-    position: 'CB',
-    exp: 7,
-    status: 'Active',
-    college: 'Middle Tennessee State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4037361.png&w=350&h=254',
-  },
-  {
     name: 'Kenny Moore II',
     number: '23',
     position: 'CB',
@@ -170,15 +179,6 @@ Player.create!([
     status: 'Active',
     college: 'Virginia Tech',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035886.png&w=350&h=254',
-  },
-  {
-    name: 'Cam Bynum',
-    number: '27',
-    position: 'S',
-    exp: 4,
-    status: 'Active',
-    college: 'California',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035861.png&w=350&h=254',
   },
   {
     name: 'Jonathan Taylor',
