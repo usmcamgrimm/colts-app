@@ -307,6 +307,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
   },
   {
+    name: 'Joe Bachie',
+    number: '48',
+    position: 'LB',
+    exp: 6,
+    status: 'Active',
+    college: 'Michigan State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036507.png&w=350&h=254'
+  },
+  {
     name: 'Sean McKeon',
     number: '49',
     position: 'TE',
