@@ -433,15 +433,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
   },
   {
-    name: 'Atonio Mafi',
-    number: '65',
-    position: 'G',
-    exp: 2,
-    status: 'Active',
-    college: 'UCLA',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4367202.png&w=350&h=254'
-  },
-  {
     name: 'Josh Sills',
     number: '66',
     position: 'G',
@@ -467,15 +458,6 @@ Player.create!([
     status: 'Active',
     college: 'Marshall',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
-  },
-  {
-    name: 'Pheldarius Payne',
-    number: '69',
-    position: 'DT',
-    exp: 0,
-    status: 'Active',
-    college: 'Virginia Tech',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4686263.png&w=350&h=254'
   },
   {
     name: 'Matt Goncalves',
