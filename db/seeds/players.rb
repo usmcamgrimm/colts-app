@@ -307,15 +307,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685145.png&w=350&h=254',
   },
   {
-    name: 'Marcel Dabo',
-    number: '42',
-    position: 'S',
-    exp: 1,
-    status: 'Active',
-    college: 'Stuttgart',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5054377.png&w=350&h=254'
-  },
-  {
     name: 'Zaire Franklin',
     number: '44',
     position: 'LB',
@@ -656,6 +647,15 @@ Player.create!([
     status: 'Active',
     college: 'Alabama',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692033.png&w=350&h=254',
+  },
+  { 
+    name: 'Eric Johnson II', 
+    number: '93', 
+    position: 'DT', 
+    exp: 2, 
+    status: 'Active', 
+    college: 'Missouri State', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050971.png&w=350&h=254'
   },
   {
     name: 'Tyquan Lewis',
