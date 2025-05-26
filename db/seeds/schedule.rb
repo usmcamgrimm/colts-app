@@ -224,5 +224,5 @@ Schedule.create!([
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/hou.png&h=200&w=200',
     stadium: 'NRG Stadium',
     map: 'https://maps.app.goo.gl/Rn65v4AKkgNgHQDr7'
-  },
+  }
 ])
