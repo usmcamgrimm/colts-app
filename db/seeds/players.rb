@@ -291,7 +291,7 @@ Player.create!([
   {
     name: 'Johnathan Edwards',
     number: '35',
-    position: 'DB',
+    position: 'CB',
     exp: 0,
     status: 'Active',
     college: 'Tulane',
@@ -354,7 +354,7 @@ Player.create!([
   {
     name: 'Trey Washington',
     number: '41',
-    position: 'DB',
+    position: 'S',
     exp: 0,
     status: 'Active',
     college: 'Mississippi',
@@ -372,7 +372,7 @@ Player.create!([
   {
     name: 'Ladarius Tennison',
     number: '43',
-    position: 'DB',
+    position: 'S',
     exp: 0,
     status: 'Active',
     college: 'UCF',
