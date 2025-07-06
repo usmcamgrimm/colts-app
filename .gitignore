@@ -43,3 +43,6 @@ build-assets/
 
 # Ignore build command notes for parklife
 parklife-build-command.txt
+
+# Node modules, introduced with Netlify-CLI update
+node_modules/
