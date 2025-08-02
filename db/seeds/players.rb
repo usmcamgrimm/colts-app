@@ -271,6 +271,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429676.png&w=350&h=254',
   },
   {
+    name: 'Daniel Scott',
+    number: '32',
+    position: 'S',
+    exp: 3,
+    status: 'Active',
+    college: 'California',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
+  },
+  {
     name: 'Samuel Womack III',
     number: '33',
     position: 'CB',
@@ -284,9 +293,18 @@ Player.create!([
      number: '34',
      position: 'CB',
      exp: 7,
-     status: 'Active',
+     status: 'IR',
      college: 'Michigan',
      photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046536.png&w=350&h=254'
+  },
+  {
+    name: 'Duke Shelley',
+    number: '34',
+    position: 'CB',
+    exp: 6,
+    status: 'Active',
+    college: 'Kansas State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916126.png&w=350&h=254',
   },
   {
     name: 'Johnathan Edwards',
@@ -307,15 +325,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
   },
   {
-    name: 'Daniel Scott',
-    number: '37',
-    position: 'S',
-    exp: 3,
-    status: 'Active',
-    college: 'California',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
-  },
-  {
     name: 'Ulysses Bentley IV',
     number: '37',
     position: 'RB',
@@ -325,13 +334,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4426689.png&w=350&h=254',
   },
   {
-    name: 'Corey Ballentine',
-    number: '38',
+    name: 'Chris Lammons',
+    number: '35',
     position: 'CB',
-    exp: 7,
+    exp: 5,
     status: 'Active',
-    college: 'Washburn',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4411769.png&w=350&h=254',
+    college: 'South Carolina',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254',
   },
   {
     name: 'Alex Johnson',
@@ -359,6 +368,15 @@ Player.create!([
     status: 'Active',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4599160.png&w=350&h=254',
+  },
+  {
+    name: 'Tre Herndon',
+    number: '42',
+    position: 'CB',
+    exp: 7,
+    status: 'Active',
+    college: 'Vanderbuilt',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3122160.png&w=350&h=254',
   },
   {
     name: 'Tyler Kahmann',
@@ -613,6 +631,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
   },
   {
+    name: 'Josh Tupou',
+    number: '69',
+    position: 'DT',
+    exp: 7,
+    status: 'Active',
+    college: 'Colorado',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2979632.png&w=350&h=254',
+  },
+  {
     name: 'Matt Goncalves',
     number: '71',
     position: 'T',
@@ -660,7 +687,7 @@ Player.create!([
   {
     name: 'Jack Wilson',
     number: '76',
-    position: 'T',
+    position: 'IR',
     exp: 1,
     status: 'Active',
     college: 'Washington State',
