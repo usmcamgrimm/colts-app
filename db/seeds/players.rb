@@ -1,6 +1,33 @@
 Player.create!([
   #Active Roster
   {
+    name: 'BJ Mayes',
+    number: '--',
+    position: 'CB',
+    exp: 0,
+    status: 'Active',
+    college: 'Texas A&M',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4683044.png&w=350&h=254',
+  },
+  {
+    name: 'Nate Noel',
+    number: '--',
+    position: 'RB',
+    exp: 0,
+    status: 'Active',
+    college: 'Missouri',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4613032.png&w=350&h=254',
+  },
+  {
+    name: 'Nay\'Quan Wright',
+    number: '--',
+    position: 'RB',
+    exp: 0,
+    status: 'Active',
+    college: 'South Florida',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4567400.png&w=350&h=254',
+  },
+  {
     name: 'Cam Bynum',
     number: '0',
     position: 'S',
@@ -230,7 +257,7 @@ Player.create!([
     number: '27',
     position: 'CB',
     exp: 0,
-    status: 'Active',
+    status: 'IR',
     college: 'Minnesota',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254',
   },
@@ -320,7 +347,7 @@ Player.create!([
     number: '36',
     position: 'RB',
     exp: 5,
-    status: 'Active',
+    status: 'IR',
     college: 'Washington',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
   },
@@ -370,15 +397,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4599160.png&w=350&h=254',
   },
   {
-    name: 'Tre Herndon',
-    number: '42',
-    position: 'CB',
-    exp: 7,
-    status: 'Active',
-    college: 'Vanderbuilt',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3122160.png&w=350&h=254',
-  },
-  {
     name: 'Tyler Kahmann',
     number: '43',
     position: 'WR',
@@ -422,15 +440,6 @@ Player.create!([
     status: 'Active',
     college: 'William & Mary',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254'
-  },
-  {
-    name: 'Liam Anderson',
-    number: '47',
-    position: 'LB',
-    exp: 1,
-    status: 'Active',
-    college: 'Holy Cross',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4368056.png&w=350&h=254'
   },
   {
     name: 'Joe Bachie',
@@ -647,6 +656,15 @@ Player.create!([
     status: 'Active',
     college: 'Pittsburgh',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427298.png&w=350&h=254'
+  },
+  {
+    name: 'Marcellus Johnson',
+    number: '71',
+    position: 'T',
+    exp: 1,
+    status: 'Active',
+    college: 'Missouri',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4363547.png&w=350&h=254'
   },
   {
     name: 'Braden Smith',
