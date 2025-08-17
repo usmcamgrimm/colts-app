@@ -50,7 +50,7 @@ Player.create!([
     number: '2',
     position: 'WR',
     exp: 3,
-    status: 'Active',
+    status: 'IR',
     college: 'Austin Peay',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
   },
@@ -845,6 +845,15 @@ Player.create!([
     status: 'Active',
     college: 'Northwestern',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254',
+  },
+  {
+    name: 'Marcus Haynes',
+    number: '96',
+    position: 'DE',
+    exp: 1,
+    status: 'Active',
+    college: 'Old Dominion',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243507.png&w=350&h=254',
   },
   {
     name: 'Laiatu Latu',
