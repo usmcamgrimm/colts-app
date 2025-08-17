@@ -389,7 +389,7 @@ Player.create!([
   },
   {
     name: 'Nay\'Quan Wright',
-    number: '--',
+    number: '42',
     position: 'RB',
     exp: 0,
     status: 'Active',
