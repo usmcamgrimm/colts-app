@@ -257,7 +257,7 @@ Player.create!([
     number: '30',
     position: 'S',
     exp: 0,
-    status: 'Active',
+    status: 'IR',
     college: 'Wisconsin',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4432789.png&w=350&h=254',
   },
@@ -325,6 +325,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
   },
   {
+    name: 'BJ Mayes',
+    number: '36',
+    position: 'CB',
+    exp: 0,
+    status: 'Active',
+    college: 'Texas A&M',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4683044.png&w=350&h=254',
+  },
+  {
     name: 'Ulysses Bentley IV',
     number: '37',
     position: 'RB',
@@ -334,13 +343,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4426689.png&w=350&h=254',
   },
   {
-    name: 'BJ Mayes',
-    number: '36',
+    name: 'Xavien Howard',
+    number: '37',
     position: 'CB',
-    exp: 0,
+    exp: 9,
     status: 'Active',
-    college: 'Texas A&M',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4683044.png&w=350&h=254',
+    college: 'Baylor',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2978935.png&w=350&h=254',
   },
   {
     name: 'Chris Lammons',
@@ -442,6 +451,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254'
   },
   {
+    name: 'Jake Chaney',
+    number: '47',
+    position: 'LB',
+    exp: 0,
+    status: 'Active',
+    college: 'Wisconsin',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+  },
+  {
     name: 'Joe Bachie',
     number: '48',
     position: 'LB',
@@ -467,6 +485,15 @@ Player.create!([
     status: 'Active',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036275.png&w=350&h=254'
+  },
+  {
+    name: 'Joseph Vaughn',
+    number: '49',
+    position: 'LB',
+    exp: 0,
+    status: 'Active',
+    college: 'UCLA',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
   },
   {
     name: 'Segun Olubi',
@@ -500,7 +527,7 @@ Player.create!([
     number: '53',
     position: 'LB',
     exp: 4,
-    status: 'Active',
+    status: 'IR',
     college: 'LSU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242206.png&w=350&h=254'
   },
@@ -680,7 +707,7 @@ Player.create!([
     number: '73',
     position: 'T',
     exp: 3,
-    status: 'Active',
+    status: 'IR',
     college: 'BYU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254'
   },
