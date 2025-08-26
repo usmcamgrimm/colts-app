@@ -55,6 +55,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
   },
   {
+    name: 'Mekhi Blackmon',
+    number: '5',
+    position: 'CB',
+    exp: 3,
+    status: 'Active',
+    college: 'USC',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360677.png&w=350&h=254',
+  },
+  {
     name: 'Anthony Richardson Sr.',
     number: '5',
     position: 'QB',
