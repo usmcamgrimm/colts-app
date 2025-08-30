@@ -26,14 +26,6 @@ Player.create!([
     status: 'IR',
     college: 'Austin Peay',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4249030.png&w=350&h=254'
-  },{
-    name: 'Coleman Owen',
-    number: '3',
-    position: 'WR',
-    exp: 0,
-    status: 'PS',
-    college: 'Ohio',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
   },
   {
     name: 'Spencer Shrader',
@@ -88,6 +80,15 @@ Player.create!([
     status: 'Active',
     college: 'Hawaii',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3914922.png&w=350&h=254',
+  },
+  {
+    name: 'Coleman Owen',
+    number: '9',
+    position: 'WR',
+    exp: 0,
+    status: 'PS',
+    college: 'Ohio',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
   },
   {
     name: 'Adonai Mitchell',
