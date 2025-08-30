@@ -108,6 +108,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035687.png&w=350&h=254',
   },
   {
+    name: 'Laquon Treadwell',
+    number: '13',
+    position: 'WR',
+    exp: 9,
+    status: 'PS',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254'
+  },
+  {
     name: 'Alec Pierce',
     number: '14',
     position: 'WR',
@@ -234,13 +243,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
   },
   {
-     name: 'David Long',
+     name: 'Ben Nikkel',
      number: '34',
-     position: 'CB',
-     exp: 7,
-     status: 'IR',
-     college: 'Michigan',
-     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046536.png&w=350&h=254'
+     position: 'S',
+     exp: 1,
+     status: 'PS',
+     college: 'Iowa State',
+     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4874465.png&w=350&h=254'
   },
   {
     name: 'Johnathan Edwards',
@@ -575,13 +584,13 @@ Player.create!([
      photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2998565.png&w=350&h=254',
   },
   {
-    name: 'Tyler Kahmann',
-    number: '43',
+    name: 'Tyler Scott',
+    number: '83',
     position: 'WR',
-    exp: 0,
+    exp: 3,
     status: 'PS',
-    college: 'Emporia State University',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    college: 'Cincinnati',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4722908.png&w=350&h=254',
   },
   {
     name: 'Tyler Warren',
@@ -590,16 +599,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Penn State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4431459.png&w=350&h=254',
-  },
-  {
-    name: 'Albert Okwuegbunam',
-    number: '84',
-    position: 'TE',
-    exp: 6,
-    status: 'Active',
-    college: 'Missouri',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035115.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4565908.png&w=350&h=254',
   },
   {
     name: 'Drew Ogletree',
@@ -651,7 +651,7 @@ Player.create!([
     number: '93',
     position: 'DT',
     exp: 0,
-    status: 'Active',
+    status: 'PS',
     college: 'Alabama',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692033.png&w=350&h=254',
   },
