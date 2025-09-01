@@ -396,6 +396,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242206.png&w=350&h=254'
   },
   {
+    name: 'Anthony Walker',
+    number: '54',
+    position: 'LB',
+    exp: 9,
+    status: 'PS',
+    college: 'Northwestern',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045251.png&w=350&h=254'
+  },
+  {
     name: 'Chad Muma',
     number: '55',
     position: 'LB',
@@ -493,15 +502,6 @@ Player.create!([
     status: 'Active',
     college: 'Marshall',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
-  },
-  {
-    name: 'Josh Tupou',
-    number: '69',
-    position: 'DT',
-    exp: 7,
-    status: 'PS',
-    college: 'Colorado',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2979632.png&w=350&h=254',
   },
   {
     name: 'Marcellus Johnson',
