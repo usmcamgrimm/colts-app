@@ -37,13 +37,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254',
   },
   {
-    name: 'Mekhi Blackmon',
-    number: '5',
+    name: 'Xavien Howard',
+    number: '4',
     position: 'CB',
-    exp: 3,
+    exp: 9,
     status: 'Active',
-    college: 'USC',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360677.png&w=350&h=254',
+    college: 'Baylor',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2978935.png&w=350&h=254',
   },
   {
     name: 'Anthony Richardson Sr.',
@@ -88,7 +88,7 @@ Player.create!([
     exp: 0,
     status: 'PS',
     college: 'Ohio',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4578436.png&w=350&h=254',
   },
   {
     name: 'Adonai Mitchell',
@@ -217,6 +217,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242335.png&w=350&h=254',
   },
   {
+    name: 'Mekhi Blackmon',
+    number: '29',
+    position: 'CB',
+    exp: 3,
+    status: 'Active',
+    college: 'USC',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360677.png&w=350&h=254',
+  },
+  {
     name: 'Hunter Wohler',
     number: '30',
     position: 'S',
@@ -280,14 +289,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4426689.png&w=350&h=254',
   },
   {
-    name: 'Xavien Howard',
-    number: '37',
-    position: 'CB',
-    exp: 9,
-    status: 'Active',
-    college: 'Baylor',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2978935.png&w=350&h=254',
-  },{
     name: 'Chris Lammons',
     number: '38',
     position: 'CB',
@@ -388,7 +389,7 @@ Player.create!([
   },
   {
     name: 'Jacob Phillips',
-    number: '53',
+    number: '54',
     position: 'LB',
     exp: 4,
     status: 'IR',
@@ -560,9 +561,9 @@ Player.create!([
   {
     name: 'Jack Wilson',
     number: '76',
-    position: 'IR',
+    position: 'T',
     exp: 1,
-    status: 'Active',
+    status: 'IR',
     college: 'Washington State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/504844.png&w=350&h=254'
   },
@@ -600,7 +601,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Penn State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4565908.png&w=350&h=254',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4431459.png&w=350&h=254',
   },
   {
     name: 'Drew Ogletree',
@@ -656,15 +657,6 @@ Player.create!([
     college: 'Alabama',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692033.png&w=350&h=254',
   },
-  { 
-    name: 'Eric Johnson II', 
-    number: '93', 
-    position: 'DT', 
-    exp: 2, 
-    status: 'Active', 
-    college: 'Missouri State', 
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050971.png&w=350&h=254'
-  },
   {
     name: 'Tyquan Lewis',
     number: '94',
@@ -691,6 +683,15 @@ Player.create!([
     status: 'Active',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426473.png&w=350&h=254',
+  },
+  { 
+    name: 'Eric Johnson II', 
+    number: '98', 
+    position: 'DT', 
+    exp: 2, 
+    status: 'Active', 
+    college: 'Missouri State', 
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050971.png&w=350&h=254'
   },
   {
     name: 'DeForest Buckner',
