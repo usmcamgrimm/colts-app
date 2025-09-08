@@ -72,6 +72,10 @@
       <p class="playerStats"><strong>Yards:</strong> <%= @player.rec_yards %></p>
     <% end %>
 
+    <% if @player.rec_ypc != nil %>
+      <p class="playerStats"><strong>Yards per Catch:</strong> <%= @player.rec_ypc %></p>
+    <% end %>
+
     <% if @player.rec_td != nil %>
       <p class="playerStats"><strong>Touchdowns:</strong> <%= @player.rec_td %></p>
     <% end %>
@@ -156,6 +160,10 @@
       <p class="playerStats"><strong>Punt Returns:</strong> <%= @player.pr_ret %></p>
     <% end %>
 
+    <% if @player.pr_yds != nil %>
+      <p class="playerStats"><strong>Punt Return Yards:</strong> <%= @player.pr_yds %></p>
+    <% end %>
+
     <% if @player.pr_yds_ret != nil %>
       <p class="playerStats"><strong>Yards per Return:</strong> <%= @player.pr_yds_ret %></p>
     <% end %>
@@ -174,6 +182,10 @@
 
     <% if @player.kr_ret != nil %>
       <p class="playerStats"><strong>Kick Returns:</strong> <%= @player.kr_ret %></p>
+    <% end %>
+
+    <% if @player.kr_yds != nil %>
+      <p class="playerStats"><strong>Kick Return Yards:</strong> <%= @player.kr_yds %></p>
     <% end %>
 
     <% if @player.kr_yds_ret != nil %>
