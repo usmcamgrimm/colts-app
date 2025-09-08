@@ -66,10 +66,6 @@ h2 {
   color: #10252c;
   margin: 1rem 0;
 }
-h2.season-header {
-  text-align: left;
-  margin-left: 24px;
-}
 h2 a {
   color: #10252c;
   text-decoration: none;
@@ -89,6 +85,9 @@ h3.update-title {
 }
 h3.stats-update {
   margin: 2rem 0 12px 1rem;
+}
+.schedule-header {
+  text-align: center;
 }
 .season-divider {
   background: #013369;
