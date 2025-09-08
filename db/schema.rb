@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_01_09_144148) do
+ActiveRecord::Schema[8.0].define(version: 2025_09_08_115447) do
   create_table "players", force: :cascade do |t|
     t.string "name"
     t.integer "number"
@@ -64,6 +64,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_01_09_144148) do
     t.float "kr_yds_ret"
     t.integer "assist"
     t.float "comp_percent"
+    t.float "rec_ypc"
   end
 
   create_table "schedules", force: :cascade do |t|
