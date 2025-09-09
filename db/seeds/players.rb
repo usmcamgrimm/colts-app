@@ -258,13 +258,13 @@ Player.create!([
     assist: 0
   },
   {
-    name: 'Khalil Herbert',
+    name: 'Ameer Abdulllah',
     number: '26',
     position: 'RB',
-    exp: 5,
+    exp: 11,
     status: 'PS',
-    college: 'Virginia Tech',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035886.png&w=350&h=254',
+    college: 'Nebraska',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2576336.png&w=350&h=254',
   },
   {
     name: 'Justin Walley',
