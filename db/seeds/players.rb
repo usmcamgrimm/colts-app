@@ -332,6 +332,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
   },
   {
+    name: 'Darrick Forrest',
+    number: '33',
+    position: 'S',
+    exp: 5,
+    status: 'PS',
+    college: 'Cincinnati',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239088.png&w=350&h=254',
+  },
+  {
      name: 'Ben Nikkel',
      number: '34',
      position: 'S',
@@ -380,6 +389,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254',
   },
   {
+    name: 'Keydrain Calligan',
+    number: '39',
+    position: 'CB',
+    exp: 0,
+    status: 'PS',
+    college: 'Southeastern Louisiana',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4606181.png&w=350&h=254',
+  },
+  {
     name: 'Jaylon Jones',
     number: '40',
     position: 'CB',
@@ -387,15 +405,6 @@ Player.create!([
     status: 'Active',
     college: 'Texas A&M',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685145.png&w=350&h=254',
-  },
-  {
-    name: 'Trey Washington',
-    number: '41',
-    position: 'S',
-    exp: 0,
-    status: 'PS',
-    college: 'Mississippi',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4599160.png&w=350&h=254',
   },
   {
     name: 'Zaire Franklin',
@@ -566,15 +575,6 @@ Player.create!([
     status: 'Active',
     college: 'Ball State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
-  },
-  {
-    name: 'Mose Vavao',
-    number: '65',
-    position: 'C',
-    exp: 0,
-    status: 'PS',
-    college: 'Fresno State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4609783.png&w=350&h=254'
   },
   {
     name: 'Josh Sills',
