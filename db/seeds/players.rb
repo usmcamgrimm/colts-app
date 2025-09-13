@@ -332,15 +332,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
   },
   {
-    name: 'Darrick Forrest',
-    number: '33',
-    position: 'S',
-    exp: 5,
-    status: 'PS',
-    college: 'Cincinnati',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4239088.png&w=350&h=254',
-  },
-  {
      name: 'Ben Nikkel',
      number: '34',
      position: 'S',
@@ -402,9 +393,18 @@ Player.create!([
     number: '40',
     position: 'CB',
     exp: 3,
-    status: 'Active',
+    status: 'IR',
     college: 'Texas A&M',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685145.png&w=350&h=254',
+  },
+  {
+    name: 'Trey Washington',
+    number: '41',
+    position: 'S',
+    exp: 0,
+    status: 'PS',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4599160.png&w=350&h=254',
   },
   {
     name: 'Zaire Franklin',
