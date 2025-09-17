@@ -554,7 +554,7 @@ Player.create!([
     number: '58',
     position: 'LB',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'UNLV',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374171.png&w=350&h=254',
     tackles: 2,
@@ -590,6 +590,15 @@ Player.create!([
     status: 'Active',
     college: 'Ball State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
+  },
+  {
+    name: 'Jimmy Morrissey',
+    number: '65',
+    position: 'C',
+    exp: 3,
+    status: 'Active',
+    college: 'Pittsburgh',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046165.png&w=350&h=254'
   },
   {
     name: 'Josh Sills',
