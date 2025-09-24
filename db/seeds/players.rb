@@ -356,6 +356,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
   },
   {
+    name: 'Mike Hilton',
+    number: '33',
+    position: 'CB',
+    exp: 9,
+    status: 'PS',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2980383.png&w=350&h=254',
+  },
+  {
      name: 'Ben Nikkel',
      number: '34',
      position: 'S',
@@ -726,15 +735,6 @@ Player.create!([
      rec_yards: 28,
      rec_ypc: 14.0,
      rec_td: 0
-  },
-  {
-    name: 'Tyler Scott',
-    number: '83',
-    position: 'WR',
-    exp: 3,
-    status: 'PS',
-    college: 'Cincinnati',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4722908.png&w=350&h=254',
   },
   {
     name: 'Tyler Warren',
