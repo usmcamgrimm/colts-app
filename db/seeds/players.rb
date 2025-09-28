@@ -360,7 +360,7 @@ Player.create!([
     number: '33',
     position: 'CB',
     exp: 9,
-    status: 'Active',
+    status: 'PS',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2980383.png&w=350&h=254',
   },
@@ -629,7 +629,7 @@ Player.create!([
     number: '66',
     position: 'G',
     exp: 3,
-    status: 'Active',
+    status: 'PS',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
   },
