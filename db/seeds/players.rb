@@ -442,7 +442,7 @@ Player.create!([
     number: '41',
     position: 'S',
     exp: 0,
-    status: 'PS',
+    status: 'Active',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4599160.png&w=350&h=254',
   },
@@ -593,16 +593,13 @@ Player.create!([
     assist: 4
   },
   {
-    name: 'Cameron McGrone',
+    name: 'Buddy Johnson',
     number: '59',
     position: 'LB',
-    exp: 3,
+    exp: 4,
     status: 'Active',
-    college: 'Michigan',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4372085.png&w=350&h=254',
-    tackles: 2,
-    solo_tackles: 1,
-    assist: 1
+    college: 'Texas A&M',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240900.png&w=350&h=254'
   },
   {
     name: 'Tanor Bortolini',
