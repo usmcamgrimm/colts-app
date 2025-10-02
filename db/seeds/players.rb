@@ -387,7 +387,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Tulane',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4695991.png&w=350&h=254',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695991.png&w=350&h=254',
   },
   {
     name: 'Salvon Ahmed',
@@ -444,7 +444,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Mississippi',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4599160.png&w=350&h=254',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254',
   },
   {
     name: 'Zaire Franklin',
@@ -624,7 +624,7 @@ Player.create!([
     number: '65',
     position: 'C',
     exp: 3,
-    status: 'Active',
+    status: 'PS',
     college: 'Pittsburgh',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046165.png&w=350&h=254'
   },
