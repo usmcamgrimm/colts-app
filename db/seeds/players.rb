@@ -55,7 +55,7 @@ Player.create!([
     number: '4',
     position: 'CB',
     exp: 9,
-    status: 'Active',
+    status: 'Retired',
     college: 'Baylor',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2978935.png&w=350&h=254',
     tackles: 11,
