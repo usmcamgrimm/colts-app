@@ -447,6 +447,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254',
   },
   {
+    name: 'Keenan Garber',
+    number: '42',
+    position: 'CB',
+    exp: 0,
+    status: 'PS',
+    college: 'Kansas State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426517.png&w=350&h=254',
+  },
+  {
     name: 'Zaire Franklin',
     number: '44',
     position: 'LB',
