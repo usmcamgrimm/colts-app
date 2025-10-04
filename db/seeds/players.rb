@@ -317,6 +317,15 @@ Player.create!([
     rec_td: 1
   },
   {
+    name: 'Cameron Mitchell',
+    number: '29',
+    position: 'CB',
+    exp: 3,
+    status: 'PS',
+    college: 'Northwestern',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254',
+  },
+  {
     name: 'Mekhi Blackmon',
     number: '29',
     position: 'CB',
@@ -358,7 +367,7 @@ Player.create!([
     number: '32',
     position: 'S',
     exp: 3,
-    status: 'Active',
+    status: 'IR',
     college: 'California',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
   },
@@ -415,7 +424,7 @@ Player.create!([
     number: '38',
     position: 'CB',
     exp: 5,
-    status: 'PS',
+    status: 'Active',
     college: 'South Carolina',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254',
   },
