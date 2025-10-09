@@ -529,11 +529,20 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254'
   },
   {
+    name: 'Troy Pride Jr.',
+    number: '47',
+    position: 'CB',
+    exp: 3,
+    status: 'PS',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046679.png&w=350&h=254',
+  },
+  {
     name: 'Joe Bachie',
     number: '48',
     position: 'LB',
     exp: 6,
-    status: 'Active',
+    status: 'IR',
     college: 'Michigan State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036507.png&w=350&h=254',
     tackles: 26,
@@ -586,6 +595,15 @@ Player.create!([
     solo_tackles: 8,
     assist: 4,
     def_sacks: 2
+  },
+  {
+    name: 'Germaine Pratt',
+    number: '53',
+    position: 'LB',
+    exp: 7,
+    status: 'Active',
+    college: 'N.C. State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3116724.png&w=350&h=254'
   },
   {
     name: 'Jacob Phillips',
