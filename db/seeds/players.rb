@@ -67,7 +67,7 @@ Player.create!([
     number: '5',
     position: 'QB',
     exp: 3,
-    status: 'Active',
+    status: 'IR',
     college: 'Florida',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429084.png&w=350&h=254',
     pass_att: 2,
@@ -443,6 +443,15 @@ Player.create!([
     status: 'IR',
     college: 'Washington',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4243315.png&w=350&h=254'
+  },
+  {
+    name: 'Reuben Lowery III',
+    number: '36',
+    position: 'S',
+    exp: 0,
+    status: 'Active',
+    college: 'Tennessee-Chattanooga',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692970.png&w=350&h=254',
   },
   {
     name: 'Ulysses Bentley IV',
