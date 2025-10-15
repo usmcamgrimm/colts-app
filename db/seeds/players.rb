@@ -478,15 +478,6 @@ Player.create!([
     assist: 2
   },
   {
-    name: 'Keydrain Calligan',
-    number: '39',
-    position: 'CB',
-    exp: 0,
-    status: 'PS',
-    college: 'Southeastern Louisiana',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4606181.png&w=350&h=254',
-  },
-  {
     name: 'Jaylon Jones',
     number: '40',
     position: 'CB',
@@ -745,15 +736,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
   },
   {
-    name: 'Marcellus Johnson',
-    number: '71',
-    position: 'T',
-    exp: 1,
-    status: 'PS',
-    college: 'Missouri',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4363547.png&w=350&h=254'
-  },
-  {
     name: 'Matt Goncalves',
     number: '71',
     position: 'T',
@@ -806,6 +788,15 @@ Player.create!([
     status: 'IR',
     college: 'Washington State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/504844.png&w=350&h=254'
+  },
+  {
+    name: 'Bayron Matos',
+    number: '78',
+    position: 'T',
+    exp: 1,
+    status: 'PS',
+    college: 'University of South Florida',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612507.png&w=350&h=254'
   },
   {
     name: 'Bernhard Raimann',
