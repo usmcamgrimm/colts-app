@@ -63,6 +63,15 @@ Player.create!([
     assist: 4
   },
   {
+    name: 'Brett Rypien',
+    number: '4',
+    position: 'QB',
+    exp: 7,
+    status: 'PS',
+    college: 'Boise State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3722362.png&w=350&h=254'
+  },
+  {
     name: 'Anthony Richardson Sr.',
     number: '5',
     position: 'QB',
