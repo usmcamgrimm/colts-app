@@ -554,18 +554,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046679.png&w=350&h=254',
   },
   {
-    name: 'Joe Bachie',
-    number: '48',
-    position: 'LB',
-    exp: 6,
-    status: 'IR',
-    college: 'Michigan State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036507.png&w=350&h=254',
-    tackles: 26,
-    solo_tackles: 11,
-    assist: 15
-  },
-  {
     name: 'Sean McKeon',
     number: '49',
     position: 'TE',
