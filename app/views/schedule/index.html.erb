@@ -6,9 +6,9 @@
 
 <div class="regseason">
   <% @schedules.each do |schedule| %>
-    <div class="week-info">
+    <div class="week-info" style="display:flex; flex-direction: column; justify-content: center; align-items:center;">
       <% if schedule.oppname == "Bye" %>
-        <div class="row-header">
+        <div class="row-header" style="margin-bottom: 16px;">
           <p class="week">
             Week <%= schedule.week %>
           </p>
@@ -67,6 +67,6 @@
         </div>
       <% end %>
     </div>
-    <hr class="game-divider" />
+    <hr class="game-divider" style="margin:0 auto; margin-bottom: 16px;" />
   <% end %>
 </div>
