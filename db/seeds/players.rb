@@ -356,15 +356,6 @@ Player.create!([
     rec_td: 1
   },
   {
-    name: 'Cameron Mitchell',
-    number: '29',
-    position: 'CB',
-    exp: 3,
-    status: 'PS',
-    college: 'Northwestern',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254',
-  },
-  {
     name: 'Mekhi Blackmon',
     number: '29',
     position: 'CB',
@@ -512,6 +503,15 @@ Player.create!([
     status: 'PS',
     college: 'Kansas State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426517.png&w=350&h=254',
+  },
+  {
+    name: 'Cameron Mitchell',
+    number: '43',
+    position: 'CB',
+    exp: 3,
+    status: 'PS',
+    college: 'Northwestern',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254',
   },
   {
     name: 'Zaire Franklin',
