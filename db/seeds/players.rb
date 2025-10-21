@@ -505,15 +505,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254',
   },
   {
-    name: 'Keenan Garber',
-    number: '42',
-    position: 'CB',
-    exp: 0,
-    status: 'PS',
-    college: 'Kansas State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426517.png&w=350&h=254',
-  },
-  {
     name: 'Cameron Mitchell',
     number: '43',
     position: 'CB',
@@ -938,6 +929,15 @@ Player.create!([
     solo_tackles: 6,
     assist: 6,
     def_sacks: 0.5
+  },
+  {
+    name: 'Seth Coleman',
+    number: '96',
+    position: 'DE',
+    exp: 0,
+    status: 'PS',
+    college: 'Illinois',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429436.png&w=350&h=254',
   },
   {
     name: 'Laiatu Latu',
