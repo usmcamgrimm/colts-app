@@ -31,7 +31,7 @@ gem 'openssl', '~> 3.3', '>= 3.3.1'
 
 gem 'rake', '~> 13.3'
 
-gem 'parklife', '~> 0.8.0'
+gem 'parklife', '~> 0.7.0'
 
 gem 'logger', '~> 1.7'
 
