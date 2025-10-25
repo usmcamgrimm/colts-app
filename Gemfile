@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.4.1"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 8.0', '>= 8.0.3'
+gem 'rails', '~> 8.1'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails', '~> 3.5', '>= 3.5.2'
@@ -13,7 +13,7 @@ gem 'sprockets-rails', '~> 3.5', '>= 3.5.2'
 gem 'sqlite3', '~> 2.7', '>= 2.7.4'
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem 'puma', '~> 7.0', '>= 7.0.4'
+gem 'puma', '~> 7.1'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem 'importmap-rails', '~> 2.2', '>= 2.2.2'
@@ -25,17 +25,17 @@ gem 'turbo-rails', '~> 2.0', '>= 2.0.17'
 gem 'stimulus-rails', '~> 1.3', '>= 1.3.4'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
-gem 'jbuilder', '~> 2.13'
+gem 'jbuilder', '~> 2.14', '>= 2.14.1'
 
-gem 'openssl', '~> 3.3'
+gem 'openssl', '~> 3.3', '>= 3.3.1'
 
-gem 'rake', '~> 13.2', '>= 13.2.1'
+gem 'rake', '~> 13.3'
 
-gem 'parklife', '~> 0.7.0'
+gem 'parklife', '~> 0.8.0'
 
 gem 'logger', '~> 1.7'
 
-gem 'activesupport', '~> 8.0', '>= 8.0.3'
+gem 'activesupport', '~> 8.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
