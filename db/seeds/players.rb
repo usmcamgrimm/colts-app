@@ -509,7 +509,7 @@ Player.create!([
     number: '43',
     position: 'CB',
     exp: 3,
-    status: 'Active',
+    status: 'PS',
     college: 'Northwestern',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254',
   },
@@ -764,7 +764,7 @@ Player.create!([
     number: '74',
     position: 'DE',
     exp: 1,
-    status: 'Active',
+    status: 'PS',
     college: 'Maryland',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360638.png&w=350&h=254'
   },
