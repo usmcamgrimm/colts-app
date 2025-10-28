@@ -942,13 +942,13 @@ Player.create!([
     def_sacks: 1.5
   },
   {
-    name: 'Seth Coleman',
+    name: 'Tanoh Kpassagnon',
     number: '96',
     position: 'DE',
-    exp: 0,
+    exp: 8,
     status: 'PS',
-    college: 'Illinois',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429436.png&w=350&h=254',
+    college: 'Villanova',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2982313.png&w=350&h=254',
   },
   {
     name: 'Laiatu Latu',
