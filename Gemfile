@@ -35,7 +35,7 @@ gem 'parklife', '~> 0.7.0'
 
 gem 'logger', '~> 1.7'
 
-gem 'activesupport', '~> 8.1'
+gem 'activesupport', '~> 8.1', '>= 8.1.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
