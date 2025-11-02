@@ -193,7 +193,7 @@ Player.create!([
     number: '13',
     position: 'WR',
     exp: 9,
-    status: 'Active',
+    status: 'PS',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051889.png&w=350&h=254'
   },
@@ -757,7 +757,7 @@ Player.create!([
     number: '74',
     position: 'DE',
     exp: 1,
-    status: 'Active',
+    status: 'PS',
     college: 'Maryland',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360638.png&w=350&h=254'
   },
