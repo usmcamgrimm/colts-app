@@ -8,9 +8,9 @@ Player.create!([
     status: 'Active',
     college: 'California',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035861.png&w=350&h=254',
-    tackles: 36,
+    tackles: 40,
     solo_tackles: 19,
-    assist: 17,
+    assist: 21,
     def_int: 2
   },
   {
@@ -21,10 +21,14 @@ Player.create!([
     status: 'Active',
     college: 'North Carolina',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254',
-    rec: 29,
-    rec_yards: 256,
-    rec_ypc: 8.8,
-    rec_td: 2
+    rec: 35,
+    rec_yards: 313,
+    rec_ypc: 8.1,
+    rec_td: 3,
+    pr_ret: 3,
+    pr_fc: 1,
+    pr_lng: 12,
+    pr_yds: 7.7
   },
   {
     name: 'D.J. Montgomery',
@@ -155,9 +159,9 @@ Player.create!([
     status: 'Active',
     college: 'Texas',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4597500.png&w=350&h=254',
-    rec: 8,
-    rec_yards: 145,
-    rec_ypc: 18.1,
+    rec: 9,
+    rec_yards: 152,
+    rec_ypc: 16.9,
     rec_td: 0
   },
   {
@@ -168,9 +172,9 @@ Player.create!([
     status: 'Active',
     college: 'USC',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035687.png&w=350&h=254',
-    rec: 43,
-    rec_yards: 446,
-    rec_ypc: 10.4,
+    rec: 52,
+    rec_yards: 561,
+    rec_ypc: 10.8,
     rec_td: 6
   },
   {
@@ -185,7 +189,7 @@ Player.create!([
     fg_20to29: '0 - 0',
     fg_30to39: '1 - 1',
     fg_40to49: '2 - 2',
-    fg_50to59: '0 - 0',
+    fg_50to59: '2 - 2',
     fg_60Plus: '0 - 0'
   },
   {
@@ -205,9 +209,9 @@ Player.create!([
     status: 'Active',
     college: 'Cincinnati',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360078.png&w=350&h=254',
-    rec: 18,
-    rec_yards: 386,
-    rec_ypc: 21.4,
+    rec: 24,
+    rec_yards: 501,
+    rec_ypc: 20.9,
     rec_td: 0
   },
   {
@@ -246,10 +250,10 @@ Player.create!([
     tackles: 3,
     solo_tackles: 2,
     assist: 1,
-    kr_ret: 7,
+    kr_ret: 8,
     kr_fc: 0,
-    kr_yds: 192,
-    kr_yds_ret: 27.4,
+    kr_yds: 218,
+    kr_yds_ret: 27.2,
     kr_lng: 39
   },
   {
@@ -260,17 +264,17 @@ Player.create!([
     status: 'Active',
     college: 'Duke',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3917792.png&w=350&h=254',
-    pass_att: 243,
-    comp: 173,
-    pass_yards: 2062,
-    pass_td: 13,
-    comp_percent: 71.2,
-    int: 3,
-    qb_rtng: 109.5,
-    rush_att: 30,
-    rush_yds: 86,
-    rush_ypc: 2.9,
-    rush_td: 4
+    pass_att: 293,
+    comp: 204,
+    pass_yards: 2404,
+    pass_td: 14,
+    comp_percent: 69.6,
+    int: 6,
+    qb_rtng: 101.7,
+    rush_att: 33,
+    rush_yds: 90,
+    rush_ypc: 2.7,
+    rush_td: 5
   },
   {
     name: 'Nick Cross',
@@ -280,9 +284,9 @@ Player.create!([
     status: 'Active',
     college: 'Maryland',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426403.png&w=350&h=254',
-    tackles: 56,
-    solo_tackles: 35,
-    assist: 21,
+    tackles: 62,
+    solo_tackles: 38,
+    assist: 24,
     def_sacks: 1.5,
     def_int: 1
   },
@@ -307,11 +311,11 @@ Player.create!([
     status: 'Active',
     college: 'Valdosta State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4218312.png&w=350&h=254',
-    tackles: 23,
-    solo_tackles: 14,
-    assist: 9,
+    tackles: 26,
+    solo_tackles: 15,
+    assist: 11,
     def_sacks: 1.5,
-    def_fumble: 1,
+    def_fumble: 2,
     def_int: 1,
     def_td: 1
   },
@@ -335,17 +339,17 @@ Player.create!([
     status: 'Active',
     college: 'Nebraska',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2576336.png&w=350&h=254',
-    rec: 3,
-    rec_yards: 20,
-    rec_ypc: 6.7,
-    rush_att: 7,
-    rush_yds: 37,
-    rush_ypc: 5.3,
+    rec: 4,
+    rec_yards: 22,
+    rec_ypc: 5.5,
+    rush_att: 8,
+    rush_yds: 40,
+    rush_ypc: 5.0,
     rush_td: 1,
-    kr_ret: 2,
+    kr_ret: 5,
     kr_fc: 0,
-    kr_yds: 109,
-    kr_yds_ret: 54.5,
+    kr_yds: 183,
+    kr_yds_ret: 36.6,
     kr_lng: 81
   },
   {
@@ -365,13 +369,13 @@ Player.create!([
     status: 'Active',
     college: 'Wisconsin',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242335.png&w=350&h=254',
-    rush_att: 143,
-    rush_yds: 850,
-    rush_ypc: 5.9,
+    rush_att: 157,
+    rush_yds: 895,
+    rush_ypc: 5.7,
     rush_td: 12,
-    rec: 25,
-    rec_yards: 206,
-    rec_ypc: 8.2,
+    rec: 27,
+    rec_yards: 218,
+    rec_ypc: 8.1,
     rec_td: 2
   },
   {
@@ -382,9 +386,9 @@ Player.create!([
     status: 'Active',
     college: 'USC',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360677.png&w=350&h=254',
-    tackles: 38,
-    solo_tackles: 30,
-    assist: 8,
+    tackles: 43,
+    solo_tackles: 34,
+    assist: 9,
     def_sacks: 1,
     def_int: 2
   },
@@ -408,9 +412,9 @@ Player.create!([
     rush_att: 4,
     rush_yds: 8,
     rush_ypc: 2.0,
-    rec: 1,
-    rec_yards: 0,
-    rec_ypc: 0.0
+    rec: 2,
+    rec_yards: 8,
+    rec_ypc: 4.0
   },
   {
     name: 'Daniel Scott',
@@ -523,9 +527,9 @@ Player.create!([
     status: 'Active',
     college: 'Syracuse',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3124005.png&w=350&h=254',
-    tackles: 44,
-    solo_tackles: 21,
-    assist: 23,
+    tackles: 50,
+    solo_tackles: 25,
+    assist: 25,
     def_sacks: 1
   },
   {
@@ -584,9 +588,9 @@ Player.create!([
     status: 'Active',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4258194.png&w=350&h=254',
-    tackles: 14,
-    solo_tackles: 7,
-    assist: 7,
+    tackles: 17,
+    solo_tackles: 9,
+    assist: 8,
     def_sacks: 3
   },
   {
@@ -610,9 +614,9 @@ Player.create!([
     status: 'Active',
     college: 'N.C. State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3116724.png&w=350&h=254',
-    tackles: 23,
-    solo_tackles: 13,
-    assist: 10
+    tackles: 31,
+    solo_tackles: 17,
+    assist: 14
   },
   {
     name: 'Jacob Phillips',
@@ -827,9 +831,9 @@ Player.create!([
     rush_yds: 6,
     rush_ypc: 1.5,
     rush_td: 1,
-    rec: 37,
-    rec_yards: 492,
-    rec_ypc: 13.3,
+    rec: 42,
+    rec_yards: 518,
+    rec_ypc: 12.3,
     rec_td: 3
   },
   {
@@ -861,9 +865,9 @@ Player.create!([
     status: 'Active',
     college: 'Albany State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4058825.png&w=350&h=254',
-    tackles: 27,
-    solo_tackles: 12,
-    assist: 15,
+    tackles: 30,
+    solo_tackles: 14,
+    assist: 16,
     def_int: 1
   },
   {
@@ -883,10 +887,10 @@ Player.create!([
     status: 'Active',
     college: 'Oklahoma',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3892883.png&w=350&h=254',
-    tackles: 16,
-    solo_tackles: 9,
-    assist: 7,
-    def_sacks: 2
+    tackles: 21,
+    solo_tackles: 10,
+    assist: 11,
+    def_sacks: 2.5
   },
   {
     name: 'Tim Smith',
@@ -918,9 +922,9 @@ Player.create!([
     status: 'Active',
     college: 'Northwestern',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254',
-    tackles: 13,
+    tackles: 14,
     solo_tackles: 7,
-    assist: 6,
+    assist: 7,
     def_sacks: 1.5
   },
   {
@@ -940,10 +944,10 @@ Player.create!([
     status: 'Active',
     college: 'UCLA',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426473.png&w=350&h=254',
-    tackles: 17,
-    solo_tackles: 9,
-    assist: 8,
-    def_sacks: 2.5,
+    tackles: 23,
+    solo_tackles: 13,
+    assist: 10,
+    def_sacks: 5.0,
     def_int: 2
   },
   { 
@@ -965,9 +969,9 @@ Player.create!([
     status: 'Active',
     college: 'Oregon',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254',
-    tackles: 38,
-    solo_tackles: 24,
-    assist: 14,
+    tackles: 42,
+    solo_tackles: 26,
+    assist: 16,
     def_sacks: 4
   }
 ])
