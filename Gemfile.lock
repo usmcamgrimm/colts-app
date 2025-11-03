@@ -166,7 +166,7 @@ GEM
     puma (7.1.0)
       nio4r (~> 2.0)
     racc (1.8.1)
-    rack (3.2.3)
+    rack (3.2.4)
     rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
@@ -281,7 +281,7 @@ DEPENDENCIES
   openssl (~> 3.3, >= 3.3.1)
   parklife (~> 0.7.0)
   puma (~> 7.1)
-  rails (~> 8.1)
+  rails (~> 8.1, >= 8.1.1)
   rails_live_reload (~> 0.4.0)
   rake (~> 13.3)
   selenium-webdriver
