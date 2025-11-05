@@ -14,8 +14,17 @@ Player.create!([
     def_int: 2
   },
   {
-    name: 'Josh Downs',
+    name: 'Sauce Gardner',
     number: '1',
+    position: 'CB',
+    exp: 4,
+    status: 'Active',
+    college: 'Cincinnati',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427250.png&w=350&h=254'
+  },
+  {
+    name: 'Josh Downs',
+    number: '2',
     position: 'WR',
     exp: 3,
     status: 'Active',
@@ -150,19 +159,6 @@ Player.create!([
     status: 'PS',
     college: 'Ohio',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4578436.png&w=350&h=254',
-  },
-  {
-    name: 'Adonai Mitchell',
-    number: '10',
-    position: 'WR',
-    exp: 2,
-    status: 'Active',
-    college: 'Texas',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4597500.png&w=350&h=254',
-    rec: 9,
-    rec_yards: 152,
-    rec_ypc: 16.9,
-    rec_td: 0
   },
   {
     name: 'Michael Pittman Jr.',
