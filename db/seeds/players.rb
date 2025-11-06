@@ -507,6 +507,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685145.png&w=350&h=254',
   },
   {
+    name: 'Trey Washington',
+    number: '41',
+    position: 'S',
+    exp: 0,
+    status: 'PS',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254',
+  },
+  {
     name: 'Cameron Mitchell',
     number: '43',
     position: 'CB',
@@ -631,6 +640,15 @@ Player.create!([
     status: 'PS',
     college: 'Northwestern',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045251.png&w=350&h=254'
+  },
+  {
+    name: 'Chad Muma',
+    number: '55',
+    position: 'LB',
+    exp: 4,
+    status: 'PS',
+    college: 'Wyoming',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361707.png&w=350&h=254'
   },
   {
     name: 'Quenton Nelson',
