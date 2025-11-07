@@ -980,7 +980,7 @@ Player.create!([
     number: '99',
     position: 'DT',
     exp: 10,
-    status: 'Active',
+    status: 'IR',
     college: 'Oregon',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254',
     tackles: 42,
