@@ -506,6 +506,15 @@ Player.create!([
     def_int: 1
   },
   {
+    name: 'George Odum',
+    number: '39',
+    position: 'S',
+    exp: 8,
+    status: 'PS',
+    college: 'Central Arkansas',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3050199.png&w=350&h=254',
+  },
+  {
     name: 'Jaylon Jones',
     number: '40',
     position: 'CB',
@@ -546,15 +555,6 @@ Player.create!([
     def_sacks: 2
   },
   {
-    name: 'Maximilian Mang',
-    number: '45',
-    position: 'TE',
-    exp: 0,
-    status: 'PS',
-    college: 'Syracuse',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4608691.png&w=350&h=254',
-  },
-  {
     name: 'Luke Rhodes',
     number: '46',
     position: 'LS',
@@ -562,15 +562,6 @@ Player.create!([
     status: 'Active',
     college: 'William & Mary',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254'
-  },
-  {
-    name: 'Troy Pride Jr.',
-    number: '47',
-    position: 'CB',
-    exp: 3,
-    status: 'PS',
-    college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046679.png&w=350&h=254',
   },
   {
     name: 'Sean McKeon',
@@ -707,6 +698,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430957.png&w=350&h=254'
   },
   {
+    name: 'Viliami Fehoko Jr.',
+    number: '61',
+    position: 'DE',
+    exp: 2,
+    status: 'PS',
+    college: 'San Jose State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374148.png&w=350&h=254'
+  },
+  {
     name: 'Danny Pinter',
     number: '63',
     position: 'G',
@@ -837,6 +837,15 @@ Player.create!([
      rec_td: 0
   },
   {
+    name: 'Eli Pancol',
+    number: '83',
+    position: 'WR',
+    exp: 0,
+    status: 'WR',
+    college: 'Duke',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430288.png&w=350&h=254'
+  },
+  {
     name: 'Tyler Warren',
     number: '84',
     position: 'TE',
@@ -950,13 +959,13 @@ Player.create!([
     def_sacks: 1.5
   },
   {
-    name: 'Tanoh Kpassagnon',
+    name: 'Chris Wormley',
     number: '96',
-    position: 'DE',
+    position: 'DT',
     exp: 8,
     status: 'PS',
-    college: 'Villanova',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2982313.png&w=350&h=254',
+    college: 'Michigan',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2977615.png&w=350&h=254',
   },
   {
     name: 'Laiatu Latu',
