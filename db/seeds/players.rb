@@ -533,6 +533,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254',
   },
   {
+    name: 'Cameron Mitchell',
+    number: '43',
+    position: 'CB',
+    exp: 3,
+    status: 'PS',
+    college: 'Northwestern',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254',
+  },
+  {
     name: 'Zaire Franklin',
     number: '44',
     position: 'LB',
