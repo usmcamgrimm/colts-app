@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_09_15_120705) do
+ActiveRecord::Schema[8.1].define(version: 2025_11_29_174846) do
   create_table "players", force: :cascade do |t|
     t.integer "assist"
     t.string "college"
@@ -62,6 +62,7 @@ ActiveRecord::Schema[8.1].define(version: 2025_09_15_120705) do
     t.integer "rush_td"
     t.integer "rush_yds"
     t.float "rush_ypc"
+    t.integer "sacked"
     t.integer "safety"
     t.integer "solo_tackles"
     t.string "status"

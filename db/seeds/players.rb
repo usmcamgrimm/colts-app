@@ -270,6 +270,7 @@ Player.create!([
     pass_yards: 2840,
     pass_td: 17,
     comp_percent: 69.1,
+    sacked: 21,
     int: 7,
     qb_rtng: 101.4,
     rush_att: 43,
