@@ -44,6 +44,14 @@
       <p class="playerStats"><strong>Touchdowns:</strong> <%= @player.pass_td %></p>
     <% end %>
 
+    <% if @player.sacked != nil %>
+      <p class="playerStats"><strong>Sacks:</strong> <%= @player.sacked %></p>
+    <% end %>
+
+    <% if @player.int != nil %>
+      <p class="playerStats"><strong>Interceptions:</strong> <%= @player.int %></p>
+    <% end %>
+
     <% if @player.qb_rtng != nil %>
       <p class="playerStats"><strong>QB Rating:</strong> <%= @player.qb_rtng %></p>
     <% end %>
