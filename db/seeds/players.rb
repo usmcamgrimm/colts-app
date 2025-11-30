@@ -969,7 +969,7 @@ Player.create!([
     number: '96',
     position: 'DT',
     exp: 8,
-    status: 'Active',
+    status: 'PS',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2977615.png&w=350&h=254',
   },
