@@ -974,6 +974,9 @@ Player.create!([
     status: 'PS',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2977615.png&w=350&h=254',
+    tackles: 2,
+    solo_tackles: 2,
+    def_sacks: 1.0
   },
   {
     name: 'Laiatu Latu',
