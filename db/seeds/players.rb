@@ -179,21 +179,6 @@ Player.create!([
     rec_td: 7
   },
   {
-    name: 'Michael Badgley',
-    number: '12',
-    position: 'K',
-    exp: 7,
-    status: 'Active',
-    college: 'Miami',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3123052.png&w=350&h=254',
-    fg_1to19: '0 - 0',
-    fg_20to29: '1 - 1',
-    fg_30to39: '3 - 3',
-    fg_40to49: '4 - 4',
-    fg_50to59: '2 - 3',
-    fg_60Plus: '0 - 0'
-  },
-  {
     name: 'Laquon Treadwell',
     number: '13',
     position: 'WR',
