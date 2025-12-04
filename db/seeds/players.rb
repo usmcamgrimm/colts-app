@@ -166,6 +166,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4578436.png&w=350&h=254',
   },
   {
+    name: 'Blake Grupe',
+    number: '10',
+    position: 'K',
+    exp:3,
+    status: 'PS',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259619.png&w=350&h=254'
+  },
+  {
     name: 'Michael Pittman Jr.',
     number: '11',
     position: 'WR',
@@ -702,15 +711,6 @@ Player.create!([
     status: 'Active',
     college: 'Ball State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
-  },
-  {
-    name: 'Jimmy Morrissey',
-    number: '65',
-    position: 'C',
-    exp: 3,
-    status: 'PS',
-    college: 'Pittsburgh',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046165.png&w=350&h=254'
   },
   {
     name: 'Josh Sills',
