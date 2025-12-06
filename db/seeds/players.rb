@@ -170,7 +170,7 @@ Player.create!([
     number: '10',
     position: 'K',
     exp:3,
-    status: 'PS',
+    status: 'Active',
     college: 'Notre Dame',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259619.png&w=350&h=254'
   },
@@ -956,7 +956,7 @@ Player.create!([
     number: '96',
     position: 'DT',
     exp: 8,
-    status: 'PS',
+    status: 'Active',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2977615.png&w=350&h=254',
     tackles: 2,
