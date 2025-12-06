@@ -659,7 +659,7 @@ Player.create!([
     number: '57',
     position: 'LB',
     exp: 2,
-    status: 'IR',
+    status: 'Active',
     college: 'Missouri',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4601021.png&w=350&h=254',
   },
