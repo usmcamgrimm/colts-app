@@ -263,7 +263,7 @@ Player.create!([
     number: '17',
     position: 'QB',
     exp: 7,
-    status: 'Active',
+    status: 'IR',
     college: 'Duke',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3917792.png&w=350&h=254',
     pass_att: 384,
