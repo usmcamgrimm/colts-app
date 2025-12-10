@@ -153,7 +153,7 @@ Schedule.create!([
     gametime: '1:00PM',
     location: 'home',
     result: 'L',
-    score: '20 - 16',
+    score: '16 - 20',
     oppcity: 'Houston',
     oppname: 'Texans',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/hou.png&h=200&w=200',
