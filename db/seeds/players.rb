@@ -499,7 +499,7 @@ Player.create!([
     number: '38',
     position: 'CB',
     exp: 5,
-    status: 'Active',
+    status: 'IR',
     college: 'South Carolina',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3128630.png&w=350&h=254',
     tackles: 17,
@@ -539,7 +539,7 @@ Player.create!([
     number: '43',
     position: 'CB',
     exp: 3,
-    status: 'PS',
+    status: 'Active',
     college: 'Northwestern',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254',
   },
@@ -565,6 +565,15 @@ Player.create!([
     status: 'Active',
     college: 'William & Mary',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2566045.png&w=350&h=254'
+  },
+  {
+    name: 'Troy Pride Jr.',
+    number: '47',
+    position: 'CB',
+    exp: 3,
+    status: 'PS',
+    college: 'Notre Dame',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046679.png&w=350&h=254',
   },
   {
     name: 'Sean McKeon',
