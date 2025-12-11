@@ -85,7 +85,7 @@ Player.create!([
     number: '4',
     position: 'QB',
     exp: 7,
-    status: 'PS',
+    status: 'Active',
     college: 'Boise State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3722362.png&w=350&h=254'
   },
@@ -135,7 +135,7 @@ Player.create!([
     number: '7',
     position: 'CB',
     exp: 8,
-    status: 'Active',
+    status: 'IR',
     college: 'Middle Tennessee State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4037361.png&w=350&h=254',
     tackles: 25,
@@ -170,7 +170,7 @@ Player.create!([
     number: '10',
     position: 'K',
     exp:3,
-    status: 'PS',
+    status: 'Active',
     college: 'Notre Dame',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259619.png&w=350&h=254',
     fg_1to19: '0 - 0',
@@ -278,6 +278,15 @@ Player.create!([
     rush_yds: 164,
     rush_ypc: 3.6,
     rush_td: 5
+  },
+  {
+    name: 'Philip Rivers',
+    number: '17',
+    position: 'QB',
+    exp: 18,
+    status: 'PS',
+    college: 'North Carolina State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5529.png&w=350&h=254'
   },
   {
     name: 'Nick Cross',
@@ -727,6 +736,15 @@ Player.create!([
     status: 'Active',
     college: 'Ball State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
+  },
+  {
+    name: 'Jimmy Morrissey',
+    number: '65',
+    position: 'C',
+    exp: 3,
+    status: 'PS',
+    college: 'Pittsburgh',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046165.png&w=350&h=254'
   },
   {
     name: 'Josh Sills',
