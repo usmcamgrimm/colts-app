@@ -284,7 +284,7 @@ Player.create!([
     number: '17',
     position: 'QB',
     exp: 18,
-    status: 'PS',
+    status: 'Active',
     college: 'North Carolina State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5529.png&w=350&h=254'
   },
@@ -787,7 +787,7 @@ Player.create!([
     number: '72',
     position: 'T',
     exp: 8,
-    status: 'Active',
+    status: 'IR',
     college: 'Auburn',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3121595.png&w=350&h=254'
   },
