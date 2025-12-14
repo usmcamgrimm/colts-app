@@ -10,7 +10,7 @@ gem 'rails', '~> 8.1', '>= 8.1.1'
 gem 'sprockets-rails', '~> 3.5', '>= 3.5.2'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 2.7', '>= 2.7.4'
+gem 'sqlite3', '~> 2.8', '>= 2.8.1'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 7.1'
@@ -19,7 +19,7 @@ gem 'puma', '~> 7.1'
 gem 'importmap-rails', '~> 2.2', '>= 2.2.2'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem 'turbo-rails', '~> 2.0', '>= 2.0.17'
+gem 'turbo-rails', '~> 2.0', '>= 2.0.20'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem 'stimulus-rails', '~> 1.3', '>= 1.3.4'
@@ -27,9 +27,9 @@ gem 'stimulus-rails', '~> 1.3', '>= 1.3.4'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder', '~> 2.14', '>= 2.14.1'
 
-gem 'openssl', '~> 3.3', '>= 3.3.1'
+gem 'openssl', '~> 3.3', '>= 3.3.2'
 
-gem 'rake', '~> 13.3'
+gem 'rake', '~> 13.3', '>= 13.3.1'
 
 gem 'parklife', '~> 0.7.0'
 
@@ -47,10 +47,10 @@ gem 'activesupport', '~> 8.1', '>= 8.1.1'
 # gem "bcrypt", "~> 3.1.7"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', '~> 1.2025', '>= 1.2025.2'
+gem 'tzinfo-data', '~> 1.2025', '>= 1.2025.3'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '~> 1.18', '>= 1.18.6'
+gem 'bootsnap', '~> 1.19'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -68,7 +68,7 @@ group :development do
   gem 'web-console', '~> 4.2', '>= 4.2.1'
 
   # Live Reload
-  gem 'rails_live_reload', '~> 0.4.0'
+  gem 'rails_live_reload', '~> 0.5.0'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
@@ -80,6 +80,6 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
-  gem "selenium-webdriver"
+  gem 'selenium-webdriver', '~> 4.39'
   gem "webdrivers"
 end
