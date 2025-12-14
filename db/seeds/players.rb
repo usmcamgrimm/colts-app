@@ -524,6 +524,8 @@ Player.create!([
     status: 'Active',
     college: 'Central Arkansas',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3050199.png&w=350&h=254',
+    tackles: 1,
+    assist: 1
   },
   {
     name: 'Jaylon Jones',
@@ -533,6 +535,9 @@ Player.create!([
     status: 'Active',
     college: 'Texas A&M',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685145.png&w=350&h=254',
+    tackles: 13,
+    solo_tackles: 9,
+    assist: 4
   },
   {
     name: 'Trey Washington',
@@ -551,6 +556,10 @@ Player.create!([
     status: 'Active',
     college: 'Northwestern',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254',
+    tackles: 6,
+    solo_tackles: 4,
+    assist: 2,
+    def_fumble: 1
   },
   {
     name: 'Zaire Franklin',
@@ -708,7 +717,10 @@ Player.create!([
     exp: 4,
     status: 'Active',
     college: 'Texas A&M',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240900.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240900.png&w=350&h=254',
+    tackles: 12,
+    solo_tackles: 8,
+    assist: 4
   },
   {
     name: 'Tanor Bortolini',
