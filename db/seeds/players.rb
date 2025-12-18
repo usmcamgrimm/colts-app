@@ -762,6 +762,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4374148.png&w=350&h=254'
   },
   {
+    name: 'Bill Murray',
+    number: '62',
+    position: 'G',
+    exp: 2,
+    status: 'PS',
+    college: 'William & Mary',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3912189.png&w=350&h=254'
+  },
+  {
     name: 'Danny Pinter',
     number: '63',
     position: 'G',
@@ -769,6 +778,15 @@ Player.create!([
     status: 'Active',
     college: 'Ball State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
+  },
+  {
+    name: 'Zach Thomas',
+    number: '64',
+    position: 'T',
+    exp:4,
+    status: 'PS',
+    college: 'San Diego State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036834.png&w=350&h=254'
   },
   {
     name: 'Jimmy Morrissey',
@@ -805,6 +823,15 @@ Player.create!([
     status: 'Active',
     college: 'Marshall',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
+  },
+  {
+    name: 'LaDarius Henderson',
+    number: '69',
+    position: 'G',
+    exp: 2,
+    status: 'PS',
+    college: 'Michigan',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427448.png&w=350&h=254'
   },
   {
     name: 'Matt Goncalves',
