@@ -81,15 +81,6 @@ Player.create!([
     assist: 4
   },
   {
-    name: 'Brett Rypien',
-    number: '4',
-    position: 'QB',
-    exp: 7,
-    status: 'Active',
-    college: 'Boise State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3722362.png&w=350&h=254'
-  },
-  {
     name: 'Anthony Richardson Sr.',
     number: '5',
     position: 'QB',
@@ -1092,7 +1083,7 @@ Player.create!([
     number: '99',
     position: 'DT',
     exp: 10,
-    status: 'IR',
+    status: 'Active',
     college: 'Oregon',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254',
     tackles: 42,
