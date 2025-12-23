@@ -152,7 +152,7 @@ Player.create!([
     number: '9',
     position: 'WR',
     exp: 0,
-    status: 'Active',
+    status: 'PS',
     college: 'Ohio',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4578436.png&w=350&h=254',
     pr_ret: 1,
@@ -793,7 +793,7 @@ Player.create!([
     number: '66',
     position: 'G',
     exp: 3,
-    status: 'Active',
+    status: 'PS',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
   },
