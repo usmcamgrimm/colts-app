@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_11_29_174846) do
+ActiveRecord::Schema[8.1].define(version: 2025_12_23_141445) do
   create_table "players", force: :cascade do |t|
     t.integer "assist"
     t.string "college"
@@ -29,6 +29,7 @@ ActiveRecord::Schema[8.1].define(version: 2025_11_29_174846) do
     t.string "fg_50to59"
     t.string "fg_60Plus"
     t.integer "int"
+    t.integer "int_long"
     t.integer "kr_fc"
     t.integer "kr_lng"
     t.integer "kr_ret"
@@ -38,6 +39,7 @@ ActiveRecord::Schema[8.1].define(version: 2025_11_29_174846) do
     t.string "name"
     t.integer "number"
     t.integer "pass_att"
+    t.integer "pass_long"
     t.integer "pass_td"
     t.integer "pass_yards"
     t.text "photo"
@@ -55,10 +57,12 @@ ActiveRecord::Schema[8.1].define(version: 2025_11_29_174846) do
     t.integer "punt_yards"
     t.float "qb_rtng"
     t.integer "rec"
+    t.integer "rec_long"
     t.integer "rec_td"
     t.integer "rec_yards"
     t.float "rec_ypc"
     t.integer "rush_att"
+    t.integer "rush_long"
     t.integer "rush_td"
     t.integer "rush_yds"
     t.float "rush_ypc"

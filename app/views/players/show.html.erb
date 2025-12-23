@@ -52,6 +52,10 @@
       <p class="playerStats"><strong>Interceptions:</strong> <%= @player.int %></p>
     <% end %>
 
+    <% if @player.pass_long != nil %>
+      <p class="playerStats"><strong>Longest Pass:</strong> <%= @player.pass_long %></p>
+    <% end %>
+
     <% if @player.qb_rtng != nil %>
       <p class="playerStats"><strong>QB Rating:</strong> <%= @player.qb_rtng %></p>
     <% end %>
@@ -68,6 +72,10 @@
       <p class="playerStats"><strong>Yards per Carry:</strong> <%= @player.rush_ypc %></p>
     <% end %>
 
+    <% if @player.rush_long != nil %>
+      <p class="playerStats"><strong>Longest Rush:</strong> <%= @player.rush_long %></p>
+    <% end %>
+
     <% if @player.rush_td != nil && @player.rush_td != 0 %>
       <p class="playerStats"><strong>Rushing Touchdowns:</strong> <%= @player.rush_td %></p>
     <% end %>
@@ -82,6 +90,10 @@
 
     <% if @player.rec_ypc != nil %>
       <p class="playerStats"><strong>Yards per Catch:</strong> <%= @player.rec_ypc %></p>
+    <% end %>
+
+    <% if @player.rec_long != nil %>
+      <p class="playerStats"><strong>Longest Reception:</strong> <%= @player.rec_long %></p>
     <% end %>
 
     <% if @player.rec_td != nil %>
@@ -114,6 +126,10 @@
 
     <% if @player.def_int != nil %>
       <p class="playerStats"><strong>Interceptions:</strong> <%= @player.def_int %></p>
+    <% end %>
+
+    <% if @player.int_long != nil %>
+      <p class="playerStats"><strong>Longest INT Return:</strong> <%= @player.int_long %></p>
     <% end %>
 
     <% if @player.def_td != nil %>
