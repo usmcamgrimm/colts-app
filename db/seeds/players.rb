@@ -823,7 +823,7 @@ Player.create!([
     number: '65',
     position: 'C',
     exp: 3,
-    status: 'Active',
+    status: 'PS',
     college: 'Pittsburgh',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4046165.png&w=350&h=254'
   },
@@ -832,7 +832,7 @@ Player.create!([
     number: '66',
     position: 'G',
     exp: 3,
-    status: 'Active',
+    status: 'PS',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
   },
