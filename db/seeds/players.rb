@@ -87,6 +87,15 @@ Player.create!([
     assist: 4
   },
   {
+    name: 'Seth Henigan',
+    number: '4',
+    position: 'QB',
+    exp: 0,
+    status: 'PS',
+    college: 'Memphis',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4606194.png&w=350&h=254'
+  },
+  {
     name: 'Anthony Richardson Sr.',
     number: '5',
     position: 'QB',
