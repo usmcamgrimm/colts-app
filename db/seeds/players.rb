@@ -608,6 +608,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254',
   },
   {
+    name: 'Wyett Ekeler',
+    number: '42',
+    position: 'CB',
+    exp: 0,
+    status: 'PS',
+    college: 'Wyoming',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4608604.png&w=350&h=254',
+  },
+  {
     name: 'Cameron Mitchell',
     number: '43',
     position: 'CB',
@@ -819,15 +828,6 @@ Player.create!([
     status: 'Active',
     college: 'Ball State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3915470.png&w=350&h=254'
-  },
-  {
-    name: 'Zach Thomas',
-    number: '64',
-    position: 'T',
-    exp:4,
-    status: 'PS',
-    college: 'San Diego State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036834.png&w=350&h=254'
   },
   {
     name: 'Jimmy Morrissey',
