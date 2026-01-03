@@ -91,7 +91,7 @@ Player.create!([
     number: '4',
     position: 'QB',
     exp: 0,
-    status: 'PS',
+    status: 'Active',
     college: 'Memphis',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4606194.png&w=350&h=254'
   },
@@ -666,7 +666,7 @@ Player.create!([
     number: '49',
     position: 'TE',
     exp: 5,
-    status: 'PS',
+    status: 'Active',
     college: 'Michigan',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036275.png&w=350&h=254'
   },
