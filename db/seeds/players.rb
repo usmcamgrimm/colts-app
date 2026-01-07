@@ -1,6 +1,24 @@
 Player.create!([
   #Active Roster
   {
+    name: 'John Bullock',
+    number: '',
+    position: 'LB',
+    exp: 0,
+    status: 'PS',
+    college: 'Nebraska',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569563.png&w=350&h=254'
+  },
+  {
+    name: 'Joseph Vaughn',
+    number: '',
+    position: 'LB',
+    exp: 0,
+    status: 'PS',
+    college: 'UCLA',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4430632.png&w=350&h=254'
+  },
+  {
     name: 'Cam Bynum',
     number: '0',
     position: 'S',
@@ -745,15 +763,6 @@ Player.create!([
     status: 'PS',
     college: 'Northwestern',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3045251.png&w=350&h=254'
-  },
-  {
-    name: 'Chad Muma',
-    number: '55',
-    position: 'LB',
-    exp: 4,
-    status: 'PS',
-    college: 'Wyoming',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361707.png&w=350&h=254'
   },
   {
     name: 'Quenton Nelson',
