@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_12_23_141445) do
+ActiveRecord::Schema[8.1].define(version: 2026_01_07_110539) do
   create_table "players", force: :cascade do |t|
     t.integer "assist"
     t.string "college"
@@ -37,7 +37,7 @@ ActiveRecord::Schema[8.1].define(version: 2025_12_23_141445) do
     t.integer "kr_yds"
     t.float "kr_yds_ret"
     t.string "name"
-    t.integer "number"
+    t.string "number"
     t.integer "pass_att"
     t.integer "pass_long"
     t.integer "pass_td"
