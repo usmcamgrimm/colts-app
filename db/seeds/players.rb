@@ -19,6 +19,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4430632.png&w=350&h=254'
   },
   {
+    name: 'Rob Carter Jr.',
+    number: '',
+    position: 'CB',
+    exp: 0,
+    status: 'PS',
+    college: 'Robert Morris',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200'
+  },
+  {
     name: 'Cam Bynum',
     number: '0',
     position: 'S',
