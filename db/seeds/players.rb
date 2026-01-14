@@ -28,6 +28,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200'
   },
   {
+    name: 'Devin Veresuk',
+    number: '',
+    position: 'LB',
+    exp: 0,
+    status: 'PS',
+    college: 'Windsor',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200'
+  },
+  {
     name: 'Cam Bynum',
     number: '0',
     position: 'S',
