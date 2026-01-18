@@ -4,22 +4,22 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.4.6"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 8.1', '>= 8.1.1'
+gem 'rails', '~> 8.1', '>= 8.1.2'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails', '~> 3.5', '>= 3.5.2'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 2.8', '>= 2.8.1'
+gem 'sqlite3', '~> 2.9'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 7.1'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem 'importmap-rails', '~> 2.2', '>= 2.2.2'
+gem 'importmap-rails', '~> 2.2', '>= 2.2.3'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem 'turbo-rails', '~> 2.0', '>= 2.0.20'
+gem 'turbo-rails', '~> 2.0', '>= 2.0.21'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem 'stimulus-rails', '~> 1.3', '>= 1.3.4'
@@ -27,7 +27,7 @@ gem 'stimulus-rails', '~> 1.3', '>= 1.3.4'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder', '~> 2.14', '>= 2.14.1'
 
-gem 'openssl', '~> 3.3', '>= 3.3.2'
+gem 'openssl', '~> 4.0'
 
 gem 'rake', '~> 13.3', '>= 13.3.1'
 
@@ -35,7 +35,7 @@ gem 'parklife', '~> 0.7.0'
 
 gem 'logger', '~> 1.7'
 
-gem 'activesupport', '~> 8.1', '>= 8.1.1'
+gem 'activesupport', '~> 8.1', '>= 8.1.2'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -50,7 +50,7 @@ gem 'activesupport', '~> 8.1', '>= 8.1.1'
 gem 'tzinfo-data', '~> 1.2025', '>= 1.2025.3'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '~> 1.19'
+gem 'bootsnap', '~> 1.21', '>= 1.21.1'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
