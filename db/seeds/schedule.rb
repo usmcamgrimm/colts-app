@@ -11,7 +11,7 @@ Schedule.create!([
     oppname: 'Dolphins',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/mia.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
-    map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
+    map: 'https://maps.app.goo.gl/a5R3EZdTJFTVVfYM8'
   },
   {
     week: '2',
@@ -24,7 +24,7 @@ Schedule.create!([
     oppname: 'Broncos',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/den.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
-    map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
+    map: 'https://maps.app.goo.gl/a5R3EZdTJFTVVfYM8'
   },
   {
     week: '3',
@@ -63,7 +63,7 @@ Schedule.create!([
     oppname: 'Raiders',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/lv.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
-    map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
+    map: 'https://maps.app.goo.gl/a5R3EZdTJFTVVfYM8'
   },
   {
     week: '6',
@@ -76,7 +76,7 @@ Schedule.create!([
     oppname: 'Cardinals',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ari.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
-    map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
+    map: 'https://maps.app.goo.gl/a5R3EZdTJFTVVfYM8'
   },
   {
     week: '7',
@@ -102,7 +102,7 @@ Schedule.create!([
     oppname: 'Titans',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ten.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
-    map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
+    map: 'https://maps.app.goo.gl/a5R3EZdTJFTVVfYM8'
   },
   {
     week: '9',
@@ -158,7 +158,7 @@ Schedule.create!([
     oppname: 'Texans',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/hou.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
-    map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
+    map: 'https://maps.app.goo.gl/a5R3EZdTJFTVVfYM8'
   },
   {
     week: '14',
@@ -197,7 +197,7 @@ Schedule.create!([
     oppname: '49ers',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/sf.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
-    map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
+    map: 'https://maps.app.goo.gl/a5R3EZdTJFTVVfYM8'
   },
   {
     week: '17',
@@ -210,7 +210,7 @@ Schedule.create!([
     oppname: 'Jaguars',
     oppimage: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/jax.png&h=200&w=200',
     stadium: 'Lucas Oil Stadium',
-    map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
+    map: 'https://maps.app.goo.gl/a5R3EZdTJFTVVfYM8'
   },
   {
     week: '18',
