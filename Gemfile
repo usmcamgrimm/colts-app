@@ -35,6 +35,8 @@ gem 'parklife', '~> 0.7.0'
 
 gem 'logger', '~> 1.7'
 
+gem 'minitest', '~> 6.0', '>= 6.0.1'
+
 gem 'activesupport', '~> 8.1', '>= 8.1.2'
 
 # Use Redis adapter to run Action Cable in production
