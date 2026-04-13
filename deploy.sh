@@ -1,20 +1,21 @@
 #!/bin/bash
-set -e  # stop if any command fails
+set -euo
 
-echo "🧹 Removing old dist..."
+echo "[+] Removing old dist..."
 rm -rf dist
 
-echo "🏗  Building site locally..."
+echo "[+] Building site locally..."
 rm -rf build
 parklife build
 
-echo "📦 Preparing dist folder..."
-cp -r build dist
+echo "[+] Build -->> dist"
+mv build dist
 
-echo "📦 Copying assets into dist/assets..."
+echo "[+] Copying build-assets into dist..."
 mkdir -p dist/assets
 cp -r build-assets/* dist/assets/
 
+echo "[+] Checking for CSS and images..."
 echo "🔍 Checking for CSS and images..."
 if [ -z "$(find dist/assets -type f -name '*.css')" ]; then
     echo "❌ ERROR: No CSS files found in dist/assets."
@@ -26,9 +27,9 @@ if [ -z "$(find dist/assets -type f \( -name '*.png' -o -name '*.jpg' -o -name '
     exit 1
 fi
 
-echo "✅ Assets check passed."
+echo "[+] Build-assets check passed!"
 
-echo "🚀 Deploying to Netlify (skipping Netlify build step)..."
+echo "[+] Deploying build to Netlify..."
 netlify deploy --prod --dir=dist --debug
 
-echo "🎉 Deploy complete!"
+echo "[+] Site deployed successfully!"
