@@ -118,13 +118,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259619.png&w=350&h=254'
   },
   {
-    name: 'E.J. Horton',
+    name: 'Keenan Allen',
     number: '10',
-    position: 'LB',
-    exp: 0,
-    status: 'Active',
-    college: 'Purdue',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4608533.png&w=350&h=254'
+    position: 'WR',
+    exp: 14,
+    status: 'Active'
+    college: 'California',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15818.png&w=350&h=254'
   },
   {
     name: 'Sahmir Hagans',
@@ -316,15 +316,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692970.png&w=350&h=254'
   },
   {
-    name: 'Roydell Williams',
-    number: '36',
-    position: 'RB',
-    exp: 0,
-    status: 'Active',
-    college: 'Florida State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4685723.png&w=350&h=254'
-  },
-  {
     name: 'Mekhi Rodgers',
     number: '36',
     position: 'CB',
@@ -410,9 +401,18 @@ Player.create!([
     number: '45',
     position: 'TE',
     exp: 0,
-    status: 'Active',
+    status: 'IR',
     college: 'Notre Dame',
     photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+  },
+  {
+    name: 'Tyler Moore',
+    number: '45',
+    position: 'TE',
+    exp: 0,
+    status: 'Active'
+    college: 'Iowa State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4683119.png&w=350&h=254'
   },
   {
     name: 'Luke Rhodes',
@@ -613,6 +613,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
   },
   {
+    name: 'Trey Wedig',
+    number: '69',
+    position: 'T',
+    exp: 1,
+    status: 'Active'
+    college: 'Indiana',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430812.png&w=350&h=254'
+  },
+  {
     name: 'Matt Goncalves',
     number: '71',
     position: 'T',
@@ -667,13 +676,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4431587.png&w=350&h=254'
   },
   {
-    name: 'Bayron Matos',
+    name: 'Roy Mbaeteka',
     number: '78',
     position: 'T',
-    exp: 2,
-    status: 'Active',
-    college: 'University of South Florida',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612507.png&w=350&h=254'
+    exp: 1,
+    status: 'Exempt/International'
+    college: '',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5024661.png&w=350&h=254'
   },
   {
     name: 'Bernhard Raimann',
