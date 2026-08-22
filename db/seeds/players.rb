@@ -370,15 +370,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254'
   },
   {
-    name: 'Jai\'Onte\' McMillan',
-    number: '42',
-    position: 'CB',
-    exp: 0,
-    status: 'Active',
-    college: 'Minnesota',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4690803.png&w=350&h=254'
-  },
-  {
     name: 'Anderson Castle',
     number: '42',
     position: 'RB',
@@ -431,6 +422,15 @@ Player.create!([
     status: 'Active',
     college: 'LSU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4587724.png&w=350&h=254'
+  },
+  {
+    name: 'JJ Galbreath',
+    number: '47',
+    position: 'TE',
+    exp: 1,
+    status: 'Active'
+    college: 'South Dakota',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695800.png&w=350&h=254'
   },
   {
     name: 'Devin Veresuk',
