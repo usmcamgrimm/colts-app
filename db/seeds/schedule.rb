@@ -1,6 +1,5 @@
 Schedule.create!([
   {
-    year: 2026,
     week: '1',
     gamedate: 'Sun 09/13',
     gametime: '1:00PM',
@@ -14,7 +13,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
   },
   {
-    year: 2026,
     week: '2',
     gamedate: 'Sun 09/20',
     gametime: '8:20PM',
@@ -28,7 +26,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/GdA5S7zrgTa3nTn18'
   },
   {
-    year: 2026,
     week: '3',
     gamedate: 'Sun 09/27',
     gametime: '1:00PM',
@@ -42,7 +39,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
   },
   {
-    year: 2026,
     week: '4',
     gamedate: 'Sun 10/04',
     gametime: '9:30AM',
@@ -56,7 +52,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/3WZ5evAKdxySa9Ty6'
   },
   {
-    year: 2026,
     week: '5',
     gamedate: 'Sun 10/11',
     gametime: '1:00PM',
@@ -70,7 +65,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/KrZ3iqwyfuduCiXw7'
   },
   {
-    year: 2026,
     week: '6',
     gamedate: 'Sun 10/18',
     gametime: '1:00PM',
@@ -84,7 +78,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
   },
   {
-    year: 2026,
     week: '7',
     gamedate: 'Sun 10/25',
     gametime: '1:00PM',
@@ -98,7 +91,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/m3Qb2PHXte6YpMjJ8'
   },
   {
-    year: 2026,
     week: '8',
     gamedate: 'Sun 11/01',
     gametime: '1:00PM',
@@ -112,7 +104,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/UTR1xnoTcK1bAGtK9'
   },
   {
-    year: 2026,
     week: '9',
     gamedate: 'Sun 11/08',
     gametime: '1:00PM',
@@ -126,7 +117,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
   },
   {
-    year: 2026,
     week: '10',
     gamedate: 'Sun 11/15',
     gametime: '1:00PM',
@@ -140,7 +130,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/Td2KScyke6YF4rj9A'
   },
   {
-    year: 2026,
     week: '11',
     gamedate: 'Thu 11/19',
     gametime: '1:00PM',
@@ -154,7 +143,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/Rn65v4AKkgNgHQDr7'
   },
   {
-    year: 2026,
     week: '12',
     gamedate: 'Sun 11/29',
     gametime: '1:00PM',
@@ -168,12 +156,10 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
   },
   {
-    year: 2026,
     week: '13',
     oppname: 'Bye'
   },
   {
-    year: 2026,
     week: '14',
     gamedate: 'Sun 12/13',
     gametime: '1:00PM',
@@ -187,7 +173,6 @@ Schedule.create!([
     map: 'hhttps://maps.app.goo.gl/5osGfwxm1gVC2FUs6'
   },
   {
-    year: 2026,
     week: '15',
     gamedate: 'Sun 12/30',
     gametime: '1:00PM',
@@ -201,7 +186,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/4ptMhmc13gTWMYri7'
   },
   {
-    year: 2026,
     week: '16',
     gamedate: 'TBD',
     gametime: 'TBD',
@@ -215,7 +199,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/4Jk41ViV5SnsFgBR6A'
   },
   {
-    year: 2026,
     week: '17',
     gamedate: 'Sun 01/03',
     gametime: '1:00PM',
@@ -229,7 +212,6 @@ Schedule.create!([
     map: 'https://maps.app.goo.gl/ZGoaa6UmdS1A2Se87'
   },
   {
-    year: 2026,
     week: '18',
     gamedate: 'TBD',
     gametime: 'TBD',

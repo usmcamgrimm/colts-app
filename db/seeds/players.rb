@@ -122,7 +122,7 @@ Player.create!([
     number: '10',
     position: 'WR',
     exp: 14,
-    status: 'Active'
+    status: 'Active',
     college: 'California',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15818.png&w=350&h=254'
   },
@@ -401,7 +401,7 @@ Player.create!([
     number: '45',
     position: 'TE',
     exp: 0,
-    status: 'Active'
+    status: 'Active',
     college: 'Iowa State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4683119.png&w=350&h=254'
   },
@@ -428,7 +428,7 @@ Player.create!([
     number: '47',
     position: 'TE',
     exp: 1,
-    status: 'Active'
+    status: 'Active',
     college: 'South Dakota',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695800.png&w=350&h=254'
   },
@@ -617,7 +617,7 @@ Player.create!([
     number: '69',
     position: 'T',
     exp: 1,
-    status: 'Active'
+    status: 'Active',
     college: 'Indiana',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430812.png&w=350&h=254'
   },
@@ -680,7 +680,7 @@ Player.create!([
     number: '78',
     position: 'T',
     exp: 1,
-    status: 'Exempt/International'
+    status: 'Exempt/International',
     college: '',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5024661.png&w=350&h=254'
   },
