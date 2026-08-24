@@ -97,7 +97,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Arkansas',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4872957.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4872957.png&w=350&h=254'
   },
   {
     name: 'Coleman Owen',
@@ -133,7 +133,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Duke',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4612246.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612246.png&w=350&h=254'
   },
   {
     name: 'Nick Westbrook-Ikhine',
@@ -277,7 +277,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Wisonsin',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4827042.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4827042.png&w=350&h=254'
   },
   {
     name: 'Juanyeh Thomas',
@@ -331,7 +331,7 @@ Player.create!([
     exp: 1,
     status: 'Active',
     college: 'Mississippi',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4426689.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426689.png&w=350&h=254'
   },
   {
     name: 'Jonathan Owens',
@@ -376,7 +376,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Duke',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4612558.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612558.png&w=350&h=254'
   },
   {
     name: 'Tahj Chambers',
@@ -385,7 +385,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Mississippi',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4692638.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692638.png&w=350&h=254'
   },
   {
     name: 'Carson Towt',
@@ -394,7 +394,7 @@ Player.create!([
     exp: 0,
     status: 'IR',
     college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/i/teamlogos/nfl/500/ind.png'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4702120.png&w=350&h=254'
   },
   {
     name: 'Tyler Moore',
@@ -421,7 +421,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'LSU',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4587724.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4587724.png&w=350&h=254'
   },
   {
     name: 'JJ Galbreath',
@@ -439,7 +439,7 @@ Player.create!([
     exp: 1,
     status: 'Active',
     college: 'Windsor',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/ind.png&h=200&w=200'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5278709.png&w=350&h=254'
   },
   {
     name: 'Sean McKeon',
@@ -502,7 +502,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Virginia',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4693205.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4693205.png&w=350&h=254'
   },
   {
     name: 'Caden Curry',
@@ -556,7 +556,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Illinois',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4709386.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4709386.png&w=350&h=254'
   },
   {
     name: 'Jalen Farmer',
@@ -574,7 +574,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Alabama',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4875981.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4875981.png&w=350&h=254'
   },
   {
     name: 'Cameron Ball',
@@ -673,7 +673,7 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Penn State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4431587.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4431587.png&w=350&h=254'
   },
   {
     name: 'Roy Mbaeteka',
