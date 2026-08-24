@@ -6,7 +6,7 @@ rm -rf dist
 
 echo "[+] Building site locally..."
 rm -rf build
-parklife build
+bundle exec parklife build
 
 echo "[+] Build -->> dist"
 mv build dist
