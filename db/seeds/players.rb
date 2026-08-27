@@ -244,13 +244,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242335.png&w=350&h=254'
   },
   {
-    name: 'Mekhi Blackmon',
+    name: 'Kenneth Harris',
     number: '29',
     position: 'CB',
-    exp: 4,
+    exp: 0,
     status: 'Active',
-    college: 'USC',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360677.png&w=350&h=254'
+    college: 'Oklahoma State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685970.png&w=350&h=254'
   },
   {
     name: 'Hunter Wohler',
