@@ -158,7 +158,7 @@ Player.create!([
     number: '14',
     position: 'WR',
     exp: 5,
-    status: 'PUP',
+    status: 'Active',
     college: 'Cincinnati',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360078.png&w=350&h=254'
   },
