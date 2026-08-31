@@ -7,7 +7,9 @@
           <img class="player-image">
             <%= image_tag player.photo, alt: "Colts player headshot" %>
           <div class="player-header">
-            <h2><%= link_to player.name, player %></h2>
+            <h2 class="<%= player.name.length > 20 ? 'long-name' : '' %>">
+              <%= link_to player.name, player %>
+            </h2>
             <div class="player-details">
               <p class="playerNum"><%= player.number %></p>
               &#x25CF;

@@ -88,6 +88,15 @@ h2 a:hover {
   border-bottom: 3px solid #013369;
 }
 
+.player-header h2.long-name a {
+  font-size: 1.8rem;
+  letter-spacing: -0.5px;
+}
+
+h2.roster-title {
+  margin: 3rem 0;
+}
+
 h3 {
   font-size: 1.75rem;
   font-weight: bold;
@@ -144,6 +153,13 @@ h3.stats-update {
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 20px;
+}
+
+.player {
+  width: 100%;
+  max-width: 600px;
+  justify-self: center;
 }
 
 .player-info {
@@ -151,8 +167,8 @@ h3.stats-update {
   flex-flow: row wrap;
   align-items: center;
   height: 240px;
-  margin: 1rem 1rem 12px 1rem;
-  max-width: 600px;
+  margin: 0;
+  width: 100%;
   border: 1px solid #013369;
   border-radius: 6px;
   box-shadow: 2px 2px 6px rgba(16, 37, 44, 0.5);
