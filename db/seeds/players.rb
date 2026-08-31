@@ -1,14 +1,14 @@
 Player.create!([
   #Active Roster
-  # {
-  #   name: 'Sedrick Van Pran-Granger',
-  #   number: '--',
-  #   position: 'C',
-  #   exp: 3,
-  #   status: 'Active',
-  #   college: 'Georgia',
-  #   photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430815.png&w=350&h=254'
-  # },
+  {
+    name: 'Sedrick Van Pran-Granger',
+    number: '--',
+    position: 'C',
+    exp: 3,
+    status: 'Active',
+    college: 'Georgia',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430815.png&w=350&h=254'
+  },
   {
     name: 'Cam Bynum',
     number: '0',
