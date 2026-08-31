@@ -388,6 +388,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612558.png&w=350&h=254'
   },
   {
+    name: 'Cameron Mitchell',
+    number: '43',
+    position: 'CB',
+    exp: 4,
+    status: 'IR',
+    college: 'Northwestern',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4569607.png&w=350&h=254'
+  },
+  {
     name: 'Tahj Chambers',
     number: '44',
     position: 'LB',
@@ -752,7 +761,7 @@ Player.create!([
     number: '86',
     position: 'TE',
     exp: 4,
-    status: 'IR',
+    status: 'IRDR',
     college: 'Miami',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362523.png&w=350&h=254'
   },
