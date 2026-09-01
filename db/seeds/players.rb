@@ -10,6 +10,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430815.png&w=350&h=254'
   },
   {
+    name: 'Kapena Gushiken',
+    number: '--',
+    position: 'CB',
+    exp: 0,
+    status: 'Active',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5153072.png&w=350&h=254'
+  },
+  {
     name: 'Cam Bynum',
     number: '0',
     position: 'S',
@@ -55,15 +64,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254'
   },
   {
-    name: 'Easton Stick',
-    number: '4',
-    position: 'QB',
-    exp: 0,
-    status: 'Released',
-    college: 'North Dakota State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3120590.png&w=350&h=254'
-  },
-  {
     name: 'Anthony Richardson',
     number: '5',
     position: 'QB',
@@ -77,7 +77,7 @@ Player.create!([
     number: '6',
     position: 'WR',
     exp: 3,
-    status: 'Waived',
+    status: 'PS',
     college: 'Oregon State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429684.png&w=350&h=254'
   },
@@ -100,15 +100,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3914922.png&w=350&h=254'
   },
   {
-    name: 'Raylen Sharpe',
-    number: '8',
-    position: 'WR',
-    exp: 0,
-    status: 'Waived',
-    college: 'Arkansas',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4872957.png&w=350&h=254'
-  },
-  {
     name: 'Coleman Owen',
     number: '9',
     position: 'WR',
@@ -116,15 +107,6 @@ Player.create!([
     status: 'IR',
     college: 'Ohio',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4578436.png&w=350&h=254'
-  },
-  {
-    name: 'Blake Grupe',
-    number: '10',
-    position: 'K',
-    exp: 4,
-    status: 'Waived',
-    college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4259619.png&w=350&h=254'
   },
   {
     name: 'Keenan Allen',
@@ -136,20 +118,11 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15818.png&w=350&h=254'
   },
   {
-    name: 'Sahmir Hagans',
-    number: '11',
-    position: 'WR',
-    exp: 0,
-    status: 'Waived',
-    college: 'Duke',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612246.png&w=350&h=254'
-  },
-  {
     name: 'Nick Westbrook-Ikhine',
     number: '12',
     position: 'WR',
     exp: 7,
-    status: 'Released',
+    status: 'PS',
     college: 'Indiana',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3929785.png&w=350&h=254'
   },
@@ -230,7 +203,7 @@ Player.create!([
     number: '26',
     position: 'CB',
     exp: 5,
-    status: 'Active',
+    status: 'Suspended - Commissioner',
     college: 'Nebraska',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361196.png&w=350&h=254'
   },
@@ -257,7 +230,7 @@ Player.create!([
     number: '29',
     position: 'CB',
     exp: 0,
-    status: 'Waived',
+    status: 'PS',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685970.png&w=350&h=254'
   },
@@ -275,36 +248,9 @@ Player.create!([
     number: '32',
     position: 'S',
     exp: 4,
-    status: 'Waived',
+    status: 'PS',
     college: 'California',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
-  },
-  {
-    name: 'Austin Brown',
-    number: '31',
-    position: 'S',
-    exp: 0,
-    status: 'Waived',
-    college: 'Wisonsin',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4827042.png&w=350&h=254'
-  },
-  {
-    name: 'Juanyeh Thomas',
-    number: '33',
-    position: 'S',
-    exp: 4,
-    status: 'Released',
-    college: 'Georgia Tech',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360590.png&w=350&h=254'
-  },
-  {
-    name: 'Ben Nikkel',
-    number: '34',
-    position: 'S',
-    exp: 2,
-    status: 'Waived',
-    college: 'Iowa State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4874465.png&w=350&h=254'
   },
   {
     name: 'Johnathan Edwards',
@@ -316,29 +262,11 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695991.png&w=350&h=254'
   },
   {
-    name: 'Reuben Lowery III',
-    number: '36',
-    position: 'S',
-    exp: 2,
-    status: 'Retired',
-    college: 'Tennessee-Chattanooga',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692970.png&w=350&h=254'
-  },
-  {
-    name: 'Mekhi Rodgers',
-    number: '36',
-    position: 'CB',
-    exp: 0,
-    status: 'Waived',
-    college: 'James Madison',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/5227277.png&w=350&h=254'
-  },
-  {
     name: 'Ulysses Bentley IV',
     number: '37',
     position: 'RB',
     exp: 1,
-    status: 'Waived',
+    status: 'PS',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426689.png&w=350&h=254'
   },
@@ -356,7 +284,7 @@ Player.create!([
     number: '39',
     position: 'CB',
     exp: 1,
-    status: 'Waived',
+    status: 'PS',
     college: 'Robert Morris',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254'
   },
@@ -374,7 +302,7 @@ Player.create!([
     number: '41',
     position: 'S',
     exp: 1,
-    status: 'Waived',
+    status: 'PS',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254'
   },
@@ -383,7 +311,7 @@ Player.create!([
     number: '42',
     position: 'RB',
     exp: 0,
-    status: 'Waived',
+    status: 'PS',
     college: 'Duke',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612558.png&w=350&h=254'
   },
@@ -415,15 +343,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4702120.png&w=350&h=254'
   },
   {
-    name: 'Tyler Moore',
-    number: '45',
-    position: 'TE',
-    exp: 0,
-    status: 'Waived',
-    college: 'Iowa State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4683119.png&w=350&h=254'
-  },
-  {
     name: 'Luke Rhodes',
     number: '46',
     position: 'LS',
@@ -437,43 +356,16 @@ Player.create!([
     number: '47',
     position: 'LB',
     exp: 0,
-    status: 'Waived',
+    status: 'PS',
     college: 'LSU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4587724.png&w=350&h=254'
-  },
-  {
-    name: 'JJ Galbreath',
-    number: '47',
-    position: 'TE',
-    exp: 1,
-    status: 'Waived',
-    college: 'South Dakota',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695800.png&w=350&h=254'
-  },
-  {
-    name: 'Devin Veresuk',
-    number: '48',
-    position: 'LB',
-    exp: 1,
-    status: 'Waived',
-    college: 'Windsor',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5278709.png&w=350&h=254'
-  },
-  {
-    name: 'Sean McKeon',
-    number: '49',
-    position: 'TE',
-    exp: 5,
-    status: 'IR',
-    college: 'Michigan',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4036275.png&w=350&h=254'
   },
   {
     name: 'Pharaoh Brown',
     number: '49',
     position: 'TE',
     exp: 9,
-    status: 'Released',
+    status: 'PS',
     college: 'Oregon',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971281.png&w=350&h=254'
   },
@@ -518,7 +410,7 @@ Player.create!([
     number: '54',
     position: 'DE',
     exp: 0,
-    status: 'Waived',
+    status: 'PS',
     college: 'Virginia',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4693205.png&w=350&h=254'
   },
@@ -568,15 +460,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430957.png&w=350&h=254'
   },
   {
-    name: 'Josh Kreutz',
-    number: '61',
-    position: 'C',
-    exp: 0,
-    status: 'Waived',
-    college: 'Illinois',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4709386.png&w=350&h=254'
-  },
-  {
     name: 'Jalen Farmer',
     number: '62',
     position: 'G',
@@ -586,20 +469,11 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4838270.png&w=350&h=254'
   },
   {
-    name: 'Geno VanDeMark',
-    number: '63',
-    position: 'C',
-    exp: 0,
-    status: 'Waived',
-    college: 'Alabama',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4875981.png&w=350&h=254'
-  },
-  {
     name: 'Cameron Ball',
     number: '64',
     position: 'DT',
     exp: 0,
-    status: 'Waived',
+    status: 'PS',
     college: 'Arkansas',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4691878.png&w=350&h=254'
   },
@@ -608,7 +482,7 @@ Player.create!([
     number: '66',
     position: 'G',
     exp: 3,
-    status: 'Released',
+    status: 'PS',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
   },
@@ -617,7 +491,7 @@ Player.create!([
     number: '67',
     position: 'T',
     exp: 4,
-    status: 'Active',
+    status: 'PS',
     college: 'Virginia Tech',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361979.png&w=350&h=254'
   },
@@ -629,15 +503,6 @@ Player.create!([
     status: 'Active',
     college: 'Marshall',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4370363.png&w=350&h=254'
-  },
-  {
-    name: 'Trey Wedig',
-    number: '69',
-    position: 'T',
-    exp: 1,
-    status: 'Waived',
-    college: 'Indiana',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430812.png&w=350&h=254'
   },
   {
     name: 'Matt Goncalves',
@@ -658,24 +523,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240896.png&w=350&h=254'
   },
   {
-    name: 'Blake Freeland',
-    number: '73',
-    position: 'T',
-    exp: 4,
-    status: 'Waived',
-    college: 'BYU',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429636.png&w=350&h=254'
-  },
-  {
-    name: 'Durell Nchami',
-    number: '74',
-    position: 'DE',
-    exp: 1,
-    status: 'Waived',
-    college: 'Maryland',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360638.png&w=350&h=254'
-  },
-  {
     name: 'Jalen Travis',
     number: '75',
     position: 'T',
@@ -689,7 +536,7 @@ Player.create!([
     number: '76',
     position: 'OT',
     exp: 0,
-    status: 'Waived',
+    status: 'PS',
     college: 'Penn State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4431587.png&w=350&h=254'
   },
@@ -698,7 +545,7 @@ Player.create!([
     number: '78',
     position: 'T',
     exp: 1,
-    status: 'Waived',
+    status: 'PS',
     college: '',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5024661.png&w=350&h=254'
   },
@@ -728,15 +575,6 @@ Player.create!([
     status: 'Active',
     college: 'Virginia Commonwealth',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2998565.png&w=350&h=254'
-  },
-  {
-    name: 'Eli Pancol',
-    number: '83',
-    position: 'WR',
-    exp: 1,
-    status: 'Waived',
-    college: 'Duke',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430288.png&w=350&h=254'
   },
   {
     name: 'Tyler Warren',
@@ -784,15 +622,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4566154.png&w=350&h=254'
   },
   {
-    name: 'Derrick Nnadi',
-    number: '92',
-    position: 'DT',
-    exp: 9,
-    status: 'Released',
-    college: 'Florida State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3122930.png&w=350&h=254'
-  },
-  {
     name: 'Tim Smith',
     number: '93',
     position: 'DT',
@@ -818,15 +647,6 @@ Player.create!([
     status: 'Active',
     college: 'Northwestern',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254'
-  },
-  {
-    name: 'Colby Wooden',
-    number: '96',
-    position: 'DT',
-    exp: 4,
-    status: 'Waived',
-    college: 'Auburn',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4567224.png&w=350&h=254'
   },
   {
     name: 'Laiatu Latu',
