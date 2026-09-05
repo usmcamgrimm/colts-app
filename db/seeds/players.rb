@@ -1,24 +1,6 @@
 Player.create!([
   #Active Roster
   {
-    name: 'Sedrick Van Pran-Granger',
-    number: '--',
-    position: 'C',
-    exp: 3,
-    status: 'Active',
-    college: 'Georgia',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430815.png&w=350&h=254'
-  },
-  {
-    name: 'Kapena Gushiken',
-    number: '--',
-    position: 'CB',
-    exp: 0,
-    status: 'Active',
-    college: 'Mississippi',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5153072.png&w=350&h=254'
-  },
-  {
     name: 'Cam Bynum',
     number: '0',
     position: 'S',
@@ -253,6 +235,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242415.png&w=350&h=254'
   },
   {
+    name: 'Kapena Gushiken',
+    number: '34',
+    position: 'CB',
+    exp: 0,
+    status: 'Active',
+    college: 'Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5153072.png&w=350&h=254'
+  },
+  {
     name: 'Johnathan Edwards',
     number: '35',
     position: 'CB',
@@ -262,13 +253,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695991.png&w=350&h=254'
   },
   {
-    name: 'Ulysses Bentley IV',
-    number: '37',
+    name: 'Davon Booth',
+    number: '36',
     position: 'RB',
-    exp: 1,
+    exp: 0,
     status: 'PS',
-    college: 'Mississippi',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426689.png&w=350&h=254'
+    college: 'Mississippi State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5153650.png&w=350&h=254'
   },
   {
     name: 'Jonathan Owens',
@@ -469,6 +460,15 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4838270.png&w=350&h=254'
   },
   {
+    name: 'Sedrick Van Pran-Granger',
+    number: '63',
+    position: 'C',
+    exp: 3,
+    status: 'Active',
+    college: 'Georgia',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430815.png&w=350&h=254'
+  },
+  {
     name: 'Cameron Ball',
     number: '64',
     position: 'DT',
@@ -476,6 +476,15 @@ Player.create!([
     status: 'PS',
     college: 'Arkansas',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4691878.png&w=350&h=254'
+  },
+  {
+    name: 'Reid Holskey',
+    number: '65',
+    position: 'T',
+    exp: 1,
+    status: 'PS',
+    college: 'Miami (Ohio)',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429951.png&w=350&h=254'
   },
   {
     name: 'Josh Sills',
