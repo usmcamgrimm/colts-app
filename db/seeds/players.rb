@@ -280,15 +280,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254'
   },
   {
-    name: 'Jaylon Jones',
-    number: '40',
-    position: 'CB',
-    exp: 4,
-    status: 'Active',
-    college: 'Texas A&M',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685145.png&w=350&h=254'
-  },
-  {
     name: 'Trey Washington',
     number: '41',
     position: 'S',
@@ -350,6 +341,15 @@ Player.create!([
     status: 'PS',
     college: 'LSU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4587724.png&w=350&h=254'
+  },
+  {
+    name: 'Kenny Fletcher Jr.',
+    number: '48',
+    position: 'TE',
+    exp: 0,
+    status: 'PS',
+    college: 'Rutgers',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4746099.png&w=350&h=254'
   },
   {
     name: 'Pharaoh Brown',
@@ -500,7 +500,7 @@ Player.create!([
     number: '67',
     position: 'T',
     exp: 4,
-    status: 'PS',
+    status: 'Active',
     college: 'Virginia Tech',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361979.png&w=350&h=254'
   },
