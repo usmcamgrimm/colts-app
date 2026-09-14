@@ -7,7 +7,10 @@ Player.create!([
     exp: 6,
     status: 'Active',
     college: 'California',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035861.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035861.png&w=350&h=254',
+    tackles: 7,
+    solo_tackles: 7,
+    assist: 0
   },
   {
     name: 'Sauce Gardner',
@@ -16,7 +19,10 @@ Player.create!([
     exp: 5,
     status: 'Active',
     college: 'Cincinnati',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427250.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427250.png&w=350&h=254',
+    tackles: 1,
+    solo_tackles: 1,
+    assist: 0
   },
   {
     name: 'Josh Downs',
@@ -25,7 +31,15 @@ Player.create!([
     exp: 4,
     status: 'Active',
     college: 'North Carolina',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254',
+    rec: 2,
+    rec_yards: 37,
+    rec_ypc: 18.5,
+    rec_long: 25,
+    tackles: 1,
+    solo_tackles: 1,
+    assist: 0,
+    pr_fc: 2
   },
   {
     name: 'D.J. Montgomery',
@@ -43,7 +57,13 @@ Player.create!([
     exp: 3,
     status: 'Active',
     college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4571557.png&w=350&h=254',
+    fg_1to19: '0 - 0',
+    fg_20to29: '0 - 0',
+    fg_30to39: '0 - 0',
+    fg_40to49: '0 - 0',
+    fg_50to59: '1 - 1',
+    fg_60Plus: '0 - 0'
   },
   {
     name: 'Anthony Richardson',
@@ -70,7 +90,10 @@ Player.create!([
     exp: 9,
     status: 'Active',
     college: 'Middle Tennessee State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4037361.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4037361.png&w=350&h=254',
+    tackles: 2,
+    solo_tackles: 2,
+    assist: 0
   },
   {
     name: 'Rigoberto Sanchez',
@@ -79,7 +102,12 @@ Player.create!([
     exp: 9,
     status: 'Active',
     college: 'Hawaii',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3914922.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3914922.png&w=350&h=254',
+    punt: 5,
+    punt_yards: 263,
+    punt_in20: 0,
+    punt_avg: 52.6,
+    punt_lng: 59
   },
   {
     name: 'Coleman Owen',
@@ -97,7 +125,11 @@ Player.create!([
     exp: 14,
     status: 'Active',
     college: 'California',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15818.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15818.png&w=350&h=254',
+    rec: 6,
+    rec_yards: 32,
+    rec_ypc: 5.3,
+    rec_long: 9
   },
   {
     name: 'Nick Westbrook-Ikhine',
@@ -124,7 +156,11 @@ Player.create!([
     exp: 5,
     status: 'Active',
     college: 'Cincinnati',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360078.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4360078.png&w=350&h=254',
+    rec: 4,
+    rec_yards: 61,
+    rec_ypc: 15.2,
+    rec_long: 23
   },
   {
     name: 'Riley Leonard',
@@ -142,7 +178,15 @@ Player.create!([
     exp: 8,
     status: 'Active',
     college: 'Malone University',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4061956.png&w=350&h=254',
+    tackles: 2,
+    solo_tackles: 2,
+    assist: 0,
+    kr_ret: 1,
+    kr_fc: 0,
+    kr_yds: 33,
+    kr_yds_ret: 33.0,
+    kr_lng: 33
   },
   {
     name: 'Daniel Jones',
@@ -151,7 +195,20 @@ Player.create!([
     exp: 8,
     status: 'Active',
     college: 'Duke',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3917792.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3917792.png&w=350&h=254',
+    pass_att: 31,
+    comp: 19,
+    pass_yards: 166,
+    comp_percent: 61.3,
+    pass_td: 1,
+    int: 1,
+    pass_long: 25,
+    sacked: 2,
+    qb_rtng: 72.8,
+    rush_att: 1,
+    rush_yds: 4,
+    rush_long: 4,
+    rush_ypc: 4
   },
   {
     name: 'Seth McGowan',
@@ -160,7 +217,15 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Kentucky',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4686468.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4686468.png&w=350&h=254',
+    rec: 1,
+    rec_yards: 0,
+    rec_ypc: 0.0,
+    kr_ret: 5,
+    kr_fc: 0,
+    kr_yds: 164,
+    kr_yds_ret: 32.8,
+    kr_lng: 66
   },
   {
     name: 'DJ Giddens',
@@ -178,7 +243,10 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'LSU',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4905664.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4905664.png&w=350&h=254',
+    tackles: 7,
+    solo_tackles: 4,
+    assist: 3
   },
   {
     name: 'Cam Taylor-Britt',
@@ -196,7 +264,10 @@ Player.create!([
     exp: 2,
     status: 'Active',
     college: 'Minnesota',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254',
+    tackles: 6,
+    solo_tackles: 5,
+    assist: 1
   },
   {
     name: 'Jonathan Taylor',
@@ -205,7 +276,16 @@ Player.create!([
     exp: 7,
     status: 'Active',
     college: 'Wisconsin',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242335.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4242335.png&w=350&h=254',
+    rush_att: 19,
+    rush_yds: 98,
+    rush_ypc: 5.2,
+    rush_long: 21,
+    rush_td: 2,
+    rec: 3,
+    rec_yards: 23,
+    rec_ypc: 7.7,
+    rec_long: 13
   },
   {
     name: 'Kenneth Harris',
@@ -214,7 +294,10 @@ Player.create!([
     exp: 0,
     status: 'PS',
     college: 'Oklahoma State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685970.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685970.png&w=350&h=254',
+    tackles: 1,
+    solo_tackles: 1,
+    assist: 0
   },
   {
     name: 'Hunter Wohler',
@@ -268,7 +351,10 @@ Player.create!([
     exp: 8,
     status: 'Active',
     college: 'Missouri Western State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4331768.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4331768.png&w=350&h=254',
+    tackles: 1,
+    solo_tackles: 1,
+    assist: 0
   },
   {
     name: 'Rob Carter Jr.',
@@ -313,7 +399,10 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Mississippi',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692638.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692638.png&w=350&h=254',
+    tackles: 1,
+    solo_tackles: 1,
+    assist: 0
   },
   {
     name: 'Carson Towt',
@@ -367,7 +456,10 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Oregon',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5088571.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5088571.png&w=350&h=254',
+    tackles: 7,
+    solo_tackles: 2,
+    assist: 5
   },
   {
     name: 'Akeem Davis-Gaither',
@@ -376,7 +468,10 @@ Player.create!([
     exp: 7,
     status: 'Active',
     college: 'Appalachian State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3917142.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3917142.png&w=350&h=254',
+    tackles: 8,
+    solo_tackles: 5,
+    assist: 3
   },
   {
     name: 'George Gumbs Jr.',
@@ -412,7 +507,10 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Ohio State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685324.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685324.png&w=350&h=254',
+    tackles: 1,
+    solo_tackles: 0,
+    assist: 1
   },
   {
     name: 'Quenton Nelson',
@@ -592,7 +690,12 @@ Player.create!([
     exp: 2,
     status: 'Active',
     college: 'Penn State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4431459.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4431459.png&w=350&h=254',
+    rec: 3,
+    rec_yards: 13,
+    rec_ypc: 4.3,
+    rec_long: 9,
+    rec_td: 1
   },
   {
     name: 'Andrew Ogletree',
@@ -637,7 +740,10 @@ Player.create!([
     exp: 1,
     status: 'Active',
     college: 'Alabama',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692033.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4692033.png&w=350&h=254',
+    tackles: 2,
+    solo_tackles: 1,
+    assist: 1
   },
   {
     name: 'Jerry Tillery',
@@ -646,7 +752,10 @@ Player.create!([
     exp: 8,
     status: 'Active',
     college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3863182.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3863182.png&w=350&h=254',
+    tackles: 3,
+    solo_tackles: 1,
+    assist: 2
   },
   {
     name: 'Adetomiwa Adebawore',
@@ -655,7 +764,10 @@ Player.create!([
     exp: 4,
     status: 'Active',
     college: 'Northwestern',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4427635.png&w=350&h=254',
+    tackles: 4,
+    solo_tackles: 1,
+    assist: 3
   },
   {
     name: 'Laiatu Latu',
@@ -664,7 +776,11 @@ Player.create!([
     exp: 3,
     status: 'Active',
     college: 'UCLA',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426473.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4426473.png&w=350&h=254',
+    tackles: 6,
+    solo_tackles: 4,
+    assist: 2,
+    def_sacks: 0.5
   },
   {
     name: 'Arden Key',
@@ -673,7 +789,12 @@ Player.create!([
     exp: 9,
     status: 'Active',
     college: 'LSU',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3843843.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3843843.png&w=350&h=254',
+    tackles: 5,
+    solo_tackles: 3,
+    assist: 2,
+    def_sacks: 0.5,
+    def_fumble: 1
   },
   {
     name: 'DeForest Buckner',
@@ -682,6 +803,10 @@ Player.create!([
     exp: 11,
     status: 'Active',
     college: 'Oregon',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254',
+    tackles: 2,
+    solo_tackles: 0,
+    assist: 2,
+    def_sacks: 0.5
   }
 ])
