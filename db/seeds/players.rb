@@ -345,18 +345,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5153650.png&w=350&h=254'
   },
   {
-    name: 'Jonathan Owens',
-    number: '38',
-    position: 'S',
-    exp: 8,
-    status: 'Active',
-    college: 'Missouri Western State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4331768.png&w=350&h=254',
-    tackles: 1,
-    solo_tackles: 1,
-    assist: 0
-  },
-  {
     name: 'Rob Carter Jr.',
     number: '39',
     position: 'CB',
