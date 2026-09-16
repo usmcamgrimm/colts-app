@@ -253,7 +253,7 @@ Player.create!([
     number: '26',
     position: 'CB',
     exp: 5,
-    status: 'Suspended - Commissioner',
+    status: 'Active',
     college: 'Nebraska',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4361196.png&w=350&h=254'
   },
@@ -331,7 +331,7 @@ Player.create!([
     number: '35',
     position: 'CB',
     exp: 1,
-    status: 'Active',
+    status: 'PS',
     college: 'Tulane',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695991.png&w=350&h=254'
   },
@@ -355,15 +355,6 @@ Player.create!([
     tackles: 1,
     solo_tackles: 1,
     assist: 0
-  },
-  {
-    name: 'Rob Carter Jr.',
-    number: '39',
-    position: 'CB',
-    exp: 1,
-    status: 'PS',
-    college: 'Robert Morris',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4682909.png&w=350&h=254'
   },
   {
     name: 'Trey Washington',
