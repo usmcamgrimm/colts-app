@@ -79,7 +79,7 @@ Player.create!([
     number: '6',
     position: 'WR',
     exp: 3,
-    status: 'Active',
+    status: 'PS',
     college: 'Oregon State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429684.png&w=350&h=254'
   },
