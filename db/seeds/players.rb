@@ -137,6 +137,15 @@ Player.create!([
     rec_long: 9
   },
   {
+    name: 'Darius Slayton',
+    number: '11',
+    position: 'WR',
+    exp: 8,
+    status: 'Active',
+    college: 'Auburn',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916945.png&w=350&h=254'
+  },
+  {
     name: 'Nick Westbrook-Ikhine',
     number: '12',
     position: 'WR',
@@ -343,7 +352,9 @@ Player.create!([
     exp: 0,
     status: 'Active',
     college: 'Mississippi',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5153072.png&w=350&h=254'
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/5153072.png&w=350&h=254',
+    tackles: 1,
+    solo_tackles: 1
   },
   {
     name: 'Johnathan Edwards',
@@ -383,15 +394,6 @@ Player.create!([
     status: 'PS',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254'
-  },
-  {
-    name: 'Anderson Castle',
-    number: '42',
-    position: 'RB',
-    exp: 0,
-    status: 'PS',
-    college: 'Duke',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4612558.png&w=350&h=254'
   },
   {
     name: 'Cameron Mitchell',
@@ -638,7 +640,7 @@ Player.create!([
     number: '72',
     position: 'DE',
     exp: 5,
-    status: 'Active',
+    status: 'IR',
     college: 'Texas A&M',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240896.png&w=350&h=254'
   },
@@ -699,6 +701,15 @@ Player.create!([
     status: 'Active',
     college: 'Virginia Commonwealth',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2998565.png&w=350&h=254'
+  },
+  {
+    name: 'Eli Pancol',
+    number: '83',
+    position: 'WR',
+    exp: 1,
+    status: 'PS',
+    college: 'Duke',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430288.png&w=350&h=254'
   },
   {
     name: 'Tyler Warren',
