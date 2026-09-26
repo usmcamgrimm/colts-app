@@ -5,20 +5,34 @@
 /* Facemask Gray: #a5acaf; */
 /* Anvil Black: #10252c; */
 
+/* Rivalries Colors */
+/* Speed Blue: #002c5f; */
+/* Metallic Blue: #003a70; */
+/* White: #ffffff; */
+/* Facemask Gray: #a2aaad; */
+/* Anvil BLack: #1d252d; */
+/* Anvil Steel/Anthracite: #292929 / #363636; */
+/* Silver:  */
+
 * {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  color: #10252c;
+  color: #a2aaad;
+}
+
+body {
+  background-color: #292929;
 }
 
 header {
-  background-color: #013369;
+  background-color: #292929;
   padding: 12px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 100vw;
+  border-bottom: 2px solid #a2aaad;
 }
 
 .logoTitle {
@@ -35,7 +49,7 @@ a img {
 }
 
 .horseshoe {
-  filter: drop-shadow(2px 6px 4px rgb(0, 0, 0));
+  filter: drop-shadow(2px 6px 4px #1d252d);
 }
 
 nav ul {
@@ -67,25 +81,39 @@ nav ul {
 }
 
 h1 {
-  font-size: 2.5rem;
-  color: #ffffff;
+  font-size: 3rem;
+  transform: scaleX(1.3);
+  letter-spacing: 1.5px;
+  color: #002c5f;
+  text-shadow:
+    -1px -1px 1px #fff,
+    1px -1px 1px #fff,
+    -1px 1px 1px #fff,
+    1px 1px 1px #fff;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+    transform: scaleX(1.1);
+    letter-spacing: .5px;
+  }
 }
 
 h2 {
   text-align: center;
   font-size: clamp(1.5rem, 5vw, 2rem);
-  color: #10252c;
+  color: #fff;
   margin: 1rem 0;
 }
 
 h2 a {
-  color: #10252c;
+  color: #fff;
   text-decoration: none;
 }
 
 h2 a:hover {
-  color: #013369;
-  border-bottom: 3px solid #013369;
+  border-bottom: 3px solid #ffffff;
 }
 
 .player-header h2.long-name a {
@@ -100,7 +128,7 @@ h2.roster-title {
 h3 {
   font-size: 1.75rem;
   font-weight: bold;
-  color: #013369;
+  color: #fff;
   font-size: clamp(1.25rem, 5vw, 1.75rem)
 }
 
@@ -110,6 +138,11 @@ h3.update-title {
 
 h3.stats-update {
   margin: 2rem 0 12px 1rem;
+}
+
+h3.playerNum,
+h3.playerPos {
+  color: #a2aaad;
 }
 
 .schedule-header {
@@ -129,12 +162,13 @@ h3.stats-update {
 }
 
 .stadium-location a {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #fff;
 }
 
 .stadium-location a:hover {
-  color: #013369;
-  border-bottom: 2px solid #013369;
+  color: #fff;
+  border-bottom: 2px solid #fff;
   text-decoration: none;
 }
 
@@ -157,6 +191,7 @@ h3.stats-update {
   width: 100%;
   padding: 0 1rem;
   box-sizing: border-box;
+  margin-bottom: 36px;
 }
 
 .player {
@@ -166,19 +201,20 @@ h3.stats-update {
 }
 
 .player-info {
+  background-color: #1d252d;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   height: 240px;
   margin: 0;
   width: 100%;
-  border: 1px solid #013369;
+  border: 2px solid #002c5f;
   border-radius: 6px;
-  box-shadow: 2px 2px 6px rgba(16, 37, 44, 0.5);
+  box-shadow: 2px 2px 6px rgba(29, 37, 45, 0.5);
 }
 
 .player-info:hover {
-  box-shadow: 2px 2px 12px rgba(16, 37, 44, 0.75);
+  box-shadow: 2px 2px 12px rgb(29, 37, 45);
 }
 
 img {
@@ -228,6 +264,10 @@ section.player-section {
   align-items: center;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+
+.divider {
+  color: #fff;
 }
 
 .playerNum,
@@ -360,7 +400,7 @@ section.edit-player {
 }
 
 .stats-section {
-  margin-top: 36px;
+  margin: 36px 0;
 }
 
 .form-container {
@@ -430,7 +470,7 @@ textarea {
 }
 
 .playerStats {
-  color: #013369;
+  color: #fff;
   font-size: 1.1rem;
   margin-top: 4px;
 }
