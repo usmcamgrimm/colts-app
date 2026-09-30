@@ -392,6 +392,15 @@ Player.create!([
     assist: 0
   },
   {
+    name: 'Elijah Culp',
+    number: '40',
+    position: 'CB',
+    exp: 0,
+    status: 'PS',
+    college: 'James Madison',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4572261.png&w=350&h=254'
+  },
+  {
     name: 'Trey Washington',
     number: '41',
     position: 'S',
