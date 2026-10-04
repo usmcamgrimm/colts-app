@@ -587,15 +587,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430815.png&w=350&h=254'
   },
   {
-    name: 'Cameron Ball',
-    number: '64',
-    position: 'DT',
-    exp: 0,
-    status: 'PS',
-    college: 'Arkansas',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4691878.png&w=350&h=254'
-  },
-  {
     name: 'Reid Holskey',
     number: '65',
     position: 'T',
@@ -780,6 +771,15 @@ Player.create!([
     tackles: 5,
     solo_tackles: 3,
     assist: 2
+  },
+  {
+    name: 'Cameron Ball',
+    number: '92',
+    position: 'DT',
+    exp: 0,
+    status: 'PS',
+    college: 'Arkansas',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4691878.png&w=350&h=254'
   },
   {
     name: 'Tim Smith',
