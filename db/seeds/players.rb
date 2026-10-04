@@ -119,15 +119,6 @@ Player.create!([
     punt_lng: 59
   },
   {
-    name: 'Coleman Owen',
-    number: '9',
-    position: 'WR',
-    exp: 1,
-    status: 'IR',
-    college: 'Ohio',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4578436.png&w=350&h=254'
-  },
-  {
     name: 'Keenan Allen',
     number: '10',
     position: 'WR',
