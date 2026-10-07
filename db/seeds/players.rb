@@ -119,6 +119,15 @@ Player.create!([
     punt_lng: 59
   },
   {
+    name: 'Quez Watkins',
+    number: '9',
+    position: 'WR',
+    exp: 6,
+    status: 'PS',
+    college: 'Southern Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050373.png&w=350&h=254'
+  },
+  {
     name: 'Keenan Allen',
     number: '10',
     position: 'WR',
@@ -390,15 +399,6 @@ Player.create!([
     assist: 0
   },
   {
-    name: 'Elijah Culp',
-    number: '40',
-    position: 'CB',
-    exp: 0,
-    status: 'PS',
-    college: 'James Madison',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4572261.png&w=350&h=254'
-  },
-  {
     name: 'Trey Washington',
     number: '41',
     position: 'S',
@@ -454,15 +454,6 @@ Player.create!([
     status: 'PS',
     college: 'LSU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4587724.png&w=350&h=254'
-  },
-  {
-    name: 'Kenny Fletcher Jr.',
-    number: '48',
-    position: 'TE',
-    exp: 0,
-    status: 'PS',
-    college: 'Rutgers',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4746099.png&w=350&h=254'
   },
   {
     name: 'Pharaoh Brown',
@@ -833,6 +824,15 @@ Player.create!([
     solo_tackles: 2,
     assist: 6,
     def_sacks: 2
+  },
+  {
+    name: 'Carl Lawson',
+    number: '96',
+    position: 'DE',
+    exp: 9,
+    status: 'PS',
+    college: 'Auburn',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051911.png&w=350&h=254'
   },
   {
     name: 'Laiatu Latu',
