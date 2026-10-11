@@ -852,7 +852,7 @@ Player.create!([
     number: '98',
     position: 'DE',
     exp: 9,
-    status: 'Active',
+    status: 'IR',
     college: 'LSU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3843843.png&w=350&h=254',
     tackles: 8,
