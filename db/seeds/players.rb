@@ -460,7 +460,7 @@ Player.create!([
     number: '49',
     position: 'TE',
     exp: 9,
-    status: 'PS',
+    status: 'Active',
     college: 'Oregon',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971281.png&w=350&h=254'
   },
@@ -560,6 +560,15 @@ Player.create!([
     tackles: 12,
     solo_tackles: 6,
     assist: 6
+  },
+  {
+    name: 'Germaine Pratt',
+    number: '59',
+    position: 'LB',
+    exp: 8,
+    status: 'PS',
+    college: 'N.C. State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3116724.png&w=350&h=254'
   },
   {
     name: 'Tanor Bortolini',
