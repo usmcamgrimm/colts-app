@@ -142,15 +142,6 @@ Player.create!([
     rec_td: 1
   },
   {
-    name: 'Darius Slayton',
-    number: '11',
-    position: 'WR',
-    exp: 8,
-    status: 'Active',
-    college: 'Auburn',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3916945.png&w=350&h=254'
-  },
-  {
     name: 'Nick Westbrook-Ikhine',
     number: '12',
     position: 'WR',
