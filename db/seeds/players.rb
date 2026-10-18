@@ -754,7 +754,7 @@ Player.create!([
     number: '86',
     position: 'TE',
     exp: 4,
-    status: 'IRDR',
+    status: 'Active',
     college: 'Miami',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4362523.png&w=350&h=254'
   },
