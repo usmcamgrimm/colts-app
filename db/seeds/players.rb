@@ -71,6 +71,15 @@ Player.create!([
     fg_60Plus: '0 - 0'
   },
   {
+    name: 'Thomas Morestead',
+    number: '4',
+    position: 'P',
+    exp: 18,
+    status: 'PS',
+    college: 'SMU',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/12701.png&w=350&h=254'
+  },
+  {
     name: 'Anthony Richardson',
     number: '5',
     position: 'QB',
@@ -145,6 +154,15 @@ Player.create!([
     rec_ypc: 8.7,
     rec_long: 26,
     rec_td: 1
+  },
+  {
+    name: 'Mecole Hardman',
+    number: '11',
+    position: 'WR',
+    exp: 7,
+    status: 'PS',
+    college: 'Georgia',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4035004.png&w=350&h=254'
   },
   {
     name: 'Nick Westbrook-Ikhine',
@@ -723,15 +741,6 @@ Player.create!([
     rec_ypc: 7.8,
     rec_long: 16,
     rec_td: 1
-  },
-  {
-    name: 'Eli Pancol',
-    number: '83',
-    position: 'WR',
-    exp: 1,
-    status: 'PS',
-    college: 'Duke',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4430288.png&w=350&h=254'
   },
   {
     name: 'Tyler Warren',
