@@ -71,15 +71,6 @@ Player.create!([
     fg_60Plus: '0 - 0'
   },
   {
-    name: 'Thomas Morestead',
-    number: '4',
-    position: 'P',
-    exp: 18,
-    status: 'PS',
-    college: 'SMU',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/12701.png&w=350&h=254'
-  },
-  {
     name: 'Anthony Richardson',
     number: '5',
     position: 'QB',
