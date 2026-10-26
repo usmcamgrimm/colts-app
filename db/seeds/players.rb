@@ -335,7 +335,7 @@ Player.create!([
     number: '29',
     position: 'CB',
     exp: 0,
-    status: 'Active',
+    status: 'PS',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685970.png&w=350&h=254',
     tackles: 1,
@@ -576,7 +576,7 @@ Player.create!([
     number: '59',
     position: 'LB',
     exp: 8,
-    status: 'Active',
+    status: 'PS',
     college: 'N.C. State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3116724.png&w=350&h=254'
   },
