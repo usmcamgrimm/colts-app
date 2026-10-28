@@ -350,7 +350,7 @@ Player.create!([
     number: '29',
     position: 'CB',
     exp: 0,
-    status: 'PS',
+    status: 'Active',
     college: 'Oklahoma State',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4685970.png&w=350&h=254',
     tackles: 3,
@@ -419,6 +419,24 @@ Player.create!([
     tackles: 4,
     solo_tackles: 4,
     assist: 0
+  },
+  {
+    name: 'Shemar Bartholomew',
+    number: '39',
+    position: 'CB',
+    exp: 2,
+    status: 'PS',
+    college: 'Georgia Southern',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4371336.png&w=350&h=254'
+  },
+  {
+    name: 'Natrone Brooks',
+    number: '40',
+    position: 'CB',
+    exp: 3,
+    status: 'PS',
+    college: 'Southern Mississippi',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4689989.png&w=350&h=254'
   },
   {
     name: 'Trey Washington',
@@ -561,15 +579,6 @@ Player.create!([
     tackles: 12,
     solo_tackles: 5,
     assist: 7
-  },
-  {
-    name: 'Quenton Nelson',
-    number: '56',
-    position: 'G',
-    exp: 9,
-    status: 'Active',
-    college: 'Notre Dame',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3129308.png&w=350&h=254'
   },
   {
     name: 'Jaylon Carlies',
@@ -925,18 +934,5 @@ Player.create!([
     assist: 5,
     def_sacks: 0.5,
     def_fumble: 1
-  },
-  {
-    name: 'DeForest Buckner',
-    number: '99',
-    position: 'DT',
-    exp: 11,
-    status: 'Active',
-    college: 'Oregon',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/2971282.png&w=350&h=254',
-    tackles: 31,
-    solo_tackles: 11,
-    assist: 20,
-    def_sacks: 4
   }
 ])
