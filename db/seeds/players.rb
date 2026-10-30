@@ -606,18 +606,6 @@ Player.create!([
     assist: 11
   },
   {
-    name: 'Germaine Pratt',
-    number: '59',
-    position: 'LB',
-    exp: 8,
-    status: 'PS',
-    college: 'N.C. State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3116724.png&w=350&h=254',
-    tackles: 3,
-    solo_tackles: 0,
-    assist: 3
-  },
-  {
     name: 'Tanor Bortolini',
     number: '60',
     position: 'G',
@@ -654,13 +642,13 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4429951.png&w=350&h=254'
   },
   {
-    name: 'Josh Sills',
+    name: 'Joshua Gray',
     number: '66',
     position: 'G',
-    exp: 3,
+    exp: 1,
     status: 'PS',
-    college: 'Oklahoma State',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039243.png&w=350&h=254'
+    college: 'Oregon State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4570485.png&w=350&h=254'
   },
   {
     name: 'Luke Tenuta',
@@ -697,6 +685,15 @@ Player.create!([
     status: 'IR',
     college: 'Texas A&M',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4240896.png&w=350&h=254'
+  },
+  {
+    name: 'Charlie Heck',
+    number: '73',
+    position: 'OT',
+    exp: 7,
+    status: 'Active',
+    college: 'North Carolina',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3895840.png&w=350&h=254'
   },
   {
     name: 'Jalen Travis',
