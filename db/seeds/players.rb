@@ -395,7 +395,7 @@ Player.create!([
     number: '35',
     position: 'CB',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'Tulane',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695991.png&w=350&h=254'
   },
@@ -910,7 +910,7 @@ Player.create!([
     number: '96',
     position: 'DE',
     exp: 9,
-    status: 'PS',
+    status: 'Active',
     college: 'Auburn',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3051911.png&w=350&h=254'
   },
