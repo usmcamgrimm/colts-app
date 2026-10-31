@@ -635,7 +635,7 @@ Player.create!([
   {
     name: 'Reid Holskey',
     number: '65',
-    position: 'T',
+    position: 'OT',
     exp: 1,
     status: 'PS',
     college: 'Miami (Ohio)',
@@ -653,7 +653,7 @@ Player.create!([
   {
     name: 'Luke Tenuta',
     number: '67',
-    position: 'T',
+    position: 'OT',
     exp: 4,
     status: 'Active',
     college: 'Virginia Tech',
@@ -671,7 +671,7 @@ Player.create!([
   {
     name: 'Matt Goncalves',
     number: '71',
-    position: 'T',
+    position: 'OT',
     exp: 3,
     status: 'Active',
     college: 'Pittsburgh',
@@ -696,9 +696,18 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3895840.png&w=350&h=254'
   },
   {
+    name: 'Kevin Givens',
+    number: '74',
+    position: 'DT',
+    exp: 7,
+    status: 'Active',
+    college: 'Penn State',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3929641.png&w=350&h=254'
+  },
+  {
     name: 'Jalen Travis',
     number: '75',
-    position: 'T',
+    position: 'OT',
     exp: 2,
     status: 'Active',
     college: 'Iowa State',
@@ -716,7 +725,7 @@ Player.create!([
   {
     name: 'Roy Mbaeteka',
     number: '78',
-    position: 'T',
+    position: 'OT',
     exp: 1,
     status: 'PS',
     college: '',
@@ -725,7 +734,7 @@ Player.create!([
   {
     name: 'Bernhard Raimann',
     number: '79',
-    position: 'T',
+    position: 'OT',
     exp: 5,
     status: 'Active',
     college: 'Central Michigan',
