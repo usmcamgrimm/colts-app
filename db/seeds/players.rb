@@ -416,7 +416,7 @@ Player.create!([
     number: '35',
     position: 'CB',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'Tulane',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4695991.png&w=350&h=254',
     tackles: 1,
@@ -465,7 +465,7 @@ Player.create!([
     number: '41',
     position: 'S',
     exp: 1,
-    status: 'PS',
+    status: 'Active',
     college: 'Mississippi',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4599160.png&w=350&h=254'
   },
