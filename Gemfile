@@ -4,16 +4,16 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.4.9"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '>= 8.1.3.1'
+gem 'rails', '>= 8.1.4.1'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails', '~> 3.5', '>= 3.5.2'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 2.9'
+gem 'sqlite3', '~> 2.10.2'
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem 'puma', '~> 7.1'
+gem 'puma', '>= 8.0.2'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem 'importmap-rails', '~> 2.2', '>= 2.2.3'
@@ -22,7 +22,7 @@ gem 'importmap-rails', '~> 2.2', '>= 2.2.3'
 gem 'turbo-rails', '~> 2.0', '>= 2.0.21'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem 'stimulus-rails', '~> 1.3', '>= 1.3.4'
+gem 'stimulus-rails', '>= 1.3.4'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder', '~> 2.14', '>= 2.14.1'
