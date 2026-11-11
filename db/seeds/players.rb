@@ -26,30 +26,6 @@ Player.create!([
     assist: 5
   },
   {
-    name: 'Josh Downs',
-    number: '2',
-    position: 'WR',
-    exp: 4,
-    status: 'Active',
-    college: 'North Carolina',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4688813.png&w=350&h=254',
-    rec: 33,
-    rec_yards: 354,
-    rec_ypc: 10.7,
-    rec_long: 42,
-    rec_td: 1,
-    rush_att: 1,
-    rush_yds: 7,
-    rush_long: 7,
-    rush_ypc: 7.0,
-    tackles: 1,
-    solo_tackles: 1,
-    pr_ret: 2,
-    pr_fc: 3,
-    pr_lng: 20,
-    pr_yds: 10.0
-  },
-  {
     name: 'D.J. Montgomery',
     number: '2',
     position: 'WR',
@@ -154,22 +130,6 @@ Player.create!([
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4050373.png&w=350&h=254'
   },
   {
-    name: 'Keenan Allen',
-    number: '10',
-    position: 'WR',
-    exp: 14,
-    status: 'Active',
-    college: 'California',
-    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/15818.png&w=350&h=254',
-    rec: 40,
-    rec_yards: 351,
-    rec_ypc: 8.8,
-    rec_long: 26,
-    rec_td: 1,
-    tackles: 2,
-    solo_tackles: 2
-  },
-  {
     name: 'Mecole Hardman',
     number: '11',
     position: 'WR',
@@ -183,7 +143,7 @@ Player.create!([
     number: '12',
     position: 'WR',
     exp: 7,
-    status: 'PS',
+    status: 'Active',
     college: 'Indiana',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3929785.png&w=350&h=254',
     tackles: 1,
@@ -526,6 +486,15 @@ Player.create!([
     status: 'PS',
     college: 'LSU',
     photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4587724.png&w=350&h=254'
+  },
+  {
+    name: 'Jacob Bobenmoyer',
+    number: '48',
+    position: 'LS',
+    exp: 7,
+    status: 'PS',
+    college: 'Northern Colorado',
+    photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/3925443.png&w=350&h=254'
   },
   {
     name: 'Pharaoh Brown',
